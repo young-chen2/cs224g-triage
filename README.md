@@ -2,6 +2,8 @@
 
 Team Members: Young Chen, César C. D. Baëta
 
+![Triage_Logo_DallE](https://github.com/user-attachments/assets/dbbe05d2-3139-4889-b2b3-37b2d4e8ffd5)
+
 # What we're doing
 This project aims to develop a chatbot to streamline patient triage in healthcare by leveraging generative AI and a database of evidence-based medical guidelines. The chatbot will interpret patient-reported symptoms, predict potential conditions, and recommend the appropriate care level—whether a physician, nurse practitioner, or physician assistant. This system is designed to alleviate physician workload, optimize resource allocation, and improve patient access to care. With the average wait time to see a physician increasing to 20 days in some cases, the administrative burden of managing care exacerbates this issue.  We expect to use RAG (retrieval-augmented generation) and agentic AI workflows (such as LangChain) to ensure a reliable and accurate triage.
 
