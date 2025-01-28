@@ -1,20 +1,46 @@
 import './App.css';
 import { useState } from 'react';
+import OpenAI from 'openai';
+import { SYSTEM_PROMPT, INITIAL_MESSAGE } from './prompts';
+
+const client = new OpenAI({
+  apiKey: process.env.REACT_APP_OPENAI_API_KEY,
+  dangerouslyAllowBrowser: true
+});
 
 function App() {
   const [messages, setMessages] = useState([
-    { role: 'assistant', content: "Hello! I'm your medical assistant. I'll help assess your symptoms and direct you to the appropriate healthcare professional. Could you please describe what brings you in today?" }
+    { role: 'assistant', content: INITIAL_MESSAGE }
   ]);
   const [inputMessage, setInputMessage] = useState('');
   const [isDarkMode, setIsDarkMode] = useState(false);
 
-  const handleSendMessage = () => {
+  const handleSendMessage = async () => {
     if (inputMessage.trim() === '') return;
     
     setMessages([...messages, { role: 'user', content: inputMessage }]);
     setInputMessage('');
-    // Here you would typically make an API call to your LLM service
-    // and handle the response in a proper way
+
+    try {
+      const response = await client.chat.completions.create({
+        model: "gpt-4o-mini",
+        messages: [
+          { role: "system", content: SYSTEM_PROMPT },
+          ...messages,
+          { role: "user", content: inputMessage }
+        ]
+      });
+
+      const assistantMessage = response.choices[0].message.content;
+      setMessages(prevMessages => [...prevMessages, { role: 'assistant', content: assistantMessage }]);
+    } 
+    catch (error) {
+      console.error('Error calling OpenAI API:', error);
+      setMessages(prevMessages => [...prevMessages, { 
+        role: 'assistant', 
+        content: "I'm sorry, I encountered an error. Please try again." 
+      }]);
+    }
   };
 
   return (
