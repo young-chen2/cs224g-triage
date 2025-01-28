@@ -1,5 +1,5 @@
 import './App.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import OpenAI from 'openai';
 import { SYSTEM_PROMPT, INITIAL_MESSAGE } from './prompts';
 
@@ -14,11 +14,18 @@ function App() {
   ]);
   const [inputMessage, setInputMessage] = useState('');
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isListening, setIsListening] = useState(false);
+  const [recognition, setRecognition] = useState(null);
 
-  const handleSendMessage = async () => {
-    if (inputMessage.trim() === '') return;
+  const speak = (text) => {
+    const utterance = new SpeechSynthesisUtterance(text);
+    window.speechSynthesis.speak(utterance);
+  };
+
+  const handleSendMessage = async (message = inputMessage) => {
+    if (message.trim() === '') return;
     
-    setMessages([...messages, { role: 'user', content: inputMessage }]);
+    setMessages(prevMessages => [...prevMessages, { role: 'user', content: message }]);
     setInputMessage('');
 
     try {
@@ -27,19 +34,67 @@ function App() {
         messages: [
           { role: "system", content: SYSTEM_PROMPT },
           ...messages,
-          { role: "user", content: inputMessage }
+          { role: "user", content: message }
         ]
       });
 
       const assistantMessage = response.choices[0].message.content;
       setMessages(prevMessages => [...prevMessages, { role: 'assistant', content: assistantMessage }]);
+      speak(assistantMessage);
     } 
     catch (error) {
       console.error('Error calling OpenAI API:', error);
+      const errorMessage = "I'm sorry, I encountered an error. Please try again.";
       setMessages(prevMessages => [...prevMessages, { 
         role: 'assistant', 
-        content: "I'm sorry, I encountered an error. Please try again." 
+        content: errorMessage 
       }]);
+      speak(errorMessage);
+    }
+  };
+
+  useEffect(() => {
+    if ('webkitSpeechRecognition' in window) {
+      const recognitionInstance = new window.webkitSpeechRecognition();
+      recognitionInstance.continuous = false;
+      recognitionInstance.interimResults = false;
+      
+      recognitionInstance.onresult = (event) => {
+        const transcript = event.results[0][0].transcript;
+        setInputMessage(transcript);
+        setIsListening(false);
+        // ensure state is updated before sending
+        setTimeout(() => handleSendMessage(transcript), 100);
+      };
+
+      recognitionInstance.onerror = (event) => {
+        console.error('Speech recognition error:', event.error);
+        setIsListening(false);
+      };
+
+      recognitionInstance.onend = () => {
+        setIsListening(false);
+      };
+
+      setRecognition(recognitionInstance);
+    }
+  }, []);
+
+  const toggleListening = () => {
+    if (!recognition) {
+      console.error('Speech recognition not supported');
+      return;
+    }
+
+    if (isListening) {
+      recognition.stop();
+    } else {
+      try {
+        recognition.start();
+        setIsListening(true);
+      } catch (error) {
+        console.error('Error starting recognition:', error);
+      }
     }
   };
 
@@ -72,7 +127,13 @@ function App() {
             placeholder="Describe your symptoms..."
             onKeyPress={(e) => e.key === 'Enter' && handleSendMessage()}
           />
-          <button onClick={handleSendMessage}>Send</button>
+          <button onClick={() => handleSendMessage()}>Send</button>
+          <button 
+            onClick={toggleListening}
+            className={`mic-button ${isListening ? 'listening' : ''}`}
+          >
+            {isListening ? '🎤 (Recording...)' : '🎤'}
+          </button>
         </div>
       </div>
     </div>

@@ -238,3 +238,26 @@ button {
 button:hover {
   background-color: #2980b9;
 }
+
+.mic-button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.mic-button.listening {
+  background-color: #ff4444;
+  color: white;
+}
+
+.mic-button:hover {
+  background-color: #e0e0e0;
+}
+
+.mic-button.listening:hover {
+  background-color: #ff6666;
+}
