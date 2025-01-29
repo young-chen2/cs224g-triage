@@ -1,0 +1,635 @@
+{
+  "trauma_cases": [
+    {
+      "condition": "Cervical Spine Fractures",
+      "age_group": "All",
+      "symptoms": [
+        "Neck pain",
+        "Limited range of motion",
+        "Neurological deficits (e.g., weakness, numbness)",
+        "Spinal tenderness",
+        "Possible paralysis"
+      ],
+      "esi_level": 2
+    },
+    {
+      "condition": "Cervical Spine Fractures in Children",
+      "age_group": "Children",
+      "symptoms": [
+        "Neck pain",
+        "Limited range of motion",
+        "Difficulty holding up head",
+        "Neurological symptoms",
+        "Visible deformity"
+      ],
+      "esi_level": 2
+    },
+    {
+      "condition": "Cervical Spine Fractures in Older Adults",
+      "age_group": "Older Adults",
+      "symptoms": [
+        "Severe neck pain",
+        "Neurological symptoms",
+        "Spinal deformity",
+        "History of fall or trauma",
+        "Limited mobility"
+      ],
+      "esi_level": 2
+    },
+    {
+      "condition": "Blunt Abdominal Trauma",
+      "age_group": "All",
+      "symptoms": [
+        "Abdominal pain",
+        "Guarding or rigidity",
+        "Signs of internal bleeding (e.g., hypotension, pallor)",
+        "Bruising or seatbelt marks",
+        "Abdominal distension"
+      ],
+      "esi_level": 1
+    },
+    {
+      "condition": "Acute Knee Injuries",
+      "age_group": "All",
+      "symptoms": [
+        "Severe knee pain",
+        "Swelling",
+        "Inability to bear weight",
+        "Deformity or instability",
+        "Limited range of motion"
+      ],
+      "esi_level": 3
+    },
+    {
+      "condition": "Acute Ankle and Foot Injuries",
+      "age_group": "All",
+      "symptoms": [
+        "Severe ankle or foot pain",
+        "Swelling",
+        "Bruising",
+        "Inability to bear weight",
+        "Visible deformity"
+      ],
+      "esi_level": 4
+    },
+    {
+      "condition": "Blunt Head Injury in Children",
+      "age_group": "Children",
+      "symptoms": [
+        "Loss of consciousness",
+        "Vomiting",
+        "Headache",
+        "Seizures",
+        "Altered mental status"
+      ],
+      "esi_level": 2
+    },
+    {
+      "condition": "Blunt Head Injury",
+      "age_group": "All",
+      "symptoms": [
+        "Loss of consciousness",
+        "Severe headache",
+        "Vomiting",
+        "Neurological deficits",
+        "Altered mental status"
+      ],
+      "esi_level": 2
+    },
+    {
+      "condition": "Blunt Chest Trauma",
+      "age_group": "All",
+      "symptoms": [
+        "Chest pain",
+        "Shortness of breath",
+        "Bruising or deformity",
+        "Hypotension",
+        "Respiratory distress"
+      ],
+      "esi_level": 1
+    },
+    {
+      "condition": "Occult Hip Fracture",
+      "age_group": "All (typically older adults)",
+      "symptoms": [
+        "Hip pain",
+        "Inability to bear weight",
+        "Shortened or externally rotated leg",
+        "Limited range of motion",
+        "Possible history of fall"
+      ],
+      "esi_level": 2
+    },
+    {
+      "condition": "Blunt Soft Tissue Neck Trauma",
+      "age_group": "All",
+      "symptoms": [
+        "Neck pain",
+        "Difficulty breathing",
+        "Bruising or swelling",
+        "Hoarseness",
+        "Neurological deficits"
+      ],
+      "esi_level": 1
+    },
+    {
+      "condition": "Occult Scaphoid Fractures",
+      "age_group": "All",
+      "symptoms": [
+        "Wrist pain",
+        "Tenderness in the anatomical snuffbox",
+        "Swelling",
+        "Limited range of motion",
+        "Pain with gripping"
+      ],
+      "esi_level": 4
+    },
+    {
+      "condition": "Penetrating Abdominal Trauma",
+      "age_group": "All",
+      "symptoms": [
+        "Visible wound or evisceration",
+        "Abdominal pain",
+        "Signs of shock (e.g., hypotension, tachycardia)",
+        "Abdominal rigidity",
+        "Bleeding"
+      ],
+      "esi_level": 1
+    },
+    {
+      "condition": "Penetrating Trauma to the Extremities and Vascular Injuries",
+      "age_group": "All",
+      "symptoms": [
+        "Visible wound",
+        "Active bleeding",
+        "Pulsatile hemorrhage",
+        "Neurological deficits",
+        "Loss of distal pulses"
+      ],
+      "esi_level": 1
+    }
+  ],
+  "cardiology_cases": [
+    {
+      "condition": "Heart Failure",
+      "age_group": "All",
+      "symptoms": [
+        "Shortness of breath",
+        "Edema (swelling in legs, ankles, or feet)",
+        "Fatigue",
+        "Weight gain",
+        "Orthopnea (difficulty breathing when lying down)"
+      ],
+      "esi_level": 2
+    },
+    {
+      "condition": "Syncope",
+      "age_group": "All",
+      "symptoms": [
+        "Transient loss of consciousness",
+        "Lightheadedness",
+        "Pallor",
+        "Fatigue after event",
+        "Possibly associated with palpitations"
+      ],
+      "esi_level": 3
+    },
+    {
+      "condition": "Acute Coronary Syndrome",
+      "age_group": "All",
+      "symptoms": [
+        "Chest pain or pressure",
+        "Shortness of breath",
+        "Diaphoresis (sweating)",
+        "Nausea or vomiting",
+        "Pain radiating to the arm, jaw, or back"
+      ],
+      "esi_level": 1
+    },
+    {
+      "condition": "Palpitations",
+      "age_group": "All",
+      "symptoms": [
+        "Awareness of irregular or fast heartbeat",
+        "Lightheadedness",
+        "Shortness of breath",
+        "Fatigue",
+        "Chest discomfort"
+      ],
+      "esi_level": 3
+    }
+  ],
+  "infectious_disease_cases": [
+    {
+      "condition": "Bacterial Meningitis in Children",
+      "age_group": "Children",
+      "symptoms": [
+        "Fever",
+        "Neck stiffness",
+        "Altered mental status",
+        "Seizures",
+        "Photophobia (sensitivity to light)"
+      ],
+      "pre_existing_criteria": "Recent sinus or ear infection",
+      "onset": "Rapid",
+      "pain_level": "Severe",
+      "esi_level": 1
+    },
+    {
+      "condition": "Serious Bacterial Infections in Children Aged 1–3 Months",
+      "age_group": "Infants (1-3 months)",
+      "symptoms": [
+        "Fever",
+        "Poor feeding",
+        "Lethargy",
+        "Irritability",
+        "Hypotonia (reduced muscle tone)"
+      ],
+      "pre_existing_criteria": "Prematurity or recent hospitalization",
+      "onset": "Gradual",
+      "pain_level": "Moderate",
+      "esi_level": 1
+    },
+    {
+      "condition": "Necrotizing Fasciitis",
+      "age_group": "All",
+      "symptoms": [
+        "Severe pain disproportionate to clinical findings",
+        "Fever",
+        "Erythema (redness) with rapid progression",
+        "Crepitus (crackling sound under the skin)",
+        "Signs of sepsis (e.g., hypotension, tachycardia)"
+      ],
+      "pre_existing_criteria": "Recent surgery or trauma",
+      "onset": "Rapid",
+      "pain_level": "Severe",
+      "esi_level": 1
+    },
+    {
+      "condition": "Infective Endocarditis",
+      "age_group": "All",
+      "symptoms": [
+        "Fever",
+        "Murmur (heart sound)",
+        "Fatigue",
+        "Petechiae (small red or purple spots)",
+        "Splinter hemorrhages (under fingernails)"
+      ],
+      "pre_existing_criteria": "IV drug use or prosthetic heart valves",
+      "onset": "Gradual",
+      "pain_level": "Moderate",
+      "esi_level": 2
+    },
+    {
+      "condition": "Pharyngitis",
+      "age_group": "All",
+      "symptoms": [
+        "Sore throat",
+        "Fever",
+        "Enlarged tonsils with or without exudate",
+        "Tender cervical lymph nodes",
+        "Difficulty swallowing"
+      ],
+      "pre_existing_criteria": "Close contact with infected individuals",
+      "onset": "Gradual",
+      "pain_level": "Mild",
+      "esi_level": 4
+    },
+    {
+      "condition": "Rhinosinusitis",
+      "age_group": "All",
+      "symptoms": [
+        "Nasal congestion",
+        "Facial pain or pressure",
+        "Headache",
+        "Postnasal drip",
+        "Fever (in severe cases)"
+      ],
+      "pre_existing_criteria": "History of recurrent sinus infections",
+      "onset": "Gradual",
+      "pain_level": "Mild to Moderate",
+      "esi_level": 4
+    },
+    {
+      "condition": "Pneumonia",
+      "age_group": "All",
+      "symptoms": [
+        "Fever",
+        "Cough with sputum production",
+        "Shortness of breath",
+        "Pleuritic chest pain",
+        "Fatigue"
+      ],
+      "pre_existing_criteria": "Chronic lung disease (e.g., COPD, asthma)",
+      "onset": "Gradual",
+      "pain_level": "Moderate",
+      "esi_level": 2
+    },
+    {
+      "condition": "Urinary Tract Infection",
+      "age_group": "All",
+      "symptoms": [
+        "Dysuria (painful urination)",
+        "Urgency",
+        "Frequency",
+        "Hematuria (blood in urine)",
+        "Suprapubic pain"
+      ],
+      "pre_existing_criteria": "Recent catheterization",
+      "onset": "Gradual",
+      "pain_level": "Mild",
+      "esi_level": 4
+    },
+    {
+      "condition": "Sepsis",
+      "age_group": "All",
+      "symptoms": [
+        "Fever",
+        "Hypotension",
+        "Tachycardia",
+        "Altered mental status",
+        "Respiratory distress"
+      ],
+      "pre_existing_criteria": "Recent infection or hospitalization",
+      "onset": "Rapid",
+      "pain_level": "Severe",
+      "esi_level": 1
+    },
+    {
+      "condition": "Septic Arthritis",
+      "age_group": "All",
+      "symptoms": [
+        "Joint pain",
+        "Swelling",
+        "Fever",
+        "Limited range of motion",
+        "Redness"
+      ],
+      "pre_existing_criteria": "Recent joint surgery or prosthesis",
+      "onset": "Rapid",
+      "pain_level": "Severe",
+      "esi_level": 1
+    },
+    {
+      "condition": "Osteomyelitis",
+      "age_group": "All",
+      "symptoms": [
+        "Bone pain",
+        "Swelling",
+        "Fever",
+        "Redness",
+        "Fatigue"
+      ],
+      "pre_existing_criteria": "Recent trauma or infection",
+      "onset": "Gradual",
+      "pain_level": "Moderate",
+      "esi_level": 2
+    },
+    {
+      "condition": "Sexually Transmitted Diseases (STDs)",
+      "age_group": "All",
+      "symptoms": [
+        "Genital pain",
+        "Discharge",
+        "Ulcers",
+        "Dysuria",
+        "Itching"
+      ],
+      "pre_existing_criteria": "Recent unprotected intercourse",
+      "onset": "Gradual",
+      "pain_level": "Mild to Moderate",
+      "esi_level": 3
+    },
+    {
+      "condition": "Influenza",
+      "age_group": "All",
+      "symptoms": [
+        "Fever",
+        "Cough",
+        "Fatigue",
+        "Sore throat",
+        "Myalgia (muscle aches)"
+      ],
+      "pre_existing_criteria": "Close contact with infected individuals",
+      "onset": "Gradual",
+      "pain_level": "Mild",
+      "esi_level": 3
+    },
+    {
+      "condition": "Pediatric Fever in Children Aged 3–36 Months",
+      "age_group": "Children (3-36 months)",
+      "symptoms": [
+        "Fever",
+        "Irritability",
+        "Poor feeding",
+        "Lethargy",
+        "Rash (in some cases)"
+      ],
+      "pre_existing_criteria": "Incomplete immunization history",
+      "onset": "Gradual",
+      "pain_level": "Mild",
+      "esi_level": 2
+    }
+  ],
+  "surgical_abdominal_cases": [
+    {
+      "condition": "Acute, Nonspecific, Nontraumatic Abdominal Pain",
+      "age_group": "All",
+      "symptoms": [
+        "Diffuse abdominal pain",
+        "Nausea",
+        "Vomiting",
+        "Bloating",
+        "Constipation or diarrhea"
+      ],
+      "pre_existing_criteria": "History of gastrointestinal disorders",
+      "onset": "Gradual",
+      "pain_level": "Moderate",
+      "esi_level": 3
+    },
+    {
+      "condition": "Small Bowel Obstruction",
+      "age_group": "All",
+      "symptoms": [
+        "Severe abdominal pain",
+        "Nausea and vomiting",
+        "Abdominal distension",
+        "Constipation",
+        "High-pitched bowel sounds"
+      ],
+      "pre_existing_criteria": "History of abdominal surgeries or hernias",
+      "onset": "Gradual",
+      "pain_level": "Severe",
+      "esi_level": 2
+    },
+    {
+      "condition": "Acute Pancreatitis",
+      "age_group": "All",
+      "symptoms": [
+        "Severe epigastric pain radiating to the back",
+        "Nausea",
+        "Vomiting",
+        "Fever",
+        "Tender abdomen"
+      ],
+      "pre_existing_criteria": "History of alcohol use or gallstones",
+      "onset": "Acute",
+      "pain_level": "Severe",
+      "esi_level": 2
+    },
+    {
+      "condition": "Acute Appendicitis",
+      "age_group": "All",
+      "symptoms": [
+        "Periumbilical pain migrating to the right lower quadrant",
+        "Nausea",
+        "Vomiting",
+        "Fever",
+        "Tenderness in the right lower quadrant"
+      ],
+      "pre_existing_criteria": "None specific",
+      "onset": "Acute",
+      "pain_level": "Severe",
+      "esi_level": 2
+    },
+    {
+      "condition": "Acute Cholecystitis",
+      "age_group": "All",
+      "symptoms": [
+        "Right upper quadrant pain",
+        "Nausea",
+        "Vomiting",
+        "Fever",
+        "Tenderness in the right upper quadrant"
+      ],
+      "pre_existing_criteria": "History of gallstones",
+      "onset": "Acute",
+      "pain_level": "Severe",
+      "esi_level": 2
+    },
+    {
+      "condition": "Aortic Emergencies",
+      "age_group": "Older adults",
+      "symptoms": [
+        "Severe chest or abdominal pain",
+        "Radiating pain to the back",
+        "Hypotension",
+        "Pulse deficits",
+        "Signs of shock"
+      ],
+      "pre_existing_criteria": "History of hypertension or aortic aneurysm",
+      "onset": "Acute",
+      "pain_level": "Severe",
+      "esi_level": 1
+    },
+    {
+      "condition": "Ovarian Torsion",
+      "age_group": "Females of reproductive age",
+      "symptoms": [
+        "Sudden-onset pelvic pain",
+        "Nausea",
+        "Vomiting",
+        "Tenderness on pelvic examination",
+        "Abdominal distension"
+      ],
+      "pre_existing_criteria": "History of ovarian cysts",
+      "onset": "Acute",
+      "pain_level": "Severe",
+      "esi_level": 2
+    }
+  ],
+  "urology_cases": [
+    {
+      "condition": "Nephrolithiasis",
+      "age_group": "All",
+      "symptoms": [
+        "Severe flank pain radiating to the groin",
+        "Hematuria",
+        "Nausea",
+        "Vomiting",
+        "Urinary urgency"
+      ],
+      "pre_existing_criteria": "History of kidney stones",
+      "onset": "Acute",
+      "pain_level": "Severe",
+      "esi_level": 3
+    },
+    {
+      "condition": "Testicular Torsion",
+      "age_group": "Males (adolescents and young adults)",
+      "symptoms": [
+        "Sudden-onset testicular pain",
+        "Swelling",
+        "Nausea",
+        "Abdominal pain",
+        "Tenderness of the affected testicle"
+      ],
+      "pre_existing_criteria": "None specific",
+      "onset": "Acute",
+      "pain_level": "Severe",
+      "esi_level": 2
+    }
+  ],
+  "neurology_cases": [
+    {
+      "condition": "Nontraumatic Subarachnoid Hemorrhage",
+      "age_group": "All",
+      "symptoms": [
+        "Thunderclap headache",
+        "Nausea",
+        "Vomiting",
+        "Neck stiffness",
+        "Altered mental status"
+      ],
+      "pre_existing_criteria": "History of aneurysms",
+      "onset": "Sudden",
+      "pain_level": "Severe",
+      "esi_level": 1
+    },
+    {
+      "condition": "Acute Stroke",
+      "age_group": "All",
+      "symptoms": [
+        "Sudden weakness or numbness (unilateral)",
+        "Facial droop",
+        "Slurred speech",
+        "Loss of balance",
+        "Altered mental status"
+      ],
+      "pre_existing_criteria": "History of hypertension or atrial fibrillation",
+      "onset": "Acute",
+      "pain_level": "None to mild",
+      "esi_level": 1
+    },
+    {
+      "condition": "Transient Ischemic Attack",
+      "age_group": "All",
+      "symptoms": [
+        "Transient weakness or numbness",
+        "Slurred speech",
+        "Loss of vision (one eye or both)",
+        "Loss of coordination",
+        "Symptoms resolving within 24 hours"
+      ],
+      "pre_existing_criteria": "History of prior TIA or stroke",
+      "onset": "Acute",
+      "pain_level": "None",
+      "esi_level": 2
+    },
+    {
+      "condition": "Seizure",
+      "age_group": "All",
+      "symptoms": [
+        "Loss of consciousness",
+        "Convulsions",
+        "Postictal confusion",
+        "Tongue biting",
+        "Urinary incontinence"
+      ],
+      "pre_existing_criteria": "History of epilepsy or recent head trauma",
+      "onset": "Acute",
+      "pain_level": "None",
+      "esi_level": 2
+    }
+  ]
+}
