@@ -4,12 +4,24 @@ Team Members: Young Chen, César C. D. Baëta
 
 ![Triage_Logo_DallE](https://github.com/user-attachments/assets/dbbe05d2-3139-4889-b2b3-37b2d4e8ffd5)
 
-# What we're doing
-This project aims to develop a chatbot to streamline patient triage in healthcare by leveraging generative AI and a database of evidence-based medical guidelines. The chatbot will interpret patient-reported symptoms, predict potential conditions, and recommend the appropriate care level—whether a physician, nurse practitioner, or physician assistant. This system is designed to alleviate physician workload, optimize resource allocation, and improve patient access to care. With the average wait time to see a physician increasing to 20 days in some cases, the administrative burden of managing care exacerbates this issue.  We expect to use RAG (retrieval-augmented generation) and agentic AI workflows (such as LangChain) to ensure a reliable and accurate triage.
+# What we're doing 👨🏻‍⚕️
+Triage aims to develop a chatbot to streamline patient triage in healthcare by leveraging generative AI and a database of evidence-based medical guidelines. The chatbot will interpret patient-reported symptoms, predict potential conditions, and recommend the appropriate care level—whether a physician, nurse practitioner, or physician assistant. This system is designed to alleviate physician workload, optimize resource allocation, and improve patient access to care. With the average wait time to see a physician increasing to 20 days in some cases, the administrative burden of managing care exacerbates this issue.  We expect to use RAG (retrieval-augmented generation) and agentic AI workflows (such as LangChain) to ensure a reliable and accurate triage.
 
 Feel free to read our [project proposal](https://docs.google.com/document/d/1e8rt0J3iPCRJJVk_Oy_Pvra7Q6esKACeQp7xBpgs9GE/edit?usp=sharing) for more info.
 
-# Getting Started with Triage!
+# Sprint Progress 🏆
+
+This table tracks contributions for each sprint by our team members.
+
+| Sprint | Team Member 1 | Contribution 1 | Team Member 2 | Contribution 2 |
+|--------|-------------|---------------|-------------|---------------|
+| Sprint 1 | [Young] | [Contribution] | [Cesar] | [Contribution] |
+| Sprint 2 | [Name] | [Contribution] | [Name] | [Contribution] |
+| Sprint 3 | [Name] | [Contribution] | [Name] | [Contribution] |
+| Sprint 4 | [Name] | [Contribution] | [Name] | [Contribution] |
+
+
+# Getting Started with Triage 🏁
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
