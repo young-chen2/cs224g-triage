@@ -13,17 +13,20 @@ Feel free to read our [project proposal](https://docs.google.com/document/d/1e8r
 
 This table tracks contributions for each sprint by our team members.
 
-| Sprint | Team Member 1 | Contribution 1 | Team Member 2 | Contribution 2 |
-|--------|-------------|---------------|-------------|---------------|
-| Sprint 1 | [Young] | [Contribution] | [Cesar] | [Contribution] |
-| Sprint 2 | [Name] | [Contribution] | [Name] | [Contribution] |
-| Sprint 3 | [Name] | [Contribution] | [Name] | [Contribution] |
-| Sprint 4 | [Name] | [Contribution] | [Name] | [Contribution] |
+
+| Sprint  | Team Member | Contribution |
+|---------|--------------|---------------|
+| **1** | **Young** | - Complete first prototype (React + JS) of the Triage Chat Interface <br> - Linked interface to the OpenAI and LangChain API <br> - ...
+| **1** | **Cesar** | - [Contribution 1] <br> - [Contribution 2] <br> - [Contribution 3] |
 
 
 # Getting Started with Triage 🏁
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## TODOs ✔️
+
+Our project uses the OpenAI ChatGPT API; we are using our own API key for development purposes. To run it locally, please replace the `REACT_APP_OPENAI_API_KEY` in the `.env` file with your own key (to avoid spending our API credits).
 
 ## Available Scripts
 
