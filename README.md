@@ -16,12 +16,12 @@ Feel free to read our [project proposal](https://docs.google.com/document/d/1e8r
 # Sprint Progress 🏆
 
 This table tracks contributions for each sprint by our team members.
-Young - Computer science
-Cesar - Epidemiology clinical research and healthcare background with knowledge about patient-centered value-based care 
+- Young (Technical/Engineering/AI): Computer science, concentrating in AI and Systems
+- Cesar (PM/Research): Epidemiology clinical research and healthcare background with knowledge about patient-centered value-based care 
 
 | Sprint  | Team Member | Contribution |
 |---------|--------------|---------------|
-| **1** | **Young** | - Complete first prototype (React + JS) of the Triage Chat Interface <br> - Linked interface to the OpenAI and LangChain API <br>
+| **1** | **Young** | - Complete first prototype (React + JS) of the Triage Chat Interface <br> - Linked interface to the OpenAI and LangChain API <br> - System design and research on how to structure data/backend of Triage and how to integrate LangChain
 | **1** | **Cesar** | - Research databases for diagnostic methodologies for primary care <br> - Adapt methodologies to established systems used in healthcare triage settings <br> - Communicate with potential stakeholders about the usefulness of applications <br> - Explore the potential to use Adobe UX for app interface <br> - Create json docs for triage and guidelines based on research <br>|
 
 
