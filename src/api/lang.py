@@ -20,19 +20,17 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Get the absolute path to the project root directory
+# get the absolute path to the project root directory to local the .json files
 current_dir = os.path.dirname(os.path.abspath(__file__))  # Gets the directory containing lang.py
 root_dir = os.path.dirname(os.path.dirname(current_dir))  # Go up two levels to root
 
-# Load and process triage and guidelines data
 def load_medical_data():
-    # Use os.path.join for cross-platform compatibility
     triage_path = os.path.join(root_dir, 'DataTriage.json')
     guidelines_path = os.path.join(root_dir, 'Guidelines.json')
     
-    print(f"Looking for files in: {root_dir}")  # Debug print
-    print(f"Triage path: {triage_path}")        # Debug print
-    print(f"Guidelines path: {guidelines_path}") # Debug print
+    # print(f"Looking for files in: {root_dir}")  
+    # print(f"Triage path: {triage_path}")      
+    # print(f"Guidelines path: {guidelines_path}") 
     
     with open(triage_path, 'r') as f:
         triage_data = json.load(f)
@@ -40,10 +38,10 @@ def load_medical_data():
     with open(guidelines_path, 'r') as f:
         guidelines_data = json.load(f)
     
-    # Process data into text format for vectorization
+    # process data into text format for vectorization
     medical_texts = []
     
-    # Process triage data
+    # stringify triage data
     for category in triage_data:
         for case in triage_data[category]:
             text = f"Condition: {case['condition']}\n"
@@ -52,7 +50,7 @@ def load_medical_data():
             text += f"ESI Level: {case['esi_level']}\n"
             medical_texts.append(text)
     
-    # Process guidelines data
+    # stringify guidelines data
     for category in guidelines_data:
         for case in guidelines_data[category]:
             text = f"Condition: {case['condition']}\n"
@@ -73,10 +71,8 @@ chain = RetrievalQA.from_chain_type(
     chain_type="stuff",
     retriever=vector_store.as_retriever()
 )
-
 class TriageRequest(BaseModel):
     symptoms: str
-
 class TriageResponse(BaseModel):
     recommendation: str
 
@@ -90,10 +86,9 @@ async def triage_patient(request: TriageRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-# Add a test endpoint
 @app.get("/test")
 async def test_triage():
-    # Test case for bacterial meningitis in children
+    # sample test case for bacterial meningitis in children
     test_symptoms = "5-year-old child with high fever, severe headache, neck stiffness, and sensitivity to light"
     try:
         query = f"Given these symptoms: {test_symptoms}, what is the likely condition, ESI level, and recommended immediate actions?"
