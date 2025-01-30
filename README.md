@@ -33,7 +33,48 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Our project uses the OpenAI ChatGPT API; we are using our own API key for development purposes. To run it locally, please replace the `REACT_APP_OPENAI_API_KEY` in the `.env` file with your own key (to avoid spending our API credits).
 
-## Available Scripts
+## Backend Setup 🔧
+
+The backend uses FastAPI and LangChain for the API layer. Follow these steps to set up:
+
+1. Navigate to the API directory:
+```bash
+cd src/api
+```
+
+2. Create a Python virtual environment (recommended):
+```bash
+# On macOS/Linux
+python -m venv venv
+source venv/bin/activate
+
+# On Windows
+python -m venv venv
+venv\Scripts\activate
+```
+
+3. Install the required packages:
+```bash
+pip install -r requirements.txt
+```
+
+4. Paste your OpenAI API key into lang.py:
+
+5. Start the FastAPI server:
+```bash
+uvicorn lang:app --reload
+```
+or if you're in root:
+```bash
+uvicorn src.api.lang:app --reload
+```
+
+The API will be available at http://localhost:8000. You can:
+- View the API documentation at http://localhost:8000/docs
+- Test the API (with a provided test case) at http://localhost:8000/test
+- Use curl to test: `curl http://localhost:8000/test`
+
+## Frontend Setup 🎨
 
 In the project directory, you can run:
 

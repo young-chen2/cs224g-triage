@@ -22,119 +22,7 @@
         ]
       },
       "recommended_poc": "Immediate imaging (e.g., CT or MRI) and specialist consultation."
-    }
-  ],
-  "cardiology_cases": [
-    {
-      "condition": "Heart Failure",
-      "age_group": "All",
-      "esi_level": 2,
-      "guidelines": {
-        "immediate_actions": [
-          "Administer supplemental oxygen to maintain oxygen saturation > 90%.",
-          "Initiate diuretics for fluid overload (e.g., furosemide).",
-          "Monitor vital signs, including blood pressure and heart rate."
-        ],
-        "definitive_management": [
-          "ESI 1: Immediate management by a physician in the emergency department.",
-          "ESI 2: Initial evaluation and treatment by a Physician Assistant (PA) or Resident.",
-          "ESI 3–4: Supervision by a nurse for symptom monitoring and follow-up care."
-        ],
-        "disposition_criteria": [
-          "Admit for further management if the patient has respiratory distress or unstable vitals.",
-          "Discharge if symptoms resolve with treatment and follow-up is ensured."
-        ]
-      },
-      "recommended_poc": "Order BNP, chest X-ray, echocardiography, and assess for potential triggers (e.g., infection, ischemia)."
-    }
-  ],
-  "infectious_disease_cases": [
-    {
-      "condition": "Bacterial Meningitis in Children",
-      "age_group": "Children",
-      "esi_level": 1,
-      "guidelines": {
-        "immediate_actions": [
-          "Administer broad-spectrum antibiotics (e.g., ceftriaxone, vancomycin).",
-          "Ensure airway, breathing, and circulation (ABC) are stable.",
-          "Initiate lumbar puncture after stabilizing the patient."
-        ],
-        "definitive_management": [
-          "ESI 1: Managed immediately by a physician in the emergency department."
-        ],
-        "disposition_criteria": [
-          "Admit to ICU for close monitoring and further treatment."
-        ]
-      },
-      "recommended_poc": "Order lumbar puncture, blood cultures, and start empiric antibiotics immediately."
-    }
-  ],
-  "surgical_abdominal_cases": [
-    {
-      "condition": "Acute Appendicitis",
-      "age_group": "All",
-      "esi_level": 2,
-      "guidelines": {
-        "immediate_actions": [
-          "Administer IV antibiotics as preoperative preparation (e.g., ceftriaxone and metronidazole).",
-          "Keep the patient NPO (nothing by mouth).",
-          "Obtain surgical consultation urgently."
-        ],
-        "definitive_management": [
-          "ESI 2: Managed by a PA or Resident under surgical supervision."
-        ],
-        "disposition_criteria": [
-          "Admit for appendectomy or further observation if diagnostic uncertainty exists."
-        ]
-      },
-      "recommended_poc": "Order abdominal ultrasound or CT scan to confirm diagnosis."
-    }
-  ],
-  "urology_cases": [
-    {
-      "condition": "Testicular Torsion",
-      "age_group": "Males (adolescents and young adults)",
-      "esi_level": 2,
-      "guidelines": {
-        "immediate_actions": [
-          "Provide pain relief with analgesics as needed.",
-          "Perform a rapid physical examination focusing on the testicular position and tenderness.",
-          "Consult urology immediately for surgical intervention."
-        ],
-        "definitive_management": [
-          "ESI 2: Managed by a PA or Resident under urologist supervision with expedited surgical consultation."
-        ],
-        "disposition_criteria": [
-          "Admit for surgical detorsion and orchiopexy.",
-          "Discharge is not recommended until the testicle is surgically addressed or the torsion is ruled out."
-        ]
-      },
-      "recommended_poc": "Order scrotal ultrasound with Doppler to assess blood flow and confirm diagnosis if diagnosis is uncertain."
-    }
-  ],
-  "neurology_cases": [
-    {
-      "condition": "Acute Stroke",
-      "age_group": "All",
-      "esi_level": 1,
-      "guidelines": {
-        "immediate_actions": [
-          "Perform rapid assessment using the NIH Stroke Scale (NIHSS).",
-          "Obtain a non-contrast CT of the head to differentiate ischemic from hemorrhagic stroke.",
-          "Consider thrombolysis with IV tPA if within the treatment window for ischemic stroke and no contraindications.",
-          "Monitor blood pressure and treat if necessary (e.g., labetalol for hypertensive urgency)."
-        ],
-        "definitive_management": [
-          "ESI 1: Managed by a physician specializing in neurology or emergency medicine."
-        ],
-        "disposition_criteria": [
-          "Admit to stroke unit or ICU for further management and monitoring."
-        ]
-      },
-      "recommended_poc": "Order non-contrast CT head and, if ischemic, consider CT angiography or MRI for further assessment."
-    }
-    {
-  "trauma_cases": [
+    },
     {
       "condition": "Cervical Spine Fractures in Children",
       "age_group": "Children",
@@ -280,10 +168,30 @@
       },
       "recommended_poc": "Order chest imaging (X-ray, CT) and consider thoracic surgery consultation if needed."
     }
-  ]
-},
-    {
+  ],
   "cardiology_cases": [
+    {
+      "condition": "Heart Failure",
+      "age_group": "All",
+      "esi_level": 2,
+      "guidelines": {
+        "immediate_actions": [
+          "Administer supplemental oxygen to maintain oxygen saturation > 90%.",
+          "Initiate diuretics for fluid overload (e.g., furosemide).",
+          "Monitor vital signs, including blood pressure and heart rate."
+        ],
+        "definitive_management": [
+          "ESI 1: Immediate management by a physician in the emergency department.",
+          "ESI 2: Initial evaluation and treatment by a Physician Assistant (PA) or Resident.",
+          "ESI 3–4: Supervision by a nurse for symptom monitoring and follow-up care."
+        ],
+        "disposition_criteria": [
+          "Admit for further management if the patient has respiratory distress or unstable vitals.",
+          "Discharge if symptoms resolve with treatment and follow-up is ensured."
+        ]
+      },
+      "recommended_poc": "Order BNP, chest X-ray, echocardiography, and assess for potential triggers (e.g., infection, ischemia)."
+    },
     {
       "condition": "Syncope",
       "age_group": "All",
@@ -347,10 +255,46 @@
       },
       "recommended_poc": "Order labs (e.g., electrolytes, thyroid function tests) and Holter monitoring if indicated."
     }
-  ]
-},
-{
+  ],
   "infectious_disease_cases": [
+    {
+      "condition": "Bacterial Meningitis in Children",
+      "age_group": "Children",
+      "esi_level": 1,
+      "guidelines": {
+        "immediate_actions": [
+          "Administer broad-spectrum antibiotics (e.g., ceftriaxone, vancomycin).",
+          "Ensure airway, breathing, and circulation (ABC) are stable.",
+          "Initiate lumbar puncture after stabilizing the patient."
+        ],
+        "definitive_management": [
+          "ESI 1: Managed immediately by a physician in the emergency department."
+        ],
+        "disposition_criteria": [
+          "Admit to ICU for close monitoring and further treatment."
+        ]
+      },
+      "recommended_poc": "Order lumbar puncture, blood cultures, and start empiric antibiotics immediately."
+    },
+    {
+      "condition": "Sepsis",
+      "age_group": "All",
+      "esi_level": 1,
+      "guidelines": {
+        "immediate_actions": [
+          "Initiate IV fluids for resuscitation.",
+          "Administer broad-spectrum antibiotics immediately.",
+          "Monitor vitals and start vasopressors if indicated."
+        ],
+        "definitive_management": [
+          "ESI 1: Managed by a multidisciplinary team in the emergency department."
+        ],
+        "disposition_criteria": [
+          "Admit to ICU for further monitoring and management."
+        ]
+      },
+      "recommended_poc": "Order blood cultures, lactate, and complete sepsis workup."
+    },
     {
       "condition": "Serious Bacterial Infections in Children Aged 1–3 Months",
       "age_group": "Children (1–3 months)",
@@ -445,10 +389,27 @@
       },
       "recommended_poc": "Order imaging only for complicated cases (e.g., orbital involvement)."
     }
-  ]
-},
-{
+  ],
   "surgical_abdominal_cases": [
+    {
+      "condition": "Acute Appendicitis",
+      "age_group": "All",
+      "esi_level": 2,
+      "guidelines": {
+        "immediate_actions": [
+          "Administer IV antibiotics as preoperative preparation (e.g., ceftriaxone and metronidazole).",
+          "Keep the patient NPO (nothing by mouth).",
+          "Obtain surgical consultation urgently."
+        ],
+        "definitive_management": [
+          "ESI 2: Managed by a PA or Resident under surgical supervision."
+        ],
+        "disposition_criteria": [
+          "Admit for appendectomy or further observation if diagnostic uncertainty exists."
+        ]
+      },
+      "recommended_poc": "Order abdominal ultrasound or CT scan to confirm diagnosis."
+    },
     {
       "condition": "Acute, Nonspecific, Nontraumatic Abdominal Pain",
       "age_group": "All",
@@ -573,10 +534,28 @@
       },
       "recommended_poc": "Order pelvic ultrasound with Doppler and consult gynecology."
     }
-  ]
-},
-{
+  ],
   "urology_cases": [
+    {
+      "condition": "Testicular Torsion",
+      "age_group": "Males (adolescents and young adults)",
+      "esi_level": 2,
+      "guidelines": {
+        "immediate_actions": [
+          "Provide pain relief with analgesics as needed.",
+          "Perform a rapid physical examination focusing on the testicular position and tenderness.",
+          "Consult urology immediately for surgical intervention."
+        ],
+        "definitive_management": [
+          "ESI 2: Managed by a PA or Resident under urologist supervision with expedited surgical consultation."
+        ],
+        "disposition_criteria": [
+          "Admit for surgical detorsion and orchiopexy.",
+          "Discharge is not recommended until the testicle is surgically addressed or the torsion is ruled out."
+        ]
+      },
+      "recommended_poc": "Order scrotal ultrasound with Doppler to assess blood flow and confirm diagnosis if diagnosis is uncertain."
+    },
     {
       "condition": "Nephrolithiasis",
       "age_group": "All",
@@ -597,11 +576,28 @@
       },
       "recommended_poc": "Order non-contrast CT to assess stone size and location."
     }
-  ]
-},
-
-{
+  ],
   "neurology_cases": [
+    {
+      "condition": "Acute Stroke",
+      "age_group": "All",
+      "esi_level": 1,
+      "guidelines": {
+        "immediate_actions": [
+          "Perform rapid assessment using the NIH Stroke Scale (NIHSS).",
+          "Obtain a non-contrast CT of the head to differentiate ischemic from hemorrhagic stroke.",
+          "Consider thrombolysis with IV tPA if within the treatment window for ischemic stroke and no contraindications.",
+          "Monitor blood pressure and treat if necessary (e.g., labetalol for hypertensive urgency)."
+        ],
+        "definitive_management": [
+          "ESI 1: Managed by a physician specializing in neurology or emergency medicine."
+        ],
+        "disposition_criteria": [
+          "Admit to stroke unit or ICU for further management and monitoring."
+        ]
+      },
+      "recommended_poc": "Order non-contrast CT head and, if ischemic, consider CT angiography or MRI for further assessment."
+    },
     {
       "condition": "Nontraumatic Subarachnoid Hemorrhage",
       "age_group": "All",
@@ -660,11 +656,7 @@
         ]
       },
       "recommended_poc": "Order EEG and MRI brain for new-onset seizures."
-    }
-  ]
-},
-    {
-  "trauma_cases": [
+    },
     {
       "condition": "Blunt Head Injury (General)",
       "age_group": "All",
@@ -785,164 +777,4 @@
       "recommended_poc": "Order imaging and consult vascular surgery."
     }
   ]
-},
-{
-  "infectious_disease_cases": [
-    {
-      "condition": "Pneumonia",
-      "age_group": "All",
-      "esi_level": 2,
-      "guidelines": {
-        "immediate_actions": [
-          "Administer supplemental oxygen if hypoxic.",
-          "Start empiric antibiotics based on local antibiogram.",
-          "Order chest X-ray for confirmation."
-        ],
-        "definitive_management": [
-          "ESI 1: Immediate physician management for severe cases.",
-          "ESI 2: Managed by a PA or Resident under supervision for moderate cases."
-        ],
-        "disposition_criteria": [
-          "Admit for severe symptoms or comorbidities.",
-          "Discharge if mild symptoms and adequate outpatient follow-up are ensured."
-        ]
-      },
-      "recommended_poc": "Order chest X-ray and blood cultures if severe."
-    },
-    {
-      "condition": "Urinary Tract Infection",
-      "age_group": "All",
-      "esi_level": 4,
-      "guidelines": {
-        "immediate_actions": [
-          "Administer empiric antibiotics (e.g., nitrofurantoin or TMP-SMX).",
-          "Provide analgesics for symptom relief.",
-          "Order urinalysis and urine culture."
-        ],
-        "definitive_management": [
-          "ESI 4: Managed by a nurse or trainee under supervision."
-        ],
-        "disposition_criteria": [
-          "Admit if complicated (e.g., pyelonephritis or sepsis).",
-          "Discharge for uncomplicated cases with follow-up."
-        ]
-      },
-      "recommended_poc": "Order urinalysis and urine culture."
-    },
-    {
-      "condition": "Sepsis",
-      "age_group": "All",
-      "esi_level": 1,
-      "guidelines": {
-        "immediate_actions": [
-          "Initiate IV fluids for resuscitation.",
-          "Administer broad-spectrum antibiotics immediately.",
-          "Monitor vitals and start vasopressors if indicated."
-        ],
-        "definitive_management": [
-          "ESI 1: Managed by a multidisciplinary team in the emergency department."
-        ],
-        "disposition_criteria": [
-          "Admit to ICU for further monitoring and management."
-        ]
-      },
-      "recommended_poc": "Order blood cultures, lactate, and sepsis workup."
-    },
-    {
-      "condition": "Septic Arthritis",
-      "age_group": "All",
-      "esi_level": 2,
-      "guidelines": {
-        "immediate_actions": [
-          "Administer empiric IV antibiotics.",
-          "Perform joint aspiration for culture and analysis.",
-          "Consult orthopedics for potential surgical intervention."
-        ],
-        "definitive_management": [
-          "ESI 2: Managed by a PA or Resident with orthopedic consultation."
-        ],
-        "disposition_criteria": [
-          "Admit for joint drainage and IV antibiotics."
-        ]
-      },
-      "recommended_poc": "Order joint aspiration and start antibiotics."
-    },
-    {
-      "condition": "Osteomyelitis",
-      "age_group": "All",
-      "esi_level": 2,
-      "guidelines": {
-        "immediate_actions": [
-          "Start empiric IV antibiotics.",
-          "Order imaging (MRI or X-ray) to confirm diagnosis."
-        ],
-        "definitive_management": [
-          "ESI 2: Managed by a PA or Resident under supervision."
-        ],
-        "disposition_criteria": [
-          "Admit for IV antibiotics and surgical evaluation if needed."
-        ]
-      },
-      "recommended_poc": "Order MRI and blood cultures."
-    },
-    {
-      "condition": "Sexually Transmitted Diseases (STDs)",
-      "age_group": "All",
-      "esi_level": 4,
-      "guidelines": {
-        "immediate_actions": [
-          "Obtain detailed sexual history and risk assessment.",
-          "Order testing for STDs (e.g., gonorrhea, chlamydia, HIV).",
-          "Start empiric antibiotics for symptomatic cases."
-        ],
-        "definitive_management": [
-          "ESI 4: Managed by a nurse with physician oversight."
-        ],
-        "disposition_criteria": [
-          "Discharge with treatment and follow-up if no complications are present."
-        ]
-      },
-      "recommended_poc": "Order appropriate STD testing and counseling."
-    },
-    {
-      "condition": "Influenza",
-      "age_group": "All",
-      "esi_level": 5,
-      "guidelines": {
-        "immediate_actions": [
-          "Administer antivirals (e.g., oseltamivir) if within the treatment window.",
-          "Provide symptomatic relief (e.g., antipyretics and fluids)."
-        ],
-        "definitive_management": [
-          "ESI 5: Managed by a nurse or trainee under supervision."
-        ],
-        "disposition_criteria": [
-          "Discharge with supportive care unless complications arise."
-        ]
-      },
-      "recommended_poc": "Order rapid flu test if confirmation is needed."
-    },
-    {
-      "condition": "Pediatric Fever in Children Aged 3–36 Months",
-      "age_group": "Children (3–36 months)",
-      "esi_level": 2,
-      "guidelines": {
-        "immediate_actions": [
-          "Order CBC, urinalysis, and blood cultures.",
-          "Administer empiric antibiotics if high-risk features are present.",
-          "Provide antipyretics for fever control."
-        ],
-        "definitive_management": [
-          "ESI 2: Managed by a PA or Resident under pediatric supervision."
-        ],
-        "disposition_criteria": [
-          "Admit if sepsis or severe illness is suspected.",
-          "Discharge with follow-up if symptoms resolve and no complications are present."
-        ]
-      },
-      "recommended_poc": "Perform sepsis workup and administer antipyretics."
-    }
-  ]
 }
-]
-
