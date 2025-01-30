@@ -58,7 +58,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. Paste your OpenAI API key into lang.py:
+4. Paste your own OpenAI API key into lang.py (please don't drain our API :))
 
 5. Start the FastAPI server:
 ```bash
