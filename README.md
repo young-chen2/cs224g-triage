@@ -21,7 +21,7 @@ This table tracks contributions for each sprint by our team members.
 
 | Sprint  | Team Member | Contribution |
 |---------|--------------|---------------|
-| **1** | **Young** | - Complete first prototype (React + JS) of the Triage Chat Interface <br> - Linked interface to the OpenAI and LangChain API <br> - System design and research on how to structure data/backend of Triage and how to integrate LangChain
+| **1** | **Young** | - Complete first prototype (React + JS) of the Triage Chat Interface <br> - Linked interface to the OpenAI and LangChain API: interface allows conversation with gpt-4o-mini, and launching the API layer at localhost:8000 allows you to test the LangChain workflow at route `/test` <br> - System design and research on how to structure data/backend of Triage and how to integrate LangChain
 | **1** | **Cesar** | - Research databases for diagnostic methodologies for primary care <br> - Adapt methodologies to established systems used in healthcare triage settings <br> - Communicate with potential stakeholders about the usefulness of applications <br> - Explore the potential to use Adobe UX for app interface <br> - Create json docs for triage and guidelines based on research <br>|
 
 
