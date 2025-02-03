@@ -80,7 +80,7 @@ This project uses Poetry for Python dependency management. Here's how to get sta
 
 The backend uses FastAPI and LangChain for the API layer. Follow these steps to set up:
 
-1. Paste your own OpenAI API key into our `.env` file (please don't drain our API :))
+1. Paste your own OpenAI API key into our `.env` files and navigate to the project directory `triage-next`:
 
 2. Start the FastAPI server:
 ```bash
