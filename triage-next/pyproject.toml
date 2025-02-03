@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "patient-triage"
+version = "0.1.0"
+description = "Patient Triage System using LangChain and OpenAI"
+authors = ["Young Chen: youngch@stanford.edu"]
+packages = [
+    { include = "src" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+fastapi = "0.109.2"
+uvicorn = "0.27.1"
+pydantic = "2.6.1"
+langchain = "0.1.9"
+langchain-community = "0.0.24"
+langchain-openai = "0.0.8"
+faiss-cpu = "1.7.4"
+python-dotenv = "1.0.0"
+openai = "^1.61.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4.0"
+black = "^23.7.0"
+flake8 = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api" 
