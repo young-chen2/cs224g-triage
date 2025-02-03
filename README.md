@@ -78,9 +78,9 @@ This project uses Poetry for Python dependency management. Here's how to get sta
 
 ## Backend Setup 🔧
 
-The backend uses FastAPI and LangChain for the API layer. Follow these steps to set up:
+Triage's backend uses FastAPI and LangChain for the API layer. Follow these steps to set up:
 
-1. Paste your own OpenAI API key into our `.env` files and navigate to the project directory `triage-next`:
+1. Paste your own OpenAI API key into our `.env` files and navigate to the backend API directory `src/api`:
 
 2. Start the FastAPI server:
 ```bash
@@ -88,7 +88,7 @@ poetry run uvicorn lang:app --reload
 ```
 or if you're in root:
 ```bash
-poetry run uvicorn app.api.lang:app --reload
+poetry run uvicorn src.api.lang:app --reload
 ```
 
 The API will be available at http://localhost:8000. You can:
@@ -98,9 +98,14 @@ The API will be available at http://localhost:8000. You can:
 
 ## Frontend Setup 🎨
 
-1. Run the development server:
-   ```bash
-   poetry run npm run dev
-   ```
+1. Install dependencies:
+```bash
+npm install
+```
+
+2. Run the development server:
+```bash
+npm run dev
+```
 
 The app will be available at [http://localhost:3000](http://localhost:3000).
