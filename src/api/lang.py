@@ -2,14 +2,35 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from langchain_community.vectorstores import FAISS
-from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_openai import OpenAIEmbeddings
 from langchain.chains import RetrievalQA
-from langchain_community.llms import OpenAI
+from langchain_openai import OpenAI
 import json
 import os
+from dotenv import load_dotenv
+import logging
+import datetime
 
-# Get OpenAI API key from environment variable or hardcode it (not recommended for production)
-openai_api_key = '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'
+# Set up logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+# Get the absolute path to the project root directory
+current_dir = os.path.dirname(os.path.abspath(__file__))  # Gets the directory containing lang.py
+root_dir = os.path.dirname(os.path.dirname(current_dir))  # Go up two levels to root
+
+# Load environment variables with more verbose error handling
+env_path = os.path.join(root_dir, '.env')
+if not os.path.exists(env_path):
+    raise FileNotFoundError(f"No .env file found at {env_path}")
+
+load_dotenv(dotenv_path=env_path)
+openai_api_key = os.getenv('OPENAI_API_KEY')
+if not openai_api_key:
+    raise ValueError("No OpenAI API key found in environment variables")
+
+logger.info("Environment variables loaded successfully")
+
 app = FastAPI()
 
 # Allow CORS for your React frontend (replace 3000 with your frontend port)
@@ -20,18 +41,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# get the absolute path to the project root directory to local the .json files
-current_dir = os.path.dirname(os.path.abspath(__file__))  # Gets the directory containing lang.py
-root_dir = os.path.dirname(os.path.dirname(current_dir))  # Go up two levels to root
-
 def load_medical_data():
     triage_path = os.path.join(root_dir, 'DataTriage.json')
     guidelines_path = os.path.join(root_dir, 'Guidelines.json')
-    
-    # print(f"Looking for files in: {root_dir}")  
-    # print(f"Triage path: {triage_path}")      
-    # print(f"Guidelines path: {guidelines_path}") 
-    
+        
     with open(triage_path, 'r') as f:
         triage_data = json.load(f)
     
@@ -74,17 +87,32 @@ chain = RetrievalQA.from_chain_type(
 class TriageRequest(BaseModel):
     symptoms: str
 class TriageResponse(BaseModel):
-    recommendation: str
+    symptoms_received: str
+    raw_llm_response: str
 
 @app.post("/triage", response_model=TriageResponse)
 async def triage_patient(request: TriageRequest):
     try:
-        # Enhance the query to get more relevant results
-        query = f"Given these symptoms: {request.symptoms}, what is the likely condition, ESI level, and recommended immediate actions?"
+        logger.info(f"Received triage request with symptoms: {request.symptoms}")
+        query = f"""Given these symptoms: {request.symptoms}, provide a structured analysis. 
+        Include the following:
+        1. Most likely condition(s)
+        2. ESI level (1-5)
+        3. Recommended immediate actions
+        4. Additional observations (if any)
+        """
         response = chain.invoke(query)
-        return {"recommendation": response}
+        
+        return TriageResponse(
+            symptoms_received=request.symptoms,
+            raw_llm_response=response['result']
+        )
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        logger.error(f"Error processing triage request: {str(e)}")
+        raise HTTPException(
+            status_code=500,
+            detail="An error occurred while processing your request. Please try again."
+        )
 
 @app.get("/test")
 async def test_triage():
