@@ -1,0 +1,59 @@
+Medical Guidelines Scraper: Major Update
+
+Added comprehensive medical guideline scraping functionality with the following features:
+
+1. Source Management:
+- Added multiple medical guideline sources including:
+  * PubMed, PMC, Clinical Compass, ASAHQ, JOSPT
+  * AAFP, ACPJournals, Neurology, AAOS, Orthoguidelines
+  * LWW, AUA, CDC, Wiley, AASM, NHLBI
+  * JACIOnline, SAGE, USPSTF, AHAJournals
+
+2. Condition Categories:
+- Implemented structured condition categories:
+  * Trauma (Cervical Spine, Head Injuries, etc.)
+  * Cardiology (Heart Failure, Syncope, etc.)
+  * Infectious Disease (Meningitis, Sepsis, etc.)
+  * Surgical Abdominal (Appendicitis, Bowel Obstruction, etc.)
+  * Urology (Testicular Torsion, Nephrolithiasis)
+  * Neurology (Stroke, TIA, Seizures, etc.)
+  * Additional Trauma (Penetrating Injuries)
+
+3. PDF Processing:
+- Added PDF document processing capabilities
+- Implemented text extraction from PDF files
+- Added structured data extraction using regex patterns
+
+4. Data Extraction:
+- Added extraction of key medical information:
+  * Symptoms and clinical presentation
+  * Immediate actions and emergency measures
+  * Definitive management and treatment plans
+  * Disposition and discharge criteria
+
+5. Export Functionality:
+- Added Excel export with structured columns:
+  * Condition and category
+  * Source and URL
+  * Symptoms
+  * Immediate actions
+  * Definitive management
+  * Disposition criteria
+
+6. Technical Improvements:
+- Implemented async/await for better performance
+- Added robust error handling and logging
+- Added rate limiting to prevent server overload
+- Improved URL processing and content extraction
+
+7. Documentation:
+- Added docstrings for all methods
+- Improved code organization and readability
+
+Dependencies added:
+- PyPDF2 for PDF processing
+- pandas and openpyxl for Excel export
+- aiohttp for async HTTP requests
+
+This update provides a comprehensive medical guideline scraping solution
+with structured data extraction and organized output formats. 
