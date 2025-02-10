@@ -61,6 +61,7 @@ body, html {
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
+  min-height: 80vh;
 }
 
 .chat-header {
@@ -88,6 +89,7 @@ body, html {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  min-height: 60vh;
 }
 
 .message {
@@ -262,121 +264,46 @@ button:hover {
   background-color: #ff6666;
 }
 
-/* Header Controls */
-.header-controls {
-  display: flex;
-  gap: 8px;
-  align-items: center;
+.guidelines-section {
+  margin-top: 8px;
 }
 
-.view-toggle-btn,
-.theme-toggle-btn {
-  padding: 8px 16px;
-  border-radius: 8px;
-  border: none;
+.guidelines-toggle {
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 4px 8px;
+  border-radius: 4px;
   cursor: pointer;
-  transition: all 0.2s ease;
+  font-size: 0.9em;
 }
 
-.view-toggle-btn {
-  background-color: #f0f0f0;
-  color: #333;
+.guidelines-content {
+  margin-top: 8px;
+  padding: 8px;
+  background: #f8f8f8;
+  border-radius: 4px;
 }
 
-.view-toggle-btn.dark {
-  background-color: #2a2a2a;
+.guideline-item {
+  margin: 8px 0;
+  padding: 8px;
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  white-space: pre-wrap;
+}
+
+.dark-mode .guidelines-toggle {
+  background: #2a2a2a;
+  border-color: #444;
   color: #fff;
 }
 
-.theme-toggle-btn {
-  background: transparent;
-  font-size: 1.2rem;
-}
-
-/* Modal Styles */
-.modal-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-}
-
-.modal-container {
-  background: white;
-  border-radius: 12px;
-  padding: 24px;
-  width: 90%;
-  max-width: 400px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.modal-container.dark {
+.dark-mode .guidelines-content {
   background: #1a1a1a;
-  color: white;
 }
 
-.modal-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.modal-header h2 {
-  margin: 0;
-  font-size: 1.5rem;
-}
-
-.close-btn {
-  background: transparent;
-  border: none;
-  font-size: 1.5rem;
-  cursor: pointer;
-  color: inherit;
-}
-
-.modal-body {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.password-input {
-  padding: 12px;
-  border-radius: 8px;
-  border: 1px solid #ddd;
-  font-size: 1rem;
-}
-
-.modal-container.dark .password-input {
+.dark-mode .guideline-item {
   background: #2a2a2a;
   border-color: #444;
-  color: white;
-}
-
-.error-message {
-  color: #ff4444;
-  margin: 0;
-  font-size: 0.9rem;
-}
-
-.submit-btn {
-  padding: 12px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background-color 0.2s ease;
-}
-
-.submit-btn:hover {
-  background-color: #0056b3;
 }

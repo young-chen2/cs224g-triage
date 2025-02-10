@@ -1,5 +1,4 @@
 import os
-from dotenv import load_dotenv
 import aiohttp
 import asyncio
 from bs4 import BeautifulSoup

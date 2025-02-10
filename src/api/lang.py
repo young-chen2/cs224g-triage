@@ -32,12 +32,15 @@ logger.info("Environment variables loaded successfully")
 
 app = FastAPI()
 
-# Allow CORS for your React frontend (replace 3000 with your frontend port)
+# More permissive CORS configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
-    allow_methods=["*"],
+    allow_origins=["*"],  # Your Next.js frontend URL
+    allow_credentials=True,
+    allow_methods=["GET", "POST", "OPTIONS"],  # Explicitly allow OPTIONS
     allow_headers=["*"],
+    expose_headers=["*"],
+    max_age=86400,  # Cache preflight requests for 24 hours
 )
 
 def load_medical_data():
@@ -76,18 +79,33 @@ def load_medical_data():
 
 # Initialize LangChain components
 embeddings = OpenAIEmbeddings(api_key=openai_api_key)
-medical_texts = load_medical_data()
-vector_store = FAISS.from_texts(medical_texts, embeddings)
+
+# Load or create FAISS index
+index_path = os.path.join(root_dir, 'faiss_index')
+if os.path.exists(index_path):
+    logger.info("Loading existing FAISS index")
+    vector_store = FAISS.load_local(index_path, embeddings)
+else:
+    logger.info("Creating new FAISS index")
+    medical_texts = load_medical_data()
+    vector_store = FAISS.from_texts(medical_texts, embeddings)
+    # Save the index for future use
+    vector_store.save_local(index_path)
+
+# Modified chain to include source documents
 chain = RetrievalQA.from_chain_type(
     llm=OpenAI(api_key=openai_api_key, temperature=0),
     chain_type="stuff",
-    retriever=vector_store.as_retriever()
+    retriever=vector_store.as_retriever(),
+    return_source_documents=True  # This will include the retrieved documents
 )
+
 class TriageRequest(BaseModel):
     symptoms: str
 class TriageResponse(BaseModel):
     symptoms_received: str
     raw_llm_response: str
+    relevant_guidelines: list[str]  # New field for source documents
 
 @app.post("/triage", response_model=TriageResponse)
 async def triage_patient(request: TriageRequest):
@@ -98,13 +116,18 @@ async def triage_patient(request: TriageRequest):
         1. Most likely condition(s)
         2. ESI level (1-5)
         3. Recommended immediate actions
-        4. Additional observations (if any)
+        4. The recommended triage level for this patient: to see a nurse, PA, doctor, or go to the emergency room
+        5. Additional observations (if any)
         """
         response = chain.invoke(query)
         
+        # Extract the source documents
+        source_docs = [doc.page_content for doc in response['source_documents']]
+        
         return TriageResponse(
             symptoms_received=request.symptoms,
-            raw_llm_response=response['result']
+            raw_llm_response=response['result'],
+            relevant_guidelines=source_docs
         )
     except Exception as e:
         logger.error(f"Error processing triage request: {str(e)}")

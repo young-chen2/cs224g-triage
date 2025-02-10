@@ -2,19 +2,25 @@
 
 import "./App.css";
 import { useState, useCallback } from "react";
-import OpenAI from "openai";
-import { SYSTEM_PROMPT, INITIAL_MESSAGE } from "./prompts";
+import { INITIAL_MESSAGE } from "./prompts";
 import { ChatHeader } from "./components/ChatHeader";
 import { ChatMessages } from "./components/ChatMessages";
 import { ChatInput } from "./components/ChatInput";
 import { useSpeechRecognition } from "./components/useSpeechRecognition";
-import { ViewSwitcher } from "./components/ViewSwitcher";
 import { AdminPortal } from "./components/AdminPortal";
 
-const client = new OpenAI({
-  apiKey: process.env.NEXT_PUBLIC_OPENAI_API_KEY,
-  dangerouslyAllowBrowser: true,
-});
+// Define types for the API response
+interface TriageResponse {
+  symptoms_received: string;
+  raw_llm_response: string;
+  relevant_guidelines: string[];
+}
+
+interface Message {
+  role: "user" | "assistant";
+  content: string;
+  guidelines?: string[]; // Add guidelines to message type
+}
 
 function App() {
   const [isAdminView, setIsAdminView] = useState(false);
@@ -36,31 +42,43 @@ function App() {
     setInputMessage("");
 
     try {
-      const response = await client.chat.completions.create({
-        model: "gpt-4o-mini",
-        messages: [
-          { role: "system", content: SYSTEM_PROMPT },
-          ...messages,
-          { role: "user", content: message },
-        ],
+      const response = await fetch('http://127.0.0.1:8000/triage', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ 
+          symptoms: message  // This is already correct as it's sending a string
+        }),
       });
 
-      const assistantMessage = response.choices[0].message.content || "No response received";
-      setMessages((prev) => [
-        ...prev,
-        { role: "assistant", content: assistantMessage },
-      ]);
-      speak(assistantMessage);
+      if (!response.ok) {
+        console.error('API Error:', response.status, await response.text());
+        throw new Error(`API request failed with status ${response.status}`);
+      }
+
+      const data: TriageResponse = await response.json();
+      console.log('API Response:', data); // Debug log
+
+      const assistantMessage = {
+        role: "assistant" as const,
+        content: data.raw_llm_response,
+        guidelines: data.relevant_guidelines
+      };
+
+      setMessages((prev) => [...prev, assistantMessage]);
+      speak(data.raw_llm_response);
     } catch (error) {
-      console.error("Error calling OpenAI API:", error);
-      const errorMessage = "I'm sorry, I encountered an error. Please try again.";
+      console.error("Error calling Triage API:", error);
       setMessages((prev) => [
         ...prev,
-        { role: "assistant", content: errorMessage },
+        { 
+          role: "assistant", 
+          content: "I apologize, but I'm having trouble connecting to the medical knowledge base. Please ensure the API server is running and try again."
+        },
       ]);
-      speak(errorMessage);
     }
-  }, [inputMessage, messages]);
+  }, [inputMessage]);
 
   const { isListening, toggleListening } = useSpeechRecognition(handleSendMessage);
 
