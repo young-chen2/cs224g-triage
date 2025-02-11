@@ -8,6 +8,7 @@ import { ChatMessages } from "./components/ChatMessages";
 import { ChatInput } from "./components/ChatInput";
 import { useSpeechRecognition } from "./components/useSpeechRecognition";
 import { AdminPortal } from "./components/AdminPortal";
+import { Login } from "./components/Login";
 
 // Define types for the API response
 interface TriageResponse {
@@ -16,10 +17,10 @@ interface TriageResponse {
   relevant_guidelines: string[];
 }
 
-interface Message {
-  role: "user" | "assistant";
-  content: string;
-  guidelines?: string[]; // Add guidelines to message type
+// Add interface for user
+interface User {
+  username: string;
+  role: string;
 }
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
   ]);
   const [inputMessage, setInputMessage] = useState("");
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const [user, setUser] = useState<User | null>(null);
 
   const speak = (text: string) => {
     const utterance = new SpeechSynthesisUtterance(text);
@@ -82,6 +84,36 @@ function App() {
 
   const { isListening, toggleListening } = useSpeechRecognition(handleSendMessage);
 
+  // Add mock authentication
+  const handleLogin = (username: string, password: string) => {
+    const mockUsers = [
+      { username: 'doctor1', role: 'Physician', password: 'password123' },
+      { username: 'nurse1', role: 'Nurse', password: 'password123' },
+      { username: 'pa1', role: 'PA', password: 'password123' },
+    ];
+
+    const user = mockUsers.find(u => u.username === username && u.password === password);
+    if (user) {
+      setUser({ username: user.username, role: user.role });
+    }
+  };
+
+  // Add patient access handler
+  const handlePatientAccess = () => {
+    setUser({ username: 'Patient', role: 'Patient' });
+  };
+
+  // Add logout handler
+  const handleLogout = () => {
+    setUser(null);
+    setIsAdminView(false); // Reset admin view on logout
+  };
+
+  // If not logged in, show login screen
+  if (!user) {
+    return <Login onLogin={handleLogin} onPatientAccess={handlePatientAccess} />;
+  }
+
   return (
     <div className={`App ${isDarkMode ? "dark-mode" : "light-mode"}`}>
       <div className="chat-container">
@@ -90,10 +122,12 @@ function App() {
           setIsDarkMode={setIsDarkMode}
           isAdminView={isAdminView}
           onViewChange={setIsAdminView}
+          user={user}
+          onLogout={handleLogout}
         />
         
         {isAdminView ? (
-          <AdminPortal />
+          <AdminPortal isDarkMode={isDarkMode} />
         ) : (
           <>
             <ChatMessages messages={messages} />
