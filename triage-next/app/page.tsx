@@ -115,8 +115,8 @@ function App() {
   }
 
   return (
-    <div className={`App ${isDarkMode ? "dark-mode" : "light-mode"}`}>
-      <div className="chat-container">
+    <div className={`App min-h-screen ${isDarkMode ? "dark-mode" : "light-mode"}`}>
+      <div className="chat-container h-screen flex flex-col">
         <ChatHeader 
           isDarkMode={isDarkMode} 
           setIsDarkMode={setIsDarkMode}
@@ -126,20 +126,22 @@ function App() {
           onLogout={handleLogout}
         />
         
-        {isAdminView ? (
-          <AdminPortal isDarkMode={isDarkMode} />
-        ) : (
-          <>
-            <ChatMessages messages={messages} />
-            <ChatInput
-              inputMessage={inputMessage}
-              setInputMessage={setInputMessage}
-              handleSendMessage={handleSendMessage}
-              isListening={isListening}
-              toggleListening={toggleListening}
-            />
-          </>
-        )}
+        <div className={`flex-1 overflow-y-auto`}>
+          {isAdminView ? (
+            <AdminPortal isDarkMode={isDarkMode} />
+          ) : (
+            <div className="h-full flex flex-col">
+              <ChatMessages messages={messages} />
+              <ChatInput
+                inputMessage={inputMessage}
+                setInputMessage={setInputMessage}
+                handleSendMessage={handleSendMessage}
+                isListening={isListening}
+                toggleListening={toggleListening}
+              />
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );

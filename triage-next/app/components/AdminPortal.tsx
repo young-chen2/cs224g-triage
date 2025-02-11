@@ -39,7 +39,7 @@ export const AdminPortal = ({ isDarkMode }: { isDarkMode: boolean }) => {
     ]);
 
     return (
-        <div className="max-w-7xl mx-auto p-6 space-y-8">
+        <div className="max-w-7xl mx-auto p-auto space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <GuidelinesUpload isDarkMode={isDarkMode} />
                 <TriageHistory isDarkMode={isDarkMode} chatHistories={chatHistories} />
