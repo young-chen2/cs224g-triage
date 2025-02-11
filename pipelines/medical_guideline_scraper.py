@@ -12,7 +12,43 @@ import PyPDF2
 import io
 import pandas as pd
 from urllib.request import urlopen
+import asyncio
 
+class MedicalGuidelineScraper:
+    async def search_pubmed(self, condition):
+        try:
+            # ... existing code ...
+            if not results or 'esearchresult' not in results:
+                self.logger.warning(f"No results found for {condition}")
+                return []  # Return empty list instead of None
+            
+            pubmed_ids = results['esearchresult'].get('idlist', [])
+            if not pubmed_ids:
+                self.logger.warning(f"No PubMed IDs found for {condition}")
+                return []  # Return empty list instead of None
+            
+            # ... rest of existing code ...
+        except Exception as e:
+            self.logger.error(f"Error searching PubMed for {condition}: {str(e)}")
+            return []  # Return empty list on error
+
+    async def run(self):
+        try:
+            all_guidelines = []
+            for category, conditions in self.conditions.items():
+                self.logger.info(f"Processing {category}...")
+                for condition in conditions:
+                    self.logger.info(f"Searching guidelines for: {condition}")
+                    pubmed_guidelines = await self.search_pubmed(condition)
+                    if pubmed_guidelines:  # Check if list is not empty
+                        all_guidelines.extend(pubmed_guidelines)
+                    await asyncio.sleep(1)  # Rate limiting
+            
+            return all_guidelines
+        except Exception as e:
+            self.logger.error(f"Error in run method: {str(e)}")
+            return [] 
+        
 class MedicalGuidelineScraper:
     def __init__(self):
         self.setup_logging()

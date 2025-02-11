@@ -4,18 +4,104 @@ import cv2
 import numpy as np
 from pathlib import Path
 import logging
+import google.generativeai as genai
+from PIL import Image
+import os
+from pdf2image import convert_from_path
+import logging
+from typing import List, Optional
+
+class GeminiOCRHandler:
+    def __init__(self, api_key):
+        genai.configure(api_key=os.getenv('GOOGLE_API_KEY', api_key))
+        self.model = genai.GenerativeModel('gemini-pro-vision')
+        self.logger = logging.getLogger(__name__)
+
+    def process_pdf(self, pdf_path):
+        try:
+            # Convert PDF to images
+            images = convert_from_path(pdf_path)
+            extracted_text = []
+            
+            for i, image in enumerate(images):
+                self.logger.info(f"Processing page {i+1}")
+                # Get text from image using Gemini
+                response = self.model.generate_content(image)
+                extracted_text.append(response.text)
+            
+            return "\n".join(extracted_text)
+            
+        except Exception as e:
+            self.logger.error(f"Error processing PDF: {str(e)}")
+            return None
+
+    def process_image(self, image_path):
+        try:
+            image = Image.open(image_path)
+            response = self.model.generate_content(image)
+            return response.text
+        except Exception as e:
+            self.logger.error(f"Error processing image: {str(e)}")
+            return None 
 
 class OCRPipeline:
-    def __init__(self, tesseract_path=None):
-        """
-        Initialize the OCR pipeline
-        :param tesseract_path: Path to tesseract executable (needed for Windows)
-        """
-        if tesseract_path:
-            pytesseract.pytesseract.tesseract_cmd = tesseract_path
+    def __init__(self, api_key: Optional[str] = None):
+        self.api_key = api_key or os.getenv('GOOGLE_API_KEY')
+        if not self.api_key:
+            raise ValueError("Google API key is required")
         
+        genai.configure(api_key=self.api_key)
+        self.model = genai.GenerativeModel('gemini-pro-vision')
         self.logger = logging.getLogger(__name__)
-        self._configure_logging()
+
+    def process_pdf(self, pdf_path: str) -> str:
+        """Process a PDF file and extract text using Gemini Vision API"""
+        try:
+            # Convert PDF to images
+            images = convert_from_path(pdf_path)
+            extracted_text = []
+            
+            for i, image in enumerate(images):
+                self.logger.info(f"Processing page {i+1} of PDF")
+                response = self.model.generate_content(image)
+                extracted_text.append(response.text)
+            
+            return "\n".join(extracted_text)
+            
+        except Exception as e:
+            self.logger.error(f"Error processing PDF {pdf_path}: {str(e)}")
+            raise
+
+    def process_image(self, image_path: str) -> str:
+        """Process a single image and extract text using Gemini Vision API"""
+        try:
+            image = Image.open(image_path)
+            response = self.model.generate_content(image)
+            return response.text
+        except Exception as e:
+            self.logger.error(f"Error processing image {image_path}: {str(e)}")
+            raise
+
+    def process_directory(self, dir_path: str) -> dict:
+        """Process all PDFs and images in a directory"""
+        results = {}
+        dir_path = Path(dir_path)
+        
+        for file_path in dir_path.glob("**/*"):
+            if file_path.suffix.lower() in ['.pdf']:
+                try:
+                    results[str(file_path)] = self.process_pdf(str(file_path))
+                except Exception as e:
+                    self.logger.error(f"Failed to process {file_path}: {str(e)}")
+                    results[str(file_path)] = None
+            elif file_path.suffix.lower() in ['.png', '.jpg', '.jpeg']:
+                try:
+                    results[str(file_path)] = self.process_image(str(file_path))
+                except Exception as e:
+                    self.logger.error(f"Failed to process {file_path}: {str(e)}")
+                    results[str(file_path)] = None
+                    
+        return results
 
     def _configure_logging(self):
         """Configure basic logging"""
