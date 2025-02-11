@@ -15,6 +15,7 @@ interface TriageResponse {
   symptoms_received: string;
   raw_llm_response: string;
   relevant_guidelines: string[];
+  is_gathering_info: boolean;
 }
 
 // Add interface for user
@@ -50,7 +51,8 @@ function App() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({ 
-          symptoms: message  // This is already correct as it's sending a string
+          symptoms: message,
+          conversation_history: messages.slice(-5)
         }),
       });
 
@@ -60,12 +62,13 @@ function App() {
       }
 
       const data: TriageResponse = await response.json();
-      console.log('API Response:', data); // Debug log
+      console.log('API Response:', data);
 
       const assistantMessage = {
         role: "assistant" as const,
         content: data.raw_llm_response,
-        guidelines: data.relevant_guidelines
+        guidelines: data.relevant_guidelines,
+        is_gathering_info: data.is_gathering_info
       };
 
       setMessages((prev) => [...prev, assistantMessage]);
@@ -80,7 +83,7 @@ function App() {
         },
       ]);
     }
-  }, [inputMessage]);
+  }, [inputMessage, messages]);
 
   const { isListening, toggleListening } = useSpeechRecognition(handleSendMessage);
 

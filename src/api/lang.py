@@ -102,33 +102,104 @@ chain = RetrievalQA.from_chain_type(
 
 class TriageRequest(BaseModel):
     symptoms: str
+    conversation_history: list[dict]  # Add this field
+
 class TriageResponse(BaseModel):
     symptoms_received: str
     raw_llm_response: str
-    relevant_guidelines: list[str]  # New field for source documents
+    relevant_guidelines: list[str]
+    is_gathering_info: bool  # Add this to indicate if more questions are needed
 
 @app.post("/triage", response_model=TriageResponse)
 async def triage_patient(request: TriageRequest):
     try:
         logger.info(f"Received triage request with symptoms: {request.symptoms}")
-        query = f"""Given these symptoms: {request.symptoms}, provide a structured analysis. 
-        Include the following:
-        1. Most likely condition(s)
-        2. ESI level (1-5)
-        3. Recommended immediate actions
-        4. The recommended triage level for this patient: to see a nurse, PA, doctor, or go to the emergency room
-        5. Additional observations (if any)
-        """
-        response = chain.invoke(query)
         
-        # Extract the source documents
-        source_docs = [doc.page_content for doc in response['source_documents']]
+        # Format conversation history for context
+        conversation_context = "\n".join([
+            f"{'Assistant' if msg['role'] == 'assistant' else 'Patient'}: {msg['content']}"
+            for msg in request.conversation_history[-5:]
+        ])
+        
+        # Enhanced assessment query with medical professional tone and thorough information gathering
+        assessment_query = f"""
+        You are an experienced medical professional conducting an initial patient assessment. Based on the following conversation:
+
+        {conversation_context}
+        Latest message: {request.symptoms}
+
+        Review the conversation and check if you have ALL of the following critical information:
+        1. Patient's age
+        2. Current symptoms and their duration
+        3. Symptom severity
+        4. Relevant medical history
+        5. Current medications
+        6. Allergies
+        7. Recent injuries or medical procedures (if relevant)
+        8. Any similar episodes in the past
+
+        If ANY of this information is missing and relevant to the case, respond with:
+        "NEED_INFO: [Ask a specific question in a professional, empathetic tone to gather the missing information]"
+
+        Only respond with "READY_FOR_TRIAGE" if you have gathered all necessary information for a thorough assessment.
+
+        Remember to:
+        - Ask one clear question at a time
+        - Maintain a professional and caring tone
+        - Acknowledge the patient's concerns
+        - Prioritize urgent symptoms in your questioning
+        """
+        
+        assessment_response = chain.invoke(assessment_query)
+        
+        if "NEED_INFO:" in assessment_response['result']:
+            return TriageResponse(
+                symptoms_received=request.symptoms,
+                raw_llm_response=assessment_response['result'].replace("NEED_INFO:", "").strip(),
+                relevant_guidelines=[],
+                is_gathering_info=True
+            )
+        
+        # Enhanced triage query for comprehensive assessment
+        triage_query = f"""
+        You are an experienced medical professional providing a triage assessment. Based on the following patient interaction:
+
+        {conversation_context}
+        Latest message: {request.symptoms}
+
+        Provide a structured triage assessment with the following format:
+
+        1. Patient Profile:
+           - Summarize key patient information (age, relevant history)
+           - Primary symptoms and duration
+
+        2. Assessment:
+           - Most likely condition(s)
+           - Severity assessment
+           - ESI level (1-5) with brief justification
+
+        3. Recommendations:
+           - Immediate actions needed
+           - Recommended care level (nurse, PA, doctor, or emergency room)
+           - Timeframe for seeking care (immediate, within hours, within 24 hours, etc.)
+
+        4. Additional Instructions:
+           - Warning signs to watch for
+           - Home care instructions (if applicable)
+           - Follow-up recommendations
+
+        Maintain a professional, clear, and empathetic tone. Prioritize patient safety and err on the side of caution when uncertain.
+        """
+        
+        response = chain.invoke(triage_query)
         
         return TriageResponse(
             symptoms_received=request.symptoms,
             raw_llm_response=response['result'],
-            relevant_guidelines=source_docs
+            relevant_guidelines=[doc.page_content for doc in response['source_documents']],
+            is_gathering_info=False
         )
+        
     except Exception as e:
         logger.error(f"Error processing triage request: {str(e)}")
         raise HTTPException(
