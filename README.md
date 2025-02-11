@@ -42,6 +42,8 @@ This project uses Poetry for Python dependency management. Here's how to get sta
 1. Install Poetry (if you haven't already):
    ```bash
    curl -sSL https://install.python-poetry.org | python3 -
+   --OR--
+   brew install poetry
    ```
 
 2. Clone this repository and navigate to the project directory (root)
@@ -50,8 +52,14 @@ This project uses Poetry for Python dependency management. Here's how to get sta
    ```bash
    poetry install
    ```
+   If this doesn't work, try using a Python VENV:
+      ```bash
+   conda create -n api-env python=3.11
+   conda activate api-env
+   poetry install
+   ```
 
-4. Run the FastAPI server/React App:
+5. Run the FastAPI server/React App:
    ```bash
    poetry run uvicorn src.api.lang:app --reload
    poetry run npm start
