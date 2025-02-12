@@ -59,12 +59,6 @@ This project uses Poetry for Python dependency management. Here's how to get sta
    poetry install
    ```
 
-5. Run the FastAPI server/React App:
-   ```bash
-   poetry run uvicorn src.api.lang:app --reload
-   poetry run npm start
-   ```
-
 ### Common Poetry Commands
 
 - Add a new dependency:
@@ -88,15 +82,11 @@ This project uses Poetry for Python dependency management. Here's how to get sta
 
 Triage's backend uses FastAPI and LangChain for the API layer. Follow these steps to set up:
 
-1. Paste your own OpenAI API key into our `.env` files and navigate to the backend API directory `src/api`:
+1. Paste your own OpenAI API key into the `.env` file
 
-2. Start the FastAPI server:
+2. Start the FastAPI server from the root directory by running:
 ```bash
-poetry run uvicorn lang:app --reload
-```
-or if you're in root:
-```bash
-poetry run uvicorn src.api.lang:app --reload
+poetry run python run.py
 ```
 
 The API will be available at http://localhost:8000. You can:
