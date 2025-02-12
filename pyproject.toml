@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "patient-triage"
 version = "0.1.0"
-description = "Patient Triage System using LangChain and OpenAI"
+description = "Patient Triage API"
 authors = ["Young Chen: youngch@stanford.edu"]
 packages = [
     { include = "src" }
