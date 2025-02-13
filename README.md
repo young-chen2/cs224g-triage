@@ -92,8 +92,7 @@ poetry run python run.py
 
 The API will be available at http://localhost:8000. You can:
 - View the API documentation at http://localhost:8000/docs
-- Test the API (with a provided test case) at http://localhost:8000/test
-- Use curl to test: `curl http://localhost:8000/test`
+- Use curl to test: `curl http://localhost:8000/...`
 
 ## Frontend Setup 🎨
 
