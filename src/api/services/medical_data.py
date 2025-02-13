@@ -14,6 +14,7 @@ def load_medical_data():
     # Process triage data
     for category in triage_data:
         for case in triage_data[category]:
+            text += f"Case category: {category}\n"
             text = f"Condition: {case['condition']}\n"
             text += f"Age Group: {case['age_group']}\n"
             text += f"Symptoms: {', '.join(case['symptoms'])}\n"
@@ -23,6 +24,7 @@ def load_medical_data():
     # Process guidelines data
     for category in guidelines_data:
         for case in guidelines_data[category]:
+            text += f"Case category: {category}\n"
             text = f"Condition: {case['condition']}\n"
             text += f"Age Group: {case['age_group']}\n"
             text += f"ESI Level: {case['esi_level']}\n"
