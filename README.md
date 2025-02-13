@@ -30,8 +30,6 @@ This table tracks contributions for each sprint by our team members.
 
 # Getting Started with Triage 🏁
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## TODOs ✔️
 
 Our project uses the OpenAI ChatGPT API; we are using our own API key for development purposes. To run it locally, please create environmental variables as follows:
