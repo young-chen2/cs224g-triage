@@ -11,7 +11,7 @@ def get_assessment_query(conversation_context: str, symptoms: str) -> str:
     And the latest message from the patient: {symptoms}
     ###
     
-    Review the conversation and check if you have ALL of the following critical information:
+    Review the conversation and check if you have ###ALL of the following critical information###:
     1. Patient's age
     2. Current symptoms and their duration
     3. Symptom severity
@@ -24,7 +24,9 @@ def get_assessment_query(conversation_context: str, symptoms: str) -> str:
     If ANY of this information is missing and relevant to the case, respond with:
     "NEED_INFO: [Ask a specific question in a professional, empathetic tone to gather the missing information]"
 
-    Only respond with "READY_FOR_TRIAGE" if you have gathered all necessary information for a thorough assessment.
+    Only respond with "READY_FOR_TRIAGE" if you have gathered all necessary information for a thorough assessment. 
+    
+    DO NOT EVER NEVER NEVER NEVER RESPOND WITH READY_FOR_TRIAGE UNLESS YOU ARE COMPLETELY CERTAIN YOU HAVE ALL INFO.
 
     Remember to:
     - Ask one clear question at a time
