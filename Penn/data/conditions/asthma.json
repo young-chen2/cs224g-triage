@@ -1,0 +1,28 @@
+{
+  "condition": "Asthma",
+  "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/asthma",
+  "last_scraped": "2024-02-12 19:00:00",
+  "sections": {
+    "Definition": [
+      "Asthma is a chronic disease that causes the airways of the lungs to swell and narrow. It leads to breathing difficulty such as wheezing, shortness of breath, chest tightness, and coughing."
+    ],
+    "Alternative Names": [
+      "Bronchial asthma; Wheezing - asthma - adults"
+    ],
+    "Causes": [
+      "Asthma is caused by swelling (inflammation) in the airways. When an asthma attack occurs, the lining of the air passages swells and the muscles surrounding the airways become tight. This narrowing reduces the amount of air that can pass through the airway.",
+      "Common asthma triggers include:",
+      "Animals (pet hair or dander)",
+      "Dust mites",
+      "Certain medicines (aspirin and other NSAIDs)",
+      "Changes in weather (most often cold weather)",
+      "Chemicals in the air (pollution) or in food",
+      "Physical activity",
+      "Mold",
+      "Pollen",
+      "Respiratory infections, such as the common cold and many other viruses",
+      "Strong emotions (stress)",
+      "Tobacco or other inhalation that is smoked"
+    ]
+  }
+}

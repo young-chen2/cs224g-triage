@@ -1,0 +1,11 @@
+{
+  "condition": "Asthma",
+  "age_group": "All ages",
+  "symptoms": [
+    "Wheezing",
+    "Shortness of breath",
+    "Chest tightness",
+    "Coughing"
+  ],
+  "esi_level": "2-4 (depending on severity)"
+} 

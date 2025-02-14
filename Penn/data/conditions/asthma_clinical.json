@@ -1,0 +1,18 @@
+{
+  "condition": "Asthma",
+  "age_group": "All ages",
+  "esi_level": "2-4 (depending on severity)",
+  "guidelines": {
+    "immediate_actions": [
+      "Assess breathing difficulty and vital signs",
+      "Administer bronchodilators if needed",
+      "Monitor oxygen saturation"
+    ],
+    "definitive_management": [
+      "ESI 2: Immediate bronchodilator therapy",
+      "ESI 3-4: Scheduled bronchodilators and assessment"
+    ],
+    "disposition_criteria": "Based on response to treatment and severity"
+  },
+  "recommended_poc": "Emergency Department or Urgent Care depending on severity"
+} 
