@@ -33,7 +33,7 @@ This table tracks contributions for each sprint by our team members.
 ## TODOs ✔️
 
 Our project uses the OpenAI ChatGPT API; we are using our own API key for development purposes. To run it locally, please create environmental variables as follows:
-- In `.env`, set `OPENAI_API_KEY` to your own OpenAI API key
+- From the project root, create `.env` and create the `OPENAI_API_KEY` variable and set it to your own OpenAI API key
 - In `.env.local`, set `NEXT_PUBLIC_OPENAI_API_KEY` to your own OpenAI API key
 
 ## Development Setup with Poetry 👩🏻‍💼
