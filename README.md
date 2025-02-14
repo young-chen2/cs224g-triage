@@ -94,6 +94,8 @@ The API will be available at http://localhost:8000. You can:
 - View the API documentation at http://localhost:8000/docs
 - Use curl to test: `curl http://localhost:8000/...`
 
+Our project uses `Python 3.11.11`
+
 ## Frontend Setup 🎨
 
 1. Install dependencies:
