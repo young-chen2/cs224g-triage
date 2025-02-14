@@ -2,7 +2,7 @@
 name = "patient-triage"
 version = "0.1.0"
 description = "Patient Triage API"
-authors = ["Young Chen: youngch@stanford.edu"]
+authors = ["Young Chen <youngch@stanford.edu>"]
 packages = [
     { include = "src" }
 ]
