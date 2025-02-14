@@ -85,7 +85,7 @@ Triage's backend uses FastAPI and LangChain for the API layer. Follow these step
 
 1. Paste your own OpenAI API key into the `.env` file
 
-2. Start the FastAPI server from the root directory by running:
+2. Start the FastAPI server from the root directory (`/cs224g-triage`) by running:
 ```bash
 poetry run python run.py
 ```
@@ -97,13 +97,14 @@ The API will be available at http://localhost:8000. You can:
 Our project uses `Python 3.11.11`
 
 ## Frontend Setup 🎨
+Run the following from the `triage-next` directory.
 
 1. Install dependencies:
 ```bash
 npm install
 ```
 
-2. Run the development server from `triage-next`:
+2. Run the development server:
 ```bash
 npm run dev
 ```
