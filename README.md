@@ -101,7 +101,7 @@ The API will be available at http://localhost:8000. You can:
 npm install
 ```
 
-2. Run the development server:
+2. Run the development server from `triage-next`:
 ```bash
 npm run dev
 ```
