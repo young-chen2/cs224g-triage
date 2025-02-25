@@ -1,7 +1,9 @@
 from fastapi import APIRouter, HTTPException, status
-from src.api.models import TriageRequest, TriageResponse, Message
+from src.api.models import *
 from src.api.services.llm_service import BasicLLM, ConversationalLLM
 from src.api.services.prompts import get_assessment_query, get_triage_query
+from src.api.services.triage_service import create_triage_case, get_provider_cases, get_case_messages
+from src.api.services.auth_service import create_provider_account, provider_login
 import logging
 from typing import List, Dict
 
@@ -113,3 +115,56 @@ async def triage_patient(request: TriageRequest) -> TriageResponse:
             relevant_guidelines=[],
             is_gathering_info=False
         )
+        
+@router.post("/auth/providers")
+async def register_provider(provider_data: ProviderCreate):
+    try:
+        auth_response, provider_response = await create_provider_account(
+            provider_data.email,
+            provider_data.password,
+            provider_data.role,
+            provider_data.name
+        )
+        return {"message": "Provider created successfully", "provider_id": provider_response.data[0]["id"]}
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
+@router.post("/auth/login")
+async def login(credentials: ProviderCredentials):
+    try:
+        response = await provider_login(credentials.email, credentials.password)
+        return response
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
+@router.post("/triage/cases")
+async def submit_triage(triage_data: TriageData):
+    try:
+        patient_dict = triage_data.patient.dict()
+        chat_history = [message.dict() for message in triage_data.chat_history]
+        
+        result = await create_triage_case(
+            patient_dict,
+            triage_data.triage_level,
+            triage_data.summary,
+            chat_history
+        )
+        return result
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
+@router.get("/providers/{provider_id}/cases")
+async def list_provider_cases(provider_id: str, status: str = None):
+    try:
+        cases = await get_provider_cases(provider_id, status)
+        return cases
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
+@router.get("/cases/{case_id}/messages")
+async def list_case_messages(case_id: str):
+    try:
+        messages = await get_case_messages(case_id)
+        return messages
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=str(e))

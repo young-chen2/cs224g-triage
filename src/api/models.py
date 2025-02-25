@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field
-from typing import List, Dict, Optional
+from typing import List, Dict, Any, Optional
 
 class Message(BaseModel):
     role: str = Field(..., description="Role of the message sender (assistant or patient)")
@@ -14,3 +14,27 @@ class TriageResponse(BaseModel):
     raw_llm_response: str
     relevant_guidelines: List[str]
     is_gathering_info: bool
+    
+class PatientData(BaseModel):
+    name: str
+    dob: str = None
+    gender: str = None
+    contact_info: Dict[str, Any] = None
+
+class ChatMessage(BaseModel):
+    sender_type: str
+    content: str
+
+class TriageData(BaseModel):
+    patient: PatientData
+    triage_level: str
+    summary: str
+    chat_history: List[ChatMessage]
+
+class ProviderCredentials(BaseModel):
+    email: str
+    password: str
+    
+class ProviderCreate(ProviderCredentials):
+    name: str
+    role: str
