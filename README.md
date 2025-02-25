@@ -94,7 +94,11 @@ The API will be available at http://localhost:8000. You can:
 - View the API documentation at http://localhost:8000/docs
 - Use curl to test: `curl http://localhost:8000/...`
 
-Our project uses `Python 3.11.11`
+Our project uses `Python 3.12.9`; activate a conda virtual environment to run Poetry if you aren't using it.
+```
+conda create -n myenv python=3.12
+conda activate myenv
+```
 
 ## Frontend Setup 🎨
 Run the following from the `triage-next` directory.
