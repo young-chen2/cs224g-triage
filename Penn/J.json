@@ -1,0 +1,77 @@
+[
+    {
+      "condition": "Joint Dislocation",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/joint-dislocation",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A joint dislocation occurs when the ends of the bones are forced out of their normal positions in a joint."
+        ],
+        "Alternative Names": [
+          "Dislocated joint"
+        ],
+        "Causes": [
+          "Trauma, falls, and sports injuries."
+        ],
+        "Symptoms": [
+          "Visible deformity, swelling, pain, and inability to move the joint."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies such as X-rays."
+        ],
+        "Treatment": [
+          "Reduction (realigning the joint), immobilization, and rehabilitation."
+        ]
+      }
+    },
+    {
+      "condition": "Joint Pain",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/joint-pain",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Joint pain is discomfort, soreness, or pain in any of the body's joints."
+        ],
+        "Alternative Names": [
+          "Arthralgia"
+        ],
+        "Causes": [
+          "Arthritis, injuries, infections, and overuse."
+        ],
+        "Symptoms": [
+          "Pain, swelling, stiffness, and reduced range of motion."
+        ],
+        "Diagnosis": [
+          "Physical examination, medical history, and imaging studies."
+        ],
+        "Treatment": [
+          "Pain relievers, physical therapy, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Juvenile Nasopharyngeal Angiofibroma (JNA)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/juvenile-nasopharyngeal-angiofibroma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Juvenile nasopharyngeal angiofibroma is a rare, benign tumor that occurs in the nasopharynx, primarily in adolescent males."
+        ],
+        "Alternative Names": [
+          "JNA"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may be related to hormonal factors."
+        ],
+        "Symptoms": [
+          "Nasal obstruction, nosebleeds, and facial swelling."
+        ],
+        "Diagnosis": [
+          "Imaging studies such as CT or MRI and biopsy."
+        ],
+        "Treatment": [
+          "Surgical removal and monitoring."
+        ]
+      }
+    }
+  ]

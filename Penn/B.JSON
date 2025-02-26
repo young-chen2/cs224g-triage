@@ -1,0 +1,1004 @@
+[
+    {
+        "condition": "Back Pain",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/back-pain",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "Back pain is discomfort felt in the back that can originate from muscles, nerves, bones, joints, or other structures in the spine."
+          ],
+          "Alternative Names": [
+            "Dorsalgia"
+          ],
+          "Causes": [
+            "Muscle or ligament strain",
+            "Bulging or ruptured disks",
+            "Arthritis",
+            "Skeletal irregularities"
+          ],
+          "Symptoms": [
+            "Muscle ache",
+            "Shooting or stabbing pain",
+            "Limited flexibility"
+          ],
+          "Diagnosis": [
+            "Physical examination",
+            "X-rays",
+            "MRI"
+          ],
+          "Treatment": [
+            "Physical therapy",
+            "Medications",
+            "Surgery in severe cases"
+          ]
+        }
+      },
+      {
+        "condition": "Baker's Cyst (Popliteal Cyst)",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/bakers-cyst",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "A Baker's cyst is a fluid-filled swelling that causes a bulge and feeling of tightness behind your knee."
+          ],
+          "Alternative Names": [
+            "Popliteal cyst"
+          ],
+          "Causes": [
+            "Arthritis",
+            "Knee injury",
+            "Inflammation"
+          ],
+          "Symptoms": [
+            "Swelling behind the knee",
+            "Stiffness",
+            "Pain"
+          ],
+          "Diagnosis": [
+            "Physical examination",
+            "Ultrasound"
+          ],
+          "Treatment": [
+            "Rest and ice",
+            "Medications",
+            "Surgery if necessary"
+          ]
+        }
+      },
+      {
+        "condition": "Barrett's Esophagus",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/barretts-esophagus",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "Barrett's esophagus is a condition in which the tissue lining the esophagus changes to tissue that is similar to the lining of the intestine."
+          ],
+          "Alternative Names": [
+            "Intestinal metaplasia"
+          ],
+          "Causes": [
+            "Chronic gastroesophageal reflux disease (GERD)"
+          ],
+          "Symptoms": [
+            "Difficulty swallowing",
+            "Heartburn",
+            "Chest pain"
+          ],
+          "Diagnosis": [
+            "Endoscopy",
+            "Biopsy"
+          ],
+          "Treatment": [
+            "Monitoring",
+            "Medications",
+            "Surgery in severe cases"
+          ]
+        }
+      },
+      {
+        "condition": "Basal Cell Carcinoma",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/basal-cell-carcinoma",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "Basal cell carcinoma is a type of skin cancer that begins in the basal cells."
+          ],
+          "Alternative Names": [
+            "BCC"
+          ],
+          "Causes": [
+            "Sun exposure",
+            "Tanning beds"
+          ],
+          "Symptoms": [
+            "Pearly or waxy bump",
+            "Flat, flesh-colored or brown scar-like lesion"
+          ],
+          "Diagnosis": [
+            "Skin examination",
+            "Biopsy"
+          ],
+          "Treatment": [
+            "Surgical removal",
+            "Topical medications"
+          ]
+        }
+      },
+      {
+        "condition": "Bell's Palsy",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/bells-palsy",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "Bell's palsy is a sudden, temporary weakness in the muscles on one half of the face."
+          ],
+          "Alternative Names": [
+            "Facial paralysis"
+          ],
+          "Causes": [
+            "Viral infections"
+          ],
+          "Symptoms": [
+            "Facial droop",
+            "Loss of the ability to close one eye"
+          ],
+          "Diagnosis": [
+            "Physical examination",
+            "Exclusion of other conditions"
+          ],
+          "Treatment": [
+            "Corticosteroids",
+            "Physical therapy"
+          ]
+        }
+      },
+      {
+        "condition": "Benign Paroxysmal Positional Vertigo",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/bppv",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "Benign paroxysmal positional vertigo (BPPV) is a common cause of vertigo, characterized by brief episodes of mild to intense dizziness."
+          ],
+          "Alternative Names": [
+            "BPPV"
+          ],
+          "Causes": [
+            "Changes in the inner ear"
+          ],
+          "Symptoms": [
+            "Dizziness",
+            "Nausea",
+            "Balance issues"
+          ],
+          "Diagnosis": [
+            "Physical examination",
+            "Dix-Hallpike test"
+          ],
+          "Treatment": [
+            "Canalith repositioning maneuvers",
+            "Medications"
+          ]
+        }
+      },
+      {
+        "condition": "Benign Prostatic Hyperplasia (BPH)",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/bph",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "Benign prostatic hyperplasia (BPH) is an enlargement of the prostate gland."
+          ],
+          "Alternative Names": [
+            "Prostate enlargement"
+          ],
+          "Causes": [
+            "Aging"
+          ],
+          "Symptoms": [
+            "Frequent urination",
+            "Difficulty starting urination",
+            "Weak urine stream"
+          ],
+          "Diagnosis": [
+            "Physical examination",
+            "Urinalysis"
+          ],
+          "Treatment": [
+            "Medications",
+            "Surgery in severe cases"
+          ]
+        }
+      },
+      {
+        "condition": "Bicuspid Aortic Valve Disease",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/bicuspid-aortic-valve-disease",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "Bicuspid aortic valve disease is a condition where the aortic valve has only two leaflets instead of three."
+          ],
+          "Alternative Names": [
+            "BAV"
+          ],
+          "Causes": [
+            "Congenital heart defect"
+          ],
+          "Symptoms": [
+            "Shortness of breath",
+            "Chest pain",
+            "Fatigue"
+          ],
+          "Diagnosis": [
+            "Echocardiogram",
+            "Chest X-ray"
+          ],
+          "Treatment": [
+            "Monitoring",
+            "Surgery if necessary"
+          ]
+        }
+      },
+      {
+        "condition": "Bile Duct Cancer (Cholangiocarcinoma)",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/bile-duct-cancer",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "Bile duct cancer is a rare cancer that forms in the bile ducts."
+          ],
+          "Alternative Names": [
+            "Cholangiocarcinoma"
+          ],
+          "Causes": [
+            "Chronic inflammation",
+            "Bile duct stones"
+          ],
+          "Symptoms": [
+            "Jaundice",
+            "Itching",
+            "Abdominal pain"
+          ],
+          "Diagnosis": [
+            "Imaging tests",
+            "Biopsy"
+          ],
+          "Treatment": [
+            "Surgery",
+            "Chemotherapy"
+          ]
+        }
+      },
+      {
+        "condition": "Birthmarks",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/birthmarks",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "Birthmarks are colored marks on the skin that are present at birth or develop shortly after."
+          ],
+          "Alternative Names": [
+            "Nevus"
+          ],
+          "Causes": [
+            "Vascular or pigmented lesions"
+          ],
+          "Symptoms": [
+            "Varies by type"
+          ],
+          "Diagnosis": [
+            "Physical examination"
+          ],
+          "Treatment": [
+            "Observation",
+            "Laser therapy if necessary"
+          ]
+        }
+      },
+      {
+        "condition": "Bladder Cancer",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/bladder-cancer",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "Bladder cancer is a disease in which malignant cells form in the tissues of the bladder."
+          ],
+          "Alternative Names": [
+            "Urothelial carcinoma"
+          ],
+          "Causes": [
+            "Smoking",
+            "Chemical exposure"
+          ],
+          "Symptoms": [
+            "Blood in urine",
+            "Frequent urination",
+            "Painful urination"
+          ],
+          "Diagnosis": [
+            "Urinalysis",
+            "Cystoscopy"
+          ],
+          "Treatment": [
+            "Surgery",
+            "Chemotherapy"
+          ]
+        }
+      },
+      {
+        "condition": "Bladder Stones",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/bladder-stones",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "Bladder stones are hard masses of minerals in the bladder."
+          ],
+          "Alternative Names": [
+            "Urinary calculi"
+          ],
+          "Causes": [
+            "Dehydration",
+            "Urinary tract infections"
+          ],
+          "Symptoms": [
+            "Pain during urination",
+            "Blood in urine",
+            "Frequent urination"
+          ],
+          "Diagnosis": [
+            "Ultrasound",
+            "CT scan"
+          ],
+          "Treatment": [
+            "Increased fluid intake",
+            "Surgery if necessary"
+          ]
+        }
+      },
+      {
+        "condition": "Blastomycosis (Mycosis)",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/blastomycosis",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "Blastomycosis is a fungal infection caused by the Blastomyces dermatitidis fungus."
+          ],
+          "Alternative Names": [
+            "Blastomycosis"
+          ],
+          "Causes": [
+            "Inhalation of fungal spores"
+          ],
+          "Symptoms": [
+            "Fever",
+            "Cough",
+            "Chest pain"
+          ],
+          "Diagnosis": [
+            "Physical examination",
+            "Fungal culture"
+          ],
+          "Treatment": [
+            "Antifungal medications"
+          ]
+        }
+      },
+      {
+        "condition": "Blepharitis (Eyelid Inflammation)",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/blepharitis",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "Blepharitis is inflammation of the eyelid margins."
+          ],
+          "Alternative Names": [
+            "Eyelid inflammation"
+          ],
+          "Causes": [
+            "Bacterial infection",
+            "Seborrheic dermatitis"
+          ],
+          "Symptoms": [
+            "Red, swollen eyelids",
+            "Itching",
+            "Crusty eyelashes"
+          ],
+          "Diagnosis": [
+            "Physical examination"
+          ],
+          "Treatment": [
+            "Warm compresses",
+            "Antibiotic ointments"
+          ]
+        }
+      },
+      {
+        "condition": "Blood Clot (Thrombus)",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/blood-clot",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "A blood clot is a mass of blood cells and proteins that forms to stop bleeding."
+          ],
+          "Alternative Names": [
+            "Thrombus"
+          ],
+          "Causes": [
+            "Injury",
+            "Certain medical conditions"
+          ],
+          "Symptoms": [
+            "Swelling",
+            "Pain",
+            "Redness"
+          ],
+          "Diagnosis": [
+            "Ultrasound",
+            "CT scan"
+          ],
+          "Treatment": [
+            "Anticoagulants",
+            "Thrombolytics"
+          ]
+        }
+      },
+      {
+        "condition": "Blood Clotting Disorders (Blood Coagulation)",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/blood-clotting-disorders",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "Blood clotting disorders are conditions that affect the body's ability to form blood clots."
+          ],
+          "Alternative Names": [
+            "Coagulation disorders"
+          ],
+          "Causes": [
+            "Genetic factors",
+            "Certain medications"
+          ],
+          "Symptoms": [
+            "Easy bruising",
+            "Excessive bleeding"
+          ],
+          "Diagnosis": [
+            "Blood tests"
+          ],
+          "Treatment": [
+            "Medications",
+            "Lifestyle changes"
+          ]
+        }
+      },
+      {
+        "condition": "Blood in Urine (Hematuria)",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/blood-in-urine",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "Hematuria is the presence of blood in urine."
+          ],
+          "Alternative Names": [
+            "Blood in urine"
+          ],
+          "Causes": [
+            "Urinary tract infections",
+            "Kidney stones"
+          ],
+          "Symptoms": [
+            "Pink, red, or brown urine",
+            "Pain during urination"
+          ],
+          "Diagnosis": [
+            "Urinalysis",
+            "Imaging tests"
+          ],
+          "Treatment": [
+            "Treating underlying cause"
+          ]
+        }
+      },
+      {
+        "condition": "Bone Fracture",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/bone-fracture",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "A bone fracture is a break in the continuity of the bone."
+          ],
+          "Alternative Names": [
+            "Broken bone"
+          ],
+          "Causes": [
+            "Trauma",
+            "Osteoporosis"
+          ],
+          "Symptoms": [
+            "Pain",
+            "Swelling",
+            "Deformity"
+          ],
+          "Diagnosis": [
+            "Physical examination",
+            "X-ray"
+          ],
+          "Treatment": [
+            "Immobilization",
+            "Surgery if necessary"
+          ]
+        }
+      },
+      {
+        "condition": "Bone Infection (Osteomyelitis)",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/bone-infection",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "Osteomyelitis is an infection in the bone."
+          ],
+          "Alternative Names": [
+            "Bone infection"
+          ],
+          "Causes": [
+            "Bacterial infection",
+            "Injury"
+          ],
+          "Symptoms": [
+            "Pain",
+            "Fever",
+            "Swelling"
+          ],
+          "Diagnosis": [
+            "Physical examination",
+            "Imaging tests"
+          ],
+          "Treatment": [
+            "Antibiotics",
+            "Surgery if necessary"
+          ]
+        }
+      },
+      {
+        "condition": "Bone Sarcoma",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/bone-sarcoma",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "Bone sarcoma is a type of cancer that originates in the bone."
+          ],
+          "Alternative Names": [
+            "Bone cancer"
+          ],
+          "Causes": [
+            "Genetic factors",
+            "Previous radiation therapy"
+          ],
+          "Symptoms": [
+            "Pain",
+            "Swelling",
+            "Fractures"
+          ],
+          "Diagnosis": [
+            "Imaging tests",
+            "Biopsy"
+          ],
+          "Treatment": [
+            "Surgery",
+            "Chemotherapy"
+          ]
+        }
+      },
+      {
+        "condition": "Brain Aneurysm (Cerebral Aneurysm)",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/brain-aneurysm",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "A brain aneurysm is a bulge in a blood vessel in the brain."
+          ],
+          "Alternative Names": [
+            "Cerebral aneurysm"
+          ],
+          "Causes": [
+            "High blood pressure",
+            "Atherosclerosis"
+          ],
+          "Symptoms": [
+            "Severe headache",
+            "Vision changes",
+            "Nausea"
+          ],
+          "Diagnosis": [
+            "CT scan",
+            "MRI"
+          ],
+          "Treatment": [
+            "Monitoring",
+            "Surgery if necessary"
+          ]
+        }
+      },
+      {
+        "condition": "Brain Metastasis",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/brain-metastasis",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "Brain metastasis is cancer that has spread to the brain from another part of the body."
+          ],
+          "Alternative Names": [
+            "Secondary brain cancer"
+          ],
+          "Causes": [
+            "Primary cancer elsewhere in the body"
+          ],
+          "Symptoms": [
+            "Headaches",
+            "Seizures",
+            "Cognitive changes"
+          ],
+          "Diagnosis": [
+            "MRI",
+            "CT scan"
+          ],
+          "Treatment": [
+            "Radiation therapy",
+            "Chemotherapy"
+          ]
+        }
+      },
+      {
+        "condition": "Brain Tumor",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/brain-tumor",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "A brain tumor is an abnormal growth of cells in the brain."
+          ],
+          "Alternative Names": [
+            "Cerebral tumor"
+          ],
+          "Causes": [
+            "Genetic mutations",
+            "Exposure to radiation"
+          ],
+          "Symptoms": [
+            "Headaches",
+            "Nausea",
+            "Vision problems"
+          ],
+          "Diagnosis": [
+            "MRI",
+            "CT scan"
+          ],
+          "Treatment": [
+            "Surgery",
+            "Radiation therapy"
+          ]
+        }
+      },
+      {
+        "condition": "Breast Cancer",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/breast-cancer",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "Breast cancer is a disease in which malignant cells form in the tissues of the breast."
+          ],
+          "Alternative Names": [
+            "Breast carcinoma"
+          ],
+          "Causes": [
+            "Genetic factors",
+            "Hormonal factors"
+          ],
+          "Symptoms": [
+            "Lump in the breast",
+            "Change in breast shape",
+            "Nipple discharge"
+          ],
+          "Diagnosis": [
+            "Mammogram",
+            "Biopsy"
+          ],
+          "Treatment": [
+            "Surgery",
+            "Chemotherapy"
+          ]
+        }
+      },
+      {
+        "condition": "Broken Nose (Nose Fracture)",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/broken-nose",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "A broken nose is a fracture of the nasal bones."
+          ],
+          "Alternative Names": [
+            "Nasal fracture"
+          ],
+          "Causes": [
+            "Trauma",
+            "Sports injuries"
+          ],
+          "Symptoms": [
+            "Pain",
+            "Swelling",
+            "Nasal deformity"
+          ],
+          "Diagnosis": [
+            "Physical examination",
+            "X-ray"
+          ],
+          "Treatment": [
+            "Ice application",
+            "Surgery if necessary"
+          ]
+        }
+      },
+      {
+        "condition": "Bronchiectasis",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/bronchiectasis",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "Bronchiectasis is a condition in which the airways of the lungs become damaged, making it hard to clear mucus."
+          ],
+          "Alternative Names": [
+            "Bronchial dilation"
+          ],
+          "Causes": [
+            "Infections",
+            "Genetic conditions"
+          ],
+          "Symptoms": [
+            "Chronic cough",
+            "Shortness of breath",
+            "Recurrent lung infections"
+          ],
+          "Diagnosis": [
+            "CT scan",
+            "Pulmonary function tests"
+          ],
+          "Treatment": [
+            "Medications",
+            "Physical therapy"
+          ]
+        }
+      },
+      {
+        "condition": "Bronchiolitis",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/bronchiolitis",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "Bronchiolitis is a common lung infection in young children and infants."
+          ],
+          "Alternative Names": [
+            "Bronchiolitis"
+          ],
+          "Causes": [
+            "Viral infections"
+          ],
+          "Symptoms": [
+            "Wheezing",
+            "Coughing",
+            "Difficulty breathing"
+          ],
+          "Diagnosis": [
+            "Physical examination",
+            "Chest X-ray"
+          ],
+          "Treatment": [
+            "Supportive care",
+            "Medications if necessary"
+          ]
+        }
+      },
+      {
+        "condition": "Bronchitis",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/bronchitis",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "Bronchitis is an inflammation of the lining of the bronchial tubes."
+          ],
+          "Alternative Names": [
+            "Bronchial inflammation"
+          ],
+          "Causes": [
+            "Viral infections",
+            "Smoking"
+          ],
+          "Symptoms": [
+            "Cough",
+            "Mucus production",
+            "Fatigue"
+          ],
+          "Diagnosis": [
+            "Physical examination",
+            "Chest X-ray"
+          ],
+          "Treatment": [
+            "Rest",
+            "Medications"
+          ]
+        }
+      },
+      {
+        "condition": "Brugada Syndrome",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/brugada-syndrome",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "Brugada syndrome is a genetic condition that causes abnormal heart rhythms."
+          ],
+          "Alternative Names": [
+            "Brugada syndrome"
+          ],
+          "Causes": [
+            "Genetic mutations"
+          ],
+          "Symptoms": [
+            "Fainting",
+            "Palpitations"
+          ],
+          "Diagnosis": [
+            "Electrocardiogram (ECG)",
+            "Genetic testing"
+          ],
+          "Treatment": [
+            "Implantable cardioverter-defibrillator (ICD)",
+            "Medications"
+          ]
+        }
+      },
+      {
+        "condition": "Buerger’s Disease (Thromboangiitis Obliterans)",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/buerger-disease",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "Buerger’s disease is a rare disease of the blood vessels that causes blockages in the arteries and veins."
+          ],
+          "Alternative Names": [
+            "Thromboangiitis obliterans"
+          ],
+          "Causes": [
+            "Smoking",
+            "Genetic factors"
+          ],
+          "Symptoms": [
+            "Pain in the legs or arms",
+            "Coldness in the extremities"
+          ],
+          "Diagnosis": [
+            "Physical examination",
+            "Imaging tests"
+          ],
+          "Treatment": [
+            "Smoking cessation",
+            "Medications"
+          ]
+        }
+      },
+      {
+        "condition": "Bullous Pemphigoid",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/bullous-pemphigoid",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "Bullous pemphigoid is a rare skin condition that causes large blisters."
+          ],
+          "Alternative Names": [
+            "Pemphigoid"
+          ],
+          "Causes": [
+            "Autoimmune response"
+          ],
+          "Symptoms": [
+            "Blisters",
+            "Itching"
+          ],
+          "Diagnosis": [
+            "Skin examination",
+            "Biopsy"
+          ],
+          "Treatment": [
+            "Corticosteroids",
+            "Immunosuppressants"
+          ]
+        }
+      },
+      {
+        "condition": "Bunion",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/bunion",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "A bunion is a bony bump that forms on the joint at the base of the big toe."
+          ],
+          "Alternative Names": [
+            "Hallux valgus"
+          ],
+          "Causes": [
+            "Genetic factors",
+            "Footwear"
+          ],
+          "Symptoms": [
+            "Bump on the toe",
+            "Pain"
+          ],
+          "Diagnosis": [
+            "Physical examination",
+            "X-ray"
+          ],
+          "Treatment": [
+            "Footwear changes",
+            "Surgery if necessary"
+          ]
+        }
+      },
+      {
+        "condition": "Burn Injury",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/burn-injury",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "A burn injury is damage to the skin or other body parts caused by heat, chemicals, electricity, or radiation."
+          ],
+          "Alternative Names": [
+            "Burn"
+          ],
+          "Causes": [
+            "Fire",
+            "Hot liquids",
+            "Chemicals"
+          ],
+          "Symptoms": [
+            "Redness",
+            "Blisters",
+            "Pain"
+          ],
+          "Diagnosis": [
+            "Physical examination"
+          ],
+          "Treatment": [
+            "Cool the burn",
+            "Medications for pain"
+          ]
+        }
+      },
+      {
+        "condition": "Bursitis",
+        "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/bursitis",
+        "last_scraped": "2024-02-12 19:00:00",
+        "sections": {
+          "Definition": [
+            "Bursitis is inflammation of the bursae, the small fluid-filled sacs that cushion the bones, tendons, and muscles."
+          ],
+          "Alternative Names": [
+            "Bursa inflammation"
+          ],
+          "Causes": [
+            "Repetitive motion",
+            "Injury"
+          ],
+          "Symptoms": [
+            "Pain",
+            "Swelling",
+            "Limited movement"
+          ],
+          "Diagnosis": [
+            "Physical examination",
+            "Imaging tests"
+          ],
+          "Treatment": [
+            "Rest",
+            "Ice application",
+            "Medications"
+          ]
+        }
+      }
+]

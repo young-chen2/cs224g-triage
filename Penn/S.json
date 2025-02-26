@@ -1,0 +1,1427 @@
+[
+    {
+      "condition": "Salivary Gland Cancer",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/salivary-gland-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Salivary gland cancer is a rare type of cancer that occurs in the salivary glands."
+        ],
+        "Alternative Names": [
+          "Salivary gland tumors"
+        ],
+        "Causes": [
+          "Exact cause is often unknown; may involve genetic factors and exposure to radiation."
+        ],
+        "Symptoms": [
+          "Lump in the jaw, pain, and difficulty swallowing."
+        ],
+        "Diagnosis": [
+          "Imaging studies, biopsy, and clinical evaluation."
+        ],
+        "Treatment": [
+          "Surgery, radiation therapy, and chemotherapy."
+        ]
+      }
+    },
+    {
+      "condition": "Salivary Gland Stone (Sialolithiasis)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/salivary-gland-stone",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Salivary gland stones are calcified structures that form in the salivary glands, blocking the flow of saliva."
+        ],
+        "Alternative Names": [
+          "Sialolithiasis"
+        ],
+        "Causes": [
+          "Dehydration, reduced saliva flow, and certain medications."
+        ],
+        "Symptoms": [
+          "Pain and swelling in the affected gland, especially during meals."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies."
+        ],
+        "Treatment": [
+          "Hydration, massage, and sometimes surgical removal of the stone."
+        ]
+      }
+    },
+    {
+      "condition": "Salivary Gland Strictures",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/salivary-gland-strictures",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Salivary gland strictures are narrowings of the ducts that carry saliva from the glands to the mouth."
+        ],
+        "Alternative Names": [
+          "Salivary duct strictures"
+        ],
+        "Causes": [
+          "Injury, inflammation, or previous surgery."
+        ],
+        "Symptoms": [
+          "Pain, swelling, and difficulty swallowing."
+        ],
+        "Diagnosis": [
+          "Imaging studies and clinical evaluation."
+        ],
+        "Treatment": [
+          "Dilation of the duct, stenting, or surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Salivary Gland Tumors",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/salivary-gland-tumors",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Salivary gland tumors are abnormal growths that can be benign or malignant and occur in the salivary glands."
+        ],
+        "Alternative Names": [
+          "Salivary gland neoplasms"
+        ],
+        "Causes": [
+          "Exact cause is often unknown; may involve genetic factors."
+        ],
+        "Symptoms": [
+          "Lump in the gland, pain, and difficulty swallowing."
+        ],
+        "Diagnosis": [
+          "Imaging studies, biopsy, and clinical evaluation."
+        ],
+        "Treatment": [
+          "Surgery, radiation therapy, and chemotherapy."
+        ]
+      }
+    },
+    {
+      "condition": "Sarcoidosis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/sarcoidosis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Sarcoidosis is an inflammatory disease characterized by the formation of granulomas in various organs."
+        ],
+        "Alternative Names": [
+          "Sarcoid"
+        ],
+        "Causes": [
+          "Exact cause is unknown; may involve genetic and environmental factors."
+        ],
+        "Symptoms": [
+          "Fatigue, swollen lymph nodes, and respiratory issues."
+        ],
+        "Diagnosis": [
+          "Imaging studies, biopsy, and clinical evaluation."
+        ],
+        "Treatment": [
+          "Corticosteroids and management of symptoms."
+        ]
+      }
+    },
+    {
+      "condition": "Sarcoma",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/sarcoma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Sarcoma is a type of cancer that arises from connective tissues, such as bone, cartilage, and muscle."
+        ],
+        "Alternative Names": [
+          "Soft tissue sarcoma"
+        ],
+        "Causes": [
+          "Exact cause is often unknown; may involve genetic factors."
+        ],
+        "Symptoms": [
+          "Lump or swelling, pain, and functional impairment."
+        ],
+        "Diagnosis": [
+          "Imaging studies and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, chemotherapy, and radiation therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Scabies",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/scabies",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Scabies is a contagious skin condition caused by infestation with the Sarcoptes scabiei mite."
+        ],
+        "Alternative Names": [
+          "Mite infestation"
+        ],
+        "Causes": [
+          "Direct skin-to-skin contact with an infected person."
+        ],
+        "Symptoms": [
+          "Intense itching, rash, and burrows in the skin."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and skin scraping."
+        ],
+        "Treatment": [
+          "Topical scabicides and oral medications."
+        ]
+      }
+    },
+    {
+      "condition": "Schizophrenia",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/schizophrenia",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Schizophrenia is a chronic and severe mental disorder that affects how a person thinks, feels, and behaves."
+        ],
+        "Alternative Names": [
+          "Psychotic disorder"
+        ],
+        "Causes": [
+          "Exact cause is unknown; may involve genetic, brain chemistry, and environmental factors."
+        ],
+        "Symptoms": [
+          "Delusions, hallucinations, and disorganized thinking."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and psychiatric assessment."
+        ],
+        "Treatment": [
+          "Antipsychotic medications and psychotherapy."
+        ]
+      }
+    },
+    {
+      "condition": "Sciatica",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/sciatica",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Sciatica is pain that radiates along the path of the sciatic nerve, which extends from the lower back through the hips and buttocks and down each leg."
+        ],
+        "Alternative Names": [
+          "Sciatic nerve pain"
+        ],
+        "Causes": [
+          "Herniated discs, spinal stenosis, and injury."
+        ],
+        "Symptoms": [
+          "Pain, numbness, and weakness in the leg."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies."
+        ],
+        "Treatment": [
+          "Physical therapy, medications, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Scleroderma (Systemic Sclerosis)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/scleroderma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Scleroderma is an autoimmune disease that causes hardening and tightening of the skin and connective tissues."
+        ],
+        "Alternative Names": [
+          "Systemic sclerosis"
+        ],
+        "Causes": [
+          "Exact cause is unknown; may involve genetic and environmental factors."
+        ],
+        "Symptoms": [
+          "Skin thickening, Raynaud's phenomenon, and organ involvement."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and laboratory tests."
+        ],
+        "Treatment": [
+          "Management of symptoms and complications."
+        ]
+      }
+    },
+    {
+      "condition": "Scoliosis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/scoliosis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Scoliosis is a condition characterized by an abnormal lateral curvature of the spine."
+        ],
+        "Alternative Names": [
+          "Spinal curvature"
+        ],
+        "Causes": [
+          "Congenital factors, neuromuscular conditions, and idiopathic causes."
+        ],
+        "Symptoms": [
+          "Uneven shoulders, back pain, and postural changes."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies."
+        ],
+        "Treatment": [
+          "Observation, bracing, and surgery in severe cases."
+        ]
+      }
+    },
+    {
+      "condition": "Seizure",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/seizure",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A seizure is a sudden, uncontrolled electrical disturbance in the brain that can cause changes in behavior, movements, feelings, and consciousness."
+        ],
+        "Alternative Names": [
+          "Epileptic seizure"
+        ],
+        "Causes": [
+          "Head injury, stroke, and underlying neurological conditions."
+        ],
+        "Symptoms": [
+          "Convulsions, loss of consciousness, and unusual sensations."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation, EEG, and imaging studies."
+        ],
+        "Treatment": [
+          "Antiepileptic medications and management of underlying causes."
+        ]
+      }
+    },
+    {
+      "condition": "Sepsis (Septicemia)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/sepsis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Sepsis is a life-threatening condition that arises when the body's response to infection causes injury to its own tissues and organs."
+        ],
+        "Alternative Names": [
+          "Septicemia"
+        ],
+        "Causes": [
+          "Infections, particularly bacterial infections."
+        ],
+        "Symptoms": [
+          "Fever, increased heart rate, and confusion."
+        ],
+        "Diagnosis": [
+          "Blood tests, imaging studies, and clinical evaluation."
+        ],
+        "Treatment": [
+          "Antibiotics, intravenous fluids, and supportive care."
+        ]
+      }
+    },
+    {
+      "condition": "Shin Splints (Medial Tibial Stress Syndrome)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/shin-splints",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Shin splints are a common exercise-related condition characterized by pain along the shin bone (tibia)."
+        ],
+        "Alternative Names": [
+          "Medial tibial stress syndrome"
+        ],
+        "Causes": [
+          "Overuse, improper footwear, and running on hard surfaces."
+        ],
+        "Symptoms": [
+          "Pain along the inner part of the lower leg."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and medical history."
+        ],
+        "Treatment": [
+          "Rest, ice, and physical therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Shingles (Herpes Zoster)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/shingles",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Shingles is a viral infection that causes a painful rash, caused by the varicella-zoster virus."
+        ],
+        "Alternative Names": [
+          "Herpes zoster"
+        ],
+        "Causes": [
+          "Reactivation of the varicella-zoster virus, which causes chickenpox."
+        ],
+        "Symptoms": [
+          "Pain, burning, and a blistering rash."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and medical history."
+        ],
+        "Treatment": [
+          "Antiviral medications and pain management."
+        ]
+      }
+    },
+    {
+      "condition": "Short Bowel Syndrome (Short Gut Syndrome)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/short-bowel-syndrome",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Short bowel syndrome is a condition in which the body cannot absorb enough nutrients due to a lack of functional small intestine."
+        ],
+        "Alternative Names": [
+          "Short gut syndrome"
+        ],
+        "Causes": [
+          "Surgical removal of a portion of the small intestine, congenital defects, and diseases."
+        ],
+        "Symptoms": [
+          "Diarrhea, weight loss, and malnutrition."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and imaging studies."
+        ],
+        "Treatment": [
+          "Nutritional support, medications, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Shoulder Pain",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/shoulder-pain",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Shoulder pain is discomfort in the shoulder area, which can be acute or chronic."
+        ],
+        "Alternative Names": [
+          "Shoulder discomfort"
+        ],
+        "Causes": [
+          "Injuries, arthritis, and rotator cuff problems."
+        ],
+        "Symptoms": [
+          "Pain, stiffness, and limited range of motion."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies."
+        ],
+        "Treatment": [
+          "Pain management, physical therapy, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Sialadenitis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/sialadenitis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Sialadenitis is inflammation of a salivary gland, often due to infection."
+        ],
+        "Alternative Names": [
+          "Salivary gland infection"
+        ],
+        "Causes": [
+          "Bacterial infections, dehydration, and salivary stones."
+        ],
+        "Symptoms": [
+          "Swelling, pain, and dry mouth."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and imaging studies."
+        ],
+        "Treatment": [
+          "Antibiotics, hydration, and sometimes surgical intervention."
+        ]
+      }
+    },
+    {
+      "condition": "Sick Sinus Syndrome",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/sick-sinus-syndrome",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Sick sinus syndrome is a group of heart rhythm disorders due to malfunction of the sinus node."
+        ],
+        "Alternative Names": [
+          "Sinus node dysfunction"
+        ],
+        "Causes": [
+          "Age-related degeneration and heart disease."
+        ],
+        "Symptoms": [
+          "Palpitations, dizziness, and fainting."
+        ],
+        "Diagnosis": [
+          "Electrocardiogram (ECG) and clinical evaluation."
+        ],
+        "Treatment": [
+          "Medications and possibly a pacemaker."
+        ]
+      }
+    },
+    {
+      "condition": "Sickle Cell Disease",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/sickle-cell-disease",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Sickle cell disease is a genetic blood disorder characterized by the production of abnormal hemoglobin, leading to distorted (sickle-shaped) red blood cells."
+        ],
+        "Alternative Names": [
+          "Sickle cell anemia"
+        ],
+        "Causes": [
+          "Genetic mutation in the hemoglobin gene."
+        ],
+        "Symptoms": [
+          "Anemia, pain crises, and increased risk of infections."
+        ],
+        "Diagnosis": [
+          "Blood tests and genetic testing."
+        ],
+        "Treatment": [
+          "Pain management, blood transfusions, and sometimes bone marrow transplant."
+        ]
+      }
+    },
+    {
+      "condition": "Silent Thyroiditis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/silent-thyroiditis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Silent thyroiditis is a painless inflammation of the thyroid gland that can cause temporary hyperthyroidism followed by hypothyroidism."
+        ],
+        "Alternative Names": [
+          "Postpartum thyroiditis"
+        ],
+        "Causes": [
+          "Autoimmune response and hormonal changes."
+        ],
+        "Symptoms": [
+          "Fatigue, weight changes, and mood swings."
+        ],
+        "Diagnosis": [
+          "Blood tests measuring thyroid hormone levels."
+        ],
+        "Treatment": [
+          "Monitoring and management of symptoms."
+        ]
+      }
+    },
+    {
+      "condition": "Sinonasal Mucocele",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/sinonasal-mucocele",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Sinonasal mucocele is a mucus-filled cyst that occurs in the sinuses."
+        ],
+        "Alternative Names": [
+          "Sinus mucocele"
+        ],
+        "Causes": [
+          "Obstruction of the sinus drainage pathways."
+        ],
+        "Symptoms": [
+          "Facial pain, nasal obstruction, and drainage."
+        ],
+        "Diagnosis": [
+          "Imaging studies and clinical evaluation."
+        ],
+        "Treatment": [
+          "Surgical drainage and management of underlying causes."
+        ]
+      }
+    },
+    {
+      "condition": "Sinus Cancer",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/sinus-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Sinus cancer refers to malignant tumors that occur in the sinuses."
+        ],
+        "Alternative Names": [
+          "Nasal cavity cancer"
+        ],
+        "Causes": [
+          "Exposure to certain chemicals, smoking, and viral infections."
+        ],
+        "Symptoms": [
+          "Nasal obstruction, facial pain, and bleeding."
+        ],
+        "Diagnosis": [
+          "Imaging studies, biopsy, and clinical evaluation."
+        ],
+        "Treatment": [
+          "Surgery, radiation therapy, and chemotherapy."
+        ]
+      }
+    },
+    {
+      "condition": "Sinus Infections (Sinusitis)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/sinus-infections",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Sinusitis is an inflammation of the sinuses, often due to infection."
+        ],
+        "Alternative Names": [
+          "Sinus infection"
+        ],
+        "Causes": [
+          "Viral infections, bacterial infections, and allergies."
+        ],
+        "Symptoms": [
+          "Facial pain, nasal congestion, and discharge."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and imaging studies."
+        ],
+        "Treatment": [
+          "Nasal decongestants, saline irrigation, and antibiotics if bacterial."
+        ]
+      }
+    },
+    {
+      "condition": "Sjogren’s Syndrome",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/sjogrens-syndrome",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Sjogren’s syndrome is an autoimmune disorder characterized by dry eyes and dry mouth."
+        ],
+        "Alternative Names": [
+          "Sicca syndrome"
+        ],
+        "Causes": [
+          "Autoimmune response affecting moisture-producing glands."
+        ],
+        "Symptoms": [
+          "Dryness of the eyes and mouth, fatigue, and joint pain."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and laboratory tests."
+        ],
+        "Treatment": [
+          "Artificial tears, saliva substitutes, and management of symptoms."
+        ]
+      }
+    },
+    {
+      "condition": "Sjogrens related Salivary Disease",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/sjogrens-related-salivary-disease",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Sjogren's related salivary disease is a condition characterized by inflammation and dysfunction of the salivary glands due to Sjogren's syndrome."
+        ],
+        "Alternative Names": [
+          "Salivary gland involvement in Sjogren's syndrome"
+        ],
+        "Causes": [
+          "Autoimmune response affecting salivary glands."
+        ],
+        "Symptoms": [
+          "Dry mouth, difficulty swallowing, and increased dental caries."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and salivary gland function tests."
+        ],
+        "Treatment": [
+          "Saliva substitutes, medications to stimulate saliva production, and management of symptoms."
+        ]
+      }
+    },
+    {
+      "condition": "Skin Cancer",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/skin-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Skin cancer is a type of cancer that forms in the skin cells."
+        ],
+        "Alternative Names": [
+          "Cutaneous malignancy"
+        ],
+        "Causes": [
+          "Excessive sun exposure, tanning beds, and genetic factors."
+        ],
+        "Symptoms": [
+          "Changes in skin appearance, new growths, and sores that do not heal."
+        ],
+        "Diagnosis": [
+          "Skin examination and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, radiation therapy, and topical treatments."
+        ]
+      }
+    },
+    {
+      "condition": "Skull Base Tumor",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/skull-base-tumor",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Skull base tumors are abnormal growths located at the base of the skull."
+        ],
+        "Alternative Names": [
+          "Cranial base tumors"
+        ],
+        "Causes": [
+          "Exact cause is often unknown; may involve genetic factors."
+        ],
+        "Symptoms": [
+          "Headaches, vision changes, and neurological symptoms."
+        ],
+        "Diagnosis": [
+          "Imaging studies and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, radiation therapy, and chemotherapy."
+        ]
+      }
+    },
+    {
+      "condition": "Sleepwalking",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/sleepwalking",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Sleepwalking is a disorder that causes people to get up and walk around while in a state of sleep."
+        ],
+        "Alternative Names": [
+          "Somnambulism"
+        ],
+        "Causes": [
+          "Genetics, sleep deprivation, and stress."
+        ],
+        "Symptoms": [
+          "Walking or performing other complex behaviors while asleep."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and sleep studies."
+        ],
+        "Treatment": [
+          "Improving sleep hygiene and addressing underlying causes."
+        ]
+      }
+    },
+    {
+      "condition": "Small Cell Lung Cancer",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/small-cell-lung-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Small cell lung cancer is a fast-growing type of lung cancer that is often associated with smoking."
+        ],
+        "Alternative Names": [
+          "SCLC"
+        ],
+        "Causes": [
+          "Smoking and exposure to secondhand smoke."
+        ],
+        "Symptoms": [
+          "Cough, chest pain, and shortness of breath."
+        ],
+        "Diagnosis": [
+          "Imaging studies, biopsy, and pulmonary function tests."
+        ],
+        "Treatment": [
+          "Chemotherapy, radiation therapy, and targeted therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Small Intestine Bacterial Overgrowth",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/small-intestine-bacterial-overgrowth",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Small intestine bacterial overgrowth is a condition where excessive bacteria grow in the small intestine."
+        ],
+        "Alternative Names": [
+          "SIBO"
+        ],
+        "Causes": [
+          "Motility disorders, anatomical abnormalities, and certain medications."
+        ],
+        "Symptoms": [
+          "Bloating, diarrhea, and abdominal pain."
+        ],
+        "Diagnosis": [
+          "Breath tests and clinical evaluation."
+        ],
+        "Treatment": [
+          "Antibiotics, dietary changes, and management of underlying conditions."
+        ]
+      }
+    },
+    {
+      "condition": "Small Intestine Cancer",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/small-intestine-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Small intestine cancer is a rare type of cancer that occurs in the small intestine."
+        ],
+        "Alternative Names": [
+          "Small bowel cancer"
+        ],
+        "Causes": [
+          "Genetic factors, certain inherited conditions, and chronic inflammation."
+        ],
+        "Symptoms": [
+          "Abdominal pain, weight loss, and changes in bowel habits."
+        ],
+        "Diagnosis": [
+          "Imaging studies, endoscopy, and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, chemotherapy, and radiation therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Soft Tissue Sarcoma",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/soft-tissue-sarcoma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Soft tissue sarcoma is a type of cancer that arises from soft tissues such as fat, muscle, nerves, and blood vessels."
+        ],
+        "Alternative Names": [
+          "Sarcoma"
+        ],
+        "Causes": [
+          "Exact cause is often unknown; may involve genetic factors."
+        ],
+        "Symptoms": [
+          "Lump or swelling, pain, and functional impairment."
+        ],
+        "Diagnosis": [
+          "Imaging studies and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, chemotherapy, and radiation therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Sore Throat",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/sore-throat",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A sore throat is pain, scratchiness, or irritation of the throat."
+        ],
+        "Alternative Names": [
+          "Pharyngitis"
+        ],
+        "Causes": [
+          "Viral infections, bacterial infections, and allergies."
+        ],
+        "Symptoms": [
+          "Pain, difficulty swallowing, and swollen glands."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and throat swab if bacterial infection is suspected."
+        ],
+        "Treatment": [
+          "Pain relief, hydration, and antibiotics if bacterial."
+        ]
+      }
+    },
+    {
+      "condition": "Spasmodic Dysphonia",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/spasmodic-dysphonia",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Spasmodic dysphonia is a voice disorder caused by involuntary spasms of the vocal cords."
+        ],
+        "Alternative Names": [
+          "Laryngeal dystonia"
+        ],
+        "Causes": [
+          "Exact cause is unknown; may involve neurological factors."
+        ],
+        "Symptoms": [
+          "Voice breaks, strain, and difficulty speaking."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and laryngoscopy."
+        ],
+        "Treatment": [
+          "Botulinum toxin injections and voice therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Spasticity",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/spasticity",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Spasticity is a condition characterized by abnormal muscle tightness due to prolonged contraction."
+        ],
+        "Alternative Names": [
+          "Muscle stiffness"
+        ],
+        "Causes": [
+          "Neurological conditions such as cerebral palsy and multiple sclerosis."
+        ],
+        "Symptoms": [
+          "Muscle stiffness, spasms, and difficulty with movement."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and neurological examination."
+        ],
+        "Treatment": [
+          "Physical therapy, medications, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Speech and Language Disorders",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/speech-and-language-disorders",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Speech and language disorders are conditions that affect a person's ability to communicate effectively."
+        ],
+        "Alternative Names": [
+          "Communication disorders"
+        ],
+        "Causes": [
+          "Developmental issues, neurological conditions, and hearing loss."
+        ],
+        "Symptoms": [
+          "Difficulty speaking, understanding language, and forming words."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and speech-language assessment."
+        ],
+        "Treatment": [
+          "Speech therapy and communication strategies."
+        ]
+      }
+    },
+    {
+      "condition": "Spinal Cord Diseases",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/spinal-cord-diseases",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Spinal cord diseases are conditions that affect the spinal cord, leading to neurological deficits."
+        ],
+        "Alternative Names": [
+          "Spinal cord disorders"
+        ],
+        "Causes": [
+          "Infections, trauma, and degenerative diseases."
+        ],
+        "Symptoms": [
+          "Weakness, numbness, and loss of coordination."
+        ],
+        "Diagnosis": [
+          "Imaging studies and neurological examination."
+        ],
+        "Treatment": [
+          "Depends on the underlying cause; may include medications and rehabilitation."
+        ]
+      }
+    },
+    {
+      "condition": "Spinal Cord Injury",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/spinal-cord-injury",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Spinal cord injury is damage to the spinal cord that results in loss of function, such as mobility or feeling."
+        ],
+        "Alternative Names": [
+          "SCI"
+        ],
+        "Causes": [
+          "Trauma, falls, and sports injuries."
+        ],
+        "Symptoms": [
+          "Loss of movement, sensation, and reflexes."
+        ],
+        "Diagnosis": [
+          "Imaging studies and neurological examination."
+        ],
+        "Treatment": [
+          "Emergency care, rehabilitation, and management of complications."
+        ]
+      }
+    },
+    {
+      "condition": "Spinal Muscular Atrophy (SMA)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/spinal-muscular-atrophy",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Spinal muscular atrophy is a genetic disorder characterized by weakness and wasting in the muscles used for movement."
+        ],
+        "Alternative Names": [
+          "SMA"
+        ],
+        "Causes": [
+          "Genetic mutations affecting motor neurons."
+        ],
+        "Symptoms": [
+          "Muscle weakness, difficulty with movement, and respiratory issues."
+        ],
+        "Diagnosis": [
+          "Genetic testing and clinical evaluation."
+        ],
+        "Treatment": [
+          "Supportive care, physical therapy, and medications."
+        ]
+      }
+    },
+    {
+      "condition": "Spinal Stenosis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/spinal-stenosis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Spinal stenosis is a narrowing of the spinal canal that can put pressure on the spinal cord and nerves."
+        ],
+        "Alternative Names": [
+          "Narrowing of the spine"
+        ],
+        "Causes": [
+          "Aging, arthritis, and herniated discs."
+        ],
+        "Symptoms": [
+          "Pain, numbness, and weakness in the legs."
+        ],
+        "Diagnosis": [
+          "Imaging studies and clinical evaluation."
+        ],
+        "Treatment": [
+          "Physical therapy, medications, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Spinal Tumor",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/spinal-tumor",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A spinal tumor is an abnormal growth of tissue in the spinal column that can be benign or malignant."
+        ],
+        "Alternative Names": [
+          "Tumor of the spine"
+        ],
+        "Causes": [
+          "Exact cause is often unknown; may involve genetic factors."
+        ],
+        "Symptoms": [
+          "Back pain, neurological deficits, and changes in bowel or bladder function."
+        ],
+        "Diagnosis": [
+          "Imaging studies and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, radiation therapy, and chemotherapy."
+        ]
+      }
+    },
+    {
+      "condition": "Spondylosis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/spondylosis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Spondylosis is a degenerative condition of the spine that can lead to pain and stiffness."
+        ],
+        "Alternative Names": [
+          "Spinal osteoarthritis"
+        ],
+        "Causes": [
+          "Aging, wear and tear, and previous injuries."
+        ],
+        "Symptoms": [
+          "Back pain, stiffness, and reduced range of motion."
+        ],
+        "Diagnosis": [
+          "Imaging studies and clinical evaluation."
+        ],
+        "Treatment": [
+          "Pain management, physical therapy, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Sprains",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/sprains",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A sprain is an injury to a ligament caused by overstretching or tearing."
+        ],
+        "Alternative Names": [
+          "Ligament injury"
+        ],
+        "Causes": [
+          "Twisting or impact injuries."
+        ],
+        "Symptoms": [
+          "Pain, swelling, and limited mobility."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies."
+        ],
+        "Treatment": [
+          "Rest, ice, compression, and elevation (RICE) and physical therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Stomach Cancer (Gastric Cancer)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/stomach-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Stomach cancer is a type of cancer that begins in the stomach lining."
+        ],
+        "Alternative Names": [
+          "Gastric cancer"
+        ],
+        "Causes": [
+          "Helicobacter pylori infection, smoking, and certain dietary factors."
+        ],
+        "Symptoms": [
+          "Abdominal pain, nausea, and weight loss."
+        ],
+        "Diagnosis": [
+          "Endoscopy, imaging studies, and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, chemotherapy, and radiation therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Strabismus (Crossed Eyes)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/strabismus",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Strabismus is a condition in which the eyes do not properly align with each other when looking at an object."
+        ],
+        "Alternative Names": [
+          "Crossed eyes"
+        ],
+        "Causes": [
+          "Genetic factors, muscle imbalance, and neurological conditions."
+        ],
+        "Symptoms": [
+          "Misalignment of the eyes, double vision, and difficulty with depth perception."
+        ],
+        "Diagnosis": [
+          "Eye examination and vision tests."
+        ],
+        "Treatment": [
+          "Glasses, vision therapy, and surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Strains",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/strains",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A strain is an injury to a muscle or tendon caused by overstretching or tearing."
+        ],
+        "Alternative Names": [
+          "Muscle strain"
+        ],
+        "Causes": [
+          "Overexertion, improper lifting, and sports injuries."
+        ],
+        "Symptoms": [
+          "Pain, swelling, and limited mobility."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies."
+        ],
+        "Treatment": [
+          "Rest, ice, compression, and elevation (RICE) and physical therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Strep Throat (Streptococcal Pharyngitis)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/strep-throat",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Strep throat is a bacterial infection that causes inflammation and pain in the throat."
+        ],
+        "Alternative Names": [
+          "Streptococcal pharyngitis"
+        ],
+        "Causes": [
+          "Infection with group A Streptococcus bacteria."
+        ],
+        "Symptoms": [
+          "Sore throat, fever, and swollen lymph nodes."
+        ],
+        "Diagnosis": [
+          "Throat swab and clinical evaluation."
+        ],
+        "Treatment": [
+          "Antibiotics and symptomatic relief."
+        ]
+      }
+    },
+    {
+      "condition": "Stress Urinary Incontinence",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/stress-urinary-incontinence",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Stress urinary incontinence is the involuntary leakage of urine during physical activity, coughing, or sneezing."
+        ],
+        "Alternative Names": [
+          "Urinary incontinence"
+        ],
+        "Causes": [
+          "Weak pelvic floor muscles, pregnancy, and childbirth."
+        ],
+        "Symptoms": [
+          "Urine leakage during exertion."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and bladder diary."
+        ],
+        "Treatment": [
+          "Pelvic floor exercises, medications, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Stroke (Cerebrovascular Accident)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/stroke",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A stroke is a medical emergency that occurs when blood flow to the brain is interrupted."
+        ],
+        "Alternative Names": [
+          "Cerebrovascular accident (CVA)"
+        ],
+        "Causes": [
+          "Blood clots, hemorrhage, and atherosclerosis."
+        ],
+        "Symptoms": [
+          "Sudden numbness, confusion, and difficulty speaking."
+        ],
+        "Diagnosis": [
+          "Imaging studies and clinical evaluation."
+        ],
+        "Treatment": [
+          "Emergency care, medications, and rehabilitation."
+        ]
+      }
+    },
+    {
+      "condition": "Stye",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/stye",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A stye is a red, painful lump on the edge of the eyelid caused by an infected oil gland."
+        ],
+        "Alternative Names": [
+          "Hordeolum"
+        ],
+        "Causes": [
+          "Bacterial infection, often from Staphylococcus bacteria."
+        ],
+        "Symptoms": [
+          "Redness, swelling, and tenderness in the eyelid."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation."
+        ],
+        "Treatment": [
+          "Warm compresses, good hygiene, and sometimes antibiotics."
+        ]
+      }
+    },
+    {
+      "condition": "Subacute Thyroiditis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/subacute-thyroiditis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Subacute thyroiditis is an inflammation of the thyroid gland that often follows a viral infection."
+        ],
+        "Alternative Names": [
+          "De Quervain's thyroiditis"
+        ],
+        "Causes": [
+          "Viral infections and autoimmune responses."
+        ],
+        "Symptoms": [
+          "Neck pain, fever, and changes in thyroid hormone levels."
+        ],
+        "Diagnosis": [
+          "Blood tests and imaging studies."
+        ],
+        "Treatment": [
+          "Pain relief, anti-inflammatory medications, and monitoring."
+        ]
+      }
+    },
+    {
+      "condition": "Supraventricular Tachycardia (SVT)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/supraventricular-tachycardia",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Supraventricular tachycardia is a rapid heart rate originating above the ventricles."
+        ],
+        "Alternative Names": [
+          "SVT"
+        ],
+        "Causes": [
+          "Heart conditions, stress, and stimulants."
+        ],
+        "Symptoms": [
+          "Palpitations, dizziness, and shortness of breath."
+        ],
+        "Diagnosis": [
+          "Electrocardiogram (ECG) and clinical evaluation."
+        ],
+        "Treatment": [
+          "Medications, vagal maneuvers, and sometimes catheter ablation."
+        ]
+      }
+    },
+    {
+      "condition": "Swallowing Disorders",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/swallowing-disorders",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Swallowing disorders are conditions that affect the ability to swallow normally."
+        ],
+        "Alternative Names": [
+          "Dysphagia"
+        ],
+        "Causes": [
+          "Neurological conditions, structural abnormalities, and muscle disorders."
+        ],
+        "Symptoms": [
+          "Difficulty swallowing, choking, and pain while swallowing."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and swallowing studies."
+        ],
+        "Treatment": [
+          "Swallowing therapy, dietary modifications, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Swimmer's Ear (Otitis Externa)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/swimmers-ear",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Swimmer's ear is an infection of the outer ear canal, often caused by water exposure."
+        ],
+        "Alternative Names": [
+          "Otitis externa"
+        ],
+        "Causes": [
+          "Bacterial or fungal infections, often following water exposure."
+        ],
+        "Symptoms": [
+          "Itching, redness, and pain in the ear canal."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and examination of the ear."
+        ],
+        "Treatment": [
+          "Ear drops, antibiotics, and keeping the ear dry."
+        ]
+      }
+    },
+    {
+      "condition": "Synovial Sarcoma",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/synovial-sarcoma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Synovial sarcoma is a rare type of soft tissue sarcoma that typically occurs near joints."
+        ],
+        "Alternative Names": [
+          "Soft tissue sarcoma"
+        ],
+        "Causes": [
+          "Exact cause is often unknown; may involve genetic factors."
+        ],
+        "Symptoms": [
+          "Lump or swelling near a joint, pain, and limited mobility."
+        ],
+        "Diagnosis": [
+          "Imaging studies and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, chemotherapy, and radiation therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Syphilis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/syphilis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Syphilis is a sexually transmitted infection caused by the bacterium Treponema pallidum."
+        ],
+        "Alternative Names": [
+          "STD"
+        ],
+        "Causes": [
+          "Transmission through sexual contact."
+        ],
+        "Symptoms": [
+          "Chancres, rashes, and flu-like symptoms."
+        ],
+        "Diagnosis": [
+          "Blood tests and clinical evaluation."
+        ],
+        "Treatment": [
+          "Antibiotics, typically penicillin."
+        ]
+      }
+    }
+  ]

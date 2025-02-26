@@ -1,0 +1,102 @@
+[
+    {
+      "condition": "Waldenstrom Macroglobulinemia (WM)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/waldenstrom-macroglobulinemia",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Waldenstrom macroglobulinemia is a type of cancer that affects the blood and bone marrow, characterized by the overproduction of a specific type of antibody."
+        ],
+        "Alternative Names": [
+          "WM"
+        ],
+        "Causes": [
+          "Exact cause is unknown; may involve genetic mutations."
+        ],
+        "Symptoms": [
+          "Fatigue, weakness, and symptoms related to high levels of antibodies."
+        ],
+        "Diagnosis": [
+          "Blood tests, bone marrow biopsy, and imaging studies."
+        ],
+        "Treatment": [
+          "Chemotherapy, targeted therapy, and plasmapheresis."
+        ]
+      }
+    },
+    {
+      "condition": "West Nile Virus",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/west-nile-virus",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "West Nile virus is a viral infection transmitted by mosquitoes that can cause neurological disease."
+        ],
+        "Alternative Names": [
+          "WNV"
+        ],
+        "Causes": [
+          "Infection from the West Nile virus, primarily through mosquito bites."
+        ],
+        "Symptoms": [
+          "Fever, headache, body aches, and in severe cases, neurological symptoms."
+        ],
+        "Diagnosis": [
+          "Blood tests and clinical evaluation."
+        ],
+        "Treatment": [
+          "Supportive care; no specific antiviral treatment."
+        ]
+      }
+    },
+    {
+      "condition": "Wolff-Parkinson-White Syndrome (WPW)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/wolff-parkinson-white-syndrome",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Wolff-Parkinson-White syndrome is a condition characterized by an extra electrical pathway in the heart, leading to episodes of rapid heart rate."
+        ],
+        "Alternative Names": [
+          "WPW"
+        ],
+        "Causes": [
+          "Congenital heart defect."
+        ],
+        "Symptoms": [
+          "Palpitations, dizziness, and fainting."
+        ],
+        "Diagnosis": [
+          "Electrocardiogram (ECG) and clinical evaluation."
+        ],
+        "Treatment": [
+          "Medications, catheter ablation, and lifestyle modifications."
+        ]
+      }
+    },
+    {
+      "condition": "Wrist Pain",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/wrist-pain",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Wrist pain is discomfort in the wrist area that can result from various causes."
+        ],
+        "Alternative Names": [
+          "Wrist discomfort"
+        ],
+        "Causes": [
+          "Injury, arthritis, repetitive strain, and carpal tunnel syndrome."
+        ],
+        "Symptoms": [
+          "Pain, swelling, and limited range of motion."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies."
+        ],
+        "Treatment": [
+          "Rest, ice, physical therapy, and sometimes surgery."
+        ]
+      }
+    }
+  ]

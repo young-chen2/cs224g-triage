@@ -1,0 +1,352 @@
+[
+  {
+    "condition": "Obesity",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/obesity",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Obesity is a complex disease involving an excessive amount of body fat, which increases the risk of health problems."
+      ],
+      "Alternative Names": [
+        "Overweight"
+      ],
+      "Causes": [
+        "Genetic factors, poor diet, lack of physical activity, and certain medical conditions."
+      ],
+      "Symptoms": [
+        "Increased body weight, difficulty with physical activity, and health complications."
+      ],
+      "Diagnosis": [
+        "Body mass index (BMI) calculation and clinical evaluation."
+      ],
+      "Treatment": [
+        "Lifestyle changes, medications, and sometimes surgery."
+      ]
+    }
+  },
+  {
+    "condition": "Obsessive-Compulsive Disorders (OCD)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/obsessive-compulsive-disorders",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Obsessive-compulsive disorder is a mental health condition characterized by persistent, unwanted thoughts (obsessions) and repetitive behaviors (compulsions)."
+      ],
+      "Alternative Names": [
+        "OCD"
+      ],
+      "Causes": [
+        "Exact cause is unknown; may involve genetic, neurological, and environmental factors."
+      ],
+      "Symptoms": [
+        "Intrusive thoughts, compulsive behaviors, and anxiety."
+      ],
+      "Diagnosis": [
+        "Clinical evaluation and psychological assessment."
+      ],
+      "Treatment": [
+        "Cognitive-behavioral therapy (CBT), medications, and support groups."
+      ]
+    }
+  },
+  {
+    "condition": "Obstructive Sleep Apnea",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/obstructive-sleep-apnea",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Obstructive sleep apnea is a sleep disorder characterized by repeated interruptions in breathing during sleep due to throat muscles relaxing excessively."
+      ],
+      "Alternative Names": [
+        "OSA"
+      ],
+      "Causes": [
+        "Obesity, anatomical factors, and age."
+      ],
+      "Symptoms": [
+        "Loud snoring, daytime fatigue, and episodes of breathing cessation during sleep."
+      ],
+      "Diagnosis": [
+        "Sleep studies and clinical evaluation."
+      ],
+      "Treatment": [
+        "Lifestyle changes, CPAP therapy, and surgery in severe cases."
+      ]
+    }
+  },
+  {
+    "condition": "Optic Neuritis",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/optic-neuritis",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Optic neuritis is an inflammation of the optic nerve, which can cause vision loss and pain."
+      ],
+      "Alternative Names": [
+        "Optic nerve inflammation"
+      ],
+      "Causes": [
+        "Autoimmune diseases, infections, and multiple sclerosis."
+      ],
+      "Symptoms": [
+        "Vision loss, pain with eye movement, and color vision changes."
+      ],
+      "Diagnosis": [
+        "Clinical evaluation, MRI, and visual field tests."
+      ],
+      "Treatment": [
+        "Corticosteroids and management of underlying conditions."
+      ]
+    }
+  },
+  {
+    "condition": "Orbital Tumors",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/orbital-tumors",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Orbital tumors are abnormal growths located in the orbit, the bony cavity that contains the eye."
+      ],
+      "Alternative Names": [
+        "Tumors of the orbit"
+      ],
+      "Causes": [
+        "Exact cause is often unknown; may include genetic factors."
+      ],
+      "Symptoms": [
+        "Protrusion of the eye, vision changes, and pain."
+      ],
+      "Diagnosis": [
+        "Imaging studies and biopsy."
+      ],
+      "Treatment": [
+        "Surgery, radiation therapy, and chemotherapy."
+      ]
+    }
+  },
+  {
+    "condition": "Oropharyngeal Cancer",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/oropharyngeal-cancer",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Oropharyngeal cancer is a type of cancer that occurs in the oropharynx, the part of the throat located at the back of the mouth."
+      ],
+      "Alternative Names": [
+        "Throat cancer"
+      ],
+      "Causes": [
+        "Human papillomavirus (HPV) infection, smoking, and alcohol use."
+      ],
+      "Symptoms": [
+        "Sore throat, difficulty swallowing, and lumps in the neck."
+      ],
+      "Diagnosis": [
+        "Physical examination, imaging studies, and biopsy."
+      ],
+      "Treatment": [
+        "Surgery, radiation therapy, and chemotherapy."
+      ]
+    }
+  },
+  {
+    "condition": "Osteoarthritis (OA)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/osteoarthritis",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Osteoarthritis is a degenerative joint disease characterized by the breakdown of cartilage and underlying bone."
+      ],
+      "Alternative Names": [
+        "Degenerative joint disease"
+      ],
+      "Causes": [
+        "Aging, obesity, joint injuries, and genetics."
+      ],
+      "Symptoms": [
+        "Joint pain, stiffness, and swelling."
+      ],
+      "Diagnosis": [
+        "Physical examination and imaging studies."
+      ],
+      "Treatment": [
+        "Pain management, physical therapy, and joint replacement surgery in severe cases."
+      ]
+    }
+  },
+  {
+    "condition": "Osteomalacia",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/osteomalacia",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Osteomalacia is a condition characterized by the softening of bones due to vitamin D deficiency."
+      ],
+      "Alternative Names": [
+        "Adult rickets"
+      ],
+      "Causes": [
+        "Vitamin D deficiency, malabsorption, and certain medications."
+      ],
+      "Symptoms": [
+        "Bone pain, muscle weakness, and increased risk of fractures."
+      ],
+      "Diagnosis": [
+        "Blood tests, imaging studies, and bone biopsy."
+      ],
+      "Treatment": [
+        "Vitamin D and calcium supplementation, and addressing underlying causes."
+      ]
+    }
+  },
+  {
+    "condition": "Osteoporosis (Thin Bone)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/osteoporosis",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Osteoporosis is a condition characterized by weak and brittle bones, increasing the risk of fractures."
+      ],
+      "Alternative Names": [
+        "Bone loss"
+      ],
+      "Causes": [
+        "Aging, hormonal changes, and nutritional deficiencies."
+      ],
+      "Symptoms": [
+        "Often asymptomatic until a fracture occurs; may include back pain and loss of height."
+      ],
+      "Diagnosis": [
+        "Bone density tests and clinical evaluation."
+      ],
+      "Treatment": [
+        "Medications, dietary changes, and lifestyle modifications."
+      ]
+    }
+  },
+  {
+    "condition": "Osteosarcoma",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/osteosarcoma",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Osteosarcoma is a type of bone cancer that typically occurs in the long bones of the arms and legs."
+      ],
+      "Alternative Names": [
+        "Bone sarcoma"
+      ],
+      "Causes": [
+        "Exact cause is unknown; may involve genetic factors."
+      ],
+      "Symptoms": [
+        "Bone pain, swelling, and fractures."
+      ],
+      "Diagnosis": [
+        "Imaging studies and biopsy."
+      ],
+      "Treatment": [
+        "Surgery, chemotherapy, and sometimes radiation therapy."
+      ]
+    }
+  },
+  {
+    "condition": "Otosclerosis",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/otosclerosis",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Otosclerosis is a condition characterized by abnormal bone growth in the middle ear, leading to hearing loss."
+      ],
+      "Alternative Names": [
+        "Stapes fixation"
+      ],
+      "Causes": [
+        "Exact cause is unknown; may have a genetic component."
+      ],
+      "Symptoms": [
+        "Gradual hearing loss, tinnitus, and balance issues."
+      ],
+      "Diagnosis": [
+        "Hearing tests and imaging studies."
+      ],
+      "Treatment": [
+        "Hearing aids and surgery to remove the stapes bone."
+      ]
+    }
+  },
+  {
+    "condition": "Ovarian Cancer",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/ovarian-cancer",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Ovarian cancer is a type of cancer that begins in the ovaries."
+      ],
+      "Alternative Names": [
+        "Cancer of the ovaries"
+      ],
+      "Causes": [
+        "Genetic mutations, family history, and age."
+      ],
+      "Symptoms": [
+        "Abdominal bloating, pelvic pain, and changes in appetite."
+      ],
+      "Diagnosis": [
+        "Imaging studies, blood tests, and biopsy."
+      ],
+      "Treatment": [
+        "Surgery, chemotherapy, and targeted therapy."
+      ]
+    }
+  },
+  {
+    "condition": "Ovarian Cysts",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/ovarian-cysts",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Ovarian cysts are fluid-filled sacs that develop on the ovaries."
+      ],
+      "Alternative Names": [
+        "Follicular cysts"
+      ],
+      "Causes": [
+        "Hormonal changes, menstrual cycle, and pregnancy."
+      ],
+      "Symptoms": [
+        "Often asymptomatic; may include pelvic pain and bloating."
+      ],
+      "Diagnosis": [
+        "Ultrasound and clinical evaluation."
+      ],
+      "Treatment": [
+        "Monitoring, hormonal contraceptives, and surgery in some cases."
+      ]
+    }
+  },
+  {
+    "condition": "Overactive Bladder",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/overactive-bladder",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Overactive bladder is a condition characterized by an urgent need to urinate frequently."
+      ],
+      "Alternative Names": [
+        "OAB"
+      ],
+      "Causes": [
+        "Nerve damage, bladder inflammation, and certain medications."
+      ],
+      "Symptoms": [
+        "Frequent urination, urgency, and nocturia."
+      ],
+      "Diagnosis": [
+        "Clinical evaluation and bladder diary."
+      ],
+      "Treatment": [
+        "Lifestyle changes, medications, and bladder training."
+      ]
+    }
+  }
+]

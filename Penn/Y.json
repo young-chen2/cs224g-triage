@@ -1,0 +1,27 @@
+[
+    {
+      "condition": "Yellow Fever",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/yellow-fever",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Yellow fever is a viral disease transmitted by mosquitoes, characterized by fever, chills, loss of appetite, and muscle pain."
+        ],
+        "Alternative Names": [
+          "YF"
+        ],
+        "Causes": [
+          "Infection with the yellow fever virus, primarily through mosquito bites."
+        ],
+        "Symptoms": [
+          "Fever, chills, loss of appetite, muscle pain, and in severe cases, liver damage leading to jaundice."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation, blood tests, and serology."
+        ],
+        "Treatment": [
+          "Supportive care; vaccination is the primary prevention method."
+        ]
+      }
+    }
+  ]

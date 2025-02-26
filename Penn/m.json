@@ -1,0 +1,1027 @@
+[
+    {
+      "condition": "Male Breast Cancer",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/male-breast-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Male breast cancer is a rare type of cancer that develops in the breast tissue of men."
+        ],
+        "Alternative Names": [
+          "Breast cancer in men"
+        ],
+        "Causes": [
+          "Genetic mutations, family history, and exposure to radiation."
+        ],
+        "Symptoms": [
+          "Lump in the breast, changes in breast shape, and discharge from the nipple."
+        ],
+        "Diagnosis": [
+          "Mammography, ultrasound, and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, chemotherapy, radiation therapy, and hormone therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Male Pattern Baldness",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/male-pattern-baldness",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Male pattern baldness is a common form of hair loss in men, characterized by a receding hairline and thinning crown."
+        ],
+        "Alternative Names": [
+          "Androgenetic alopecia"
+        ],
+        "Causes": [
+          "Genetic factors and hormonal changes."
+        ],
+        "Symptoms": [
+          "Gradual thinning of hair on the scalp."
+        ],
+        "Diagnosis": [
+          "Physical examination and medical history."
+        ],
+        "Treatment": [
+          "Medications like minoxidil and finasteride, and hair transplant surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Malignant Peripheral Nerve Sheath Tumor",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/malignant-peripheral-nerve-sheath-tumor",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Malignant peripheral nerve sheath tumors are rare cancers that develop in the protective lining of the nerves."
+        ],
+        "Alternative Names": [
+          "MPNST"
+        ],
+        "Causes": [
+          "Genetic conditions like neurofibromatosis and exposure to radiation."
+        ],
+        "Symptoms": [
+          "Pain, swelling, and neurological symptoms depending on the nerve affected."
+        ],
+        "Diagnosis": [
+          "Imaging studies and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, chemotherapy, and radiation therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Marfan Syndrome",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/marfan-syndrome",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Marfan syndrome is a genetic disorder that affects the body's connective tissue."
+        ],
+        "Alternative Names": [
+          "Marfan's syndrome"
+        ],
+        "Causes": [
+          "Genetic mutations in the FBN1 gene."
+        ],
+        "Symptoms": [
+          "Tall stature, long limbs, and cardiovascular issues."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and genetic testing."
+        ],
+        "Treatment": [
+          "Monitoring and management of symptoms, and surgery for heart issues."
+        ]
+      }
+    },
+    {
+      "condition": "Mastoiditis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/mastoiditis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Mastoiditis is an infection of the mastoid bone located behind the ear."
+        ],
+        "Alternative Names": [
+          "Mastoid bone infection"
+        ],
+        "Causes": [
+          "Untreated ear infections and sinus infections."
+        ],
+        "Symptoms": [
+          "Ear pain, swelling behind the ear, and fever."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies."
+        ],
+        "Treatment": [
+          "Antibiotics and sometimes surgery to drain the infection."
+        ]
+      }
+    },
+    {
+      "condition": "Mayer-Rokitansky-Küster-Hauser (MRKH) Syndrome",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/mayer-rokitansky-kuster-hauser-syndrome",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "MRKH syndrome is a congenital condition characterized by the absence of the uterus and the upper two-thirds of the vagina."
+        ],
+        "Alternative Names": [
+          "MRKH syndrome"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but it is a developmental disorder."
+        ],
+        "Symptoms": [
+          "Absence of menstruation and infertility."
+        ],
+        "Diagnosis": [
+          "Imaging studies and physical examination."
+        ],
+        "Treatment": [
+          "Surgical creation of a vaginal canal and management of reproductive health."
+        ]
+      }
+    },
+    {
+      "condition": "Mediastinal Tumors",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/mediastinal-tumors",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Mediastinal tumors are abnormal growths located in the mediastinum, the area between the lungs."
+        ],
+        "Alternative Names": [
+          "Tumors of the mediastinum"
+        ],
+        "Causes": [
+          "Exact cause is often unknown; may include genetic factors."
+        ],
+        "Symptoms": [
+          "Chest pain, cough, and difficulty breathing."
+        ],
+        "Diagnosis": [
+          "Imaging studies and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, chemotherapy, and radiation therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Melanoma",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/melanoma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Melanoma is a type of skin cancer that develops from melanocytes, the cells that produce pigment."
+        ],
+        "Alternative Names": [
+          "Skin cancer"
+        ],
+        "Causes": [
+          "Excessive sun exposure, tanning beds, and genetic factors."
+        ],
+        "Symptoms": [
+          "Changes in existing moles, new growths, and skin lesions."
+        ],
+        "Diagnosis": [
+          "Skin examination and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, immunotherapy, targeted therapy, and radiation therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Memory Loss",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/memory-loss",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Memory loss is the inability to remember information or experiences."
+        ],
+        "Alternative Names": [
+          "Amnesia"
+        ],
+        "Causes": [
+          "Aging, head injuries, and neurological disorders."
+        ],
+        "Symptoms": [
+          "Forgetfulness, confusion, and difficulty recalling information."
+        ],
+        "Diagnosis": [
+          "Cognitive tests and medical history."
+        ],
+        "Treatment": [
+          "Depends on the underlying cause; may include cognitive therapy and medications."
+        ]
+      }
+    },
+    {
+      "condition": "Meniere's Disease",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/menieres-disease",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Meniere's disease is a disorder of the inner ear that can lead to vertigo, hearing loss, and tinnitus."
+        ],
+        "Alternative Names": [
+          "Endolymphatic hydrops"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may involve fluid buildup in the inner ear."
+        ],
+        "Symptoms": [
+          "Episodes of vertigo, ringing in the ears, and hearing loss."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and hearing tests."
+        ],
+        "Treatment": [
+          "Dietary changes, medications, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Meningioma",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/meningioma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Meningioma is a tumor that arises from the meninges, the protective layers surrounding the brain and spinal cord."
+        ],
+        "Alternative Names": [
+          "Meningeal tumor"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may involve genetic factors."
+        ],
+        "Symptoms": [
+          "Headaches, seizures, and neurological deficits."
+        ],
+        "Diagnosis": [
+          "Imaging studies and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, radiation therapy, and monitoring."
+        ]
+      }
+    },
+    {
+      "condition": "Meningitis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/meningitis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Meningitis is an inflammation of the protective membranes covering the brain and spinal cord."
+        ],
+        "Alternative Names": [
+          "Meningeal inflammation"
+        ],
+        "Causes": [
+          "Bacterial, viral, or fungal infections."
+        ],
+        "Symptoms": [
+          "Fever, headache, stiff neck, and sensitivity to light."
+        ],
+        "Diagnosis": [
+          "Lumbar puncture and imaging studies."
+        ],
+        "Treatment": [
+          "Antibiotics for bacterial meningitis and supportive care."
+        ]
+      }
+    },
+    {
+      "condition": "Meniscus Tears",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/meniscus-tears",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Meniscus tears are injuries to the cartilage in the knee joint."
+        ],
+        "Alternative Names": [
+          "Knee cartilage tear"
+        ],
+        "Causes": [
+          "Twisting motions, sports injuries, and degenerative changes."
+        ],
+        "Symptoms": [
+          "Knee pain, swelling, and difficulty moving the knee."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies."
+        ],
+        "Treatment": [
+          "Rest, ice, physical therapy, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Mesothelioma",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/mesothelioma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Mesothelioma is a rare cancer that affects the lining of the lungs, abdomen, or heart, often caused by asbestos exposure."
+        ],
+        "Alternative Names": [
+          "Pleural mesothelioma"
+        ],
+        "Causes": [
+          "Asbestos exposure and genetic factors."
+        ],
+        "Symptoms": [
+          "Chest pain, shortness of breath, and abdominal swelling."
+        ],
+        "Diagnosis": [
+          "Imaging studies and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, chemotherapy, and radiation therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Metabolic Acidosis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/metabolic-acidosis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Metabolic acidosis is a condition characterized by an excess of acid in the body due to metabolic processes."
+        ],
+        "Alternative Names": [
+          "Acidosis"
+        ],
+        "Causes": [
+          "Diabetes, kidney disease, and severe diarrhea."
+        ],
+        "Symptoms": [
+          "Fatigue, confusion, and rapid breathing."
+        ],
+        "Diagnosis": [
+          "Blood tests measuring pH and bicarbonate levels."
+        ],
+        "Treatment": [
+          "Addressing the underlying cause and sometimes bicarbonate therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Metastatic Breast Cancer (Secondary Breast Cancer)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/metastatic-breast-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Metastatic breast cancer is breast cancer that has spread to other parts of the body."
+        ],
+        "Alternative Names": [
+          "Stage IV breast cancer"
+        ],
+        "Causes": [
+          "Progression of untreated or recurrent breast cancer."
+        ],
+        "Symptoms": [
+          "Bone pain, shortness of breath, and swelling."
+        ],
+        "Diagnosis": [
+          "Imaging studies and biopsy."
+        ],
+        "Treatment": [
+          "Chemotherapy, targeted therapy, and palliative care."
+        ]
+      }
+    },
+    {
+      "condition": "Metastatic Melanoma",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/metastatic-melanoma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Metastatic melanoma is melanoma that has spread from the skin to other parts of the body."
+        ],
+        "Alternative Names": [
+          "Stage IV melanoma"
+        ],
+        "Causes": [
+          "Progression of untreated or recurrent melanoma."
+        ],
+        "Symptoms": [
+          "New lumps, pain, and changes in existing moles."
+        ],
+        "Diagnosis": [
+          "Imaging studies and biopsy."
+        ],
+        "Treatment": [
+          "Immunotherapy, targeted therapy, and chemotherapy."
+        ]
+      }
+    },
+    {
+      "condition": "Methicillin Resistant Staphylococcus Aureus (MRSA)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/mrsa",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "MRSA is a type of staph bacteria that is resistant to many antibiotics."
+        ],
+        "Alternative Names": [
+          "Methicillin-resistant Staphylococcus aureus"
+        ],
+        "Causes": [
+          "Infection with MRSA bacteria, often acquired in healthcare settings."
+        ],
+        "Symptoms": [
+          "Red, swollen, painful areas on the skin, fever, and pus."
+        ],
+        "Diagnosis": [
+          "Culture tests and clinical evaluation."
+        ],
+        "Treatment": [
+          "Antibiotics effective against MRSA and drainage of abscesses."
+        ]
+      }
+    },
+    {
+      "condition": "Migraine",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/migraine",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Migraine is a neurological condition characterized by recurrent headaches, often accompanied by nausea and sensitivity to light."
+        ],
+        "Alternative Names": [
+          "Migraine headache"
+        ],
+        "Causes": [
+          "Genetic factors, hormonal changes, and environmental triggers."
+        ],
+        "Symptoms": [
+          "Severe headache, nausea, vomiting, and sensitivity to light and sound."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and patient history."
+        ],
+        "Treatment": [
+          "Pain relief medications, preventive treatments, and lifestyle changes."
+        ]
+      }
+    },
+    {
+      "condition": "Mitral Stenosis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/mitral-stenosis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Mitral stenosis is a narrowing of the mitral valve opening, affecting blood flow from the left atrium to the left ventricle."
+        ],
+        "Alternative Names": [
+          "Narrowed mitral valve"
+        ],
+        "Causes": [
+          "Rheumatic fever and congenital heart defects."
+        ],
+        "Symptoms": [
+          "Shortness of breath, fatigue, and palpitations."
+        ],
+        "Diagnosis": [
+          "Echocardiogram and physical examination."
+        ],
+        "Treatment": [
+          "Medications and surgical procedures to repair or replace the valve."
+        ]
+      }
+    },
+    {
+      "condition": "Mitral Valve Prolapse",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/mitral-valve-prolapse",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Mitral valve prolapse is a condition where the mitral valve does not close properly, allowing blood to leak backward."
+        ],
+        "Alternative Names": [
+          "Prolapsed mitral valve"
+        ],
+        "Causes": [
+          "Genetic factors and connective tissue disorders."
+        ],
+        "Symptoms": [
+          "Palpitations, chest pain, and fatigue."
+        ],
+        "Diagnosis": [
+          "Echocardiogram and physical examination."
+        ],
+        "Treatment": [
+          "Monitoring, medications, and surgery in severe cases."
+        ]
+      }
+    },
+    {
+      "condition": "Mitral Valve Regurgitation",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/mitral-valve-regurgitation",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Mitral valve regurgitation is a condition where the mitral valve does not close tightly, allowing blood to flow backward into the left atrium."
+        ],
+        "Alternative Names": [
+          "Leaky mitral valve"
+        ],
+        "Causes": [
+          "Rheumatic heart disease, mitral valve prolapse, and heart attack."
+        ],
+        "Symptoms": [
+          "Shortness of breath, fatigue, and heart palpitations."
+        ],
+        "Diagnosis": [
+          "Echocardiogram and physical examination."
+        ],
+        "Treatment": [
+          "Medications and surgical repair or replacement of the valve."
+        ]
+      }
+    },
+    {
+      "condition": "Mouth Cancer (Oral Cancer)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/mouth-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Mouth cancer, or oral cancer, refers to cancer that develops in the tissues of the mouth."
+        ],
+        "Alternative Names": [
+          "Oral cavity cancer"
+        ],
+        "Causes": [
+          "Tobacco use, alcohol consumption, and HPV infection."
+        ],
+        "Symptoms": [
+          "Sores in the mouth, difficulty swallowing, and changes in voice."
+        ],
+        "Diagnosis": [
+          "Physical examination and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, radiation therapy, and chemotherapy."
+        ]
+      }
+    },
+    {
+      "condition": "Moyamoya Disease",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/moyamoya-disease",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Moyamoya disease is a rare cerebrovascular disorder characterized by the narrowing of the arteries at the base of the brain."
+        ],
+        "Alternative Names": [
+          "Moyamoya syndrome"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but it may have a genetic component."
+        ],
+        "Symptoms": [
+          "Transient ischemic attacks (TIAs), strokes, and headaches."
+        ],
+        "Diagnosis": [
+          "Imaging studies such as MRI and angiography."
+        ],
+        "Treatment": [
+          "Surgical revascularization and management of symptoms."
+        ]
+      }
+    },
+    {
+      "condition": "Mpox",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/mpox",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Mpox, formerly known as monkeypox, is a viral disease that causes flu-like symptoms and a distinctive rash."
+        ],
+        "Alternative Names": [
+          "Monkeypox"
+        ],
+        "Causes": [
+          "Infection with the mpox virus, which is related to smallpox."
+        ],
+        "Symptoms": [
+          "Fever, headache, muscle aches, and rash."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and laboratory tests."
+        ],
+        "Treatment": [
+          "Supportive care and antiviral medications in severe cases."
+        ]
+      }
+    },
+    {
+      "condition": "Mucosal Melanoma",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/mucosal-melanoma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Mucosal melanoma is a rare type of melanoma that occurs in mucous membranes."
+        ],
+        "Alternative Names": [
+          "Melanoma of mucosal surfaces"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may involve genetic factors."
+        ],
+        "Symptoms": [
+          "Pigmented lesions in the mouth, nose, or other mucosal areas."
+        ],
+        "Diagnosis": [
+          "Biopsy and imaging studies."
+        ],
+        "Treatment": [
+          "Surgery, chemotherapy, and immunotherapy."
+        ]
+      }
+    },
+    {
+      "condition": "Mullerian Anomalies (Müllerian Duct Anomalies)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/mullerian-anomalies",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Mullerian anomalies are congenital abnormalities of the female reproductive tract."
+        ],
+        "Alternative Names": [
+          "Müllerian duct anomalies"
+        ],
+        "Causes": [
+          "Developmental issues during fetal growth."
+        ],
+        "Symptoms": [
+          "Menstrual irregularities, infertility, and pelvic pain."
+        ],
+        "Diagnosis": [
+          "Imaging studies and physical examination."
+        ],
+        "Treatment": [
+          "Depends on the specific anomaly; may include surgery and reproductive assistance."
+        ]
+      }
+    },
+    {
+      "condition": "Multiple Endocrine Neoplasia",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/multiple-endocrine-neoplasia",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Multiple endocrine neoplasia is a group of disorders that affect the endocrine system and lead to tumors in multiple glands."
+        ],
+        "Alternative Names": [
+          "MEN syndrome"
+        ],
+        "Causes": [
+          "Genetic mutations, often inherited."
+        ],
+        "Symptoms": [
+          "Varies by type; may include hormonal imbalances and tumors."
+        ],
+        "Diagnosis": [
+          "Genetic testing and clinical evaluation."
+        ],
+        "Treatment": [
+          "Monitoring, surgery, and management of hormone levels."
+        ]
+      }
+    },
+    {
+      "condition": "Multiple Myeloma",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/multiple-myeloma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Multiple myeloma is a cancer of plasma cells in the bone marrow."
+        ],
+        "Alternative Names": [
+          "Plasma cell myeloma"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may involve genetic factors."
+        ],
+        "Symptoms": [
+          "Bone pain, anemia, and kidney dysfunction."
+        ],
+        "Diagnosis": [
+          "Blood tests, imaging studies, and bone marrow biopsy."
+        ],
+        "Treatment": [
+          "Chemotherapy, targeted therapy, and stem cell transplant."
+        ]
+      }
+    },
+    {
+      "condition": "Multiple Sclerosis (MS)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/multiple-sclerosis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Multiple sclerosis is a chronic autoimmune disease that affects the central nervous system."
+        ],
+        "Alternative Names": [
+          "MS"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but involves immune system attacks on myelin."
+        ],
+        "Symptoms": [
+          "Fatigue, vision problems, and difficulty with coordination."
+        ],
+        "Diagnosis": [
+          "MRI, lumbar puncture, and neurological examination."
+        ],
+        "Treatment": [
+          "Disease-modifying therapies, symptom management, and rehabilitation."
+        ]
+      }
+    },
+    {
+      "condition": "Multiple System Atrophy (MSA)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/multiple-system-atrophy",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Multiple system atrophy is a rare neurodegenerative disorder that affects the autonomic nervous system and movement."
+        ],
+        "Alternative Names": [
+          "MSA"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but involves abnormal protein accumulation in the brain."
+        ],
+        "Symptoms": [
+          "Parkinsonism, balance issues, and autonomic dysfunction."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and imaging studies."
+        ],
+        "Treatment": [
+          "Symptomatic management and supportive care."
+        ]
+      }
+    },
+    {
+      "condition": "Mumps",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/mumps",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Mumps is a viral infection that primarily affects the salivary glands."
+        ],
+        "Alternative Names": [
+          "Mumps virus infection"
+        ],
+        "Causes": [
+          "Infection with the mumps virus."
+        ],
+        "Symptoms": [
+          "Swollen salivary glands, fever, and headache."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and laboratory tests."
+        ],
+        "Treatment": [
+          "Supportive care and vaccination for prevention."
+        ]
+      }
+    },
+    {
+      "condition": "Muscular Dystrophy",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/muscular-dystrophy",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Muscular dystrophy is a group of genetic disorders characterized by progressive muscle weakness and degeneration."
+        ],
+        "Alternative Names": [
+          "MD"
+        ],
+        "Causes": [
+          "Genetic mutations affecting muscle proteins."
+        ],
+        "Symptoms": [
+          "Muscle weakness, difficulty walking, and muscle wasting."
+        ],
+        "Diagnosis": [
+          "Genetic testing, muscle biopsy, and clinical evaluation."
+        ],
+        "Treatment": [
+          "Physical therapy, medications, and supportive care."
+        ]
+      }
+    },
+    {
+      "condition": "Myasthenia Gravis (MG)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/myasthenia-gravis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Myasthenia gravis is a chronic autoimmune disorder that causes weakness in the skeletal muscles."
+        ],
+        "Alternative Names": [
+          "MG"
+        ],
+        "Causes": [
+          "Autoimmune response affecting the communication between nerves and muscles."
+        ],
+        "Symptoms": [
+          "Muscle weakness, fatigue, and difficulty with eye movements."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation, blood tests, and electromyography."
+        ],
+        "Treatment": [
+          "Medications, plasmapheresis, and thymectomy."
+        ]
+      }
+    },
+    {
+      "condition": "Myelodysplastic Syndromes (MDS)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/myelodysplastic-syndromes",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Myelodysplastic syndromes are a group of disorders caused by poorly formed or dysfunctional blood cells."
+        ],
+        "Alternative Names": [
+          "MDS"
+        ],
+        "Causes": [
+          "Genetic mutations and exposure to certain chemicals or radiation."
+        ],
+        "Symptoms": [
+          "Fatigue, frequent infections, and easy bruising."
+        ],
+        "Diagnosis": [
+          "Blood tests and bone marrow biopsy."
+        ],
+        "Treatment": [
+          "Supportive care, medications, and stem cell transplant."
+        ]
+      }
+    },
+    {
+      "condition": "Myelopathy",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/myelopathy",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Myelopathy is a neurological condition caused by compression or damage to the spinal cord."
+        ],
+        "Alternative Names": [
+          "Spinal cord dysfunction"
+        ],
+        "Causes": [
+          "Herniated discs, spinal stenosis, and trauma."
+        ],
+        "Symptoms": [
+          "Weakness, numbness, and coordination problems."
+        ],
+        "Diagnosis": [
+          "Imaging studies and neurological examination."
+        ],
+        "Treatment": [
+          "Physical therapy, medications, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Myeloproliferative Neoplasms (MPNs)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/myeloproliferative-neoplasms",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Myeloproliferative neoplasms are a group of blood cancers that cause the bone marrow to produce too many blood cells."
+        ],
+        "Alternative Names": [
+          "MPNs"
+        ],
+        "Causes": [
+          "Genetic mutations, often acquired."
+        ],
+        "Symptoms": [
+          "Fatigue, night sweats, and splenomegaly."
+        ],
+        "Diagnosis": [
+          "Blood tests and bone marrow biopsy."
+        ],
+        "Treatment": [
+          "Medications, phlebotomy, and sometimes stem cell transplant."
+        ]
+      }
+    },
+    {
+      "condition": "Myocarditis (Heart Tissue Inflammation)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/myocarditis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Myocarditis is an inflammation of the heart muscle, which can affect its ability to pump blood."
+        ],
+        "Alternative Names": [
+          "Heart muscle inflammation"
+        ],
+        "Causes": [
+          "Viral infections, autoimmune diseases, and exposure to toxins."
+        ],
+        "Symptoms": [
+          "Chest pain, fatigue, and shortness of breath."
+        ],
+        "Diagnosis": [
+          "Imaging studies, blood tests, and biopsy."
+        ],
+        "Treatment": [
+          "Medications, lifestyle changes, and management of underlying causes."
+        ]
+      }
+    },
+    {
+      "condition": "Myopathy",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/myopathy",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Myopathy is a disease of the muscle tissue that leads to muscle weakness."
+        ],
+        "Alternative Names": [
+          "Muscle disease"
+        ],
+        "Causes": [
+          "Genetic factors, autoimmune diseases, and certain medications."
+        ],
+        "Symptoms": [
+          "Muscle weakness, cramps, and fatigue."
+        ],
+        "Diagnosis": [
+          "Blood tests, muscle biopsy, and imaging studies."
+        ],
+        "Treatment": [
+          "Depends on the underlying cause; may include medications and physical therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Myositis (Muscle Inflammation)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/myositis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Myositis is inflammation of the muscles, which can lead to weakness and pain."
+        ],
+        "Alternative Names": [
+          "Muscle inflammation"
+        ],
+        "Causes": [
+          "Autoimmune diseases, infections, and certain medications."
+        ],
+        "Symptoms": [
+          "Muscle weakness, pain, and swelling."
+        ],
+        "Diagnosis": [
+          "Blood tests, muscle biopsy, and imaging studies."
+        ],
+        "Treatment": [
+          "Corticosteroids, immunosuppressive medications, and physical therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Myxofibrosarcoma",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/myxofibrosarcoma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Myxofibrosarcoma is a rare type of soft tissue sarcoma that typically occurs in the extremities."
+        ],
+        "Alternative Names": [
+          "Myxoid fibrosarcoma"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may involve genetic mutations."
+        ],
+        "Symptoms": [
+          "A lump or mass, pain, and swelling."
+        ],
+        "Diagnosis": [
+          "Imaging studies and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, radiation therapy, and chemotherapy."
+        ]
+      }
+    }
+  ]

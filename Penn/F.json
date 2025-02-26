@@ -1,0 +1,477 @@
+[
+    {
+      "condition": "Facial Paralysis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/facial-paralysis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Facial paralysis is the loss of movement in the muscles of the face, often affecting one side."
+        ],
+        "Alternative Names": [
+          "Bell's palsy"
+        ],
+        "Causes": [
+          "Viral infections, trauma, or neurological conditions."
+        ],
+        "Symptoms": [
+          "Inability to close the eye, drooping of the mouth, and loss of facial expression."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and medical history."
+        ],
+        "Treatment": [
+          "Physical therapy, medications, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Facial Trauma",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/facial-trauma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Facial trauma refers to injuries to the face, including fractures and soft tissue injuries."
+        ],
+        "Alternative Names": [
+          "Facial injuries"
+        ],
+        "Causes": [
+          "Accidents, falls, and sports injuries."
+        ],
+        "Symptoms": [
+          "Swelling, bruising, pain, and deformity."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies."
+        ],
+        "Treatment": [
+          "Surgery, pain management, and rehabilitation."
+        ]
+      }
+    },
+    {
+      "condition": "Fallopian Tube Cancer",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/fallopian-tube-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Fallopian tube cancer is a rare cancer that occurs in the fallopian tubes."
+        ],
+        "Alternative Names": [
+          "Tubal cancer"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may involve genetic factors."
+        ],
+        "Symptoms": [
+          "Abnormal vaginal bleeding, pelvic pain, and abdominal swelling."
+        ],
+        "Diagnosis": [
+          "Pelvic examination, imaging, and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, chemotherapy, and radiation therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Fecal Incontinence (Bowel Incontinence)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/fecal-incontinence",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Fecal incontinence is the inability to control bowel movements, leading to involuntary leakage."
+        ],
+        "Alternative Names": [
+          "Bowel incontinence"
+        ],
+        "Causes": [
+          "Muscle damage, nerve damage, and certain medical conditions."
+        ],
+        "Symptoms": [
+          "Involuntary loss of stool and urgency."
+        ],
+        "Diagnosis": [
+          "Medical history, physical examination, and sometimes imaging."
+        ],
+        "Treatment": [
+          "Dietary changes, medications, and pelvic floor exercises."
+        ]
+      }
+    },
+    {
+      "condition": "Female Infertility",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/female-infertility",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Female infertility is the inability to conceive after one year of unprotected intercourse."
+        ],
+        "Alternative Names": [
+          "Infertility in women"
+        ],
+        "Causes": [
+          "Ovulation disorders, fallopian tube damage, and uterine conditions."
+        ],
+        "Symptoms": [
+          "Inability to conceive and irregular menstrual cycles."
+        ],
+        "Diagnosis": [
+          "Medical history, physical examination, and fertility tests."
+        ],
+        "Treatment": [
+          "Medications, assisted reproductive technologies, and surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Female Pattern Baldness",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/female-pattern-baldness",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Female pattern baldness is a common form of hair loss in women, often hereditary."
+        ],
+        "Alternative Names": [
+          "Androgenetic alopecia"
+        ],
+        "Causes": [
+          "Genetic factors and hormonal changes."
+        ],
+        "Symptoms": [
+          "Thinning hair and widening part."
+        ],
+        "Diagnosis": [
+          "Physical examination and medical history."
+        ],
+        "Treatment": [
+          "Medications, hair restoration techniques, and lifestyle changes."
+        ]
+      }
+    },
+    {
+      "condition": "Fever",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/fever",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Fever is a temporary increase in body temperature, often due to illness."
+        ],
+        "Alternative Names": [
+          "Pyrexia"
+        ],
+        "Causes": [
+          "Infections, inflammatory conditions, and heat exhaustion."
+        ],
+        "Symptoms": [
+          "Elevated body temperature, chills, and sweating."
+        ],
+        "Diagnosis": [
+          "Physical examination and medical history."
+        ],
+        "Treatment": [
+          "Rest, hydration, and medications to reduce fever."
+        ]
+      }
+    },
+    {
+      "condition": "Fibrodysplasia Ossificans Progressiva (FOP)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/fibrodysplasia-ossificans-progressiva",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Fibrodysplasia ossificans progressiva is a rare genetic disorder that causes soft tissues to turn into bone."
+        ],
+        "Alternative Names": [
+          "FOP"
+        ],
+        "Causes": [
+          "Genetic mutations affecting connective tissue."
+        ],
+        "Symptoms": [
+          "Progressive loss of mobility and formation of bone in muscles and tendons."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and genetic testing."
+        ],
+        "Treatment": [
+          "No cure; management focuses on preventing complications."
+        ]
+      }
+    },
+    {
+      "condition": "Fibromyalgia (Fibrositis)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/fibromyalgia",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Fibromyalgia is a chronic condition characterized by widespread musculoskeletal pain."
+        ],
+        "Alternative Names": [
+          "Fibrositis"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may involve genetic and environmental factors."
+        ],
+        "Symptoms": [
+          "Widespread pain, fatigue, and sleep disturbances."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and symptom assessment."
+        ],
+        "Treatment": [
+          "Medications, physical therapy, and lifestyle changes."
+        ]
+      }
+    },
+    {
+      "condition": "Fibrosarcoma",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/fibrosarcoma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Fibrosarcoma is a rare type of cancer that arises from fibrous connective tissue."
+        ],
+        "Alternative Names": [
+          "Soft tissue sarcoma"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may involve genetic mutations."
+        ],
+        "Symptoms": [
+          "A lump or mass, pain, and swelling."
+        ],
+        "Diagnosis": [
+          "Biopsy and imaging studies."
+        ],
+        "Treatment": [
+          "Surgery, radiation therapy, and chemotherapy."
+        ]
+      }
+    },
+    {
+      "condition": "Fistula",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/fistula",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A fistula is an abnormal connection between two body parts, often due to injury or disease."
+        ],
+        "Alternative Names": [
+          "Fistula formation"
+        ],
+        "Causes": [
+          "Infections, surgery, and inflammatory diseases."
+        ],
+        "Symptoms": [
+          "Abnormal drainage, pain, and swelling."
+        ],
+        "Diagnosis": [
+          "Imaging studies and physical examination."
+        ],
+        "Treatment": [
+          "Surgery and management of underlying conditions."
+        ]
+      }
+    },
+    {
+      "condition": "Flu (Influenza)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/flu",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Influenza, or the flu, is a contagious respiratory illness caused by influenza viruses."
+        ],
+        "Alternative Names": [
+          "Flu"
+        ],
+        "Causes": [
+          "Influenza viruses A, B, and C."
+        ],
+        "Symptoms": [
+          "Fever, cough, sore throat, and body aches."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and sometimes rapid tests."
+        ],
+        "Treatment": [
+          "Rest, hydration, antiviral medications, and symptomatic relief."
+        ]
+      }
+    },
+    {
+      "condition": "Focal Segmental Glomerulosclerosis (FSGS)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/focal-segmental-glomerulosclerosis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Focal segmental glomerulosclerosis is a kidney disease that affects the glomeruli."
+        ],
+        "Alternative Names": [
+          "FSGS"
+        ],
+        "Causes": [
+          "Genetic factors, infections, and obesity."
+        ],
+        "Symptoms": [
+          "Swelling, protein in urine, and high blood pressure."
+        ],
+        "Diagnosis": [
+          "Urine tests, blood tests, and kidney biopsy."
+        ],
+        "Treatment": [
+          "Medications, dietary changes, and sometimes dialysis."
+        ]
+      }
+    },
+    {
+      "condition": "Folliculitis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/folliculitis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Folliculitis is the inflammation of hair follicles, often due to infection."
+        ],
+        "Alternative Names": [
+          "Hair follicle infection"
+        ],
+        "Causes": [
+          "Bacterial infections, irritation, and fungal infections."
+        ],
+        "Symptoms": [
+          "Red bumps, itching, and pus-filled blisters."
+        ],
+        "Diagnosis": [
+          "Physical examination and medical history."
+        ],
+        "Treatment": [
+          "Topical antibiotics, warm compresses, and good hygiene."
+        ]
+      }
+    },
+    {
+      "condition": "Food Allergy",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/food-allergy",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A food allergy is an immune response to certain foods that the body mistakenly identifies as harmful."
+        ],
+        "Alternative Names": [
+          "Food hypersensitivity"
+        ],
+        "Causes": [
+          "Genetic predisposition and exposure to allergens."
+        ],
+        "Symptoms": [
+          "Hives, swelling, gastrointestinal issues, and anaphylaxis."
+        ],
+        "Diagnosis": [
+          "Allergy testing and medical history."
+        ],
+        "Treatment": [
+          "Avoidance of allergens and emergency medications like epinephrine."
+        ]
+      }
+    },
+    {
+      "condition": "Foot Drop",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/foot-drop",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Foot drop is a condition characterized by difficulty lifting the front part of the foot."
+        ],
+        "Alternative Names": [
+          "Drop foot"
+        ],
+        "Causes": [
+          "Nerve injury, muscle disorders, and neurological conditions."
+        ],
+        "Symptoms": [
+          "Inability to lift the foot, dragging of the foot while walking."
+        ],
+        "Diagnosis": [
+          "Physical examination and nerve conduction studies."
+        ],
+        "Treatment": [
+          "Physical therapy, braces, and addressing underlying causes."
+        ]
+      }
+    },
+    {
+      "condition": "Frequency Urination",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/frequency-urination",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Frequency urination is the need to urinate more often than usual."
+        ],
+        "Alternative Names": [
+          "Frequent urination"
+        ],
+        "Causes": [
+          "Urinary tract infections, diabetes, and bladder conditions."
+        ],
+        "Symptoms": [
+          "Increased urge to urinate and sometimes discomfort."
+        ],
+        "Diagnosis": [
+          "Medical history, physical examination, and urine tests."
+        ],
+        "Treatment": [
+          "Depends on the underlying cause; may include medications and lifestyle changes."
+        ]
+      }
+    },
+    {
+      "condition": "Frostbite",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/frostbite",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Frostbite is an injury caused by freezing of the skin and underlying tissues."
+        ],
+        "Alternative Names": [
+          "Cold injury"
+        ],
+        "Causes": [
+          "Prolonged exposure to cold temperatures."
+        ],
+        "Symptoms": [
+          "Numbness, discoloration, and blistering of the skin."
+        ],
+        "Diagnosis": [
+          "Physical examination and assessment of symptoms."
+        ],
+        "Treatment": [
+          "Rewarming, pain management, and sometimes surgical intervention."
+        ]
+      }
+    },
+    {
+      "condition": "Frozen Shoulder",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/frozen-shoulder",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Frozen shoulder, or adhesive capsulitis, is a condition characterized by stiffness and pain in the shoulder joint."
+        ],
+        "Alternative Names": [
+          "Adhesive capsulitis"
+        ],
+        "Causes": [
+          "Injury, surgery, or prolonged immobility."
+        ],
+        "Symptoms": [
+          "Pain and limited range of motion in the shoulder."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies."
+        ],
+        "Treatment": [
+          "Physical therapy, medications, and sometimes surgery."
+        ]
+      }
+    }
+  ]

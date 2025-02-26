@@ -1,0 +1,652 @@
+[
+    {
+      "condition": "Ear Cyst",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/ear-cyst",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "An ear cyst is a sac-like pocket of tissue that can form in the ear canal or surrounding areas."
+        ],
+        "Alternative Names": [
+          "Aural cyst"
+        ],
+        "Causes": [
+          "Blocked glands, infections, or genetic factors."
+        ],
+        "Symptoms": [
+          "Pain, swelling, or discharge from the ear."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies."
+        ],
+        "Treatment": [
+          "Surgical removal or drainage if symptomatic."
+        ]
+      }
+    },
+    {
+      "condition": "Ear Infection - Middle Ear (Otitis Media)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/ear-infection-middle-ear",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Otitis media is an infection of the middle ear, often caused by bacteria or viruses."
+        ],
+        "Alternative Names": [
+          "Middle ear infection"
+        ],
+        "Causes": [
+          "Upper respiratory infections, allergies, and sinus infections."
+        ],
+        "Symptoms": [
+          "Ear pain, fever, and irritability in children."
+        ],
+        "Diagnosis": [
+          "Physical examination and otoscopic evaluation."
+        ],
+        "Treatment": [
+          "Antibiotics, pain relievers, and sometimes ear tubes."
+        ]
+      }
+    },
+    {
+      "condition": "Ear Infections",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/ear-infections",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Ear infections can occur in the outer, middle, or inner ear and are often due to bacteria or viruses."
+        ],
+        "Alternative Names": [
+          "Otitis externa, otitis media"
+        ],
+        "Causes": [
+          "Infections, allergies, and fluid buildup."
+        ],
+        "Symptoms": [
+          "Pain, discharge, and hearing loss."
+        ],
+        "Diagnosis": [
+          "Physical examination and possibly imaging."
+        ],
+        "Treatment": [
+          "Antibiotics, pain management, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Earache",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/earache",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "An earache is pain in the ear that can result from various conditions."
+        ],
+        "Alternative Names": [
+          "Otalgia"
+        ],
+        "Causes": [
+          "Infections, injuries, or pressure changes."
+        ],
+        "Symptoms": [
+          "Sharp, dull, or throbbing pain in the ear."
+        ],
+        "Diagnosis": [
+          "Physical examination and medical history."
+        ],
+        "Treatment": [
+          "Pain relievers, warm compresses, and treating underlying causes."
+        ]
+      }
+    },
+    {
+      "condition": "Eczema",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/eczema",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Eczema is a chronic inflammatory skin condition characterized by itchy, red, and dry skin."
+        ],
+        "Alternative Names": [
+          "Atopic dermatitis"
+        ],
+        "Causes": [
+          "Genetic factors, allergens, and irritants."
+        ],
+        "Symptoms": [
+          "Itching, redness, and scaling of the skin."
+        ],
+        "Diagnosis": [
+          "Physical examination and medical history."
+        ],
+        "Treatment": [
+          "Topical corticosteroids, moisturizers, and avoiding triggers."
+        ]
+      }
+    },
+    {
+      "condition": "Empyema",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/empyema",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Empyema is a collection of pus in the pleural cavity, often due to infection."
+        ],
+        "Alternative Names": [
+          "Pleural empyema"
+        ],
+        "Causes": [
+          "Pneumonia, lung abscess, or chest trauma."
+        ],
+        "Symptoms": [
+          "Chest pain, fever, and difficulty breathing."
+        ],
+        "Diagnosis": [
+          "Imaging studies and analysis of pleural fluid."
+        ],
+        "Treatment": [
+          "Antibiotics, drainage of the fluid, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Endocarditis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/endocarditis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Endocarditis is an infection of the inner lining of the heart chambers and valves."
+        ],
+        "Alternative Names": [
+          "Infective endocarditis"
+        ],
+        "Causes": [
+          "Bacterial or fungal infections, often from the bloodstream."
+        ],
+        "Symptoms": [
+          "Fever, chills, and heart murmur."
+        ],
+        "Diagnosis": [
+          "Blood cultures and echocardiography."
+        ],
+        "Treatment": [
+          "Intravenous antibiotics and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Endometrial Cancer",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/endometrial-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Endometrial cancer is a type of cancer that begins in the lining of the uterus."
+        ],
+        "Alternative Names": [
+          "Uterine cancer"
+        ],
+        "Causes": [
+          "Hormonal imbalances, obesity, and genetic factors."
+        ],
+        "Symptoms": [
+          "Abnormal vaginal bleeding, pelvic pain, and weight loss."
+        ],
+        "Diagnosis": [
+          "Pelvic examination, imaging, and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, radiation therapy, and chemotherapy."
+        ]
+      }
+    },
+    {
+      "condition": "Endometriosis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/endometriosis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Endometriosis is a condition where tissue similar to the lining of the uterus grows outside the uterus."
+        ],
+        "Alternative Names": [
+          "Endometrial tissue growth"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may involve hormonal and genetic factors."
+        ],
+        "Symptoms": [
+          "Pelvic pain, heavy periods, and infertility."
+        ],
+        "Diagnosis": [
+          "Pelvic examination, imaging, and laparoscopy."
+        ],
+        "Treatment": [
+          "Pain management, hormonal therapy, and surgery."
+        ]
+      }
+    },
+    {
+      "condition": "End-Stage Kidney Disease",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/end-stage-kidney-disease",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "End-stage kidney disease is the final stage of chronic kidney disease where kidneys can no longer function."
+        ],
+        "Alternative Names": [
+          "Kidney failure"
+        ],
+        "Causes": [
+          "Diabetes, hypertension, and glomerulonephritis."
+        ],
+        "Symptoms": [
+          "Fatigue, swelling, and changes in urination."
+        ],
+        "Diagnosis": [
+          "Blood tests, urine tests, and imaging."
+        ],
+        "Treatment": [
+          "Dialysis or kidney transplantation."
+        ]
+      }
+    },
+    {
+      "condition": "Eosinophilic Esophagitis (EoE)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/eosinophilic-esophagitis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Eosinophilic esophagitis is an allergic inflammatory condition of the esophagus."
+        ],
+        "Alternative Names": [
+          "EoE"
+        ],
+        "Causes": [
+          "Food allergies and environmental allergens."
+        ],
+        "Symptoms": [
+          "Difficulty swallowing, food impaction, and chest pain."
+        ],
+        "Diagnosis": [
+          "Endoscopy and biopsy."
+        ],
+        "Treatment": [
+          "Dietary changes, medications, and sometimes dilation."
+        ]
+      }
+    },
+    {
+      "condition": "Epidermolysis Bullosa",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/epidermolysis-bullosa",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Epidermolysis bullosa is a group of genetic disorders that cause fragile skin and blistering."
+        ],
+        "Alternative Names": [
+          "EB"
+        ],
+        "Causes": [
+          "Genetic mutations affecting skin structure."
+        ],
+        "Symptoms": [
+          "Blistering, skin fragility, and pain."
+        ],
+        "Diagnosis": [
+          "Genetic testing and skin biopsy."
+        ],
+        "Treatment": [
+          "Wound care, pain management, and supportive therapies."
+        ]
+      }
+    },
+    {
+      "condition": "Epididymitis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/epididymitis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Epididymitis is the inflammation of the epididymis, often due to infection."
+        ],
+        "Alternative Names": [
+          "Epididymal inflammation"
+        ],
+        "Causes": [
+          "Bacterial infections, sexually transmitted infections, and trauma."
+        ],
+        "Symptoms": [
+          "Pain and swelling in the scrotum."
+        ],
+        "Diagnosis": [
+          "Physical examination and urine tests."
+        ],
+        "Treatment": [
+          "Antibiotics and pain relief."
+        ]
+      }
+    },
+    {
+      "condition": "Epilepsy",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/epilepsy",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Epilepsy is a neurological disorder characterized by recurrent seizures."
+        ],
+        "Alternative Names": [
+          "Seizure disorder"
+        ],
+        "Causes": [
+          "Genetic factors, brain injury, and infections."
+        ],
+        "Symptoms": [
+          "Seizures, loss of consciousness, and confusion."
+        ],
+        "Diagnosis": [
+          "Electroencephalogram (EEG) and imaging studies."
+        ],
+        "Treatment": [
+          "Antiepileptic medications and lifestyle modifications."
+        ]
+      }
+    },
+    {
+      "condition": "Epithelioid Sarcoma",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/epithelioid-sarcoma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Epithelioid sarcoma is a rare type of soft tissue sarcoma that typically occurs in young adults."
+        ],
+        "Alternative Names": [
+          "Epithelioid sarcoma of soft tissue"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may involve genetic mutations."
+        ],
+        "Symptoms": [
+          "A firm lump or mass, often on the extremities."
+        ],
+        "Diagnosis": [
+          "Biopsy and imaging studies."
+        ],
+        "Treatment": [
+          "Surgery, radiation therapy, and chemotherapy."
+        ]
+      }
+    },
+    {
+      "condition": "Esophageal Achalasia",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/esophageal-achalasia",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Esophageal achalasia is a disorder where the esophagus has difficulty moving food into the stomach."
+        ],
+        "Alternative Names": [
+          "Achalasia"
+        ],
+        "Causes": [
+          "Nerve damage affecting esophageal muscle function."
+        ],
+        "Symptoms": [
+          "Difficulty swallowing, regurgitation, and chest pain."
+        ],
+        "Diagnosis": [
+          "Esophageal manometry and imaging studies."
+        ],
+        "Treatment": [
+          "Dilation, surgery, and medications."
+        ]
+      }
+    },
+    {
+      "condition": "Esophageal Cancer",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/esophageal-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Esophageal cancer is a type of cancer that occurs in the esophagus."
+        ],
+        "Alternative Names": [
+          "Esophageal carcinoma"
+        ],
+        "Causes": [
+          "Smoking, heavy alcohol use, and certain dietary factors."
+        ],
+        "Symptoms": [
+          "Difficulty swallowing, weight loss, and chest pain."
+        ],
+        "Diagnosis": [
+          "Endoscopy and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, chemotherapy, and radiation therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Esophagitis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/esophagitis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Esophagitis is inflammation of the esophagus, often due to acid reflux or infections."
+        ],
+        "Alternative Names": [
+          "Esophageal inflammation"
+        ],
+        "Causes": [
+          "Gastroesophageal reflux disease (GERD), infections, and irritants."
+        ],
+        "Symptoms": [
+          "Painful swallowing, chest pain, and heartburn."
+        ],
+        "Diagnosis": [
+          "Endoscopy and biopsy."
+        ],
+        "Treatment": [
+          "Medications to reduce acid and treat underlying causes."
+        ]
+      }
+    },
+    {
+      "condition": "Essential Tremor",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/essential-tremor",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Essential tremor is a nervous system disorder that causes involuntary shaking."
+        ],
+        "Alternative Names": [
+          "ET"
+        ],
+        "Causes": [
+          "Genetic factors and environmental influences."
+        ],
+        "Symptoms": [
+          "Tremors in the hands, arms, and head."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and medical history."
+        ],
+        "Treatment": [
+          "Medications, lifestyle changes, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Ewing's Sarcoma",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/ewings-sarcoma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Ewing's sarcoma is a rare type of cancer that occurs in the bones or soft tissue."
+        ],
+        "Alternative Names": [
+          "Ewing sarcoma"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but it involves genetic mutations."
+        ],
+        "Symptoms": [
+          "Pain, swelling, and fever."
+        ],
+        "Diagnosis": [
+          "Imaging studies and biopsy."
+        ],
+        "Treatment": [
+          "Chemotherapy, radiation therapy, and surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Eye Cancer",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/eye-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Eye cancer refers to cancers that develop in the eye or surrounding tissues."
+        ],
+        "Alternative Names": [
+          "Ocular cancer"
+        ],
+        "Causes": [
+          "Genetic factors, UV exposure, and certain medical conditions."
+        ],
+        "Symptoms": [
+          "Vision changes, eye pain, and visible growths."
+        ],
+        "Diagnosis": [
+          "Eye examination and imaging studies."
+        ],
+        "Treatment": [
+          "Surgery, radiation therapy, and chemotherapy."
+        ]
+      }
+    },
+    {
+      "condition": "Eye Emergencies",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/eye-emergencies",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Eye emergencies are urgent conditions that require immediate medical attention."
+        ],
+        "Alternative Names": [
+          "Ocular emergencies"
+        ],
+        "Causes": [
+          "Injuries, infections, and sudden vision changes."
+        ],
+        "Symptoms": [
+          "Severe pain, vision loss, and redness."
+        ],
+        "Diagnosis": [
+          "Immediate eye examination."
+        ],
+        "Treatment": [
+          "Depends on the specific emergency; may include medications or surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Eye Floaters",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/eye-floaters",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Eye floaters are small spots or lines that appear in a person's field of vision."
+        ],
+        "Alternative Names": [
+          "Vitreous floaters"
+        ],
+        "Causes": [
+          "Aging, vitreous detachment, and eye injuries."
+        ],
+        "Symptoms": [
+          "Seeing spots, cobwebs, or shadows in vision."
+        ],
+        "Diagnosis": [
+          "Eye examination."
+        ],
+        "Treatment": [
+          "Usually not required, but surgery may be needed in severe cases."
+        ]
+      }
+    },
+    {
+      "condition": "Eye Melanoma (Ocular Melanoma)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/eye-melanoma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Eye melanoma is a type of cancer that develops in the melanocytes of the eye."
+        ],
+        "Alternative Names": [
+          "Ocular melanoma"
+        ],
+        "Causes": [
+          "UV exposure and genetic factors."
+        ],
+        "Symptoms": [
+          "Vision changes, dark spots in the eye, and eye pain."
+        ],
+        "Diagnosis": [
+          "Eye examination and imaging studies."
+        ],
+        "Treatment": [
+          "Surgery, radiation therapy, and sometimes chemotherapy."
+        ]
+      }
+    },
+    {
+      "condition": "Eye Stroke (Branch Retinal Artery Occlusion)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/eye-stroke",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "An eye stroke occurs when blood flow to the retina is blocked, leading to vision loss."
+        ],
+        "Alternative Names": [
+          "Branch retinal artery occlusion"
+        ],
+        "Causes": [
+          "Blood clots, atherosclerosis, and other vascular issues."
+        ],
+        "Symptoms": [
+          "Sudden vision loss or blurriness in one eye."
+        ],
+        "Diagnosis": [
+          "Eye examination and imaging studies."
+        ],
+        "Treatment": [
+          "Depends on the cause; may include medications or surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Eyelid Tumor",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/eyelid-tumor",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Eyelid tumors are abnormal growths on the eyelid that can be benign or malignant."
+        ],
+        "Alternative Names": [
+          "Eyelid neoplasm"
+        ],
+        "Causes": [
+          "Sun exposure, genetic factors, and skin conditions."
+        ],
+        "Symptoms": [
+          "Lump or growth on the eyelid, irritation, and changes in appearance."
+        ],
+        "Diagnosis": [
+          "Physical examination and biopsy."
+        ],
+        "Treatment": [
+          "Surgical removal and monitoring."
+        ]
+      }
+    }
+  ]

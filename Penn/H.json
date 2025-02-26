@@ -1,0 +1,1227 @@
+[
+    {
+      "condition": "Hair Loss (Alopecia)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hair-loss",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Alopecia is a condition that causes hair loss, which can occur in patches or throughout the scalp."
+        ],
+        "Alternative Names": [
+          "Alopecia areata"
+        ],
+        "Causes": [
+          "Autoimmune disorders, genetics, and hormonal changes."
+        ],
+        "Symptoms": [
+          "Hair loss in patches, thinning hair, and bald spots."
+        ],
+        "Diagnosis": [
+          "Physical examination and sometimes scalp biopsy."
+        ],
+        "Treatment": [
+          "Topical treatments, corticosteroids, and hair restoration techniques."
+        ]
+      }
+    },
+    {
+      "condition": "Hammer Toe",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hammer-toe",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hammer toe is a deformity that causes the toe to bend downward at the middle joint."
+        ],
+        "Alternative Names": [
+          "Claw toe"
+        ],
+        "Causes": [
+          "Improper footwear, muscle imbalance, and arthritis."
+        ],
+        "Symptoms": [
+          "Pain, corns, and difficulty moving the toe."
+        ],
+        "Diagnosis": [
+          "Physical examination and X-rays."
+        ],
+        "Treatment": [
+          "Footwear modifications, splints, and surgery in severe cases."
+        ]
+      }
+    },
+    {
+      "condition": "Hamstring Injury",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hamstring-injury",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A hamstring injury is a strain or tear of the hamstring muscles at the back of the thigh."
+        ],
+        "Alternative Names": [
+          "Hamstring strain"
+        ],
+        "Causes": [
+          "Overstretching, sudden movements, and inadequate warm-up."
+        ],
+        "Symptoms": [
+          "Pain, swelling, and bruising in the back of the thigh."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies."
+        ],
+        "Treatment": [
+          "Rest, ice, compression, and physical therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Hashimoto Thyroiditis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hashimoto-thyroiditis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hashimoto thyroiditis is an autoimmune disorder that attacks the thyroid gland, leading to hypothyroidism."
+        ],
+        "Alternative Names": [
+          "Chronic lymphocytic thyroiditis"
+        ],
+        "Causes": [
+          "Autoimmune response and genetic predisposition."
+        ],
+        "Symptoms": [
+          "Fatigue, weight gain, and sensitivity to cold."
+        ],
+        "Diagnosis": [
+          "Blood tests measuring thyroid hormone levels and antibodies."
+        ],
+        "Treatment": [
+          "Thyroid hormone replacement therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Head and Neck Lymphoma",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/head-and-neck-lymphoma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Head and neck lymphoma is a type of cancer that originates in the lymphatic system in the head and neck region."
+        ],
+        "Alternative Names": [
+          "Lymphoma of the head and neck"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may involve immune system factors."
+        ],
+        "Symptoms": [
+          "Swollen lymph nodes, sore throat, and unexplained weight loss."
+        ],
+        "Diagnosis": [
+          "Biopsy, imaging studies, and blood tests."
+        ],
+        "Treatment": [
+          "Chemotherapy, radiation therapy, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Head and Neck Osteoma",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/head-and-neck-osteoma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Osteoma is a benign bone tumor that can occur in the head and neck region."
+        ],
+        "Alternative Names": [
+          "Benign osteoma"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may be related to genetic factors."
+        ],
+        "Symptoms": [
+          "Asymptomatic in many cases, but may cause pain or pressure."
+        ],
+        "Diagnosis": [
+          "Imaging studies such as X-rays or CT scans."
+        ],
+        "Treatment": [
+          "Surgical removal if symptomatic."
+        ]
+      }
+    },
+    {
+      "condition": "Headache",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/headache",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A headache is a pain or discomfort in the head, scalp, or neck."
+        ],
+        "Alternative Names": [
+          "Cephalalgia"
+        ],
+        "Causes": [
+          "Tension, migraines, sinus issues, and other medical conditions."
+        ],
+        "Symptoms": [
+          "Pain, throbbing, and sensitivity to light or sound."
+        ],
+        "Diagnosis": [
+          "Medical history and physical examination."
+        ],
+        "Treatment": [
+          "Pain relievers, lifestyle changes, and preventive medications."
+        ]
+      }
+    },
+    {
+      "condition": "Hearing Loss",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hearing-loss",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hearing loss is a partial or total inability to hear."
+        ],
+        "Alternative Names": [
+          "Hearing impairment"
+        ],
+        "Causes": [
+          "Aging, noise exposure, infections, and genetic factors."
+        ],
+        "Symptoms": [
+          "Difficulty understanding speech, muffled sounds, and ringing in the ears."
+        ],
+        "Diagnosis": [
+          "Hearing tests and physical examination."
+        ],
+        "Treatment": [
+          "Hearing aids, cochlear implants, and addressing underlying causes."
+        ]
+      }
+    },
+    {
+      "condition": "Heart Attack (Myocardial Infarction)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/heart-attack",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A heart attack occurs when blood flow to a part of the heart is blocked, causing damage to the heart muscle."
+        ],
+        "Alternative Names": [
+          "Myocardial infarction"
+        ],
+        "Causes": [
+          "Coronary artery disease, blood clots, and plaque buildup."
+        ],
+        "Symptoms": [
+          "Chest pain, shortness of breath, and nausea."
+        ],
+        "Diagnosis": [
+          "Electrocardiogram (ECG), blood tests, and imaging studies."
+        ],
+        "Treatment": [
+          "Medications, angioplasty, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Heart Block",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/heart-block",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Heart block is a condition where the electrical signals in the heart are delayed or blocked."
+        ],
+        "Alternative Names": [
+          "Atrioventricular block"
+        ],
+        "Causes": [
+          "Heart disease, certain medications, and congenital conditions."
+        ],
+        "Symptoms": [
+          "Fatigue, dizziness, and fainting."
+        ],
+        "Diagnosis": [
+          "Electrocardiogram (ECG) and physical examination."
+        ],
+        "Treatment": [
+          "Monitoring, medications, and pacemaker implantation in severe cases."
+        ]
+      }
+    },
+    {
+      "condition": "Heart Disease in Women",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/heart-disease-in-women",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Heart disease in women refers to various cardiovascular conditions that affect women."
+        ],
+        "Alternative Names": [
+          "Cardiovascular disease in women"
+        ],
+        "Causes": [
+          "Risk factors include high blood pressure, diabetes, and smoking."
+        ],
+        "Symptoms": [
+          "Chest pain, shortness of breath, and fatigue."
+        ],
+        "Diagnosis": [
+          "Medical history, physical examination, and imaging studies."
+        ],
+        "Treatment": [
+          "Lifestyle changes, medications, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Heart Failure",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/heart-failure",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Heart failure is a condition where the heart cannot pump enough blood to meet the body's needs."
+        ],
+        "Alternative Names": [
+          "Congestive heart failure"
+        ],
+        "Causes": [
+          "Coronary artery disease, high blood pressure, and previous heart attacks."
+        ],
+        "Symptoms": [
+          "Shortness of breath, fatigue, and swelling in the legs."
+        ],
+        "Diagnosis": [
+          "Physical examination, imaging studies, and blood tests."
+        ],
+        "Treatment": [
+          "Medications, lifestyle changes, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Heart Murmur",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/heart-murmur",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A heart murmur is an unusual sound heard during a heartbeat, often indicating turbulent blood flow."
+        ],
+        "Alternative Names": [
+          "Cardiac murmur"
+        ],
+        "Causes": [
+          "Heart valve issues, congenital heart defects, and anemia."
+        ],
+        "Symptoms": [
+          "Often asymptomatic, but may indicate underlying heart problems."
+        ],
+        "Diagnosis": [
+          "Physical examination and echocardiogram."
+        ],
+        "Treatment": [
+          "Depends on the underlying cause; may include monitoring or surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Heartburn (Gastroesophageal Reflux Disease)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/heartburn",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Heartburn is a burning sensation in the chest caused by acid reflux."
+        ],
+        "Alternative Names": [
+          "Gastroesophageal reflux disease (GERD)"
+        ],
+        "Causes": [
+          "Weak lower esophageal sphincter, obesity, and certain foods."
+        ],
+        "Symptoms": [
+          "Burning sensation in the chest, regurgitation, and difficulty swallowing."
+        ],
+        "Diagnosis": [
+          "Medical history and physical examination."
+        ],
+        "Treatment": [
+          "Antacids, lifestyle changes, and medications to reduce acid."
+        ]
+      }
+    },
+    {
+      "condition": "Hemangiomas",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hemangiomas",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hemangiomas are benign tumors made up of blood vessels, often appearing as red or purple marks on the skin."
+        ],
+        "Alternative Names": [
+          "Vascular birthmarks"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may involve genetic factors."
+        ],
+        "Symptoms": [
+          "Red or purple lesions on the skin, often raised."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies if deeper."
+        ],
+        "Treatment": [
+          "Often not needed, but may include medications or surgery in some cases."
+        ]
+      }
+    },
+    {
+      "condition": "Hemophilia",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hemophilia",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hemophilia is a genetic disorder that impairs the body's ability to make blood clots."
+        ],
+        "Alternative Names": [
+          "Bleeding disorder"
+        ],
+        "Causes": [
+          "Genetic mutations affecting clotting factors."
+        ],
+        "Symptoms": [
+          "Excessive bleeding, easy bruising, and joint pain."
+        ],
+        "Diagnosis": [
+          "Blood tests measuring clotting factors."
+        ],
+        "Treatment": [
+          "Replacement therapy for missing clotting factors and supportive care."
+        ]
+      }
+    },
+    {
+      "condition": "Hemorrhoids",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hemorrhoids",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hemorrhoids are swollen veins in the lower rectum and anus."
+        ],
+        "Alternative Names": [
+          "Piles"
+        ],
+        "Causes": [
+          "Straining during bowel movements, pregnancy, and obesity."
+        ],
+        "Symptoms": [
+          "Pain, itching, and bleeding during bowel movements."
+        ],
+        "Diagnosis": [
+          "Physical examination and sometimes imaging studies."
+        ],
+        "Treatment": [
+          "Dietary changes, topical treatments, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Henoch–Schönlein Purpura (HSP)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/henoch-schonlein-purpura",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Henoch–Schönlein purpura is a small-vessel vasculitis that causes inflammation and bleeding in the small blood vessels."
+        ],
+        "Alternative Names": [
+          "IgA vasculitis"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but often follows infections."
+        ],
+        "Symptoms": [
+          "Purplish rash, joint pain, and abdominal pain."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and sometimes biopsy."
+        ],
+        "Treatment": [
+          "Supportive care and medications to manage symptoms."
+        ]
+      }
+    },
+    {
+      "condition": "Hepatitis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hepatitis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hepatitis is an inflammation of the liver, which can be caused by viruses, alcohol, or toxins."
+        ],
+        "Alternative Names": [
+          "Liver inflammation"
+        ],
+        "Causes": [
+          "Viral infections, alcohol abuse, and autoimmune diseases."
+        ],
+        "Symptoms": [
+          "Fatigue, jaundice, and abdominal pain."
+        ],
+        "Diagnosis": [
+          "Blood tests and imaging studies."
+        ],
+        "Treatment": [
+          "Depends on the cause; may include antiviral medications and lifestyle changes."
+        ]
+      }
+    },
+    {
+      "condition": "Hepatitis B",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hepatitis-b",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hepatitis B is a viral infection that attacks the liver and can cause both acute and chronic diseases."
+        ],
+        "Alternative Names": [
+          "HBV infection"
+        ],
+        "Causes": [
+          "Infection with the hepatitis B virus."
+        ],
+        "Symptoms": [
+          "Fatigue, jaundice, and abdominal pain."
+        ],
+        "Diagnosis": [
+          "Blood tests to detect HBV."
+        ],
+        "Treatment": [
+          "Antiviral medications and monitoring for liver damage."
+        ]
+      }
+    },
+    {
+      "condition": "Hepatitis C",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hepatitis-c",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hepatitis C is a viral infection that primarily affects the liver."
+        ],
+        "Alternative Names": [
+          "HCV infection"
+        ],
+        "Causes": [
+          "Infection with the hepatitis C virus."
+        ],
+        "Symptoms": [
+          "Fatigue, jaundice, and abdominal pain."
+        ],
+        "Diagnosis": [
+          "Blood tests to detect HCV."
+        ],
+        "Treatment": [
+          "Antiviral medications and monitoring for liver damage."
+        ]
+      }
+    },
+    {
+      "condition": "HER2 Positive Breast Cancer (HER2+BC)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/her2-positive-breast-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "HER2 positive breast cancer is a type of breast cancer that has a growth-promoting protein on the outside of the cancer cells."
+        ],
+        "Alternative Names": [
+          "HER2+ breast cancer"
+        ],
+        "Causes": [
+          "Genetic mutations and overexpression of the HER2 gene."
+        ],
+        "Symptoms": [
+          "Lump in the breast, changes in breast shape, and discharge."
+        ],
+        "Diagnosis": [
+          "Mammography, biopsy, and HER2 testing."
+        ],
+        "Treatment": [
+          "Targeted therapies, chemotherapy, and surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Hereditary Hemorrhagic Telangiectasia (HHT)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hereditary-hemorrhagic-telangiectasia",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hereditary hemorrhagic telangiectasia is a genetic disorder that leads to abnormal blood vessel formation."
+        ],
+        "Alternative Names": [
+          "Osler-Weber-Rendu syndrome"
+        ],
+        "Causes": [
+          "Genetic mutations affecting blood vessel formation."
+        ],
+        "Symptoms": [
+          "Nosebleeds, skin lesions, and gastrointestinal bleeding."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and genetic testing."
+        ],
+        "Treatment": [
+          "Management of symptoms and sometimes surgical interventions."
+        ]
+      }
+    },
+    {
+      "condition": "Herniated Disc",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/herniated-disc",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A herniated disc occurs when the soft material inside a spinal disc pushes out through a tear in the outer layer."
+        ],
+        "Alternative Names": [
+          "Slipped disc"
+        ],
+        "Causes": [
+          "Aging, injury, and repetitive strain."
+        ],
+        "Symptoms": [
+          "Pain, numbness, and weakness in the affected area."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies."
+        ],
+        "Treatment": [
+          "Physical therapy, medications, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Hiatal Hernia",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hiatal-hernia",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A hiatal hernia occurs when part of the stomach pushes through the diaphragm into the chest cavity."
+        ],
+        "Alternative Names": [
+          "Diaphragmatic hernia"
+        ],
+        "Causes": [
+          "Increased pressure in the abdomen, obesity, and age."
+        ],
+        "Symptoms": [
+          "Heartburn, regurgitation, and chest pain."
+        ],
+        "Diagnosis": [
+          "Imaging studies and endoscopy."
+        ],
+        "Treatment": [
+          "Lifestyle changes, medications, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "High Cholesterol Levels (Hypercholesterolemia)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/high-cholesterol",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hypercholesterolemia is a condition characterized by high levels of cholesterol in the blood."
+        ],
+        "Alternative Names": [
+          "High cholesterol"
+        ],
+        "Causes": [
+          "Diet, genetics, and certain medical conditions."
+        ],
+        "Symptoms": [
+          "Often asymptomatic but can lead to heart disease."
+        ],
+        "Diagnosis": [
+          "Blood tests measuring cholesterol levels."
+        ],
+        "Treatment": [
+          "Dietary changes, medications, and lifestyle modifications."
+        ]
+      }
+    },
+    {
+      "condition": "Hip Dysplasia",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hip-dysplasia",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hip dysplasia is a condition where the hip joint is improperly formed, leading to instability."
+        ],
+        "Alternative Names": [
+          "Developmental dysplasia of the hip (DDH)"
+        ],
+        "Causes": [
+          "Genetic factors and positioning in the womb."
+        ],
+        "Symptoms": [
+          "Hip pain, limping, and reduced range of motion."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies."
+        ],
+        "Treatment": [
+          "Bracing, physical therapy, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Hip Impingement (Femoroacetabular Impingement)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hip-impingement",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hip impingement occurs when the hip joint is not properly shaped, causing pain and limited movement."
+        ],
+        "Alternative Names": [
+          "Femoroacetabular impingement (FAI)"
+        ],
+        "Causes": [
+          "Genetic factors and repetitive hip movements."
+        ],
+        "Symptoms": [
+          "Hip pain, stiffness, and a clicking sensation."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies."
+        ],
+        "Treatment": [
+          "Physical therapy, medications, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Hip Labral Tear",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hip-labral-tear",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A hip labral tear is an injury to the cartilage that surrounds the hip joint."
+        ],
+        "Alternative Names": [
+          "Labral tear"
+        ],
+        "Causes": [
+          "Injury, hip impingement, and repetitive motions."
+        ],
+        "Symptoms": [
+          "Hip pain, stiffness, and a clicking sensation."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies."
+        ],
+        "Treatment": [
+          "Physical therapy, medications, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Hip Pain",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hip-pain",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hip pain can arise from various conditions affecting the hip joint and surrounding structures."
+        ],
+        "Alternative Names": [
+          "Hip discomfort"
+        ],
+        "Causes": [
+          "Arthritis, injuries, and bursitis."
+        ],
+        "Symptoms": [
+          "Pain in the hip joint, groin, or outer thigh."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies."
+        ],
+        "Treatment": [
+          "Rest, physical therapy, medications, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Histiocytosis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/histiocytosis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Histiocytosis is a group of disorders characterized by an overproduction of histiocytes, a type of immune cell."
+        ],
+        "Alternative Names": [
+          "Langerhans cell histiocytosis"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may involve genetic factors."
+        ],
+        "Symptoms": [
+          "Varies widely; may include skin lesions, bone pain, and organ dysfunction."
+        ],
+        "Diagnosis": [
+          "Biopsy and imaging studies."
+        ],
+        "Treatment": [
+          "Depends on the type; may include chemotherapy and supportive care."
+        ]
+      }
+    },
+    {
+      "condition": "HIV (AIDS Virus)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hiv",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "HIV (Human Immunodeficiency Virus) is a virus that attacks the immune system, leading to AIDS."
+        ],
+        "Alternative Names": [
+          "Human immunodeficiency virus"
+        ],
+        "Causes": [
+          "Transmission through blood, sexual contact, and from mother to child."
+        ],
+        "Symptoms": [
+          "Flu-like symptoms initially, followed by a prolonged asymptomatic period."
+        ],
+        "Diagnosis": [
+          "Blood tests to detect HIV antibodies or viral load."
+        ],
+        "Treatment": [
+          "Antiretroviral therapy (ART) to manage the virus."
+        ]
+      }
+    },
+    {
+      "condition": "Hives (Urticaria)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hives",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hives are raised, itchy welts on the skin that can vary in size and shape."
+        ],
+        "Alternative Names": [
+          "Urticaria"
+        ],
+        "Causes": [
+          "Allergic reactions, stress, and certain medications."
+        ],
+        "Symptoms": [
+          "Itching, redness, and swelling."
+        ],
+        "Diagnosis": [
+          "Physical examination and medical history."
+        ],
+        "Treatment": [
+          "Antihistamines and avoiding triggers."
+        ]
+      }
+    },
+    {
+      "condition": "Hodgkin Lymphoma",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hodgkin-lymphoma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hodgkin lymphoma is a type of cancer that originates in the lymphatic system."
+        ],
+        "Alternative Names": [
+          "Hodgkin's disease"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may involve viral infections and genetic factors."
+        ],
+        "Symptoms": [
+          "Swollen lymph nodes, fever, and night sweats."
+        ],
+        "Diagnosis": [
+          "Biopsy and imaging studies."
+        ],
+        "Treatment": [
+          "Chemotherapy, radiation therapy, and sometimes stem cell transplant."
+        ]
+      }
+    },
+    {
+      "condition": "Hormone Receptor-Positive (HR+) Breast Cancer",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hormone-receptor-positive-breast-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "HR+ breast cancer is a type of breast cancer that has hormone receptors on the cancer cells."
+        ],
+        "Alternative Names": [
+          "Hormone receptor-positive breast cancer"
+        ],
+        "Causes": [
+          "Genetic mutations and hormonal factors."
+        ],
+        "Symptoms": [
+          "Lump in the breast, changes in breast shape, and discharge."
+        ],
+        "Diagnosis": [
+          "Mammography, biopsy, and hormone receptor testing."
+        ],
+        "Treatment": [
+          "Hormonal therapies, chemotherapy, and surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Huntington's Disease (HD)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/huntingtons-disease",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Huntington's disease is a genetic disorder that causes the progressive breakdown of nerve cells in the brain."
+        ],
+        "Alternative Names": [
+          "Huntington's chorea"
+        ],
+        "Causes": [
+          "Genetic mutation in the HTT gene."
+        ],
+        "Symptoms": [
+          "Movement disorders, cognitive decline, and psychiatric symptoms."
+        ],
+        "Diagnosis": [
+          "Genetic testing and clinical evaluation."
+        ],
+        "Treatment": [
+          "Supportive care and medications to manage symptoms."
+        ]
+      }
+    },
+    {
+      "condition": "Hydrocephalus",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hydrocephalus",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hydrocephalus is a condition characterized by an accumulation of cerebrospinal fluid (CSF) in the brain."
+        ],
+        "Alternative Names": [
+          "Water on the brain"
+        ],
+        "Causes": [
+          "Congenital defects, tumors, and infections."
+        ],
+        "Symptoms": [
+          "Headache, nausea, and cognitive difficulties."
+        ],
+        "Diagnosis": [
+          "Imaging studies such as MRI or CT scans."
+        ],
+        "Treatment": [
+          "Surgical placement of a shunt to drain excess fluid."
+        ]
+      }
+    },
+    {
+      "condition": "Hyperaldosteronism",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hyperaldosteronism",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hyperaldosteronism is a condition characterized by excessive production of aldosterone, a hormone that regulates sodium and potassium levels."
+        ],
+        "Alternative Names": [
+          "Conn's syndrome"
+        ],
+        "Causes": [
+          "Adrenal tumors or hyperplasia."
+        ],
+        "Symptoms": [
+          "High blood pressure, muscle weakness, and frequent urination."
+        ],
+        "Diagnosis": [
+          "Blood tests measuring aldosterone and renin levels."
+        ],
+        "Treatment": [
+          "Medications, lifestyle changes, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Hypercalcemia (High Calcium in Blood)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hypercalcemia",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hypercalcemia is a condition characterized by elevated levels of calcium in the blood."
+        ],
+        "Alternative Names": [
+          "High calcium levels"
+        ],
+        "Causes": [
+          "Hyperparathyroidism, cancer, and certain medications."
+        ],
+        "Symptoms": [
+          "Nausea, vomiting, confusion, and kidney stones."
+        ],
+        "Diagnosis": [
+          "Blood tests measuring calcium levels."
+        ],
+        "Treatment": [
+          "Hydration, medications, and addressing underlying causes."
+        ]
+      }
+    },
+    {
+      "condition": "Hyperparathyroidism",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hyperparathyroidism",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hyperparathyroidism is a condition characterized by overactivity of the parathyroid glands, leading to excess parathyroid hormone."
+        ],
+        "Alternative Names": [
+          "Overactive parathyroid glands"
+        ],
+        "Causes": [
+          "Benign tumors, genetic factors, and vitamin D deficiency."
+        ],
+        "Symptoms": [
+          "Fatigue, kidney stones, and bone pain."
+        ],
+        "Diagnosis": [
+          "Blood tests measuring calcium and parathyroid hormone levels."
+        ],
+        "Treatment": [
+          "Surgery, medications, and monitoring."
+        ]
+      }
+    },
+    {
+      "condition": "Hypertension (High Blood Pressure)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hypertension",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hypertension is a condition characterized by consistently elevated blood pressure."
+        ],
+        "Alternative Names": [
+          "High blood pressure"
+        ],
+        "Causes": [
+          "Genetics, poor diet, lack of exercise, and stress."
+        ],
+        "Symptoms": [
+          "Often asymptomatic but can lead to headaches and dizziness."
+        ],
+        "Diagnosis": [
+          "Blood pressure measurements and medical history."
+        ],
+        "Treatment": [
+          "Lifestyle changes and medications."
+        ]
+      }
+    },
+    {
+      "condition": "Hypertensive Heart Disease",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hypertensive-heart-disease",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hypertensive heart disease refers to heart problems caused by high blood pressure."
+        ],
+        "Alternative Names": [
+          "Heart disease due to hypertension"
+        ],
+        "Causes": [
+          "Chronic high blood pressure leading to heart muscle thickening."
+        ],
+        "Symptoms": [
+          "Chest pain, shortness of breath, and fatigue."
+        ],
+        "Diagnosis": [
+          "Blood pressure measurements, imaging studies, and ECG."
+        ],
+        "Treatment": [
+          "Medications to lower blood pressure and lifestyle changes."
+        ]
+      }
+    },
+    {
+      "condition": "Hyperthyroidism (Overactive Thyroid)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hyperthyroidism",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hyperthyroidism is a condition where the thyroid gland produces too much thyroid hormone."
+        ],
+        "Alternative Names": [
+          "Overactive thyroid"
+        ],
+        "Causes": [
+          "Graves' disease, thyroid nodules, and excessive iodine intake."
+        ],
+        "Symptoms": [
+          "Weight loss, rapid heartbeat, and anxiety."
+        ],
+        "Diagnosis": [
+          "Blood tests measuring thyroid hormone levels."
+        ],
+        "Treatment": [
+          "Antithyroid medications, radioactive iodine, and surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Hypertrophic Cardiomyopathy",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hypertrophic-cardiomyopathy",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hypertrophic cardiomyopathy is a condition where the heart muscle becomes abnormally thick."
+        ],
+        "Alternative Names": [
+          "HCM"
+        ],
+        "Causes": [
+          "Genetic mutations and family history."
+        ],
+        "Symptoms": [
+          "Shortness of breath, chest pain, and palpitations."
+        ],
+        "Diagnosis": [
+          "Echocardiogram and physical examination."
+        ],
+        "Treatment": [
+          "Medications, lifestyle changes, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Hypogonadism",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hypogonadism",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hypogonadism is a condition characterized by low hormone production from the gonads."
+        ],
+        "Alternative Names": [
+          "Low testosterone in men, low estrogen in women"
+        ],
+        "Causes": [
+          "Genetic factors, injury, and certain medical conditions."
+        ],
+        "Symptoms": [
+          "Fatigue, decreased libido, and infertility."
+        ],
+        "Diagnosis": [
+          "Blood tests measuring hormone levels."
+        ],
+        "Treatment": [
+          "Hormone replacement therapy and addressing underlying causes."
+        ]
+      }
+    },
+    {
+      "condition": "Hypogonadotropic Hypogonadism",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hypogonadotropic-hypogonadism",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hypogonadotropic hypogonadism is a condition where the body does not produce enough gonadotropins, leading to low sex hormone levels."
+        ],
+        "Alternative Names": [
+          "Secondary hypogonadism"
+        ],
+        "Causes": [
+          "Pituitary gland disorders, genetic conditions, and stress."
+        ],
+        "Symptoms": [
+          "Delayed puberty, infertility, and decreased libido."
+        ],
+        "Diagnosis": [
+          "Blood tests measuring hormone levels."
+        ],
+        "Treatment": [
+          "Hormone replacement therapy and addressing underlying causes."
+        ]
+      }
+    },
+    {
+      "condition": "Hypoparathyroidism",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hypoparathyroidism",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hypoparathyroidism is a condition characterized by low levels of parathyroid hormone."
+        ],
+        "Alternative Names": [
+          "Low parathyroid hormone levels"
+        ],
+        "Causes": [
+          "Surgical removal of the parathyroid glands, autoimmune disorders."
+        ],
+        "Symptoms": [
+          "Muscle cramps, tingling, and seizures."
+        ],
+        "Diagnosis": [
+          "Blood tests measuring calcium and parathyroid hormone levels."
+        ],
+        "Treatment": [
+          "Calcium and vitamin D supplements."
+        ]
+      }
+    },
+    {
+      "condition": "Hypothermia",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hypothermia",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hypothermia is a medical emergency that occurs when the body loses heat faster than it can produce it."
+        ],
+        "Alternative Names": [
+          "Low body temperature"
+        ],
+        "Causes": [
+          "Prolonged exposure to cold temperatures."
+        ],
+        "Symptoms": [
+          "Shivering, confusion, and fatigue."
+        ],
+        "Diagnosis": [
+          "Physical examination and temperature measurement."
+        ],
+        "Treatment": [
+          "Rewarming techniques and supportive care."
+        ]
+      }
+    },
+    {
+      "condition": "Hypothyroidism (Underactive Thyroid)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/hypothyroidism",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Hypothyroidism is a condition where the thyroid gland does not produce enough thyroid hormones."
+        ],
+        "Alternative Names": [
+          "Underactive thyroid"
+        ],
+        "Causes": [
+          "Hashimoto's thyroiditis, iodine deficiency, and certain medications."
+        ],
+        "Symptoms": [
+          "Fatigue, weight gain, and sensitivity to cold."
+        ],
+        "Diagnosis": [
+          "Blood tests measuring thyroid hormone levels."
+        ],
+        "Treatment": [
+          "Thyroid hormone replacement therapy."
+        ]
+      }
+    }
+  ]

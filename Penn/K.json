@@ -1,0 +1,227 @@
+[
+    {
+      "condition": "Kaposi Sarcoma",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/kaposi-sarcoma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Kaposi sarcoma is a type of cancer that causes lesions in the skin, lymph nodes, and other organs."
+        ],
+        "Alternative Names": [
+          "KS"
+        ],
+        "Causes": [
+          "Human herpesvirus 8 (HHV-8) infection and immunosuppression."
+        ],
+        "Symptoms": [
+          "Purple or brown lesions on the skin, swelling, and pain."
+        ],
+        "Diagnosis": [
+          "Biopsy of lesions and imaging studies."
+        ],
+        "Treatment": [
+          "Antiviral medications, chemotherapy, and radiation therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Keloid Scar",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/keloid-scar",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A keloid scar is a thick, raised scar that forms at the site of an injury or incision."
+        ],
+        "Alternative Names": [
+          "Keloid"
+        ],
+        "Causes": [
+          "Genetic predisposition and excessive collagen production during healing."
+        ],
+        "Symptoms": [
+          "Raised, firm scar that may be itchy or painful."
+        ],
+        "Diagnosis": [
+          "Physical examination and medical history."
+        ],
+        "Treatment": [
+          "Corticosteroid injections, silicone sheets, and surgical removal."
+        ]
+      }
+    },
+    {
+      "condition": "Kidney Cancer",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/kidney-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Kidney cancer is a type of cancer that originates in the kidneys."
+        ],
+        "Alternative Names": [
+          "Renal cell carcinoma"
+        ],
+        "Causes": [
+          "Smoking, obesity, and genetic factors."
+        ],
+        "Symptoms": [
+          "Blood in urine, flank pain, and unexplained weight loss."
+        ],
+        "Diagnosis": [
+          "Imaging studies, urine tests, and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, targeted therapy, and immunotherapy."
+        ]
+      }
+    },
+    {
+      "condition": "Kidney Stones (Nephrolithiasis)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/kidney-stones",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Kidney stones are hard deposits made of minerals and salts that form inside the kidneys."
+        ],
+        "Alternative Names": [
+          "Nephrolithiasis"
+        ],
+        "Causes": [
+          "Dehydration, dietary factors, and certain medical conditions."
+        ],
+        "Symptoms": [
+          "Severe pain in the back or side, blood in urine, and frequent urination."
+        ],
+        "Diagnosis": [
+          "Imaging studies and urine tests."
+        ],
+        "Treatment": [
+          "Increased fluid intake, pain management, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Knee MCL Injury (Medial Collateral Ligament Injury)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/knee-mcl-injury",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A knee MCL injury is a sprain or tear of the medial collateral ligament in the knee."
+        ],
+        "Alternative Names": [
+          "MCL injury"
+        ],
+        "Causes": [
+          "Direct impact to the outer knee or sudden twisting motions."
+        ],
+        "Symptoms": [
+          "Pain, swelling, and instability in the knee."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies."
+        ],
+        "Treatment": [
+          "Rest, ice, compression, physical therapy, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Knee Pain",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/knee-pain",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Knee pain is discomfort in or around the knee joint."
+        ],
+        "Alternative Names": [
+          "Knee discomfort"
+        ],
+        "Causes": [
+          "Injuries, arthritis, and overuse."
+        ],
+        "Symptoms": [
+          "Pain, swelling, stiffness, and reduced range of motion."
+        ],
+        "Diagnosis": [
+          "Physical examination, medical history, and imaging studies."
+        ],
+        "Treatment": [
+          "Pain relievers, physical therapy, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Kneecap Dislocation",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/kneecap-dislocation",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A kneecap dislocation occurs when the patella (kneecap) slips out of its normal position."
+        ],
+        "Alternative Names": [
+          "Patellar dislocation"
+        ],
+        "Causes": [
+          "Trauma, sports injuries, and anatomical factors."
+        ],
+        "Symptoms": [
+          "Visible deformity, pain, and inability to move the knee."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies."
+        ],
+        "Treatment": [
+          "Reduction (realigning the kneecap), immobilization, and rehabilitation."
+        ]
+      }
+    },
+    {
+      "condition": "Knock Knee Deformity",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/knock-knee-deformity",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Knock knee deformity is a condition where the knees angle in and touch each other when standing."
+        ],
+        "Alternative Names": [
+          "Genu valgum"
+        ],
+        "Causes": [
+          "Genetic factors, nutritional deficiencies, and certain medical conditions."
+        ],
+        "Symptoms": [
+          "Knees touching while standing, difficulty walking, and knee pain."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies."
+        ],
+        "Treatment": [
+          "Observation, physical therapy, and in severe cases, surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Kyphosis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/kyphosis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Kyphosis is an excessive curvature of the spine, resulting in a hunchback appearance."
+        ],
+        "Alternative Names": [
+          "Hunchback"
+        ],
+        "Causes": [
+          "Degenerative diseases, developmental issues, and osteoporosis."
+        ],
+        "Symptoms": [
+          "Back pain, stiffness, and visible curvature of the spine."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies."
+        ],
+        "Treatment": [
+          "Physical therapy, bracing, and surgery in severe cases."
+        ]
+      }
+    }
+  ]

@@ -1,0 +1,702 @@
+[
+    {
+      "condition": "Tardive Dyskinesia (TD)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/tardive-dyskinesia",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Tardive dyskinesia is a movement disorder caused by long-term use of certain medications, particularly antipsychotics."
+        ],
+        "Alternative Names": [
+          "TD"
+        ],
+        "Causes": [
+          "Prolonged use of dopamine receptor antagonists."
+        ],
+        "Symptoms": [
+          "Involuntary movements of the face, tongue, and limbs."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and medical history."
+        ],
+        "Treatment": [
+          "Adjustment of medications and use of specific treatments like VMAT2 inhibitors."
+        ]
+      }
+    },
+    {
+      "condition": "Telangiectasia (Spider Veins)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/telangiectasia",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Telangiectasia refers to small dilated blood vessels near the surface of the skin, often appearing as red or blue lines."
+        ],
+        "Alternative Names": [
+          "Spider veins"
+        ],
+        "Causes": [
+          "Genetic factors, sun exposure, and certain medical conditions."
+        ],
+        "Symptoms": [
+          "Visible red or blue lines on the skin, usually without pain."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation."
+        ],
+        "Treatment": [
+          "Laser therapy, sclerotherapy, and lifestyle changes."
+        ]
+      }
+    },
+    {
+      "condition": "Temporal Arteritis (Giant Cell Arteritis)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/temporal-arteritis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Temporal arteritis is an inflammation of the blood vessels, particularly the temporal arteries, which can lead to serious complications."
+        ],
+        "Alternative Names": [
+          "Giant cell arteritis"
+        ],
+        "Causes": [
+          "Exact cause is unknown; may involve autoimmune factors."
+        ],
+        "Symptoms": [
+          "Headaches, scalp tenderness, and vision problems."
+        ],
+        "Diagnosis": [
+          "Blood tests and imaging studies."
+        ],
+        "Treatment": [
+          "Corticosteroids and monitoring for complications."
+        ]
+      }
+    },
+    {
+      "condition": "Tendonitis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/tendonitis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Tendonitis is inflammation of a tendon, often due to overuse or injury."
+        ],
+        "Alternative Names": [
+          "Tendinopathy"
+        ],
+        "Causes": [
+          "Repetitive motion, injury, and aging."
+        ],
+        "Symptoms": [
+          "Pain, swelling, and stiffness near the affected joint."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and imaging studies."
+        ],
+        "Treatment": [
+          "Rest, ice, physical therapy, and anti-inflammatory medications."
+        ]
+      }
+    },
+    {
+      "condition": "Tennis Elbow (Lateral Epicondylitis)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/tennis-elbow",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Tennis elbow is a condition that causes pain on the outer part of the elbow due to overuse of the forearm muscles."
+        ],
+        "Alternative Names": [
+          "Lateral epicondylitis"
+        ],
+        "Causes": [
+          "Repetitive wrist and arm motions."
+        ],
+        "Symptoms": [
+          "Pain and tenderness on the outer elbow, weakness in the forearm."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and physical examination."
+        ],
+        "Treatment": [
+          "Rest, ice, physical therapy, and sometimes corticosteroid injections."
+        ]
+      }
+    },
+    {
+      "condition": "Testicular Cancer",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/testicular-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Testicular cancer is a type of cancer that develops in the testicles."
+        ],
+        "Alternative Names": [
+          "Germ cell tumor"
+        ],
+        "Causes": [
+          "Undescended testicle, family history, and certain genetic conditions."
+        ],
+        "Symptoms": [
+          "Lump in the testicle, swelling, and pain."
+        ],
+        "Diagnosis": [
+          "Physical examination, ultrasound, and blood tests."
+        ],
+        "Treatment": [
+          "Surgery, chemotherapy, and radiation therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Testicular Failure",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/testicular-failure",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Testicular failure is a condition where the testicles do not produce sufficient testosterone or sperm."
+        ],
+        "Alternative Names": [
+          "Hypogonadism"
+        ],
+        "Causes": [
+          "Genetic disorders, injury, and hormonal imbalances."
+        ],
+        "Symptoms": [
+          "Low libido, infertility, and fatigue."
+        ],
+        "Diagnosis": [
+          "Blood tests and clinical evaluation."
+        ],
+        "Treatment": [
+          "Hormone replacement therapy and management of underlying causes."
+        ]
+      }
+    },
+    {
+      "condition": "Tetanus (Lockjaw)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/tetanus",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Tetanus is a serious bacterial infection that affects the nervous system and causes muscle stiffness."
+        ],
+        "Alternative Names": [
+          "Lockjaw"
+        ],
+        "Causes": [
+          "Infection with Clostridium tetani bacteria."
+        ],
+        "Symptoms": [
+          "Muscle spasms, stiffness, and difficulty swallowing."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and medical history."
+        ],
+        "Treatment": [
+          "Antibiotics, tetanus immunoglobulin, and supportive care."
+        ]
+      }
+    },
+    {
+      "condition": "Thalassemia",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/thalassemia",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Thalassemia is a genetic blood disorder characterized by reduced hemoglobin production."
+        ],
+        "Alternative Names": [
+          "Thalassemia major"
+        ],
+        "Causes": [
+          "Genetic mutations affecting hemoglobin production."
+        ],
+        "Symptoms": [
+          "Anemia, fatigue, and weakness."
+        ],
+        "Diagnosis": [
+          "Blood tests and genetic testing."
+        ],
+        "Treatment": [
+          "Blood transfusions, iron chelation therapy, and sometimes bone marrow transplant."
+        ]
+      }
+    },
+    {
+      "condition": "Thoracic Aortic Aneurysm",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/thoracic-aortic-aneurysm",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A thoracic aortic aneurysm is an abnormal bulge in the wall of the thoracic aorta."
+        ],
+        "Alternative Names": [
+          "Aortic aneurysm"
+        ],
+        "Causes": [
+          "High blood pressure, atherosclerosis, and genetic conditions."
+        ],
+        "Symptoms": [
+          "Chest pain, back pain, and difficulty breathing."
+        ],
+        "Diagnosis": [
+          "Imaging studies such as CT or MRI."
+        ],
+        "Treatment": [
+          "Monitoring, medications, and surgery in severe cases."
+        ]
+      }
+    },
+    {
+      "condition": "Thoracic Outlet Syndrome (TOS)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/thoracic-outlet-syndrome",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Thoracic outlet syndrome is a condition caused by compression of the nerves or blood vessels in the thoracic outlet."
+        ],
+        "Alternative Names": [
+          "TOS"
+        ],
+        "Causes": [
+          "Anatomical abnormalities, trauma, and repetitive activities."
+        ],
+        "Symptoms": [
+          "Pain, numbness, and weakness in the arms and hands."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and imaging studies."
+        ],
+        "Treatment": [
+          "Physical therapy, medications, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Throat Cancer",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/throat-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Throat cancer refers to cancers that develop in the throat (pharynx) or voice box (larynx)."
+        ],
+        "Alternative Names": [
+          "Pharyngeal cancer"
+        ],
+        "Causes": [
+          "Smoking, alcohol use, and HPV infection."
+        ],
+        "Symptoms": [
+          "Sore throat, difficulty swallowing, and hoarseness."
+        ],
+        "Diagnosis": [
+          "Imaging studies, biopsy, and clinical evaluation."
+        ],
+        "Treatment": [
+          "Surgery, radiation therapy, and chemotherapy."
+        ]
+      }
+    },
+    {
+      "condition": "Thrombophlebitis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/thrombophlebitis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Thrombophlebitis is inflammation of a vein caused by a blood clot."
+        ],
+        "Alternative Names": [
+          "Superficial thrombophlebitis"
+        ],
+        "Causes": [
+          "Injury, prolonged immobility, and certain medical conditions."
+        ],
+        "Symptoms": [
+          "Redness, swelling, and pain along the affected vein."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and imaging studies."
+        ],
+        "Treatment": [
+          "Warm compresses, anti-inflammatory medications, and sometimes anticoagulants."
+        ]
+      }
+    },
+    {
+      "condition": "Thyroid Cancer",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/thyroid-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Thyroid cancer is a type of cancer that develops in the thyroid gland."
+        ],
+        "Alternative Names": [
+          "Thyroid neoplasm"
+        ],
+        "Causes": [
+          "Genetic factors, radiation exposure, and certain inherited conditions."
+        ],
+        "Symptoms": [
+          "Lump in the neck, changes in voice, and difficulty swallowing."
+        ],
+        "Diagnosis": [
+          "Imaging studies, blood tests, and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, radioactive iodine therapy, and thyroid hormone replacement."
+        ]
+      }
+    },
+    {
+      "condition": "Thyroid Nodules",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/thyroid-nodules",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Thyroid nodules are lumps in the thyroid gland that can be solid or filled with fluid."
+        ],
+        "Alternative Names": [
+          "Thyroid masses"
+        ],
+        "Causes": [
+          "Iodine deficiency, autoimmune diseases, and genetic factors."
+        ],
+        "Symptoms": [
+          "Often asymptomatic; may include swelling in the neck."
+        ],
+        "Diagnosis": [
+          "Ultrasound and fine-needle aspiration biopsy."
+        ],
+        "Treatment": [
+          "Monitoring, surgery, or radioactive iodine therapy if cancerous."
+        ]
+      }
+    },
+    {
+      "condition": "Thyroiditis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/thyroiditis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Thyroiditis is inflammation of the thyroid gland, which can affect hormone production."
+        ],
+        "Alternative Names": [
+          "Hashimoto's thyroiditis"
+        ],
+        "Causes": [
+          "Autoimmune diseases, infections, and certain medications."
+        ],
+        "Symptoms": [
+          "Fatigue, weight changes, and neck pain."
+        ],
+        "Diagnosis": [
+          "Blood tests and imaging studies."
+        ],
+        "Treatment": [
+          "Hormone replacement therapy and management of symptoms."
+        ]
+      }
+    },
+    {
+      "condition": "Tinnitus",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/tinnitus",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Tinnitus is the perception of noise or ringing in the ears without an external sound source."
+        ],
+        "Alternative Names": [
+          "Ringing in the ears"
+        ],
+        "Causes": [
+          "Hearing loss, exposure to loud noises, and ear infections."
+        ],
+        "Symptoms": [
+          "Ringing, buzzing, or hissing sounds in the ears."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and hearing tests."
+        ],
+        "Treatment": [
+          "Sound therapy, counseling, and management of underlying conditions."
+        ]
+      }
+    },
+    {
+      "condition": "Tonsillitis (Tonsil Inflammation)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/tonsillitis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Tonsillitis is inflammation of the tonsils, often due to infection."
+        ],
+        "Alternative Names": [
+          "Tonsil infection"
+        ],
+        "Causes": [
+          "Viral or bacterial infections."
+        ],
+        "Symptoms": [
+          "Sore throat, difficulty swallowing, and swollen tonsils."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and throat culture."
+        ],
+        "Treatment": [
+          "Rest, fluids, and antibiotics if bacterial."
+        ]
+      }
+    },
+    {
+      "condition": "Tourette's Syndrome (TS)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/tourettes-syndrome",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Tourette's syndrome is a neurological disorder characterized by repetitive, involuntary movements and vocalizations."
+        ],
+        "Alternative Names": [
+          "TS"
+        ],
+        "Causes": [
+          "Exact cause is unknown; may involve genetic and environmental factors."
+        ],
+        "Symptoms": [
+          "Tics, which can be motor or vocal."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and medical history."
+        ],
+        "Treatment": [
+          "Behavioral therapy, medications, and support."
+        ]
+      }
+    },
+    {
+      "condition": "Toxic Nodular Goiter",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/toxic-nodular-goiter",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Toxic nodular goiter is an enlargement of the thyroid gland with nodules that produce excess thyroid hormones."
+        ],
+        "Alternative Names": [
+          "Toxic multinodular goiter"
+        ],
+        "Causes": [
+          "Iodine deficiency and genetic factors."
+        ],
+        "Symptoms": [
+          "Weight loss, increased heart rate, and anxiety."
+        ],
+        "Diagnosis": [
+          "Blood tests and imaging studies."
+        ],
+        "Treatment": [
+          "Medications, radioactive iodine therapy, and surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Tricuspid Valve Regurgitation",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/tricuspid-valve-regurgitation",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Tricuspid valve regurgitation is a condition where the tricuspid valve does not close properly, allowing blood to flow backward."
+        ],
+        "Alternative Names": [
+          "Tricuspid regurgitation"
+        ],
+        "Causes": [
+          "Heart disease, infections, and congenital defects."
+        ],
+        "Symptoms": [
+          "Fatigue, swelling in the legs, and palpitations."
+        ],
+        "Diagnosis": [
+          "Echocardiogram and clinical evaluation."
+        ],
+        "Treatment": [
+          "Medications and surgery in severe cases."
+        ]
+      }
+    },
+    {
+      "condition": "Trigeminal Neuralgia (Tic Douloureux)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/trigeminal-neuralgia",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Trigeminal neuralgia is a chronic pain condition affecting the trigeminal nerve, causing severe facial pain."
+        ],
+        "Alternative Names": [
+          "Tic douloureux"
+        ],
+        "Causes": [
+          "Blood vessel compression of the trigeminal nerve."
+        ],
+        "Symptoms": [
+          "Sudden, severe facial pain triggered by touch or movement."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and imaging studies."
+        ],
+        "Treatment": [
+          "Medications, nerve blocks, and surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Triple-Negative Breast Cancer",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/triple-negative-breast-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Triple-negative breast cancer is a type of breast cancer that does not have three common receptors known to fuel most breast cancer growth."
+        ],
+        "Alternative Names": [
+          "TNBC"
+        ],
+        "Causes": [
+          "Exact cause is unknown; may involve genetic factors."
+        ],
+        "Symptoms": [
+          "Lump in the breast, changes in breast shape, and discharge."
+        ],
+        "Diagnosis": [
+          "Mammography, biopsy, and imaging studies."
+        ],
+        "Treatment": [
+          "Chemotherapy, radiation therapy, and surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Tuberous Sclerosis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/tuberous-sclerosis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Tuberous sclerosis is a genetic disorder that causes noncancerous tumors to form in many different organs."
+        ],
+        "Alternative Names": [
+          "Tuberous sclerosis complex"
+        ],
+        "Causes": [
+          "Genetic mutations in TSC1 or TSC2 genes."
+        ],
+        "Symptoms": [
+          "Skin lesions, seizures, and developmental delays."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and genetic testing."
+        ],
+        "Treatment": [
+          "Management of symptoms and monitoring for complications."
+        ]
+      }
+    },
+    {
+      "condition": "Turner Syndrome",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/turner-syndrome",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Turner syndrome is a genetic condition that affects females, characterized by the absence of all or part of a second sex chromosome."
+        ],
+        "Alternative Names": [
+          "Monosomy X"
+        ],
+        "Causes": [
+          "Genetic abnormalities affecting the X chromosome."
+        ],
+        "Symptoms": [
+          "Short stature, delayed puberty, and heart defects."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and genetic testing."
+        ],
+        "Treatment": [
+          "Hormone therapy and management of associated conditions."
+        ]
+      }
+    },
+    {
+      "condition": "Type 1 Diabetes",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/type-1-diabetes",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Type 1 diabetes is a chronic condition in which the pancreas produces little or no insulin."
+        ],
+        "Alternative Names": [
+          "Insulin-dependent diabetes"
+        ],
+        "Causes": [
+          "Autoimmune destruction of insulin-producing beta cells."
+        ],
+        "Symptoms": [
+          "Increased thirst, frequent urination, and weight loss."
+        ],
+        "Diagnosis": [
+          "Blood tests measuring glucose levels."
+        ],
+        "Treatment": [
+          "Insulin therapy and blood sugar monitoring."
+        ]
+      }
+    },
+    {
+      "condition": "Type 2 Diabetes",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/type-2-diabetes",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Type 2 diabetes is a chronic condition that affects the way the body processes blood sugar (glucose)."
+        ],
+        "Alternative Names": [
+          "Non-insulin-dependent diabetes"
+        ],
+        "Causes": [
+          "Insulin resistance and relative insulin deficiency."
+        ],
+        "Symptoms": [
+          "Increased thirst, frequent urination, and fatigue."
+        ],
+        "Diagnosis": [
+          "Blood tests measuring glucose levels."
+        ],
+        "Treatment": [
+          "Lifestyle changes, oral medications, and insulin therapy if needed."
+        ]
+      }
+    },
+    {
+      "condition": "Typhoid Fever",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/typhoid-fever",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Typhoid fever is a bacterial infection caused by Salmonella typhi, leading to high fever and gastrointestinal symptoms."
+        ],
+        "Alternative Names": [
+          "Enteric fever"
+        ],
+        "Causes": [
+          "Contaminated food and water."
+        ],
+        "Symptoms": [
+          "High fever, abdominal pain, and diarrhea or constipation."
+        ],
+        "Diagnosis": [
+          "Blood cultures and clinical evaluation."
+        ],
+        "Treatment": [
+          "Antibiotics and supportive care."
+        ]
+      }
+    }
+  ]

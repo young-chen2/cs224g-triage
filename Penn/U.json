@@ -1,0 +1,302 @@
+[
+    {
+      "condition": "Ulcerative Colitis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/ulcerative-colitis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Ulcerative colitis is a chronic inflammatory bowel disease that causes inflammation and ulcers in the digestive tract."
+        ],
+        "Alternative Names": [
+          "Colitis"
+        ],
+        "Causes": [
+          "Exact cause is unknown; may involve genetic and environmental factors."
+        ],
+        "Symptoms": [
+          "Abdominal pain, diarrhea, and rectal bleeding."
+        ],
+        "Diagnosis": [
+          "Colonoscopy, imaging studies, and blood tests."
+        ],
+        "Treatment": [
+          "Medications, dietary changes, and surgery in severe cases."
+        ]
+      }
+    },
+    {
+      "condition": "Ulnar Collateral Ligament Injury (UCL Injury)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/ulnar-collateral-ligament-injury",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "An ulnar collateral ligament injury is a common injury in the elbow, particularly among athletes."
+        ],
+        "Alternative Names": [
+          "UCL injury"
+        ],
+        "Causes": [
+          "Repetitive stress, trauma, and overuse."
+        ],
+        "Symptoms": [
+          "Pain on the inner elbow, swelling, and instability."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies."
+        ],
+        "Treatment": [
+          "Rest, physical therapy, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Undifferentiated Pleomorphic Sarcoma",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/undifferentiated-pleomorphic-sarcoma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Undifferentiated pleomorphic sarcoma is a rare type of soft tissue sarcoma that is aggressive and often occurs in the limbs."
+        ],
+        "Alternative Names": [
+          "Malignant fibrous histiocytoma"
+        ],
+        "Causes": [
+          "Exact cause is often unknown; may involve genetic factors."
+        ],
+        "Symptoms": [
+          "Lump or swelling, pain, and functional impairment."
+        ],
+        "Diagnosis": [
+          "Imaging studies and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, chemotherapy, and radiation therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Urethral Cancer",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/urethral-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Urethral cancer is a rare type of cancer that occurs in the urethra, the tube that carries urine from the bladder."
+        ],
+        "Alternative Names": [
+          "Cancer of the urethra"
+        ],
+        "Causes": [
+          "Exact cause is often unknown; may involve risk factors like HPV."
+        ],
+        "Symptoms": [
+          "Blood in urine, pain during urination, and frequent urination."
+        ],
+        "Diagnosis": [
+          "Imaging studies, cystoscopy, and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, chemotherapy, and radiation therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Urethritis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/urethritis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Urethritis is inflammation of the urethra, often caused by infection."
+        ],
+        "Alternative Names": [
+          "Urethral inflammation"
+        ],
+        "Causes": [
+          "Bacterial infections, sexually transmitted infections, and irritants."
+        ],
+        "Symptoms": [
+          "Painful urination, discharge, and itching."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and urine tests."
+        ],
+        "Treatment": [
+          "Antibiotics and management of underlying causes."
+        ]
+      }
+    },
+    {
+      "condition": "Urge Incontinence",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/urge-incontinence",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Urge incontinence is a type of urinary incontinence characterized by a sudden, intense urge to urinate followed by involuntary loss of urine."
+        ],
+        "Alternative Names": [
+          "Overactive bladder"
+        ],
+        "Causes": [
+          "Neurological disorders, bladder inflammation, and certain medications."
+        ],
+        "Symptoms": [
+          "Frequent urination, urgency, and leakage."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and bladder diary."
+        ],
+        "Treatment": [
+          "Behavioral therapies, medications, and pelvic floor exercises."
+        ]
+      }
+    },
+    {
+      "condition": "Urinary Incontinence",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/urinary-incontinence",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Urinary incontinence is the involuntary loss of urine, which can affect quality of life."
+        ],
+        "Alternative Names": [
+          "Incontinence"
+        ],
+        "Causes": [
+          "Weak pelvic floor muscles, neurological disorders, and urinary tract infections."
+        ],
+        "Symptoms": [
+          "Leakage of urine, urgency, and frequency."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and bladder diary."
+        ],
+        "Treatment": [
+          "Behavioral therapies, medications, and surgical options."
+        ]
+      }
+    },
+    {
+      "condition": "Urinary Tract Infection (UTI)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/urinary-tract-infection",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A urinary tract infection is an infection in any part of the urinary system, including the bladder and urethra."
+        ],
+        "Alternative Names": [
+          "UTI"
+        ],
+        "Causes": [
+          "Bacterial infections, often from E. coli."
+        ],
+        "Symptoms": [
+          "Frequent urination, burning sensation, and cloudy urine."
+        ],
+        "Diagnosis": [
+          "Urine tests and clinical evaluation."
+        ],
+        "Treatment": [
+          "Antibiotics and increased fluid intake."
+        ]
+      }
+    },
+    {
+      "condition": "Uterine Cancer",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/uterine-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Uterine cancer is a type of cancer that begins in the lining of the uterus."
+        ],
+        "Alternative Names": [
+          "Endometrial cancer"
+        ],
+        "Causes": [
+          "Hormonal imbalances, obesity, and genetic factors."
+        ],
+        "Symptoms": [
+          "Abnormal vaginal bleeding, pelvic pain, and weight loss."
+        ],
+        "Diagnosis": [
+          "Pelvic examination, imaging studies, and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, radiation therapy, and chemotherapy."
+        ]
+      }
+    },
+    {
+      "condition": "Uterine Fibroids (Leiomyomas)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/uterine-fibroids",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Uterine fibroids are noncancerous growths of the uterus that often appear during childbearing years."
+        ],
+        "Alternative Names": [
+          "Leiomyomas"
+        ],
+        "Causes": [
+          "Exact cause is unknown; may involve hormonal factors."
+        ],
+        "Symptoms": [
+          "Heavy menstrual bleeding, pelvic pain, and pressure symptoms."
+        ],
+        "Diagnosis": [
+          "Pelvic examination, ultrasound, and MRI."
+        ],
+        "Treatment": [
+          "Medications, non-invasive procedures, and surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Uterine Prolapse",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/uterine-prolapse",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Uterine prolapse occurs when the uterus slips down into the vaginal canal due to weakened pelvic floor muscles."
+        ],
+        "Alternative Names": [
+          "Pelvic organ prolapse"
+        ],
+        "Causes": [
+          "Childbirth, aging, and obesity."
+        ],
+        "Symptoms": [
+          "Pelvic pressure, urinary issues, and visible bulge."
+        ],
+        "Diagnosis": [
+          "Pelvic examination and clinical evaluation."
+        ],
+        "Treatment": [
+          "Pelvic floor exercises, pessaries, and surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Uterine Sarcoma",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/uterine-sarcoma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Uterine sarcoma is a rare type of cancer that begins in the muscle or other tissues of the uterus."
+        ],
+        "Alternative Names": [
+          "Sarcoma of the uterus"
+        ],
+        "Causes": [
+          "Exact cause is often unknown; may involve genetic factors."
+        ],
+        "Symptoms": [
+          "Abnormal bleeding, pelvic pain, and abdominal swelling."
+        ],
+        "Diagnosis": [
+          "Imaging studies, biopsy, and clinical evaluation."
+        ],
+        "Treatment": [
+          "Surgery, radiation therapy, and chemotherapy."
+        ]
+      }
+    }
+  ]

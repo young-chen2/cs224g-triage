@@ -1,0 +1,477 @@
+[
+    {
+      "condition": "Gallbladder Cancer",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/gallbladder-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Gallbladder cancer is a rare type of cancer that occurs in the gallbladder."
+        ],
+        "Alternative Names": [
+          "Cholecystic carcinoma"
+        ],
+        "Causes": [
+          "Gallstones, chronic inflammation, and certain genetic factors."
+        ],
+        "Symptoms": [
+          "Abdominal pain, jaundice, and unexplained weight loss."
+        ],
+        "Diagnosis": [
+          "Imaging studies, blood tests, and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, chemotherapy, and radiation therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Gallbladder Stone (Gallstones)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/gallstones",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Gallstones are hardened deposits that can form in the gallbladder."
+        ],
+        "Alternative Names": [
+          "Cholelithiasis"
+        ],
+        "Causes": [
+          "Imbalance in bile components, obesity, and certain diets."
+        ],
+        "Symptoms": [
+          "Abdominal pain, nausea, and indigestion."
+        ],
+        "Diagnosis": [
+          "Ultrasound and imaging studies."
+        ],
+        "Treatment": [
+          "Surgery to remove the gallbladder or non-surgical methods to dissolve stones."
+        ]
+      }
+    },
+    {
+      "condition": "Gas Gangrene",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/gas-gangrene",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Gas gangrene is a severe bacterial infection that produces gas in tissues."
+        ],
+        "Alternative Names": [
+          "Clostridial myonecrosis"
+        ],
+        "Causes": [
+          "Infection with Clostridium bacteria, often following trauma."
+        ],
+        "Symptoms": [
+          "Severe pain, swelling, and gas production in tissues."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and imaging studies."
+        ],
+        "Treatment": [
+          "Surgical intervention, antibiotics, and sometimes hyperbaric oxygen therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Gastrointestinal Cancer (GI Cancer)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/gastrointestinal-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Gastrointestinal cancer refers to cancers that affect the digestive system."
+        ],
+        "Alternative Names": [
+          "GI cancer"
+        ],
+        "Causes": [
+          "Genetic factors, lifestyle choices, and certain infections."
+        ],
+        "Symptoms": [
+          "Varies by type but may include abdominal pain, changes in bowel habits, and weight loss."
+        ],
+        "Diagnosis": [
+          "Imaging studies, endoscopy, and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, chemotherapy, radiation therapy, and targeted therapies."
+        ]
+      }
+    },
+    {
+      "condition": "Gastrointestinal Stromal Tumors (GIST)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/gastrointestinal-stromal-tumors",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Gastrointestinal stromal tumors are rare tumors that occur in the digestive tract."
+        ],
+        "Alternative Names": [
+          "GIST"
+        ],
+        "Causes": [
+          "Genetic mutations, often associated with the KIT gene."
+        ],
+        "Symptoms": [
+          "Abdominal pain, nausea, and gastrointestinal bleeding."
+        ],
+        "Diagnosis": [
+          "Imaging studies and biopsy."
+        ],
+        "Treatment": [
+          "Surgery and targeted therapy with imatinib."
+        ]
+      }
+    },
+    {
+      "condition": "Gastroparesis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/gastroparesis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Gastroparesis is a condition that affects the stomach muscles and prevents proper stomach emptying."
+        ],
+        "Alternative Names": [
+          "Delayed gastric emptying"
+        ],
+        "Causes": [
+          "Diabetes, nerve damage, and certain medications."
+        ],
+        "Symptoms": [
+          "Nausea, vomiting, and feeling full after eating small amounts."
+        ],
+        "Diagnosis": [
+          "Gastric emptying study and imaging."
+        ],
+        "Treatment": [
+          "Dietary changes, medications, and in severe cases, surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Germ Cell Tumors",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/germ-cell-tumors",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Germ cell tumors are tumors that arise from germ cells, which can develop into sperm or eggs."
+        ],
+        "Alternative Names": [
+          "Germ cell neoplasms"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may involve genetic factors."
+        ],
+        "Symptoms": [
+          "Varies by location but may include lumps, pain, and hormonal changes."
+        ],
+        "Diagnosis": [
+          "Imaging studies and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, chemotherapy, and radiation therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Gestational Trophoblastic Disease",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/gestational-trophoblastic-disease",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Gestational trophoblastic disease is a group of rare tumors that involve abnormal growth of cells in the uterus."
+        ],
+        "Alternative Names": [
+          "Molar pregnancy"
+        ],
+        "Causes": [
+          "Abnormal fertilization and genetic factors."
+        ],
+        "Symptoms": [
+          "Abnormal bleeding, enlarged uterus, and high levels of hCG."
+        ],
+        "Diagnosis": [
+          "Ultrasound and blood tests."
+        ],
+        "Treatment": [
+          "Surgery and monitoring of hCG levels."
+        ]
+      }
+    },
+    {
+      "condition": "Glaucoma",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/glaucoma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Glaucoma is a group of eye conditions that damage the optic nerve, often due to high eye pressure."
+        ],
+        "Alternative Names": [
+          "Optic neuropathy"
+        ],
+        "Causes": [
+          "Increased intraocular pressure, family history, and age."
+        ],
+        "Symptoms": [
+          "Loss of peripheral vision, blurred vision, and halos around lights."
+        ],
+        "Diagnosis": [
+          "Comprehensive eye exam and tonometry."
+        ],
+        "Treatment": [
+          "Medications, laser treatment, and surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Glioblastoma",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/glioblastoma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Glioblastoma is an aggressive type of brain cancer that arises from glial cells."
+        ],
+        "Alternative Names": [
+          "GBM"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may involve genetic mutations."
+        ],
+        "Symptoms": [
+          "Headaches, seizures, and cognitive changes."
+        ],
+        "Diagnosis": [
+          "Imaging studies and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, radiation therapy, and chemotherapy."
+        ]
+      }
+    },
+    {
+      "condition": "Goiter",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/goiter",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A goiter is an enlargement of the thyroid gland."
+        ],
+        "Alternative Names": [
+          "Thyroid enlargement"
+        ],
+        "Causes": [
+          "Iodine deficiency, autoimmune diseases, and thyroid nodules."
+        ],
+        "Symptoms": [
+          "Swelling at the base of the neck, difficulty swallowing, and changes in voice."
+        ],
+        "Diagnosis": [
+          "Physical examination, blood tests, and imaging studies."
+        ],
+        "Treatment": [
+          "Medications, radioactive iodine, and surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Golfer's Elbow (Medial Epicondylitis)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/golfers-elbow",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Golfer's elbow is a condition characterized by pain on the inner side of the elbow."
+        ],
+        "Alternative Names": [
+          "Medial epicondylitis"
+        ],
+        "Causes": [
+          "Repetitive wrist and arm motions."
+        ],
+        "Symptoms": [
+          "Pain and tenderness on the inner elbow, stiffness, and weakness."
+        ],
+        "Diagnosis": [
+          "Physical examination and medical history."
+        ],
+        "Treatment": [
+          "Rest, ice, physical therapy, and anti-inflammatory medications."
+        ]
+      }
+    },
+    {
+      "condition": "Goodpasture Syndrome",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/goodpasture-syndrome",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Goodpasture syndrome is a rare autoimmune disease that affects the lungs and kidneys."
+        ],
+        "Alternative Names": [
+          "Anti-GBM disease"
+        ],
+        "Causes": [
+          "Autoimmune response against the basement membrane."
+        ],
+        "Symptoms": [
+          "Coughing up blood, shortness of breath, and kidney failure."
+        ],
+        "Diagnosis": [
+          "Blood tests, imaging, and kidney biopsy."
+        ],
+        "Treatment": [
+          "Immunosuppressive therapy and plasmapheresis."
+        ]
+      }
+    },
+    {
+      "condition": "Gout",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/gout",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Gout is a form of arthritis characterized by sudden, severe pain, redness, and tenderness in joints."
+        ],
+        "Alternative Names": [
+          "Gouty arthritis"
+        ],
+        "Causes": [
+          "High levels of uric acid in the blood."
+        ],
+        "Symptoms": [
+          "Intense joint pain, swelling, and inflammation."
+        ],
+        "Diagnosis": [
+          "Physical examination and joint fluid analysis."
+        ],
+        "Treatment": [
+          "Medications to reduce pain and inflammation, and lifestyle changes."
+        ]
+      }
+    },
+    {
+      "condition": "Graft Versus Host Disease",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/graft-versus-host-disease",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Graft versus host disease occurs when donor cells attack the recipient's body after a transplant."
+        ],
+        "Alternative Names": [
+          "GVHD"
+        ],
+        "Causes": [
+          "Bone marrow or stem cell transplants."
+        ],
+        "Symptoms": [
+          "Rash, diarrhea, and liver dysfunction."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and biopsy."
+        ],
+        "Treatment": [
+          "Immunosuppressive medications and supportive care."
+        ]
+      }
+    },
+    {
+      "condition": "Granulomatosis with Polyangiitis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/granulomatosis-with-polyangiitis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Granulomatosis with polyangiitis is a rare autoimmune disease that causes inflammation of blood vessels."
+        ],
+        "Alternative Names": [
+          "Wegener's granulomatosis"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but involves an autoimmune response."
+        ],
+        "Symptoms": [
+          "Sinusitis, kidney problems, and respiratory issues."
+        ],
+        "Diagnosis": [
+          "Blood tests, imaging studies, and biopsy."
+        ],
+        "Treatment": [
+          "Immunosuppressive therapy and corticosteroids."
+        ]
+      }
+    },
+    {
+      "condition": "Graves' Disease",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/graves-disease",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Graves' disease is an autoimmune disorder that causes hyperthyroidism."
+        ],
+        "Alternative Names": [
+          "Toxic diffuse goiter"
+        ],
+        "Causes": [
+          "Autoimmune response leading to overproduction of thyroid hormones."
+        ],
+        "Symptoms": [
+          "Weight loss, rapid heartbeat, and anxiety."
+        ],
+        "Diagnosis": [
+          "Blood tests measuring thyroid hormone levels."
+        ],
+        "Treatment": [
+          "Antithyroid medications, radioactive iodine, and surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Groin Pain",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/groin-pain",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Groin pain is discomfort in the area where the abdomen meets the thigh."
+        ],
+        "Alternative Names": [
+          "Inguinal pain"
+        ],
+        "Causes": [
+          "Injuries, hernias, and muscle strains."
+        ],
+        "Symptoms": [
+          "Pain, swelling, and difficulty moving the leg."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies."
+        ],
+        "Treatment": [
+          "Rest, ice, physical therapy, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Guillain-Barré Syndrome (GBS)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/guillain-barre-syndrome",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Guillain-Barré syndrome is a rare neurological disorder where the body's immune system attacks the nerves."
+        ],
+        "Alternative Names": [
+          "GBS"
+        ],
+        "Causes": [
+          "Often follows a viral or bacterial infection."
+        ],
+        "Symptoms": [
+          "Weakness, tingling, and paralysis."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and nerve conduction studies."
+        ],
+        "Treatment": [
+          "Immunotherapy and supportive care."
+        ]
+      }
+    }
+  ]

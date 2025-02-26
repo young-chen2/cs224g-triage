@@ -1,0 +1,552 @@
+[
+    {
+      "condition": "Labyrinthitis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/labyrinthitis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Labyrinthitis is an inner ear disorder that involves inflammation of the labyrinth, affecting balance and hearing."
+        ],
+        "Alternative Names": [
+          "Inner ear infection"
+        ],
+        "Causes": [
+          "Viral infections, bacterial infections, and head injuries."
+        ],
+        "Symptoms": [
+          "Dizziness, hearing loss, and tinnitus."
+        ],
+        "Diagnosis": [
+          "Physical examination, hearing tests, and imaging studies."
+        ],
+        "Treatment": [
+          "Medications for symptoms, antibiotics if bacterial, and vestibular rehabilitation."
+        ]
+      }
+    },
+    {
+      "condition": "Laryngeal Cancer",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/laryngeal-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Laryngeal cancer is a type of cancer that occurs in the larynx (voice box)."
+        ],
+        "Alternative Names": [
+          "Throat cancer"
+        ],
+        "Causes": [
+          "Smoking, excessive alcohol consumption, and HPV infection."
+        ],
+        "Symptoms": [
+          "Hoarseness, sore throat, and difficulty swallowing."
+        ],
+        "Diagnosis": [
+          "Laryngoscopy, imaging studies, and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, radiation therapy, and chemotherapy."
+        ]
+      }
+    },
+    {
+      "condition": "Laryngopharyngeal Reflux",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/laryngopharyngeal-reflux",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Laryngopharyngeal reflux is a condition where stomach acid flows back into the throat, causing irritation."
+        ],
+        "Alternative Names": [
+          "LPR"
+        ],
+        "Causes": [
+          "Weak lower esophageal sphincter, obesity, and certain foods."
+        ],
+        "Symptoms": [
+          "Hoarseness, chronic cough, and throat clearing."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and sometimes pH monitoring."
+        ],
+        "Treatment": [
+          "Dietary changes, medications, and lifestyle modifications."
+        ]
+      }
+    },
+    {
+      "condition": "Lateral Collateral Ligament Tear (LCL)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/lateral-collateral-ligament-tear",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A lateral collateral ligament (LCL) tear is an injury to the ligament on the outer side of the knee."
+        ],
+        "Alternative Names": [
+          "LCL injury"
+        ],
+        "Causes": [
+          "Direct impact to the inner knee or excessive twisting."
+        ],
+        "Symptoms": [
+          "Pain, swelling, and instability in the knee."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies."
+        ],
+        "Treatment": [
+          "Rest, ice, compression, physical therapy, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Leiomyosarcoma",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/leiomyosarcoma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Leiomyosarcoma is a rare type of cancer that arises from smooth muscle tissue."
+        ],
+        "Alternative Names": [
+          "Smooth muscle sarcoma"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may involve genetic mutations."
+        ],
+        "Symptoms": [
+          "Lump or mass, pain, and swelling."
+        ],
+        "Diagnosis": [
+          "Imaging studies and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, chemotherapy, and radiation therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Leukemia",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/leukemia",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Leukemia is a type of cancer that affects the blood and bone marrow."
+        ],
+        "Alternative Names": [
+          "Blood cancer"
+        ],
+        "Causes": [
+          "Genetic factors, exposure to radiation, and certain chemicals."
+        ],
+        "Symptoms": [
+          "Fatigue, frequent infections, and easy bruising."
+        ],
+        "Diagnosis": [
+          "Blood tests, bone marrow biopsy, and imaging studies."
+        ],
+        "Treatment": [
+          "Chemotherapy, radiation therapy, and stem cell transplant."
+        ]
+      }
+    },
+    {
+      "condition": "Liposarcoma",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/liposarcoma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Liposarcoma is a rare cancer that arises from fat cells in soft tissue."
+        ],
+        "Alternative Names": [
+          "Fat tissue sarcoma"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may involve genetic mutations."
+        ],
+        "Symptoms": [
+          "Lump or mass, pain, and swelling."
+        ],
+        "Diagnosis": [
+          "Imaging studies and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, chemotherapy, and radiation therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Liver Cancer",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/liver-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Liver cancer is a type of cancer that originates in the liver."
+        ],
+        "Alternative Names": [
+          "Hepatocellular carcinoma"
+        ],
+        "Causes": [
+          "Chronic liver disease, hepatitis B and C, and cirrhosis."
+        ],
+        "Symptoms": [
+          "Weight loss, abdominal pain, and jaundice."
+        ],
+        "Diagnosis": [
+          "Imaging studies, blood tests, and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, chemotherapy, and targeted therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Liver Cirrhosis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/liver-cirrhosis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Liver cirrhosis is a late-stage scarring of the liver caused by many forms of liver diseases and conditions."
+        ],
+        "Alternative Names": [
+          "Cirrhosis of the liver"
+        ],
+        "Causes": [
+          "Chronic alcohol abuse, hepatitis, and fatty liver disease."
+        ],
+        "Symptoms": [
+          "Fatigue, easy bruising, and swelling in the legs and abdomen."
+        ],
+        "Diagnosis": [
+          "Blood tests, imaging studies, and liver biopsy."
+        ],
+        "Treatment": [
+          "Managing symptoms, lifestyle changes, and liver transplant in severe cases."
+        ]
+      }
+    },
+    {
+      "condition": "Liver Disease",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/liver-disease",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Liver disease refers to any condition that damages the liver and affects its function."
+        ],
+        "Alternative Names": [
+          "Hepatic disease"
+        ],
+        "Causes": [
+          "Alcohol abuse, viral infections, and fatty liver disease."
+        ],
+        "Symptoms": [
+          "Fatigue, jaundice, and abdominal pain."
+        ],
+        "Diagnosis": [
+          "Blood tests, imaging studies, and liver biopsy."
+        ],
+        "Treatment": [
+          "Depends on the specific disease; may include medications and lifestyle changes."
+        ]
+      }
+    },
+    {
+      "condition": "Loeys-Dietz Syndrome",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/loeys-dietz-syndrome",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Loeys-Dietz syndrome is a genetic disorder that affects connective tissue and can lead to cardiovascular issues."
+        ],
+        "Alternative Names": [
+          "LDS"
+        ],
+        "Causes": [
+          "Genetic mutations, often inherited in an autosomal dominant pattern."
+        ],
+        "Symptoms": [
+          "Aneurysms, skeletal abnormalities, and skin changes."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and genetic testing."
+        ],
+        "Treatment": [
+          "Monitoring and management of cardiovascular issues, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Long QT Syndrome",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/long-qt-syndrome",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Long QT syndrome is a heart rhythm disorder that can potentially lead to fast, chaotic heartbeats."
+        ],
+        "Alternative Names": [
+          "LQTS"
+        ],
+        "Causes": [
+          "Genetic factors, certain medications, and electrolyte imbalances."
+        ],
+        "Symptoms": [
+          "Palpitations, fainting, and in severe cases, sudden cardiac arrest."
+        ],
+        "Diagnosis": [
+          "Electrocardiogram (ECG) and family history."
+        ],
+        "Treatment": [
+          "Medications, lifestyle changes, and sometimes implantable devices."
+        ]
+      }
+    },
+    {
+      "condition": "Low Blood Pressure (Hypotension)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/low-blood-pressure",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Low blood pressure, or hypotension, is a condition where blood pressure is lower than normal."
+        ],
+        "Alternative Names": [
+          "Hypotension"
+        ],
+        "Causes": [
+          "Dehydration, heart problems, and endocrine disorders."
+        ],
+        "Symptoms": [
+          "Dizziness, fainting, and fatigue."
+        ],
+        "Diagnosis": [
+          "Blood pressure measurements and medical history."
+        ],
+        "Treatment": [
+          "Increased fluid intake, medications, and lifestyle changes."
+        ]
+      }
+    },
+    {
+      "condition": "Lung Cancer",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/lung-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Lung cancer is a type of cancer that begins in the lungs."
+        ],
+        "Alternative Names": [
+          "Pulmonary carcinoma"
+        ],
+        "Causes": [
+          "Smoking, exposure to secondhand smoke, and environmental toxins."
+        ],
+        "Symptoms": [
+          "Coughing, chest pain, and shortness of breath."
+        ],
+        "Diagnosis": [
+          "Imaging studies, sputum cytology, and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, chemotherapy, radiation therapy, and targeted therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Lung Disease",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/lung-disease",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Lung disease refers to any condition that affects lung function."
+        ],
+        "Alternative Names": [
+          "Pulmonary disease"
+        ],
+        "Causes": [
+          "Infections, chronic diseases, and environmental factors."
+        ],
+        "Symptoms": [
+          "Coughing, wheezing, and shortness of breath."
+        ],
+        "Diagnosis": [
+          "Pulmonary function tests, imaging studies, and blood tests."
+        ],
+        "Treatment": [
+          "Depends on the specific disease; may include medications and lifestyle changes."
+        ]
+      }
+    },
+    {
+      "condition": "Lung Neuroendocrine Tumors",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/lung-neuroendocrine-tumors",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Lung neuroendocrine tumors are a group of tumors that arise from neuroendocrine cells in the lungs."
+        ],
+        "Alternative Names": [
+          "Neuroendocrine tumors of the lung"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may involve genetic factors."
+        ],
+        "Symptoms": [
+          "Cough, chest pain, and difficulty breathing."
+        ],
+        "Diagnosis": [
+          "Imaging studies and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, chemotherapy, and targeted therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Lung Sarcoidosis (Pulmonary Sarcoidosis)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/lung-sarcoidosis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Lung sarcoidosis is an inflammatory disease that affects the lungs and can cause granulomas."
+        ],
+        "Alternative Names": [
+          "Pulmonary sarcoidosis"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may involve immune system response."
+        ],
+        "Symptoms": [
+          "Cough, shortness of breath, and chest pain."
+        ],
+        "Diagnosis": [
+          "Imaging studies, lung function tests, and biopsy."
+        ],
+        "Treatment": [
+          "Monitoring, corticosteroids, and immunosuppressive medications."
+        ]
+      }
+    },
+    {
+      "condition": "Lupus",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/lupus",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Lupus is a chronic autoimmune disease that can affect various parts of the body."
+        ],
+        "Alternative Names": [
+          "Systemic lupus erythematosus"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may involve genetic and environmental factors."
+        ],
+        "Symptoms": [
+          "Fatigue, joint pain, skin rashes, and fever."
+        ],
+        "Diagnosis": [
+          "Blood tests, clinical evaluation, and imaging studies."
+        ],
+        "Treatment": [
+          "Medications to manage symptoms and prevent flares."
+        ]
+      }
+    },
+    {
+      "condition": "Lupus Nephritis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/lupus-nephritis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Lupus nephritis is a complication of lupus that affects the kidneys."
+        ],
+        "Alternative Names": [
+          "Kidney involvement in lupus"
+        ],
+        "Causes": [
+          "Autoimmune response leading to inflammation in the kidneys."
+        ],
+        "Symptoms": [
+          "Swelling, high blood pressure, and changes in urine."
+        ],
+        "Diagnosis": [
+          "Urine tests, blood tests, and kidney biopsy."
+        ],
+        "Treatment": [
+          "Immunosuppressive medications and management of kidney function."
+        ]
+      }
+    },
+    {
+      "condition": "Lyme Disease",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/lyme-disease",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Lyme disease is an infectious disease caused by the Borrelia bacteria, transmitted through tick bites."
+        ],
+        "Alternative Names": [
+          "Lyme borreliosis"
+        ],
+        "Causes": [
+          "Bites from infected black-legged ticks."
+        ],
+        "Symptoms": [
+          "Fever, headache, fatigue, and a characteristic skin rash."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and laboratory tests."
+        ],
+        "Treatment": [
+          "Antibiotics and supportive care."
+        ]
+      }
+    },
+    {
+      "condition": "Lymphoma",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/lymphoma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Lymphoma is a type of cancer that originates in the lymphatic system."
+        ],
+        "Alternative Names": [
+          "Lymphatic cancer"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may involve genetic and environmental factors."
+        ],
+        "Symptoms": [
+          "Swollen lymph nodes, fever, weight loss, and night sweats."
+        ],
+        "Diagnosis": [
+          "Biopsy, imaging studies, and blood tests."
+        ],
+        "Treatment": [
+          "Chemotherapy, radiation therapy, and targeted therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Lynch Syndrome",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/lynch-syndrome",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Lynch syndrome is a hereditary condition that increases the risk of certain cancers, particularly colorectal cancer."
+        ],
+        "Alternative Names": [
+          "Hereditary nonpolyposis colorectal cancer (HNPCC)"
+        ],
+        "Causes": [
+          "Genetic mutations in mismatch repair genes."
+        ],
+        "Symptoms": [
+          "Increased risk of colorectal and other cancers."
+        ],
+        "Diagnosis": [
+          "Family history assessment and genetic testing."
+        ],
+        "Treatment": [
+          "Increased surveillance, preventive surgery, and management of cancers."
+        ]
+      }
+    }
+  ]

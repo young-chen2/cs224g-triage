@@ -1,0 +1,652 @@
+[
+    {
+      "condition": "Deep Vein Thrombosis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/deep-vein-thrombosis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Deep vein thrombosis (DVT) is a condition in which a blood clot forms in a deep vein, usually in the legs."
+        ],
+        "Alternative Names": [
+          "DVT"
+        ],
+        "Causes": [
+          "Prolonged inactivity, certain medical conditions, and some medications."
+        ],
+        "Symptoms": [
+          "Swelling, pain, and tenderness in the affected leg."
+        ],
+        "Diagnosis": [
+          "Ultrasound imaging and blood tests."
+        ],
+        "Treatment": [
+          "Anticoagulants, compression stockings, and in some cases, thrombolysis."
+        ]
+      }
+    },
+    {
+      "condition": "Dementia",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/dementia",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Dementia is a general term for a decline in mental ability severe enough to interfere with daily life."
+        ],
+        "Alternative Names": [
+          "Cognitive impairment"
+        ],
+        "Causes": [
+          "Alzheimer's disease, vascular issues, and other neurological conditions."
+        ],
+        "Symptoms": [
+          "Memory loss, difficulty communicating, and impaired reasoning."
+        ],
+        "Diagnosis": [
+          "Cognitive tests, medical history, and brain imaging."
+        ],
+        "Treatment": [
+          "Medications, cognitive therapies, and supportive care."
+        ]
+      }
+    },
+    {
+      "condition": "Dementia with Lewy Bodies",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/dementia-with-lewy-bodies",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Dementia with Lewy bodies is a type of progressive dementia characterized by abnormal protein deposits in the brain."
+        ],
+        "Alternative Names": [
+          "DLB"
+        ],
+        "Causes": [
+          "The exact cause is unknown, but it involves the accumulation of Lewy bodies in the brain."
+        ],
+        "Symptoms": [
+          "Visual hallucinations, fluctuating cognition, and movement disorders."
+        ],
+        "Diagnosis": [
+          "Clinical assessment and neuroimaging."
+        ],
+        "Treatment": [
+          "Medications for cognitive symptoms and supportive therapies."
+        ]
+      }
+    },
+    {
+      "condition": "Dermatitis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/dermatitis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Dermatitis is an inflammation of the skin that can cause redness, itching, and discomfort."
+        ],
+        "Alternative Names": [
+          "Eczema"
+        ],
+        "Causes": [
+          "Allergens, irritants, and genetic factors."
+        ],
+        "Symptoms": [
+          "Red, inflamed skin, itching, and sometimes blisters."
+        ],
+        "Diagnosis": [
+          "Physical examination and medical history."
+        ],
+        "Treatment": [
+          "Topical treatments, antihistamines, and avoiding triggers."
+        ]
+      }
+    },
+    {
+      "condition": "Dermatofibrosarcoma Protuberans",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/dermatofibrosarcoma-protuberans",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Dermatofibrosarcoma protuberans is a rare skin cancer that starts in the connective tissue."
+        ],
+        "Alternative Names": [
+          "DFSP"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but it may be related to genetic mutations."
+        ],
+        "Symptoms": [
+          "A firm, raised area of skin that may be brown or purple."
+        ],
+        "Diagnosis": [
+          "Biopsy and imaging studies."
+        ],
+        "Treatment": [
+          "Surgical removal and sometimes radiation therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Dermatomyositis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/dermatomyositis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Dermatomyositis is an inflammatory disease characterized by muscle weakness and a distinctive skin rash."
+        ],
+        "Alternative Names": [
+          "DM"
+        ],
+        "Causes": [
+          "Autoimmune response, possibly triggered by infections or medications."
+        ],
+        "Symptoms": [
+          "Muscle weakness, skin rash, and fatigue."
+        ],
+        "Diagnosis": [
+          "Blood tests, muscle biopsy, and imaging."
+        ],
+        "Treatment": [
+          "Corticosteroids, immunosuppressants, and physical therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Desmoid Tumor",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/desmoid-tumor",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Desmoid tumors are benign growths that arise from connective tissue and can be aggressive."
+        ],
+        "Alternative Names": [
+          "Desmoid fibromatosis"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but they may be associated with genetic conditions."
+        ],
+        "Symptoms": [
+          "A firm mass that may cause pain or discomfort."
+        ],
+        "Diagnosis": [
+          "Imaging studies and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, observation, and sometimes medication."
+        ]
+      }
+    },
+    {
+      "condition": "Deviated Septum",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/deviated-septum",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A deviated septum occurs when the cartilage that divides the nasal cavity is off-center."
+        ],
+        "Alternative Names": [
+          "Nasal septum deviation"
+        ],
+        "Causes": [
+          "Congenital or due to injury."
+        ],
+        "Symptoms": [
+          "Difficulty breathing through the nose, nasal congestion."
+        ],
+        "Diagnosis": [
+          "Physical examination and nasal endoscopy."
+        ],
+        "Treatment": [
+          "Nasal decongestants, surgery (septoplasty) in severe cases."
+        ]
+      }
+    },
+    {
+      "condition": "Diabetes",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/diabetes",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Diabetes is a chronic condition that occurs when the body cannot effectively use insulin."
+        ],
+        "Alternative Names": [
+          "Diabetes Mellitus"
+        ],
+        "Causes": [
+          "Genetic factors, obesity, and lifestyle choices."
+        ],
+        "Symptoms": [
+          "Increased thirst, frequent urination, and fatigue."
+        ],
+        "Diagnosis": [
+          "Blood tests measuring glucose levels."
+        ],
+        "Treatment": [
+          "Insulin therapy, oral medications, and lifestyle changes."
+        ]
+      }
+    },
+    {
+      "condition": "Diabetes in Pregnancy",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/diabetes-in-pregnancy",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Diabetes in pregnancy, or gestational diabetes, is a form of diabetes that develops during pregnancy."
+        ],
+        "Alternative Names": [
+          "Gestational diabetes"
+        ],
+        "Causes": [
+          "Hormonal changes during pregnancy affecting insulin."
+        ],
+        "Symptoms": [
+          "Often asymptomatic, but may include increased thirst and urination."
+        ],
+        "Diagnosis": [
+          "Glucose tolerance test during pregnancy."
+        ],
+        "Treatment": [
+          "Dietary changes, exercise, and sometimes insulin."
+        ]
+      }
+    },
+    {
+      "condition": "Diaphragmatic Hernia",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/diaphragmatic-hernia",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A diaphragmatic hernia occurs when there is an abnormal opening in the diaphragm."
+        ],
+        "Alternative Names": [
+          "Congenital diaphragmatic hernia"
+        ],
+        "Causes": [
+          "Congenital defect or injury."
+        ],
+        "Symptoms": [
+          "Difficulty breathing, rapid breathing, and cyanosis."
+        ],
+        "Diagnosis": [
+          "Imaging studies such as X-rays or CT scans."
+        ],
+        "Treatment": [
+          "Surgical repair of the hernia."
+        ]
+      }
+    },
+    {
+      "condition": "Diarrhea",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/diarrhea",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Diarrhea is characterized by frequent, loose, or watery bowel movements."
+        ],
+        "Alternative Names": [
+          "Loose stools"
+        ],
+        "Causes": [
+          "Infections, food intolerances, and certain medications."
+        ],
+        "Symptoms": [
+          "Frequent bowel movements, abdominal cramps, and dehydration."
+        ],
+        "Diagnosis": [
+          "Medical history and stool tests."
+        ],
+        "Treatment": [
+          "Rehydration, dietary changes, and medications as needed."
+        ]
+      }
+    },
+    {
+      "condition": "Difficulty Swallowing (Dysphagia)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/difficulty-swallowing",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Dysphagia is a condition characterized by difficulty swallowing."
+        ],
+        "Alternative Names": [
+          "Swallowing difficulties"
+        ],
+        "Causes": [
+          "Neurological disorders, esophageal problems, and muscle issues."
+        ],
+        "Symptoms": [
+          "Pain while swallowing, sensation of food getting stuck."
+        ],
+        "Diagnosis": [
+          "Swallowing studies and imaging."
+        ],
+        "Treatment": [
+          "Swallowing therapy, dietary modifications, and medications."
+        ]
+      }
+    },
+    {
+      "condition": "Dilated Cardiomyopathy",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/dilated-cardiomyopathy",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Dilated cardiomyopathy is a condition where the heart becomes enlarged and weakened."
+        ],
+        "Alternative Names": [
+          "DCM"
+        ],
+        "Causes": [
+          "Genetic factors, viral infections, and alcohol abuse."
+        ],
+        "Symptoms": [
+          "Shortness of breath, fatigue, and swelling in the legs."
+        ],
+        "Diagnosis": [
+          "Echocardiogram and other imaging tests."
+        ],
+        "Treatment": [
+          "Medications, lifestyle changes, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Diphtheria",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/diphtheria",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Diphtheria is a serious bacterial infection affecting the mucous membranes of the throat."
+        ],
+        "Alternative Names": [
+          "Corynebacterium diphtheriae infection"
+        ],
+        "Causes": [
+          "Infection with the bacterium Corynebacterium diphtheriae."
+        ],
+        "Symptoms": [
+          "Sore throat, fever, and a thick coating in the throat."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and throat culture."
+        ],
+        "Treatment": [
+          "Antibiotics and diphtheria antitoxin."
+        ]
+      }
+    },
+    {
+      "condition": "Diverticulitis (Colonic Diverticulitis)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/diverticulitis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Diverticulitis is the inflammation or infection of small pouches that can form in the walls of the colon."
+        ],
+        "Alternative Names": [
+          "Diverticular disease"
+        ],
+        "Causes": [
+          "Increased pressure in the colon leading to pouch formation."
+        ],
+        "Symptoms": [
+          "Abdominal pain, fever, and changes in bowel habits."
+        ],
+        "Diagnosis": [
+          "CT scan and physical examination."
+        ],
+        "Treatment": [
+          "Antibiotics, dietary changes, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Dizziness",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/dizziness",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Dizziness is a term used to describe a range of sensations, including feeling faint or unsteady."
+        ],
+        "Alternative Names": [
+          "Vertigo"
+        ],
+        "Causes": [
+          "Inner ear problems, dehydration, and low blood pressure."
+        ],
+        "Symptoms": [
+          "Lightheadedness, spinning sensation, and balance issues."
+        ],
+        "Diagnosis": [
+          "Medical history and physical examination."
+        ],
+        "Treatment": [
+          "Hydration, medications, and balance therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Down Syndrome",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/down-syndrome",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Down syndrome is a genetic disorder caused by the presence of an extra chromosome 21."
+        ],
+        "Alternative Names": [
+          "Trisomy 21"
+        ],
+        "Causes": [
+          "Genetic mutation during cell division."
+        ],
+        "Symptoms": [
+          "Intellectual disability, characteristic facial features, and developmental delays."
+        ],
+        "Diagnosis": [
+          "Genetic testing and physical examination."
+        ],
+        "Treatment": [
+          "Early intervention, educational support, and therapies."
+        ]
+      }
+    },
+    {
+      "condition": "Drug Allergy",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/drug-allergy",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A drug allergy is an abnormal reaction of the immune system to a medication."
+        ],
+        "Alternative Names": [
+          "Medication allergy"
+        ],
+        "Causes": [
+          "Immune response to a drug, often due to previous exposure."
+        ],
+        "Symptoms": [
+          "Rash, itching, swelling, and in severe cases, anaphylaxis."
+        ],
+        "Diagnosis": [
+          "Medical history and allergy testing."
+        ],
+        "Treatment": [
+          "Avoidance of the drug and management of symptoms."
+        ]
+      }
+    },
+    {
+      "condition": "Drug-Induced Pulmonary Disease",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/drug-induced-pulmonary-disease",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Drug-induced pulmonary disease refers to lung damage caused by medications."
+        ],
+        "Alternative Names": [
+          "Drug-induced lung injury"
+        ],
+        "Causes": [
+          "Certain medications that can cause inflammation or toxicity in the lungs."
+        ],
+        "Symptoms": [
+          "Cough, shortness of breath, and chest pain."
+        ],
+        "Diagnosis": [
+          "Medical history and imaging studies."
+        ],
+        "Treatment": [
+          "Discontinuation of the offending drug and supportive care."
+        ]
+      }
+    },
+    {
+      "condition": "Dry Eye",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/dry-eye",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Dry eye is a condition where the eyes do not produce enough tears or the right quality of tears."
+        ],
+        "Alternative Names": [
+          "Keratoconjunctivitis sicca"
+        ],
+        "Causes": [
+          "Aging, certain medications, and environmental factors."
+        ],
+        "Symptoms": [
+          "Dryness, irritation, and redness in the eyes."
+        ],
+        "Diagnosis": [
+          "Eye examination and tear production tests."
+        ],
+        "Treatment": [
+          "Artificial tears, lifestyle changes, and medications."
+        ]
+      }
+    },
+    {
+      "condition": "Ductal Carcinoma in Situ (DCIS)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/ductal-carcinoma-in-situ",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Ductal carcinoma in situ (DCIS) is a non-invasive breast cancer that starts in the milk ducts."
+        ],
+        "Alternative Names": [
+          "Stage 0 breast cancer"
+        ],
+        "Causes": [
+          "Genetic mutations and hormonal factors."
+        ],
+        "Symptoms": [
+          "Often asymptomatic, but may present as a lump or abnormal mammogram."
+        ],
+        "Diagnosis": [
+          "Mammography and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, radiation therapy, and sometimes hormone therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Dupuytren's Contracture",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/dupuytrens-contracture",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Dupuytren's contracture is a condition that causes the fingers to bend towards the palm."
+        ],
+        "Alternative Names": [
+          "Dupuytren's disease"
+        ],
+        "Causes": [
+          "Genetic factors and certain medical conditions."
+        ],
+        "Symptoms": [
+          "Thickening of the tissue under the skin of the palm."
+        ],
+        "Diagnosis": [
+          "Physical examination."
+        ],
+        "Treatment": [
+          "Surgery and needle aponeurotomy in severe cases."
+        ]
+      }
+    },
+    {
+      "condition": "Dural Arteriovenous Fistula",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/dural-arteriovenous-fistula",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A dural arteriovenous fistula is an abnormal connection between an artery and a vein in the dura mater."
+        ],
+        "Alternative Names": [
+          "DAVF"
+        ],
+        "Causes": [
+          "Trauma, congenital factors, or unknown causes."
+        ],
+        "Symptoms": [
+          "Headaches, vision changes, and neurological deficits."
+        ],
+        "Diagnosis": [
+          "Imaging studies such as MRI or angiography."
+        ],
+        "Treatment": [
+          "Endovascular treatment or surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Dyspepsia (Indigestion)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/dyspepsia",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Dyspepsia is a term used to describe discomfort or pain in the upper abdomen."
+        ],
+        "Alternative Names": [
+          "Indigestion"
+        ],
+        "Causes": [
+          "Gastroesophageal reflux disease (GERD), ulcers, and food intolerances."
+        ],
+        "Symptoms": [
+          "Bloating, nausea, and stomach pain."
+        ],
+        "Diagnosis": [
+          "Medical history and sometimes endoscopy."
+        ],
+        "Treatment": [
+          "Dietary changes, medications, and lifestyle modifications."
+        ]
+      }
+    },
+    {
+      "condition": "Dystonia",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/dystonia",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Dystonia is a movement disorder characterized by involuntary muscle contractions."
+        ],
+        "Alternative Names": [
+          "Dystonic disorder"
+        ],
+        "Causes": [
+          "Genetic factors, brain injury, and certain medications."
+        ],
+        "Symptoms": [
+          "Abnormal postures, twisting movements, and discomfort."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and neurological examination."
+        ],
+        "Treatment": [
+          "Medications, physical therapy, and sometimes surgery."
+        ]
+      }
+    }
+  ]

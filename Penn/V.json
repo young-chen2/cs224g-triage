@@ -1,0 +1,377 @@
+[
+    {
+      "condition": "Vaginal Cancer",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/vaginal-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Vaginal cancer is a rare type of cancer that occurs in the vaginal tissues."
+        ],
+        "Alternative Names": [
+          "Cancer of the vagina"
+        ],
+        "Causes": [
+          "Human papillomavirus (HPV) infection and other risk factors."
+        ],
+        "Symptoms": [
+          "Abnormal vaginal bleeding, pain during intercourse, and a lump in the vagina."
+        ],
+        "Diagnosis": [
+          "Pelvic examination, biopsy, and imaging studies."
+        ],
+        "Treatment": [
+          "Surgery, radiation therapy, and chemotherapy."
+        ]
+      }
+    },
+    {
+      "condition": "Vaginal Cyst",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/vaginal-cyst",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A vaginal cyst is a fluid-filled sac that forms in the vaginal wall."
+        ],
+        "Alternative Names": [
+          "Vaginal wall cyst"
+        ],
+        "Causes": [
+          "Blocked glands or ducts in the vaginal area."
+        ],
+        "Symptoms": [
+          "Often asymptomatic; may cause discomfort or pain."
+        ],
+        "Diagnosis": [
+          "Pelvic examination and imaging studies."
+        ],
+        "Treatment": [
+          "Observation, drainage, or surgical removal if symptomatic."
+        ]
+      }
+    },
+    {
+      "condition": "Varicose Veins",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/varicose-veins",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Varicose veins are enlarged, twisted veins that often appear blue or dark purple."
+        ],
+        "Alternative Names": [
+          "Varicosities"
+        ],
+        "Causes": [
+          "Weak or damaged valves in the veins."
+        ],
+        "Symptoms": [
+          "Aching, heaviness, and swelling in the legs."
+        ],
+        "Diagnosis": [
+          "Physical examination and ultrasound."
+        ],
+        "Treatment": [
+          "Compression stockings, lifestyle changes, and procedures like sclerotherapy."
+        ]
+      }
+    },
+    {
+      "condition": "Venous Insufficiency",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/venous-insufficiency",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Venous insufficiency is a condition in which the veins cannot pump enough blood back to the heart."
+        ],
+        "Alternative Names": [
+          "Chronic venous insufficiency"
+        ],
+        "Causes": [
+          "Weak or damaged valves in the veins."
+        ],
+        "Symptoms": [
+          "Swelling, pain, and varicose veins."
+        ],
+        "Diagnosis": [
+          "Physical examination and ultrasound."
+        ],
+        "Treatment": [
+          "Compression therapy, lifestyle changes, and surgical options."
+        ]
+      }
+    },
+    {
+      "condition": "Ventricular Septal Defect (VSD)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/ventricular-septal-defect",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A ventricular septal defect is a congenital heart defect characterized by a hole in the wall separating the heart's lower chambers."
+        ],
+        "Alternative Names": [
+          "VSD"
+        ],
+        "Causes": [
+          "Genetic factors and environmental influences during pregnancy."
+        ],
+        "Symptoms": [
+          "Shortness of breath, fatigue, and heart murmur."
+        ],
+        "Diagnosis": [
+          "Echocardiogram and clinical evaluation."
+        ],
+        "Treatment": [
+          "Monitoring, medications, and surgery if necessary."
+        ]
+      }
+    },
+    {
+      "condition": "Ventricular Tachycardia (V-tach)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/ventricular-tachycardia",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Ventricular tachycardia is a fast heart rate that originates from the ventricles of the heart."
+        ],
+        "Alternative Names": [
+          "V-tach"
+        ],
+        "Causes": [
+          "Heart disease, electrolyte imbalances, and certain medications."
+        ],
+        "Symptoms": [
+          "Palpitations, dizziness, and chest pain."
+        ],
+        "Diagnosis": [
+          "Electrocardiogram (ECG) and clinical evaluation."
+        ],
+        "Treatment": [
+          "Medications, cardioversion, and catheter ablation."
+        ]
+      }
+    },
+    {
+      "condition": "Vertebral Fracture",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/vertebral-fracture",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "A vertebral fracture is a break in one of the bones of the spine."
+        ],
+        "Alternative Names": [
+          "Spinal fracture"
+        ],
+        "Causes": [
+          "Trauma, osteoporosis, and certain medical conditions."
+        ],
+        "Symptoms": [
+          "Back pain, limited mobility, and deformity."
+        ],
+        "Diagnosis": [
+          "Imaging studies such as X-rays or MRI."
+        ],
+        "Treatment": [
+          "Pain management, physical therapy, and surgery in severe cases."
+        ]
+      }
+    },
+    {
+      "condition": "Vertigo",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/vertigo",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Vertigo is a sensation of spinning or dizziness, often caused by inner ear problems."
+        ],
+        "Alternative Names": [
+          "Dizziness"
+        ],
+        "Causes": [
+          "Inner ear disorders, vestibular migraines, and neurological conditions."
+        ],
+        "Symptoms": [
+          "Spinning sensation, balance issues, and nausea."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and balance tests."
+        ],
+        "Treatment": [
+          "Vestibular rehabilitation, medications, and lifestyle changes."
+        ]
+      }
+    },
+    {
+      "condition": "Vitiligo",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/vitiligo",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Vitiligo is a skin condition characterized by the loss of pigment, resulting in white patches on the skin."
+        ],
+        "Alternative Names": [
+          "Skin depigmentation"
+        ],
+        "Causes": [
+          "Autoimmune response, genetic factors, and environmental triggers."
+        ],
+        "Symptoms": [
+          "White patches on the skin, often more noticeable in darker skin."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and skin examination."
+        ],
+        "Treatment": [
+          "Topical treatments, light therapy, and cosmetic options."
+        ]
+      }
+    },
+    {
+      "condition": "Vocal Cord Lesion",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/vocal-cord-lesion",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Vocal cord lesions are abnormal growths or changes on the vocal cords that can affect voice quality."
+        ],
+        "Alternative Names": [
+          "Vocal cord nodules or polyps"
+        ],
+        "Causes": [
+          "Vocal strain, smoking, and acid reflux."
+        ],
+        "Symptoms": [
+          "Hoarseness, voice fatigue, and difficulty speaking."
+        ],
+        "Diagnosis": [
+          "Laryngoscopy and clinical evaluation."
+        ],
+        "Treatment": [
+          "Voice therapy, lifestyle changes, and surgery if necessary."
+        ]
+      }
+    },
+    {
+      "condition": "Vocal Cord Paralysis",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/vocal-cord-paralysis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Vocal cord paralysis is a condition where one or both vocal cords cannot move properly."
+        ],
+        "Alternative Names": [
+          "Vocal cord immobility"
+        ],
+        "Causes": [
+          "Nerve damage, surgery, and neurological conditions."
+        ],
+        "Symptoms": [
+          "Hoarseness, breathy voice, and difficulty swallowing."
+        ],
+        "Diagnosis": [
+          "Laryngoscopy and clinical evaluation."
+        ],
+        "Treatment": [
+          "Voice therapy, surgery, and management of underlying causes."
+        ]
+      }
+    },
+    {
+      "condition": "Vocal Cord Strain",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/vocal-cord-strain",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Vocal cord strain is an injury to the vocal cords caused by overuse or misuse."
+        ],
+        "Alternative Names": [
+          "Vocal fatigue"
+        ],
+        "Causes": [
+          "Excessive talking, shouting, or singing."
+        ],
+        "Symptoms": [
+          "Hoarseness, pain, and difficulty speaking."
+        ],
+        "Diagnosis": [
+          "Laryngoscopy and clinical evaluation."
+        ],
+        "Treatment": [
+          "Voice rest, hydration, and voice therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Volkmann's Ischemic Contracture",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/volkmanns-ischemic-contracture",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Volkmann's ischemic contracture is a condition resulting from insufficient blood flow to the muscles of the forearm, leading to muscle and nerve damage."
+        ],
+        "Alternative Names": [
+          "Ischemic contracture"
+        ],
+        "Causes": [
+          "Compartment syndrome, trauma, and prolonged pressure."
+        ],
+        "Symptoms": [
+          "Pain, weakness, and deformity of the hand."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and imaging studies."
+        ],
+        "Treatment": [
+          "Surgery, physical therapy, and management of underlying causes."
+        ]
+      }
+    },
+    {
+      "condition": "Von Willebrand Disease",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/von-willebrand-disease",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Von Willebrand disease is a genetic bleeding disorder caused by a deficiency of von Willebrand factor."
+        ],
+        "Alternative Names": [
+          "VWD"
+        ],
+        "Causes": [
+          "Genetic mutations affecting blood clotting."
+        ],
+        "Symptoms": [
+          "Easy bruising, frequent nosebleeds, and heavy menstrual bleeding."
+        ],
+        "Diagnosis": [
+          "Blood tests and clinical evaluation."
+        ],
+        "Treatment": [
+          "Desmopressin and clotting factor replacement."
+        ]
+      }
+    },
+    {
+      "condition": "Vulvar Cancer",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/vulvar-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Vulvar cancer is a type of cancer that occurs on the external female genitalia."
+        ],
+        "Alternative Names": [
+          "Cancer of the vulva"
+        ],
+        "Causes": [
+          "Human papillomavirus (HPV) infection and other risk factors."
+        ],
+        "Symptoms": [
+          "Itching, pain, and abnormal growths on the vulva."
+        ],
+        "Diagnosis": [
+          "Pelvic examination, biopsy, and imaging studies."
+        ],
+        "Treatment": [
+          "Surgery, radiation therapy, and chemotherapy."
+        ]
+      }
+    }
+  ]

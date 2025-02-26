@@ -1,0 +1,327 @@
+[
+    {
+      "condition": "Idiopathic Intracranial Hypertension (Pseudotumor Cerebri)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/idiopathic-intracranial-hypertension",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Idiopathic intracranial hypertension is a condition characterized by increased pressure in the skull without a clear cause."
+        ],
+        "Alternative Names": [
+          "Pseudotumor cerebri"
+        ],
+        "Causes": [
+          "Obesity, certain medications, and hormonal changes."
+        ],
+        "Symptoms": [
+          "Headaches, vision changes, and ringing in the ears."
+        ],
+        "Diagnosis": [
+          "Lumbar puncture, imaging studies, and clinical evaluation."
+        ],
+        "Treatment": [
+          "Weight loss, medications, and in some cases, surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Idiopathic Pulmonary Fibrosis (IPF)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/idiopathic-pulmonary-fibrosis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Idiopathic pulmonary fibrosis is a chronic lung disease that causes scarring of the lungs."
+        ],
+        "Alternative Names": [
+          "IPF"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may involve genetic and environmental factors."
+        ],
+        "Symptoms": [
+          "Shortness of breath, dry cough, and fatigue."
+        ],
+        "Diagnosis": [
+          "Imaging studies, lung function tests, and biopsy."
+        ],
+        "Treatment": [
+          "Medications, oxygen therapy, and lung transplantation in severe cases."
+        ]
+      }
+    },
+    {
+      "condition": "IgA Nephropathy (Berger's Disease)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/iga-nephropathy",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "IgA nephropathy is a kidney disorder characterized by the deposition of IgA antibodies in the kidney."
+        ],
+        "Alternative Names": [
+          "Berger's disease"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may involve genetic and environmental factors."
+        ],
+        "Symptoms": [
+          "Blood in urine, protein in urine, and swelling."
+        ],
+        "Diagnosis": [
+          "Urine tests, blood tests, and kidney biopsy."
+        ],
+        "Treatment": [
+          "Blood pressure control, medications, and dietary changes."
+        ]
+      }
+    },
+    {
+      "condition": "Inflammatory Breast Cancer (IBC)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/inflammatory-breast-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Inflammatory breast cancer is a rare and aggressive form of breast cancer that blocks lymph vessels in the skin."
+        ],
+        "Alternative Names": [
+          "IBC"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but risk factors include genetics and family history."
+        ],
+        "Symptoms": [
+          "Swelling, redness, and warmth in the breast."
+        ],
+        "Diagnosis": [
+          "Physical examination, imaging studies, and biopsy."
+        ],
+        "Treatment": [
+          "Chemotherapy, surgery, and radiation therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Insect Bites and Stings",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/insect-bites-and-stings",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Insect bites and stings are injuries caused by the bite or sting of insects."
+        ],
+        "Alternative Names": [
+          "Insect bites"
+        ],
+        "Causes": [
+          "Bites from mosquitoes, bees, wasps, and other insects."
+        ],
+        "Symptoms": [
+          "Redness, swelling, pain, and itching."
+        ],
+        "Diagnosis": [
+          "Physical examination and medical history."
+        ],
+        "Treatment": [
+          "Cold compresses, antihistamines, and pain relievers."
+        ]
+      }
+    },
+    {
+      "condition": "Insomnia",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/insomnia",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Insomnia is a sleep disorder characterized by difficulty falling asleep or staying asleep."
+        ],
+        "Alternative Names": [
+          "Sleep disorder"
+        ],
+        "Causes": [
+          "Stress, anxiety, medical conditions, and certain medications."
+        ],
+        "Symptoms": [
+          "Difficulty sleeping, daytime fatigue, and irritability."
+        ],
+        "Diagnosis": [
+          "Sleep history and sometimes sleep studies."
+        ],
+        "Treatment": [
+          "Cognitive behavioral therapy, medications, and lifestyle changes."
+        ]
+      }
+    },
+    {
+      "condition": "Interstitial Cystitis (IC)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/interstitial-cystitis",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Interstitial cystitis is a chronic condition causing bladder pressure, bladder pain, and sometimes pelvic pain."
+        ],
+        "Alternative Names": [
+          "Painful bladder syndrome"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may involve bladder lining damage."
+        ],
+        "Symptoms": [
+          "Frequent urination, urgency, and pelvic pain."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and bladder tests."
+        ],
+        "Treatment": [
+          "Medications, bladder instillations, and lifestyle changes."
+        ]
+      }
+    },
+    {
+      "condition": "Interstitial Lung Disease",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/interstitial-lung-disease",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Interstitial lung disease refers to a group of disorders that cause scarring of lung tissue."
+        ],
+        "Alternative Names": [
+          "Pulmonary fibrosis"
+        ],
+        "Causes": [
+          "Autoimmune diseases, environmental exposures, and certain medications."
+        ],
+        "Symptoms": [
+          "Shortness of breath, dry cough, and fatigue."
+        ],
+        "Diagnosis": [
+          "Imaging studies, lung function tests, and biopsy."
+        ],
+        "Treatment": [
+          "Medications, oxygen therapy, and pulmonary rehabilitation."
+        ]
+      }
+    },
+    {
+      "condition": "Intestinal Pseudo-Obstruction (Ogilvie Syndrome)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/intestinal-pseudo-obstruction",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Intestinal pseudo-obstruction is a condition that mimics a bowel obstruction without a physical blockage."
+        ],
+        "Alternative Names": [
+          "Ogilvie syndrome"
+        ],
+        "Causes": [
+          "Neuromuscular disorders, medications, and surgery."
+        ],
+        "Symptoms": [
+          "Abdominal pain, bloating, and constipation."
+        ],
+        "Diagnosis": [
+          "Imaging studies and clinical evaluation."
+        ],
+        "Treatment": [
+          "Medications, dietary changes, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Invasive Ductal Carcinoma (IDC)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/invasive-ductal-carcinoma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Invasive ductal carcinoma is the most common type of breast cancer that begins in the milk ducts."
+        ],
+        "Alternative Names": [
+          "IDC"
+        ],
+        "Causes": [
+          "Genetic factors, hormonal influences, and lifestyle factors."
+        ],
+        "Symptoms": [
+          "Lump in the breast, changes in breast shape, and discharge."
+        ],
+        "Diagnosis": [
+          "Mammography, ultrasound, and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, chemotherapy, radiation therapy, and hormone therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Invasive Lobular Carcinoma (ILC)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/invasive-lobular-carcinoma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Invasive lobular carcinoma is a type of breast cancer that begins in the lobules of the breast."
+        ],
+        "Alternative Names": [
+          "ILC"
+        ],
+        "Causes": [
+          "Genetic factors and hormonal influences."
+        ],
+        "Symptoms": [
+          "Thickening of breast tissue, changes in breast shape, and sometimes a lump."
+        ],
+        "Diagnosis": [
+          "Mammography, ultrasound, and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, chemotherapy, radiation therapy, and hormone therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Inverted Papilloma",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/inverted-papilloma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Inverted papilloma is a benign tumor that occurs in the nasal cavity and paranasal sinuses."
+        ],
+        "Alternative Names": [
+          "Schneiderian papilloma"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may be associated with HPV."
+        ],
+        "Symptoms": [
+          "Nasal obstruction, bleeding, and facial pain."
+        ],
+        "Diagnosis": [
+          "Nasal endoscopy and biopsy."
+        ],
+        "Treatment": [
+          "Surgical removal and monitoring."
+        ]
+      }
+    },
+    {
+      "condition": "Irritable Bowel Syndrome",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/irritable-bowel-syndrome",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Irritable bowel syndrome is a common gastrointestinal disorder characterized by abdominal pain and changes in bowel habits."
+        ],
+        "Alternative Names": [
+          "IBS"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may involve gut-brain interaction."
+        ],
+        "Symptoms": [
+          "Abdominal pain, bloating, diarrhea, and constipation."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and exclusion of other conditions."
+        ],
+        "Treatment": [
+          "Dietary changes, medications, and stress management."
+        ]
+      }
+    }
+  ]

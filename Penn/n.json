@@ -1,0 +1,327 @@
+[
+    {
+      "condition": "Narcolepsy",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/narcolepsy",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Narcolepsy is a chronic sleep disorder characterized by overwhelming daytime drowsiness and sudden sleep attacks."
+        ],
+        "Alternative Names": [
+          "Excessive daytime sleepiness"
+        ],
+        "Causes": [
+          "Exact cause is unknown, but may involve genetic factors and brain chemistry."
+        ],
+        "Symptoms": [
+          "Daytime sleepiness, cataplexy, sleep paralysis, and hallucinations."
+        ],
+        "Diagnosis": [
+          "Sleep studies and clinical evaluation."
+        ],
+        "Treatment": [
+          "Medications to manage symptoms and lifestyle changes."
+        ]
+      }
+    },
+    {
+      "condition": "Nasal Polyps",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/nasal-polyps",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Nasal polyps are soft, painless, noncancerous growths on the lining of the nasal passages or sinuses."
+        ],
+        "Alternative Names": [
+          "Nasal mucosal polyps"
+        ],
+        "Causes": [
+          "Chronic inflammation, allergies, and asthma."
+        ],
+        "Symptoms": [
+          "Nasal congestion, loss of smell, and sinus infections."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies."
+        ],
+        "Treatment": [
+          "Medications such as corticosteroids and surgery in severe cases."
+        ]
+      }
+    },
+    {
+      "condition": "Nasopharyngeal Cancer",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/nasopharyngeal-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Nasopharyngeal cancer is a type of cancer that occurs in the nasopharynx, the area behind the nose and above the back of the throat."
+        ],
+        "Alternative Names": [
+          "NPC"
+        ],
+        "Causes": [
+          "Infection with Epstein-Barr virus (EBV) and genetic factors."
+        ],
+        "Symptoms": [
+          "Nasal congestion, ear problems, and neck lumps."
+        ],
+        "Diagnosis": [
+          "Imaging studies, biopsy, and endoscopy."
+        ],
+        "Treatment": [
+          "Radiation therapy, chemotherapy, and surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Nausea and Vomiting",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/nausea-and-vomiting",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Nausea is the sensation of an urge to vomit, while vomiting is the forceful expulsion of stomach contents."
+        ],
+        "Alternative Names": [
+          "Nausea and emesis"
+        ],
+        "Causes": [
+          "Infections, motion sickness, medications, and gastrointestinal disorders."
+        ],
+        "Symptoms": [
+          "Feeling sick, abdominal discomfort, and retching."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and medical history."
+        ],
+        "Treatment": [
+          "Medications to control nausea and vomiting, and addressing underlying causes."
+        ]
+      }
+    },
+    {
+      "condition": "Neck Pain",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/neck-pain",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Neck pain is discomfort in the neck area, which can be acute or chronic."
+        ],
+        "Alternative Names": [
+          "Cervical pain"
+        ],
+        "Causes": [
+          "Injuries, poor posture, and degenerative diseases."
+        ],
+        "Symptoms": [
+          "Pain, stiffness, and reduced range of motion."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies."
+        ],
+        "Treatment": [
+          "Pain management, physical therapy, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Nephrotic Syndrome",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/nephrotic-syndrome",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Nephrotic syndrome is a kidney disorder characterized by excessive protein loss in the urine."
+        ],
+        "Alternative Names": [
+          "Nephrosis"
+        ],
+        "Causes": [
+          "Diabetes, minimal change disease, and infections."
+        ],
+        "Symptoms": [
+          "Swelling, proteinuria, and high cholesterol."
+        ],
+        "Diagnosis": [
+          "Urine tests, blood tests, and kidney biopsy."
+        ],
+        "Treatment": [
+          "Medications, dietary changes, and management of underlying conditions."
+        ]
+      }
+    },
+    {
+      "condition": "Nerve Root Pain",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/nerve-root-pain",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Nerve root pain is pain that occurs when a nerve root in the spine is compressed or irritated."
+        ],
+        "Alternative Names": [
+          "Radiculopathy"
+        ],
+        "Causes": [
+          "Herniated discs, spinal stenosis, and injuries."
+        ],
+        "Symptoms": [
+          "Sharp pain, numbness, and weakness in the affected area."
+        ],
+        "Diagnosis": [
+          "Physical examination and imaging studies."
+        ],
+        "Treatment": [
+          "Pain management, physical therapy, and sometimes surgery."
+        ]
+      }
+    },
+    {
+      "condition": "Neuroendocrine Tumor",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/neuroendocrine-tumor",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Neuroendocrine tumors are a diverse group of tumors that arise from neuroendocrine cells."
+        ],
+        "Alternative Names": [
+          "NETs"
+        ],
+        "Causes": [
+          "Exact cause is often unknown; may involve genetic factors."
+        ],
+        "Symptoms": [
+          "Varies widely depending on the tumor location; may include flushing, diarrhea, and abdominal pain."
+        ],
+        "Diagnosis": [
+          "Imaging studies, blood tests, and biopsy."
+        ],
+        "Treatment": [
+          "Surgery, chemotherapy, and targeted therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Neurofibromatosis Type 1 (NF1)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/neurofibromatosis-type-1",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Neurofibromatosis type 1 is a genetic disorder that causes tumors to grow on nerves."
+        ],
+        "Alternative Names": [
+          "NF1"
+        ],
+        "Causes": [
+          "Genetic mutations in the NF1 gene."
+        ],
+        "Symptoms": [
+          "Café-au-lait spots, neurofibromas, and learning disabilities."
+        ],
+        "Diagnosis": [
+          "Clinical evaluation and genetic testing."
+        ],
+        "Treatment": [
+          "Management of symptoms and monitoring for complications."
+        ]
+      }
+    },
+    {
+      "condition": "Neuromyelitis Optica (NMO) Spectrum Disorder",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/neuromyelitis-optica",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Neuromyelitis optica spectrum disorder is an autoimmune condition that primarily affects the optic nerves and spinal cord."
+        ],
+        "Alternative Names": [
+          "NMO"
+        ],
+        "Causes": [
+          "Autoimmune response against aquaporin-4 water channels."
+        ],
+        "Symptoms": [
+          "Vision loss, weakness, and sensory disturbances."
+        ],
+        "Diagnosis": [
+          "MRI, blood tests, and clinical evaluation."
+        ],
+        "Treatment": [
+          "Immunosuppressive therapies and symptomatic management."
+        ]
+      }
+    },
+    {
+      "condition": "Non-Alcoholic Fatty Liver Disease",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/non-alcoholic-fatty-liver-disease",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Non-alcoholic fatty liver disease is a condition characterized by excess fat accumulation in the liver without alcohol consumption."
+        ],
+        "Alternative Names": [
+          "NAFLD"
+        ],
+        "Causes": [
+          "Obesity, diabetes, and metabolic syndrome."
+        ],
+        "Symptoms": [
+          "Often asymptomatic, but may include fatigue and discomfort in the upper right abdomen."
+        ],
+        "Diagnosis": [
+          "Imaging studies and liver function tests."
+        ],
+        "Treatment": [
+          "Lifestyle changes, weight loss, and management of underlying conditions."
+        ]
+      }
+    },
+    {
+      "condition": "Non-Hodgkin Lymphoma",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/non-hodgkin-lymphoma",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Non-Hodgkin lymphoma is a group of blood cancers that includes any lymphoma except Hodgkin's lymphoma."
+        ],
+        "Alternative Names": [
+          "NHL"
+        ],
+        "Causes": [
+          "Exact cause is often unknown; may involve genetic and environmental factors."
+        ],
+        "Symptoms": [
+          "Swollen lymph nodes, fever, weight loss, and night sweats."
+        ],
+        "Diagnosis": [
+          "Biopsy, imaging studies, and blood tests."
+        ],
+        "Treatment": [
+          "Chemotherapy, radiation therapy, and targeted therapy."
+        ]
+      }
+    },
+    {
+      "condition": "Non-Small Cell Lung Cancer",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/non-small-cell-lung-cancer",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Non-small cell lung cancer is the most common type of lung cancer, accounting for about 85% of cases."
+        ],
+        "Alternative Names": [
+          "NSCLC"
+        ],
+        "Causes": [
+          "Smoking, exposure to secondhand smoke, and environmental toxins."
+        ],
+        "Symptoms": [
+          "Cough, chest pain, and shortness of breath."
+        ],
+        "Diagnosis": [
+          "Imaging studies, biopsy, and pulmonary function tests."
+        ],
+        "Treatment": [
+          "Surgery, chemotherapy, radiation therapy, and targeted therapy."
+        ]
+      }
+    }
+  ]

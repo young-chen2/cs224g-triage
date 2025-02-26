@@ -1,0 +1,352 @@
+[
+  {
+    "condition": "Radiculopathy",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/radiculopathy",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Radiculopathy is a condition caused by compression or irritation of a nerve root in the spine."
+      ],
+      "Alternative Names": [
+        "Nerve root compression"
+      ],
+      "Causes": [
+        "Herniated discs, spinal stenosis, and degenerative disc disease."
+      ],
+      "Symptoms": [
+        "Pain, numbness, and weakness along the affected nerve."
+      ],
+      "Diagnosis": [
+        "Physical examination, imaging studies, and nerve conduction studies."
+      ],
+      "Treatment": [
+        "Physical therapy, medications, and sometimes surgery."
+      ]
+    }
+  },
+  {
+    "condition": "Radioactive Iodine Induced Sialadenitis",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/radioactive-iodine-induced-sialadenitis",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Radioactive iodine induced sialadenitis is inflammation of the salivary glands caused by radioactive iodine treatment."
+      ],
+      "Alternative Names": [
+        "Salivary gland inflammation"
+      ],
+      "Causes": [
+        "Radioactive iodine therapy for thyroid conditions."
+      ],
+      "Symptoms": [
+        "Swelling, pain, and dryness in the mouth."
+      ],
+      "Diagnosis": [
+        "Clinical evaluation and imaging studies."
+      ],
+      "Treatment": [
+        "Hydration, sialogogues, and symptomatic management."
+      ]
+    }
+  },
+  {
+    "condition": "Rash",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/rash",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "A rash is a change in the skin that affects its color, appearance, or texture."
+      ],
+      "Alternative Names": [
+        "Skin rash"
+      ],
+      "Causes": [
+        "Allergies, infections, and skin conditions."
+      ],
+      "Symptoms": [
+        "Redness, itching, and swelling."
+      ],
+      "Diagnosis": [
+        "Clinical evaluation and medical history."
+      ],
+      "Treatment": [
+        "Depends on the underlying cause; may include topical treatments and medications."
+      ]
+    }
+  },
+  {
+    "condition": "Reactive Arthritis",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/reactive-arthritis",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Reactive arthritis is a type of inflammatory arthritis that occurs in response to an infection in another part of the body."
+      ],
+      "Alternative Names": [
+        "Reiter's syndrome"
+      ],
+      "Causes": [
+        "Infections, particularly in the genitourinary or gastrointestinal tract."
+      ],
+      "Symptoms": [
+        "Joint pain, swelling, and inflammation."
+      ],
+      "Diagnosis": [
+        "Clinical evaluation and laboratory tests."
+      ],
+      "Treatment": [
+        "Nonsteroidal anti-inflammatory drugs (NSAIDs) and treatment of the underlying infection."
+      ]
+    }
+  },
+  {
+    "condition": "Rectal Cancer",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/rectal-cancer",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Rectal cancer is a type of cancer that develops in the rectum, the last part of the large intestine."
+      ],
+      "Alternative Names": [
+        "Colorectal cancer"
+      ],
+      "Causes": [
+        "Genetic factors, diet, and inflammatory bowel disease."
+      ],
+      "Symptoms": [
+        "Rectal bleeding, changes in bowel habits, and abdominal pain."
+      ],
+      "Diagnosis": [
+        "Colonoscopy, imaging studies, and biopsy."
+      ],
+      "Treatment": [
+        "Surgery, chemotherapy, and radiation therapy."
+      ]
+    }
+  },
+  {
+    "condition": "Rectal Prolapse",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/rectal-prolapse",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Rectal prolapse occurs when the rectum protrudes through the anus."
+      ],
+      "Alternative Names": [
+        "Rectal descent"
+      ],
+      "Causes": [
+        "Weak pelvic floor muscles, chronic constipation, and aging."
+      ],
+      "Symptoms": [
+        "Visible protrusion of the rectum, discomfort, and bleeding."
+      ],
+      "Diagnosis": [
+        "Physical examination and medical history."
+      ],
+      "Treatment": [
+        "Surgery and management of underlying conditions."
+      ]
+    }
+  },
+  {
+    "condition": "Renovascular Hypertension",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/renovascular-hypertension",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Renovascular hypertension is high blood pressure caused by narrowing of the arteries that supply blood to the kidneys."
+      ],
+      "Alternative Names": [
+        "Kidney artery stenosis"
+      ],
+      "Causes": [
+        "Atherosclerosis and fibromuscular dysplasia."
+      ],
+      "Symptoms": [
+        "High blood pressure, headaches, and sometimes kidney dysfunction."
+      ],
+      "Diagnosis": [
+        "Imaging studies and blood tests."
+      ],
+      "Treatment": [
+        "Medications, angioplasty, and sometimes surgery."
+      ]
+    }
+  },
+  {
+    "condition": "Restless Leg Syndrome (RLS)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/restless-leg-syndrome",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Restless leg syndrome is a neurological disorder characterized by an uncontrollable urge to move the legs."
+      ],
+      "Alternative Names": [
+        "Willis-Ekbom disease"
+      ],
+      "Causes": [
+        "Genetic factors, iron deficiency, and certain medications."
+      ],
+      "Symptoms": [
+        "Uncomfortable sensations in the legs, especially at night."
+      ],
+      "Diagnosis": [
+        "Clinical evaluation and medical history."
+      ],
+      "Treatment": [
+        "Lifestyle changes, medications, and iron supplementation if needed."
+      ]
+    }
+  },
+  {
+    "condition": "Restrictive Cardiomyopathy",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/restrictive-cardiomyopathy",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Restrictive cardiomyopathy is a condition where the heart muscle becomes rigid and less able to expand."
+      ],
+      "Alternative Names": [
+        "Restrictive heart disease"
+      ],
+      "Causes": [
+        "Amyloidosis, hemochromatosis, and certain medications."
+      ],
+      "Symptoms": [
+        "Shortness of breath, fatigue, and swelling in the legs."
+      ],
+      "Diagnosis": [
+        "Echocardiogram, MRI, and biopsy."
+      ],
+      "Treatment": [
+        "Management of symptoms and treatment of underlying causes."
+      ]
+    }
+  },
+  {
+    "condition": "Rhabdomyosarcoma",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/rhabdomyosarcoma",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Rhabdomyosarcoma is a rare type of cancer that develops from skeletal muscle tissue."
+      ],
+      "Alternative Names": [
+        "Soft tissue sarcoma"
+      ],
+      "Causes": [
+        "Exact cause is often unknown; may involve genetic factors."
+      ],
+      "Symptoms": [
+        "Lump or swelling, pain, and functional impairment."
+      ],
+      "Diagnosis": [
+        "Imaging studies and biopsy."
+      ],
+      "Treatment": [
+        "Surgery, chemotherapy, and radiation therapy."
+      ]
+    }
+  },
+  {
+    "condition": "Rheumatoid Arthritis (RA)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/rheumatoid-arthritis",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Rheumatoid arthritis is an autoimmune disorder that primarily affects the joints."
+      ],
+      "Alternative Names": [
+        "RA"
+      ],
+      "Causes": [
+        "Exact cause is unknown; may involve genetic and environmental factors."
+      ],
+      "Symptoms": [
+        "Joint pain, swelling, and stiffness."
+      ],
+      "Diagnosis": [
+        "Clinical evaluation, blood tests, and imaging studies."
+      ],
+      "Treatment": [
+        "Medications, physical therapy, and lifestyle changes."
+      ]
+    }
+  },
+  {
+    "condition": "Rheumatoid Lung Disease",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/rheumatoid-lung-disease",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Rheumatoid lung disease refers to lung complications associated with rheumatoid arthritis."
+      ],
+      "Alternative Names": [
+        "Rheumatoid arthritis lung involvement"
+      ],
+      "Causes": [
+        "Autoimmune response related to rheumatoid arthritis."
+      ],
+      "Symptoms": [
+        "Cough, shortness of breath, and chest pain."
+      ],
+      "Diagnosis": [
+        "Imaging studies and pulmonary function tests."
+      ],
+      "Treatment": [
+        "Management of rheumatoid arthritis and respiratory symptoms."
+      ]
+    }
+  },
+  {
+    "condition": "Rosacea",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/rosacea",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Rosacea is a chronic skin condition that causes redness and visible blood vessels in the face."
+      ],
+      "Alternative Names": [
+        "Acne rosacea"
+      ],
+      "Causes": [
+        "Exact cause is unknown; may involve genetic and environmental factors."
+      ],
+      "Symptoms": [
+        "Facial redness, flushing, and acne-like breakouts."
+      ],
+      "Diagnosis": [
+        "Clinical evaluation and medical history."
+      ],
+      "Treatment": [
+        "Topical treatments, oral medications, and lifestyle modifications."
+      ]
+    }
+  },
+  {
+    "condition": "Rotator Cuff Injury",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/rotator-cuff-injury",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "A rotator cuff injury involves damage to the group of muscles and tendons that stabilize the shoulder."
+      ],
+      "Alternative Names": [
+        "Shoulder injury"
+      ],
+      "Causes": [
+        "Overuse, trauma, and degenerative changes."
+      ],
+      "Symptoms": [
+        "Shoulder pain, weakness, and limited range of motion."
+      ],
+      "Diagnosis": [
+        "Physical examination and imaging studies."
+      ],
+      "Treatment": [
+        "Physical therapy, medications, and sometimes surgery."
+      ]
+    }
+  }
+]

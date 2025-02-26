@@ -1,0 +1,796 @@
+[
+    {
+      "condition": "Carbon Monoxide Poisoning",
+      "url": "https://www.webmd.com/first-aid/carbon-monoxide-poisoning",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["Carbon monoxide poisoning occurs when carbon monoxide builds up in the bloodstream, preventing oxygen from entering the body's cells and tissues."],
+        "Alternative Names": ["CO poisoning"],
+        "Causes": ["Inhaling carbon monoxide from gas appliances, vehicles, and smoking."],
+        "Symptoms": ["Headache", "Dizziness", "Weakness", "Nausea", "Confusion", "Chest pain", "Shortness of breath."],
+        "Diagnosis": ["Blood tests to measure carbon monoxide levels", "Clinical assessment."],
+        "Treatment": ["Remove the person from the exposure source", "Administer oxygen therapy", "Hyperbaric oxygen therapy in severe cases."]
+      }
+    },
+    {
+      "condition": "Carcinoid Syndrome",
+      "url": "https://www.mayoclinic.org/diseases-conditions/carcinoid-syndrome/symptoms-causes/syc-20306681",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A group of symptoms associated with carcinoid tumors that secrete hormones such as serotonin."],
+        "Alternative Names": ["Carcinoid tumor symptoms"],
+        "Causes": ["Secretion of hormones from carcinoid tumors.", "Most commonly found in the gastrointestinal tract."],
+        "Symptoms": ["Flushing of the skin", "Diarrhea", "Abdominal pain", "Wheezing", "Heart valve lesions."],
+        "Diagnosis": ["Urine tests for serotonin metabolites", "Blood tests", "Imaging studies."],
+        "Treatment": ["Surgery to remove tumors", "Medications to control symptoms", "Chemotherapy." ]
+      }
+    },
+    {
+      "condition": "Cardiac Amyloidosis",
+      "url": "https://www.heart.org/en/health-topics/heart-failure/what-is-cardiac-amyloidosis",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A condition resulting from the build-up of amyloid protein in the heart tissue, affecting heart function."],
+        "Alternative Names": ["Amyloidosis of the heart"],
+        "Causes": ["Abnormal protein deposition", "May be associated with multiple myeloma or other conditions."],
+        "Symptoms": ["Shortness of breath", "Fatigue", "Swelling in the legs or abdomen", "Heart rhythm problems."],
+        "Diagnosis": ["Echocardiogram", "Cardiac MRI", "Biopsy of heart tissue."],
+        "Treatment": ["Management of heart failure symptoms", "Medications to reduce amyloid production", "Bone marrow transplant in some cases."]
+      }
+    },
+    {
+      "condition": "Cardiac Tamponade",
+      "url": "https://www.mayoclinic.org/diseases-conditions/cardiac-tamponade/symptoms-causes/syc-20363508",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A condition where fluid accumulates in the pericardial space, impairing the heart’s ability to pump."],
+        "Alternative Names": ["Pericardial effusion"],
+        "Causes": ["Injury to the heart", "Cancer", "Infection", "Inflammation."],
+        "Symptoms": ["Shortness of breath", "Rapid heartbeat", "Swelling in the abdomen", "Low blood pressure."],
+        "Diagnosis": ["Echocardiogram", "Chest X-ray", "CT scan."],
+        "Treatment": ["Pericardiocentesis to remove fluid", "Surgery in some cases."]
+      }
+    },
+    {
+      "condition": "Cardiogenic Shock",
+      "url": "https://www.heart.org/en/health-topics/heart-attack/types-of-heart-attack/cardiogenic-shock",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A life-threatening condition where the heart cannot pump sufficient blood to meet the body's needs."],
+        "Alternative Names": [],
+        "Causes": ["Severe heart attack", "Heart failure", "Cardiac arrhythmias."],
+        "Symptoms": ["Weakness", "Confusion", "Cold and clammy skin", "Rapid heartbeat."],
+        "Diagnosis": ["Clinical assessment", "Heart imaging", "Blood tests."],
+        "Treatment": ["Medications to improve heart function", "IV fluids", "Mechanical support devices.", "Surgery in some cases."]
+      }
+    },
+    {
+      "condition": "Cardiomyopathy (Cardiomyopathies)",
+      "url": "https://www.mayoclinic.org/diseases-conditions/cardiomyopathy/symptoms-causes/syc-20316760",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A disease of the heart muscle that makes it harder for the heart to pump blood."],
+        "Alternative Names": ["Dilated cardiomyopathy", "Hypertrophic cardiomyopathy", "Restrictive cardiomyopathy."],
+        "Causes": ["Genetic factors", "Long-term high blood pressure", "Heart tissue damage."],
+        "Symptoms": ["Fatigue", "Shortness of breath", "Swelling in the legs and ankles."],
+        "Diagnosis": ["Echocardiogram", "ECG", "MRI."],
+        "Treatment": ["Medications", "Lifestyle changes", "Surgery or implantable devices in severe cases."]
+      }
+    },
+    {
+      "condition": "Carotid Artery Disease",
+      "url": "https://www.heart.org/en/health-topics/high-blood-pressure/what-is-carotid-artery-disease",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["Narrowing of the carotid arteries due to plaque buildup, leading to reduced blood flow to the brain."],
+        "Alternative Names": ["Carotid artery stenosis"],
+        "Causes": ["Atherosclerosis", "High cholesterol", "High blood pressure."],
+        "Symptoms": ["Often asymptomatic; may cause transient ischemic attacks (TIAs) or strokes."],
+        "Diagnosis": ["Ultrasound", "CT angiography", "MR angiography."],
+        "Treatment": ["Lifestyle changes", "Medications", "Surgery (carotid endarterectomy or stenting) in severe cases."]
+      }
+    },
+    {
+      "condition": "Carpal Tunnel Syndrome",
+      "url": "https://www.mayoclinic.org/diseases-conditions/carpal-tunnel-syndrome/symptoms-causes/syc-20352618",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A condition caused by pressure on the median nerve in the wrist, leading to pain, numbness, and tingling."],
+        "Alternative Names": [],
+        "Causes": ["Repetitive hand use", "Wrist injury", "Medical conditions like diabetes."],
+        "Symptoms": ["Numbness", "Tingling", "Pain in hand and arm."],
+        "Diagnosis": ["Physical examination", "Nerve conduction studies."],
+        "Treatment": ["Wrist splints", "Steroid injections", "Surgery in severe cases."]
+      }
+    },
+    {
+      "condition": "Cataract",
+      "url": "https://www.mayoclinic.org/diseases-conditions/cataracts/symptoms-causes/syc-20346803",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A clouding of the lens in the eye which leads to a decrease in vision."],
+        "Alternative Names": [],
+        "Causes": ["Aging", "Genetic factors", "Diabetes."],
+        "Symptoms": ["Blurred vision", "Difficulty seeing at night", "Sensitivity to light."],
+        "Diagnosis": ["Eye exams", "Visual acuity tests."],
+        "Treatment": ["Surgical removal of the cataract, lens replacement."]
+      }
+    },
+    {
+      "condition": "Cavernous Malformation (Cavernoma)",
+      "url": "https://www.mayoclinic.org/diseases-conditions/cavernous-venous-malformations/symptoms-causes/syc-20369129",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A vascular malformation in the brain or spine that can cause bleeding or seizures."],
+        "Alternative Names": ["Cavernous angioma"],
+        "Causes": ["Congenital; exact cause often unknown."],
+        "Symptoms": ["Seizures", "Headaches", "Neurological deficits."],
+        "Diagnosis": ["MRI", "CT scans."],
+        "Treatment": ["Monitoring", "Surgery in symptomatic cases."]
+      }
+    },
+    {
+      "condition": "Celiac Disease (Celiac Sprue)",
+      "url": "https://www.mayoclinic.org/diseases-conditions/celiac-disease/symptoms-causes/syc-20383749",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["An autoimmune disorder where ingestion of gluten leads to damage in the small intestine."],
+        "Alternative Names": ["Gluten intolerance"],
+        "Causes": ["Genetic predisposition", "Environmental triggers."],
+        "Symptoms": ["Diarrhea", "Bloating", "Fatigue", "Weight loss."],
+        "Diagnosis": ["Blood tests for specific antibodies", "Endoscopy and biopsy."],
+        "Treatment": ["Strict adherence to a gluten-free diet."]
+      }
+    },
+    {
+      "condition": "Cellulitis",
+      "url": "https://www.mayoclinic.org/diseases-conditions/cellulitis/symptoms-causes/syc-20380305",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A bacterial skin infection that can spread to deeper layers of skin."],
+        "Alternative Names": [],
+        "Causes": ["Bacteria entering the skin through cuts or wounds."],
+        "Symptoms": ["Redness", "Swelling", "Pain", "Fever."],
+        "Diagnosis": ["Physical examination", "Medical history."],
+        "Treatment": ["Antibiotics", "Pain relief medication."]
+      }
+    },
+    {
+      "condition": "Cerebral Palsy (CP)",
+      "url": "https://www.mayoclinic.org/diseases-conditions/cerebral-palsy/symptoms-causes/syc-20354303",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A group of disorders affecting movement and muscle tone, often due to brain injury."],
+        "Alternative Names": [],
+        "Causes": ["Brain damage during pregnancy, birth, or shortly after birth."],
+        "Symptoms": ["Delayed milestones", "Abnormal movement patterns", "Muscle stiffness."],
+        "Diagnosis": ["Physical exam", "Developmental history."],
+        "Treatment": ["Physical therapy", "Occupational therapy", "Medications."]
+      }
+    },
+    {
+      "condition": "Cerebrospinal Fluid (CSF) Leak",
+      "url": "https://www.mayoclinic.org/diseases-conditions/brain-leak/symptoms-causes/syc-20315166",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["Loss of cerebrospinal fluid that can occur due to injury or surgical complications."],
+        "Alternative Names": [],
+        "Causes": ["Trauma", "Surgery", "Spontaneous leaks."],
+        "Symptoms": ["Headaches", "Nausea", "Vision changes."],
+        "Diagnosis": ["MRI", "CT myelography."],
+        "Treatment": ["Bed rest", "Hydration", "Epidural blood patch or surgery in severe cases."]
+      }
+    },
+    {
+      "condition": "Cervical Cancer",
+      "url": "https://www.mayoclinic.org/diseases-conditions/cervical-cancer/symptoms-causes/syc-20306670",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["Cancer that occurs in the cervix, the lower part of the uterus."],
+        "Alternative Names": [],
+        "Causes": ["Human papillomavirus (HPV) infection.", "Smoking.", "Weakened immune system."],
+        "Symptoms": ["Abnormal bleeding", "Pelvic pain", "Pain during intercourse."],
+        "Diagnosis": ["Pap test", "HPV testing", "Biopsy."],
+        "Treatment": ["Surgery", "Radiation therapy", "Chemotherapy."]
+      }
+    },
+    {
+      "condition": "Charcot Marie Tooth Disease (CMT)",
+      "url": "https://www.mayoclinic.org/diseases-conditions/charcot-marie-tooth-disease/symptoms-causes/syc-20395332",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A hereditary disorder affecting the peripheral nerves."],
+        "Alternative Names": ["Hereditary neuropathy"],
+        "Causes": ["Genetic mutations affecting nerve function."],
+        "Symptoms": ["Weakness", "Muscle atrophy", "Numbness in extremities."],
+        "Diagnosis": ["Clinical examination", "Genetic testing", "Nerve conduction studies."],
+        "Treatment": ["Physical therapy", "Occupational therapy", "Orthotic devices."]
+      }
+    },
+    {
+      "condition": "Chest Pain (Angina)",
+      "url": "https://www.webmd.com/heart-disease/guide/angina-chest-pain",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["Discomfort or pain in the chest due to inadequate blood supply to the heart."],
+        "Alternative Names": ["Angina pectoris"],
+        "Causes": ["Coronary artery disease", "High blood pressure", "Severe stress."],
+        "Symptoms": ["Pressure or tightness in chest", "Radiating pain to shoulders, neck, or arms."],
+        "Diagnosis": ["Electrocardiogram (ECG)", "Stress test", "Coronary angiography."],
+        "Treatment": ["Medications", "Lifestyle changes", "Surgery if necessary."]
+      }
+    },
+    {
+      "condition": "Chickenpox (Varicella)",
+      "url": "https://www.mayoclinic.org/diseases-conditions/chickenpox/symptoms-causes/syc-20348603",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A highly contagious viral infection causing an itchy rash and flu-like symptoms."],
+        "Alternative Names": ["Varicella"],
+        "Causes": ["Infection with the varicella-zoster virus."],
+        "Symptoms": ["Itchy rash, fever, fatigue, loss of appetite."],
+        "Diagnosis": ["Physical exam, medical history."],
+        "Treatment": ["Symptomatic treatment, antiviral medications in severe cases."]
+      }
+    },
+    {
+      "condition": "Cholesteatoma",
+      "url": "https://www.mayoclinic.org/diseases-conditions/cholesteatoma/symptoms-causes/syc-20353415",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["An abnormal skin growth in the middle ear behind the eardrum."],
+        "Alternative Names": [],
+        "Causes": ["Eustachian tube dysfunction, chronic ear infections."],
+        "Symptoms": ["Ear pain", "Hearing loss", "Discharge from the ear."],
+        "Diagnosis": ["Ear examination", "CT scan."],
+        "Treatment": ["Surgery to remove the cholesteatoma."]
+      }
+    },
+    {
+      "condition": "Chondrosarcoma",
+      "url": "https://www.cancer.gov/types/bone/cancer-chondrosarcoma",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A type of cancer that occurs in cartilage tissue."],
+        "Alternative Names": [],
+        "Causes": ["Exact causes unclear; may involve genetic mutations."],
+        "Symptoms": ["Pain at the tumor site", "Swelling."],
+        "Diagnosis": ["Imaging tests", "Biopsy."],
+        "Treatment": ["Surgery", "Radiation therapy in certain cases."]
+      }
+    },
+    {
+      "condition": "Chronic Inflammatory Demyelinating Polyneuropathy (CIDP)",
+      "url": "https://www.mayoclinic.org/diseases-conditions/chronic-inflammatory-demyelinating-polyneuropathy/symptoms-causes/syc-20328347",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["An autoimmune disorder affecting the peripheral nerves."],
+        "Alternative Names": [],
+        "Causes": ["Immune system attacks the peripheral nerves."],
+        "Symptoms": ["Weakness", "Numbness", "Fatigue."],
+        "Diagnosis": ["Nerve conduction studies", "Electromyography (EMG)."],
+        "Treatment": ["Immunotherapy", "Corticosteroids", "Physical therapy."]
+      }
+    },
+    {
+      "condition": "Chronic Lymphocytic Leukemia (CLL)",
+      "url": "https://www.mayoclinic.org/diseases-conditions/chronic-lymphocytic-leukemia/symptoms-causes/syc-20309915",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A type of cancer that affects the blood and bone marrow."],
+        "Alternative Names": [],
+        "Causes": ["Exact cause unclear; genetic factors may play a role."],
+        "Symptoms": ["Fatigue", "Swollen lymph nodes", "Weight loss."],
+        "Diagnosis": ["Blood tests", "Bone marrow biopsy."],
+        "Treatment": ["Watchful waiting", "Chemotherapy", "Targeted therapies."]
+      }
+    },
+    {
+      "condition": "Chronic Lymphocytic Thyroiditis",
+      "url": "https://www.mayoclinic.org/diseases-conditions/hashimotos-thyroiditis/symptoms-causes/syc-20308911",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["An autoimmune disease affecting the thyroid gland."],
+        "Alternative Names": ["Hashimoto's thyroiditis"],
+        "Causes": ["Immune system attacks thyroid gland."],
+        "Symptoms": ["Fatigue", "Weight gain", "Cold intolerance."],
+        "Diagnosis": ["Blood tests for thyroid hormone levels and antibodies."],
+        "Treatment": ["Hormone replacement therapy."]
+      }
+    },
+    {
+      "condition": "Chronic Myeloid Leukemia (CML)",
+      "url": "https://www.mayoclinic.org/diseases-conditions/chronic-myeloid-leukemia/symptoms-causes/syc-20306276",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A type of cancer that affects the blood and bone marrow."],
+        "Alternative Names": [],
+        "Causes": ["Genetic mutation in blood cells."],
+        "Symptoms": ["Fatigue", "Swelling of lymph nodes", "Abdominal discomfort."],
+        "Diagnosis": ["Blood tests", "Bone marrow biopsy."],
+        "Treatment": ["Targeted therapy drugs", "Chemotherapy", "Stem cell transplant."]
+      }
+    },
+    {
+      "condition": "Chronic Myelomonocytic Leukemia (CMML)",
+      "url": "https://www.cancer.gov/types/leukemia/patient/cmml-treatment-pdq",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A type of cancer that involves both blood and bone marrow."],
+        "Alternative Names": [],
+        "Causes": ["Exact causes unclear; often arises from other hematologic disorders."],
+        "Symptoms": ["Fatigue", "Fever", "Weight loss."],
+        "Diagnosis": ["Blood tests", "Bone marrow biopsy."],
+        "Treatment": ["Chemotherapy", "Stem cell transplant."]
+      }
+    },
+    {
+      "condition": "Chronic Obstructive Pulmonary Disease (COPD)",
+      "url": "https://www.mayoclinic.org/diseases-conditions/copd/symptoms-causes/syc-20368678",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A group of lung diseases that block airflow and make breathing difficult."],
+        "Alternative Names": ["Chronic bronchitis", "Emphysema"],
+        "Causes": ["Long-term exposure to irritants, especially cigarette smoke."],
+        "Symptoms": ["Shortness of breath", "Chronic cough", "Wheezing."],
+        "Diagnosis": ["Spirometry", "Chest X-ray."],
+        "Treatment": ["Quitting smoking", "Medications (bronchodilators)", "Oxygen therapy."]
+      }
+    },
+    {
+      "condition": "Chylothorax",
+      "url": "https://www.mayoclinic.org/diseases-conditions/chylothorax/symptoms-causes/syc-20354061",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["Accumulation of lymphatic fluid in the pleural space."],
+        "Alternative Names": [],
+        "Causes": ["Trauma", "Tumors", "Thoracic surgery."],
+        "Symptoms": ["Shortness of breath", "Chest pain."],
+        "Diagnosis": ["Chest X-ray", "Pleural fluid analysis."],
+        "Treatment": ["Thoracentesis to remove fluid", "Addressing the underlying cause."]
+      }
+    },
+    {
+      "condition": "Clear Cell Sarcoma",
+      "url": "https://www.cancer.gov/types/sarcoma/patient/clear-cell-sarcoma-treatment-pdq",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A rare type of cancer that usually occurs in soft tissues."],
+        "Alternative Names": [],
+        "Causes": ["Exact cause unknown; likely involves genetic mutations."],
+        "Symptoms": ["Pain and swelling at the tumor site."],
+        "Diagnosis": ["Imaging tests", "Biopsy."],
+        "Treatment": ["Surgery", "Radiation therapy", "Chemotherapy in some cases."]
+      }
+    },
+    {
+      "condition": "Cleft Lip",
+      "url": "https://www.mayoclinic.org/diseases-conditions/cleft-lip-and-palate/symptoms-causes/syc-20306207",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A congenital condition characterized by a split in the upper lip."],
+        "Alternative Names": ["Cleft lip and palate"],
+        "Causes": ["Genetic and environmental factors."],
+        "Symptoms": ["Visible split in the lip", "Feeding difficulties."],
+        "Diagnosis": ["Physical examination at birth."],
+        "Treatment": ["Surgical repair of the lip", "Speech therapy."]
+      }
+    },
+    {
+      "condition": "Cleft Palate",
+      "url": "https://www.mayoclinic.org/diseases-conditions/cleft-lip-and-palate/symptoms-causes/syc-20306207",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A congenital condition in which the roof of the mouth does not fully close."],
+        "Alternative Names": ["Cleft lip and palate"],
+        "Causes": ["Genetic and environmental factors."],
+        "Symptoms": ["Feeding difficulties", "Speech problems."],
+        "Diagnosis": ["Physical examination at birth."],
+        "Treatment": ["Surgical repair of the palate", "Speech therapy."]
+      }
+    },
+    {
+      "condition": "Club Foot",
+      "url": "https://www.mayoclinic.org/diseases-conditions/clubfoot/symptoms-causes/syc-20327681",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A congenital condition where a baby's foot appears to be twisted."],
+        "Alternative Names": [],
+        "Causes": ["Exact cause is unclear; includes genetic factors."],
+        "Symptoms": ["Foot turning inward and downward."],
+        "Diagnosis": ["Physical examination."],
+        "Treatment": ["Casting", "Bracing", "Surgery in some cases."]
+      }
+    },
+    {
+      "condition": "Coal Worker's Pneumoconiosis (Black Lung Disease)",
+      "url": "https://www.cdc.gov/niosh/topics/pneumoconiosis/coalworkers.html",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A lung disease resulting from coal dust exposure."],
+        "Alternative Names": ["Black lung disease"],
+        "Causes": ["Inhalation of coal dust over long periods."],
+        "Symptoms": ["Cough", "Shortness of breath", "Chest tightness."],
+        "Diagnosis": ["Chest X-ray", "Pulmonary function tests."],
+        "Treatment": ["Preventive measures", "Treatment of symptoms."]
+      }
+    },
+    {
+      "condition": "Cold",
+      "url": "https://www.mayoclinic.org/diseases-conditions/common-cold/symptoms-causes/syc-20331742",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A common viral infection that affects the upper respiratory tract."],
+        "Alternative Names": [],
+        "Causes": ["Various viruses, primarily rhinoviruses."],
+        "Symptoms": ["Runny nose", "Sore throat", "Cough", "Sneezing."],
+        "Diagnosis": ["Clinical evaluation."],
+        "Treatment": ["Rest", "Over-the-counter medications for symptom relief."]
+      }
+    },
+    {
+      "condition": "Colitis",
+      "url": "https://www.mayoclinic.org/diseases-conditions/ulcerative-colitis/symptoms-causes/syc-20352071",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["Inflammation of the colon, which can lead to ulcers and other symptoms."],
+        "Alternative Names": ["Ulcerative colitis", "Crohn's disease"],
+        "Causes": ["Autoimmune response", "Genetic factors."],
+        "Symptoms": ["Abdominal pain", "Diarrhea", "Weight loss."],
+        "Diagnosis": ["Stool tests", "Colonoscopies."],
+        "Treatment": ["Medications", "Lifestyle changes", "Surgery in severe cases."]
+      }
+    },
+    {
+      "condition": "Colon Cancer",
+      "url": "https://www.mayoclinic.org/diseases-conditions/colon-cancer/symptoms-causes/syc-20371384",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["Cancer that develops in the large intestine (colon)."],
+        "Alternative Names": [],
+        "Causes": ["Genetic factors", "Lifestyle factors such as diet and smoking."],
+        "Symptoms": ["Changes in bowel habits", "Blood in stool", "Unexplained weight loss."],
+        "Diagnosis": ["Colonoscopy", "Biopsy."],
+        "Treatment": ["Surgery", "Chemotherapy", "Radiation therapy."]
+      }
+    },
+    {
+      "condition": "Colon Polyps",
+      "url": "https://www.mayoclinic.org/diseases-conditions/colon-polyps/symptoms-causes/syc-20353465",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["Growths on the inner lining of the colon or rectum."],
+        "Alternative Names": [],
+        "Causes": ["Genetic factors, age, lifestyle, and dietary factors."],
+        "Symptoms": ["Often asymptomatic; may cause bleeding or changes in bowel habits."],
+        "Diagnosis": ["Colonoscopy", "Biopsy."],
+        "Treatment": ["Removal during colonoscopy, surveillance."
+        ]
+      }
+    },
+    {
+      "condition": "Compartment Syndrome",
+      "url": "https://www.mayoclinic.org/diseases-conditions/compartment-syndrome/symptoms-causes/syc-20352790",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A painful condition caused by pressure buildup from internal bleeding or swelling."],
+        "Alternative Names": [],
+        "Causes": ["Injury, fractures, or tight bandages."],
+        "Symptoms": ["Severe pain, swelling, numbness."],
+        "Diagnosis": ["Physical exam, measuring pressure in the affected compartment."],
+        "Treatment": ["Surgery (fasciotomy) to relieve pressure."]
+      }
+    },
+    {
+      "condition": "Compression Fracture",
+      "url": "https://www.mayoclinic.org/diseases-conditions/compression-fracture/symptoms-causes/syc-20387419",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A fracture that occurs when the bone collapses."],
+        "Alternative Names": [],
+        "Causes": ["Osteoporosis, trauma."],
+        "Symptoms": ["Sudden back pain, height loss, stooped posture."],
+        "Diagnosis": ["X-rays", "MRI."],
+        "Treatment": ["Pain management", "Physical therapy", "Surgery in severe cases."]
+      }
+    },
+    {
+      "condition": "Computer Vision Syndrome",
+      "url": "https://www.mayoclinic.org/diseases-conditions/computer-vision-syndrome/symptoms-causes/syc-20341625",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A condition characterized by eye strain caused by prolonged computer use."],
+        "Alternative Names": ["Digital eye strain"],
+        "Causes": ["Prolonged screen use without breaks."],
+        "Symptoms": ["Eye strain, dryness, blurry vision."],
+        "Diagnosis": ["Clinical evaluation."],
+        "Treatment": ["Regular breaks, proper screen setup, eye exercises."]
+      }
+    },
+    {
+      "condition": "Concussion",
+      "url": "https://www.mayoclinic.org/diseases-conditions/concussion/symptoms-causes/syc-20323512",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A type of traumatic brain injury caused by a bump or blow to the head."],
+        "Alternative Names": [],
+        "Causes": ["Sports injuries, falls, accidents."],
+        "Symptoms": ["Headache, confusion, dizziness, nausea."],
+        "Diagnosis": ["Physical exam, neurological evaluation."],
+        "Treatment": ["Rest, avoiding physical and mental strain."]
+      }
+    },
+    {
+      "condition": "Congenital Adrenal Hyperplasia",
+      "url": "https://www.mayoclinic.org/diseases-conditions/congenital-adrenal-hyperplasia/symptoms-causes/syc-20316868",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A genetic disorder affecting adrenal gland hormone production."],
+        "Alternative Names": [],
+        "Causes": ["Genetic mutations leading to impaired enzyme function."],
+        "Symptoms": ["Severe salt loss, abnormal genitalia in females at birth."],
+        "Diagnosis": ["Newborn screening, hormone level tests."],
+        "Treatment": ["Hormone replacement therapy."]
+      }
+    },
+    {
+      "condition": "Conjunctivitis (Pinkeye)",
+      "url": "https://www.mayoclinic.org/diseases-conditions/conjunctivitis/symptoms-causes/syc-20332731",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["Inflammation of the conjunctiva, often caused by infection."],
+        "Alternative Names": ["Pink eye"],
+        "Causes": ["Infection, allergies, irritants."],
+        "Symptoms": ["Redness, irritation, discharge."],
+        "Diagnosis": ["Physical examination and evaluation of symptoms."],
+        "Treatment": ["Antibiotics for bacterial infections, antihistamines for allergic conjunctivitis."]
+      }
+    },
+    {
+      "condition": "Connective Tissue Interstitial Lung Disease (ILD)",
+      "url": "https://www.mayoclinic.org/diseases-conditions/interstitial-lung-disease/symptoms-causes/syc-20327940",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A group of lung disorders characterized by inflammation and scarring of lung tissue."],
+        "Alternative Names": ["Interstitial lung disease"],
+        "Causes": ["Autoimmune diseases, environmental factors."],
+        "Symptoms": ["Shortness of breath", "Cough."],
+        "Diagnosis": ["CT scans", "Pulmonary function tests."],
+        "Treatment": ["Medications to reduce inflammation", "Oxygen therapy."]
+      }
+    },
+    {
+      "condition": "Constipation",
+      "url": "https://www.mayoclinic.org/diseases-conditions/constipation/symptoms-causes/syc-20351411",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["Infrequent bowel movements or difficulty passing stools."],
+        "Alternative Names": [],
+        "Causes": ["Low fiber diet, dehydration, inactivity."],
+        "Symptoms": ["Infrequent or hard stools", "Abdominal discomfort."],
+        "Diagnosis": ["Symptoms evaluation", "Physical examination."],
+        "Treatment": ["Increased fiber intake", "Hydration", "Laxatives if necessary."]
+      }
+    },
+    {
+      "condition": "Constrictive Pericarditis",
+      "url": "https://www.mayoclinic.org/diseases-conditions/constrictive-pericarditis/symptoms-causes/syc-20352865",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["Thickening and stiffening of the pericardium, restricting the heart's movement."],
+        "Alternative Names": [],
+        "Causes": ["Infections, radiation therapy, autoimmune diseases."],
+        "Symptoms": ["Shortness of breath", "Swelling of legs and abdomen."],
+        "Diagnosis": ["Echocardiogram", "CT scan."],
+        "Treatment": ["Medications, surgery to remove the pericardium in severe cases."]
+      }
+    },
+    {
+      "condition": "Cor Pulmonale (Pulmonary Heart Disease)",
+      "url": "https://www.mayoclinic.org/diseases-conditions/cor-pulmonale/symptoms-causes/syc-20350734",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["Right-sided heart failure resulting from lung disease."],
+        "Alternative Names": [],
+        "Causes": ["Chronic lung diseases, like COPD."],
+        "Symptoms": ["Shortness of breath", "Fatigue", "Swelling in ankles."],
+        "Diagnosis": ["Physical examination", "Echo."],
+        "Treatment": ["Management of underlying lung disease", "Medications."]
+      }
+    },
+    {
+      "condition": "Corneal Abrasion (Eye Scratches)",
+      "url": "https://www.mayoclinic.org/diseases-conditions/corneal-abrasion/symptoms-causes/syc-20357296",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A scratch on the clear surface of the eye (cornea)."],
+        "Alternative Names": [],
+        "Causes": ["Foreign objects, contact lenses, eye injury."],
+        "Symptoms": ["Pain, redness, sensitivity to light."],
+        "Diagnosis": ["Eye examination."],
+        "Treatment": ["Antibiotic eye drops, pain management."]
+      }
+    },
+    {
+      "condition": "Corneal Ulcer",
+      "url": "https://www.mayoclinic.org/diseases-conditions/corneal-ulcer/symptoms-causes/syc-20314826",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["An open sore on the cornea, usually due to infection."],
+        "Alternative Names": [],
+        "Causes": ["Bacterial, viral, or fungal infections."],
+        "Symptoms": ["Eye pain, redness, blurred vision, discharge."],
+        "Diagnosis": ["Eye examination."],
+        "Treatment": ["Antibiotic or antiviral eye drops, sometimes surgery."]
+      }
+    },
+    {
+      "condition": "Coronary Artery Disease",
+      "url": "https://www.mayoclinic.org/diseases-conditions/coronary-artery-disease/symptoms-causes/syc-20346959",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["Narrowing of the coronary arteries due to plaque buildup."],
+        "Alternative Names": [],
+        "Causes": ["Atherosclerosis, high blood pressure, smoking."],
+        "Symptoms": ["Chest pain, fatigue, shortness of breath."],
+        "Diagnosis": ["Stress tests, angiogram."],
+        "Treatment": ["Lifestyle changes, medications, surgery (bypass or angioplasty)."]
+      }
+    },
+    {
+      "condition": "Coronary Artery Spasm (Prinzmetal's Angina)",
+      "url": "https://www.mayoclinic.org/diseases-conditions/prinzmetals-angina/symptoms-causes/syc-20368790",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A spasm in a coronary artery that temporarily reduces blood flow to the heart."],
+        "Alternative Names": [],
+        "Causes": ["Tobacco use, stress, certain medications."],
+        "Symptoms": ["Chest pain that occurs at rest."],
+        "Diagnosis": ["Coronary angiography, stress tests."],
+        "Treatment": ["Medications to relax blood vessels, lifestyle modifications."]
+      }
+    },
+    {
+      "condition": "Coronavirus (Covid-19)",
+      "url": "https://www.cdc.gov/coronavirus/2019-ncov/index.html",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A highly contagious viral infection caused by SARS-CoV-2."],
+        "Alternative Names": ["COVID-19"],
+        "Causes": ["Spread through respiratory droplets from infected individuals."],
+        "Symptoms": ["Fever, cough, difficulty breathing, fatigue."],
+        "Diagnosis": ["PCR tests, rapid antigen tests."],
+        "Treatment": ["Supportive care, antiviral medications in severe cases."]
+      }
+    },
+    {
+      "condition": "Corticobasal Syndrome",
+      "url": "https://www.mayoclinic.org/diseases-conditions/corticobasal-degeneration/symptoms-causes/syc-20316093",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A rare neurodegenerative disorder affecting movement and cognitive functions."],
+        "Alternative Names": [],
+        "Causes": ["Exact cause unknown, possibly related to protein misfolding."],
+        "Symptoms": ["Difficulty with coordination, speech delays, limb rigidity."],
+        "Diagnosis": ["Clinical assessment, imaging tests."],
+        "Treatment": ["Supportive care, symptomatic treatment."]
+      }
+    },
+    {
+      "condition": "Cough",
+      "url": "https://www.mayoclinic.org/symptoms/cough/basics/definition/SYM-20050765",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A reflex action to clear your airways of mucus and irritants."],
+        "Alternative Names": [],
+        "Causes": ["Infections, allergies, smoking, asthma."],
+        "Symptoms": ["Persistent cough, dry or productive cough."],
+        "Diagnosis": ["Clinical evaluation, medical history."],
+        "Treatment": ["Depends on underlying cause; may include cough suppressants or expectorants."]
+      }
+    },
+    {
+      "condition": "Cranial Base Disorders",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5962453/",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A rare group of conditions affecting the base of the skull."],
+        "Alternative Names": [],
+        "Causes": ["Congenital factors or genetic mutations."],
+        "Symptoms": ["Headaches, balance issues, neurological symptoms."],
+        "Diagnosis": ["Imaging studies such as MRI."],
+        "Treatment": ["Depends on specific disorder; may involve surgical intervention."]
+      }
+    },
+    {
+      "condition": "Craniopharyngioma",
+      "url": "https://www.mayoclinic.org/diseases-conditions/craniopharyngioma/symptoms-causes/syc-20347032",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A benign brain tumor that can cause hormonal and vision issues."],
+        "Alternative Names": [],
+        "Causes": ["Exact cause remains unknown; typically occurs in childhood or adolescence."],
+        "Symptoms": ["Headaches, vision problems, hormonal imbalances."],
+        "Diagnosis": ["Imaging tests, biopsy."],
+        "Treatment": ["Surgery, radiation therapy if necessary."]
+      }
+    },
+    {
+      "condition": "Cricopharyngeal Dysfunction (Cricopharyngeal Spasm)",
+      "url": "https://www.mayoclinic.org/diseases-conditions/dysphagia/symptoms-causes/syc-20350514",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["Difficulty in swallowing due to issues with the cricopharyngeal muscle."],
+        "Alternative Names": [],
+        "Causes": ["Neurological conditions, aging."],
+        "Symptoms": ["Difficulty swallowing, sensation of food getting stuck."],
+        "Diagnosis": ["Swallowing studies, endoscopy."],
+        "Treatment": ["Swallowing therapy, botulinum toxin injections in severe cases."]
+      }
+    },
+    {
+      "condition": "Crohn's Disease",
+      "url": "https://www.mayoclinic.org/diseases-conditions/crohns-disease/symptoms-causes/syc-20349489",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A chronic inflammatory bowel disease affecting the gastrointestinal tract."],
+        "Alternative Names": [],
+        "Causes": ["Autoimmune response, genetic factors."],
+        "Symptoms": ["Abdominal pain, diarrhea, weight loss."],
+        "Diagnosis": ["Colonoscopy, imaging tests."],
+        "Treatment": ["Medications, dietary changes, surgery in severe cases."]
+      }
+    },
+    {
+      "condition": "Crush Injuries",
+      "url": "https://www.mayoclinic.org/diseases-conditions/crush-syndrome/symptoms-causes/syc-20371802",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["Injury caused by a heavy object compressing body parts."],
+        "Alternative Names": [],
+        "Causes": ["Accidents, explosions, vehicle collisions."],
+        "Symptoms": ["Pain, bruising, swelling."],
+        "Diagnosis": ["Clinical assessment, imaging tests."],
+        "Treatment": ["Surgery, rehabilitation, pain management."]
+      }
+    },
+    {
+      "condition": "Cushing's Disease",
+      "url": "https://www.mayoclinic.org/diseases-conditions/cushings-disease/symptoms-causes/syc-20346585",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A condition resulting from prolonged exposure to high levels of cortisol."],
+        "Alternative Names": [],
+        "Causes": ["Pituitary adenoma producing excess ACTH."],
+        "Symptoms": ["Weight gain, thinning skin, fatigue."],
+        "Diagnosis": ["Hormone level tests, imaging studies."],
+        "Treatment": ["Surgery to remove tumors, medications to control cortisol production."]
+      }
+    },
+    {
+      "condition": "Cyanotic Heart Disease",
+      "url": "https://www.mayoclinic.org/diseases-conditions/cyanotic-heart-disease/symptoms-causes/syc-20360802",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A group of congenital heart defects that result in low oxygen levels in the blood."],
+        "Alternative Names": [],
+        "Causes": ["Genetic conditions, environmental factors during pregnancy."],
+        "Symptoms": ["Bluish discoloration of the skin", "Shortness of breath."],
+        "Diagnosis": ["Echocardiogram", "Cardiac catheterization."],
+        "Treatment": ["Surgery or catheter-based interventions to correct defects."]
+      }
+    },
+    {
+      "condition": "Cystic Fibrosis",
+      "url": "https://www.mayoclinic.org/diseases-conditions/cystic-fibrosis/symptoms-causes/syc-20350783",
+      "last_scraped": "2023-11-01 12:00:00",
+      "sections": {
+        "Definition": ["A genetic disorder affecting the lungs and digestive system due to thick, sticky mucus."],
+        "Alternative Names": [],
+        "Causes": ["Genetic mutations affecting the CFTR gene."],
+        "Symptoms": ["Persistent cough, lung infections, difficulty gaining weight."],
+        "Diagnosis": ["Newborn screening, sweat test."],
+        "Treatment": ["Medications, airway clearance techniques, nutritional support."]
+      }
+    }
+  ]

@@ -1,0 +1,52 @@
+[
+    {
+      "condition": "Zenker's Diverticulum (Esophageal Diverticulum)",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/zenkers-diverticulum",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Zenker's diverticulum is a pharyngeal diverticulum that occurs in the esophagus, leading to the formation of a pouch."
+        ],
+        "Alternative Names": [
+          "Esophageal diverticulum"
+        ],
+        "Causes": [
+          "Weakness in the esophageal wall and increased pressure during swallowing."
+        ],
+        "Symptoms": [
+          "Difficulty swallowing, regurgitation of undigested food, and bad breath."
+        ],
+        "Diagnosis": [
+          "Barium swallow study and endoscopy."
+        ],
+        "Treatment": [
+          "Surgery to remove the diverticulum or endoscopic techniques."
+        ]
+      }
+    },
+    {
+      "condition": "Zollinger-Ellison Syndrome",
+      "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/zollinger-ellison-syndrome",
+      "last_scraped": "2024-02-12 19:00:00",
+      "sections": {
+        "Definition": [
+          "Zollinger-Ellison syndrome is a rare condition characterized by gastrin-secreting tumors (gastrinomas) that cause excessive gastric acid production."
+        ],
+        "Alternative Names": [
+          "Gastrinoma"
+        ],
+        "Causes": [
+          "Gastrin-secreting tumors, often found in the pancreas or duodenum."
+        ],
+        "Symptoms": [
+          "Severe peptic ulcers, abdominal pain, and diarrhea."
+        ],
+        "Diagnosis": [
+          "Blood tests for gastrin levels, imaging studies, and endoscopy."
+        ],
+        "Treatment": [
+          "Medications to reduce stomach acid, surgery to remove tumors, and management of ulcers."
+        ]
+      }
+    }
+  ]

@@ -1,0 +1,1252 @@
+[
+  {
+    "condition": "Paget's Disease",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/pagets-disease",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Paget's disease is a chronic disorder that can result in enlarged and deformed bones."
+      ],
+      "Alternative Names": [
+        "Osteitis deformans"
+      ],
+      "Causes": [
+        "Exact cause is unknown; may involve genetic factors and viral infections."
+      ],
+      "Symptoms": [
+        "Bone pain, deformities, and fractures."
+      ],
+      "Diagnosis": [
+        "Imaging studies and blood tests."
+      ],
+      "Treatment": [
+        "Medications to regulate bone remodeling and pain management."
+      ]
+    }
+  },
+  {
+    "condition": "Pancreatic Cancer",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/pancreatic-cancer",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Pancreatic cancer is a type of cancer that begins in the tissues of the pancreas."
+      ],
+      "Alternative Names": [
+        "Pancreatic adenocarcinoma"
+      ],
+      "Causes": [
+        "Smoking, obesity, and genetic factors."
+      ],
+      "Symptoms": [
+        "Abdominal pain, weight loss, and jaundice."
+      ],
+      "Diagnosis": [
+        "Imaging studies, blood tests, and biopsy."
+      ],
+      "Treatment": [
+        "Surgery, chemotherapy, and radiation therapy."
+      ]
+    }
+  },
+  {
+    "condition": "Pancreatic Neuroendocrine Tumors",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/pancreatic-neuroendocrine-tumors",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Pancreatic neuroendocrine tumors are rare tumors that arise from the hormone-producing cells of the pancreas."
+      ],
+      "Alternative Names": [
+        "Islet cell tumors"
+      ],
+      "Causes": [
+        "Exact cause is often unknown; may involve genetic syndromes."
+      ],
+      "Symptoms": [
+        "Varies widely; may include hormonal symptoms and abdominal pain."
+      ],
+      "Diagnosis": [
+        "Imaging studies, blood tests, and biopsy."
+      ],
+      "Treatment": [
+        "Surgery, targeted therapy, and chemotherapy."
+      ]
+    }
+  },
+  {
+    "condition": "Pancreatitis (Pancreas Inflammation)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/pancreatitis",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Pancreatitis is inflammation of the pancreas that can be acute or chronic."
+      ],
+      "Alternative Names": [
+        "Pancreatic inflammation"
+      ],
+      "Causes": [
+        "Gallstones, chronic and excessive alcohol consumption, and certain medications."
+      ],
+      "Symptoms": [
+        "Severe abdominal pain, nausea, and vomiting."
+      ],
+      "Diagnosis": [
+        "Blood tests, imaging studies, and clinical evaluation."
+      ],
+      "Treatment": [
+        "Hospitalization, pain management, and dietary changes."
+      ]
+    }
+  },
+  {
+    "condition": "Panic Disorders",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/panic-disorders",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Panic disorder is an anxiety disorder characterized by recurrent and unexpected panic attacks."
+      ],
+      "Alternative Names": [
+        "Panic attacks"
+      ],
+      "Causes": [
+        "Genetic factors, brain chemistry, and environmental stressors."
+      ],
+      "Symptoms": [
+        "Rapid heartbeat, sweating, trembling, and feelings of impending doom."
+      ],
+      "Diagnosis": [
+        "Clinical evaluation and psychological assessment."
+      ],
+      "Treatment": [
+        "Cognitive-behavioral therapy (CBT), medications, and lifestyle changes."
+      ]
+    }
+  },
+  {
+    "condition": "Paraganglioma",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/paraganglioma",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Paraganglioma is a rare tumor that arises from paraganglia, which are clusters of neuroendocrine cells."
+      ],
+      "Alternative Names": [
+        "Extra-adrenal pheochromocytoma"
+      ],
+      "Causes": [
+        "Genetic mutations and hereditary syndromes."
+      ],
+      "Symptoms": [
+        "Headaches, sweating, and high blood pressure."
+      ],
+      "Diagnosis": [
+        "Imaging studies and biopsy."
+      ],
+      "Treatment": [
+        "Surgery and management of symptoms."
+      ]
+    }
+  },
+  {
+    "condition": "Paranasal Sinus and Nasal Cavity Cancer",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/paranasal-sinus-and-nasal-cavity-cancer",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Cancer that occurs in the paranasal sinuses and nasal cavity."
+      ],
+      "Alternative Names": [
+        "Nasal cavity cancer"
+      ],
+      "Causes": [
+        "Exposure to certain chemicals, smoking, and viral infections."
+      ],
+      "Symptoms": [
+        "Nasal obstruction, facial pain, and bleeding."
+      ],
+      "Diagnosis": [
+        "Imaging studies, biopsy, and clinical evaluation."
+      ],
+      "Treatment": [
+        "Surgery, radiation therapy, and chemotherapy."
+      ]
+    }
+  },
+  {
+    "condition": "Parathyroid Adenoma",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/parathyroid-adenoma",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "A parathyroid adenoma is a benign tumor of the parathyroid gland that can cause hyperparathyroidism."
+      ],
+      "Alternative Names": [
+        "Benign parathyroid tumor"
+      ],
+      "Causes": [
+        "Exact cause is often unknown; may involve genetic factors."
+      ],
+      "Symptoms": [
+        "High calcium levels, fatigue, and kidney stones."
+      ],
+      "Diagnosis": [
+        "Blood tests and imaging studies."
+      ],
+      "Treatment": [
+        "Surgery to remove the adenoma and management of calcium levels."
+      ]
+    }
+  },
+  {
+    "condition": "Parkinson's Disease",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/parkinsons-disease",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Parkinson's disease is a progressive neurological disorder that affects movement."
+      ],
+      "Alternative Names": [
+        "PD"
+      ],
+      "Causes": [
+        "Exact cause is unknown; may involve genetic and environmental factors."
+      ],
+      "Symptoms": [
+        "Tremors, stiffness, and bradykinesia (slowness of movement)."
+      ],
+      "Diagnosis": [
+        "Clinical evaluation and neurological examination."
+      ],
+      "Treatment": [
+        "Medications, physical therapy, and in some cases, surgery."
+      ]
+    }
+  },
+  {
+    "condition": "Patent Foramen Ovale (PFO)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/patent-foramen-ovale",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Patent foramen ovale is a small opening between the right and left atria of the heart that fails to close after birth."
+      ],
+      "Alternative Names": [
+        "PFO"
+      ],
+      "Causes": [
+        "Congenital heart defect."
+      ],
+      "Symptoms": [
+        "Often asymptomatic; may be associated with stroke or migraine."
+      ],
+      "Diagnosis": [
+        "Echocardiogram and clinical evaluation."
+      ],
+      "Treatment": [
+        "Monitoring, medications, and closure procedures if symptomatic."
+      ]
+    }
+  },
+  {
+    "condition": "PCL Injury (Posterior Cruciate Ligament Injury)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/pcl-injury",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "A PCL injury is a sprain or tear of the posterior cruciate ligament in the knee."
+      ],
+      "Alternative Names": [
+        "PCL tear"
+      ],
+      "Causes": [
+        "Direct impact to the knee or sudden twisting motions."
+      ],
+      "Symptoms": [
+        "Pain, swelling, and instability in the knee."
+      ],
+      "Diagnosis": [
+        "Physical examination and imaging studies."
+      ],
+      "Treatment": [
+        "Rest, ice, physical therapy, and sometimes surgery."
+      ]
+    }
+  },
+  {
+    "condition": "Pectus Carinatum",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/pectus-carinatum",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Pectus carinatum is a chest wall deformity characterized by a protrusion of the sternum."
+      ],
+      "Alternative Names": [
+        "Pigeon chest"
+      ],
+      "Causes": [
+        "Exact cause is often unknown; may involve genetic factors."
+      ],
+      "Symptoms": [
+        "Visible chest deformity and possible respiratory issues."
+      ],
+      "Diagnosis": [
+        "Physical examination and imaging studies."
+      ],
+      "Treatment": [
+        "Bracing and surgery in severe cases."
+      ]
+    }
+  },
+  {
+    "condition": "Pectus Excavatum",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/pectus-excavatum",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Pectus excavatum is a chest wall deformity characterized by a sunken sternum."
+      ],
+      "Alternative Names": [
+        "Funnel chest"
+      ],
+      "Causes": [
+        "Exact cause is often unknown; may involve genetic factors."
+      ],
+      "Symptoms": [
+        "Visible chest deformity and possible respiratory issues."
+      ],
+      "Diagnosis": [
+        "Physical examination and imaging studies."
+      ],
+      "Treatment": [
+        "Bracing and surgery in severe cases."
+      ]
+    }
+  },
+  {
+    "condition": "Pelvic Floor Disorders",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/pelvic-floor-disorders",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Pelvic floor disorders are conditions that affect the muscles and tissues supporting the pelvic organs."
+      ],
+      "Alternative Names": [
+        "Pelvic organ prolapse"
+      ],
+      "Causes": [
+        "Childbirth, aging, and obesity."
+      ],
+      "Symptoms": [
+        "Pelvic pain, urinary incontinence, and bowel dysfunction."
+      ],
+      "Diagnosis": [
+        "Clinical evaluation and imaging studies."
+      ],
+      "Treatment": [
+        "Physical therapy, medications, and surgery."
+      ]
+    }
+  },
+  {
+    "condition": "Penile Cancer",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/penile-cancer",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Penile cancer is a rare type of cancer that occurs on the skin or in the tissues of the penis."
+      ],
+      "Alternative Names": [
+        "Cancer of the penis"
+      ],
+      "Causes": [
+        "Human papillomavirus (HPV) infection and smoking."
+      ],
+      "Symptoms": [
+        "Lump or growth on the penis, changes in skin color, and discharge."
+      ],
+      "Diagnosis": [
+        "Physical examination and biopsy."
+      ],
+      "Treatment": [
+        "Surgery, radiation therapy, and chemotherapy."
+      ]
+    }
+  },
+  {
+    "condition": "Peptic Ulcer Disease (Stomach Ulcers)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/peptic-ulcer-disease",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Peptic ulcer disease is a condition where open sores develop on the lining of the stomach or the first part of the small intestine."
+      ],
+      "Alternative Names": [
+        "Stomach ulcers"
+      ],
+      "Causes": [
+        "Helicobacter pylori infection and long-term use of nonsteroidal anti-inflammatory drugs (NSAIDs)."
+      ],
+      "Symptoms": [
+        "Abdominal pain, bloating, and indigestion."
+      ],
+      "Diagnosis": [
+        "Endoscopy and imaging studies."
+      ],
+      "Treatment": [
+        "Medications to reduce stomach acid and antibiotics for H. pylori."
+      ]
+    }
+  },
+  {
+    "condition": "Peripartum Cardiomyopathy",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/peripartum-cardiomyopathy",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Peripartum cardiomyopathy is a form of heart failure that occurs during the last month of pregnancy or within five months after delivery."
+      ],
+      "Alternative Names": [
+        "Pregnancy-related heart failure"
+      ],
+      "Causes": [
+        "Exact cause is unknown; may involve genetic and environmental factors."
+      ],
+      "Symptoms": [
+        "Shortness of breath, fatigue, and swelling in the legs."
+      ],
+      "Diagnosis": [
+        "Echocardiogram and clinical evaluation."
+      ],
+      "Treatment": [
+        "Medications to manage heart failure and lifestyle changes."
+      ]
+    }
+  },
+  {
+    "condition": "Peripheral Artery Disease (PAD)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/peripheral-artery-disease",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Peripheral artery disease is a circulatory condition in which narrowed arteries reduce blood flow to the limbs."
+      ],
+      "Alternative Names": [
+        "Peripheral vascular disease"
+      ],
+      "Causes": [
+        "Atherosclerosis, smoking, and diabetes."
+      ],
+      "Symptoms": [
+        "Leg pain when walking, numbness, and weakness."
+      ],
+      "Diagnosis": [
+        "Ankle-brachial index (ABI) and imaging studies."
+      ],
+      "Treatment": [
+        "Lifestyle changes, medications, and sometimes surgery."
+      ]
+    }
+  },
+  {
+    "condition": "Peripheral Neuropathy",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/peripheral-neuropathy",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Peripheral neuropathy is a condition resulting from damage to the peripheral nerves, causing weakness, numbness, and pain."
+      ],
+      "Alternative Names": [
+        "Nerve damage"
+      ],
+      "Causes": [
+        "Diabetes, infections, and exposure to toxins."
+      ],
+      "Symptoms": [
+        "Numbness, tingling, and pain in the hands and feet."
+      ],
+      "Diagnosis": [
+        "Clinical evaluation and nerve conduction studies."
+      ],
+      "Treatment": [
+        "Medications for pain relief and management of underlying conditions."
+      ]
+    }
+  },
+  {
+    "condition": "Pernicious Anemia",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/pernicious-anemia",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Pernicious anemia is a type of anemia caused by the inability to absorb vitamin B12 due to a lack of intrinsic factor."
+      ],
+      "Alternative Names": [
+        "Vitamin B12 deficiency anemia"
+      ],
+      "Causes": [
+        "Autoimmune destruction of gastric cells and genetic factors."
+      ],
+      "Symptoms": [
+        "Fatigue, weakness, and neurological symptoms."
+      ],
+      "Diagnosis": [
+        "Blood tests and clinical evaluation."
+      ],
+      "Treatment": [
+        "Vitamin B12 injections and dietary changes."
+      ]
+    }
+  },
+  {
+    "condition": "Peyronie's Disease",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/peyronies-disease",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Peyronie's disease is a condition characterized by the development of fibrous scar tissue in the penis, causing curved, painful erections."
+      ],
+      "Alternative Names": [
+        "Penile curvature"
+      ],
+      "Causes": [
+        "Exact cause is often unknown; may involve trauma or genetic factors."
+      ],
+      "Symptoms": [
+        "Curvature of the penis, pain, and erectile dysfunction."
+      ],
+      "Diagnosis": [
+        "Physical examination and clinical evaluation."
+      ],
+      "Treatment": [
+        "Medications, injections, and surgery in severe cases."
+      ]
+    }
+  },
+  {
+    "condition": "Pheochromocytoma",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/pheochromocytoma",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Pheochromocytoma is a rare tumor of the adrenal gland that produces excess catecholamines, leading to high blood pressure."
+      ],
+      "Alternative Names": [
+        "Adrenal gland tumor"
+      ],
+      "Causes": [
+        "Exact cause is often unknown; may involve genetic syndromes."
+      ],
+      "Symptoms": [
+        "High blood pressure, headaches, sweating, and palpitations."
+      ],
+      "Diagnosis": [
+        "Blood tests, urine tests, and imaging studies."
+      ],
+      "Treatment": [
+        "Surgery and management of blood pressure."
+      ]
+    }
+  },
+  {
+    "condition": "Pick's Disease (Frontotemporal Dementia)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/picks-disease",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Pick's disease is a rare form of frontotemporal dementia characterized by progressive changes in personality and behavior."
+      ],
+      "Alternative Names": [
+        "Frontotemporal lobar degeneration"
+      ],
+      "Causes": [
+        "Genetic mutations and abnormal protein deposits in the brain."
+      ],
+      "Symptoms": [
+        "Personality changes, language difficulties, and social withdrawal."
+      ],
+      "Diagnosis": [
+        "Clinical evaluation and imaging studies."
+      ],
+      "Treatment": [
+        "Supportive care and management of symptoms."
+      ]
+    }
+  },
+  {
+    "condition": "Pituitary Tumor",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/pituitary-tumor",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "A pituitary tumor is an abnormal growth in the pituitary gland, which can affect hormone production."
+      ],
+      "Alternative Names": [
+        "Pituitary adenoma"
+      ],
+      "Causes": [
+        "Exact cause is often unknown; may involve genetic factors."
+      ],
+      "Symptoms": [
+        "Headaches, vision changes, and hormonal imbalances."
+      ],
+      "Diagnosis": [
+        "Imaging studies and hormone level tests."
+      ],
+      "Treatment": [
+        "Surgery, radiation therapy, and medications."
+      ]
+    }
+  },
+  {
+    "condition": "Placenta Accreta",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/placenta-accreta",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Placenta accreta is a condition where the placenta attaches too deeply into the uterine wall."
+      ],
+      "Alternative Names": [
+        "Abnormal placentation"
+      ],
+      "Causes": [
+        "Previous cesarean sections and uterine surgery."
+      ],
+      "Symptoms": [
+        "Abnormal bleeding during pregnancy and complications during delivery."
+      ],
+      "Diagnosis": [
+        "Ultrasound and clinical evaluation."
+      ],
+      "Treatment": [
+        "Careful monitoring and possible surgical intervention."
+      ]
+    }
+  },
+  {
+    "condition": "Plantar Fasciitis (Policeman's Heel)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/plantar-fasciitis",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Plantar fasciitis is an inflammation of the plantar fascia, the tissue that runs along the bottom of the foot."
+      ],
+      "Alternative Names": [
+        "Heel pain"
+      ],
+      "Causes": [
+        "Overuse, improper footwear, and obesity."
+      ],
+      "Symptoms": [
+        "Heel pain, especially with the first steps in the morning."
+      ],
+      "Diagnosis": [
+        "Physical examination and clinical evaluation."
+      ],
+      "Treatment": [
+        "Rest, ice, stretching exercises, and orthotics."
+      ]
+    }
+  },
+  {
+    "condition": "Plastic Bronchitis",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/plastic-bronchitis",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Plastic bronchitis is a rare condition characterized by the formation of thick, rubbery casts in the airways."
+      ],
+      "Alternative Names": [
+        "Bronchial casts"
+      ],
+      "Causes": [
+        "Often associated with underlying lung diseases or heart failure."
+      ],
+      "Symptoms": [
+        "Coughing up casts, difficulty breathing, and wheezing."
+      ],
+      "Diagnosis": [
+        "Imaging studies and bronchoscopy."
+      ],
+      "Treatment": [
+        "Management of underlying conditions and airway clearance techniques."
+      ]
+    }
+  },
+  {
+    "condition": "Pleural Effusion (Fluid in the Lung)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/pleural-effusion",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Pleural effusion is the accumulation of excess fluid between the layers of the pleura outside the lungs."
+      ],
+      "Alternative Names": [
+        "Fluid in the pleural space"
+      ],
+      "Causes": [
+        "Heart failure, pneumonia, and malignancies."
+      ],
+      "Symptoms": [
+        "Shortness of breath, chest pain, and cough."
+      ],
+      "Diagnosis": [
+        "Imaging studies and thoracentesis."
+      ],
+      "Treatment": [
+        "Draining the fluid and treating the underlying cause."
+      ]
+    }
+  },
+  {
+    "condition": "Pleurisy",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/pleurisy",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Pleurisy is inflammation of the pleura, the membrane surrounding the lungs."
+      ],
+      "Alternative Names": [
+        "Pleuritis"
+      ],
+      "Causes": [
+        "Infections, autoimmune diseases, and lung cancer."
+      ],
+      "Symptoms": [
+        "Sharp chest pain that worsens with breathing or coughing."
+      ],
+      "Diagnosis": [
+        "Physical examination and imaging studies."
+      ],
+      "Treatment": [
+        "Pain management and treatment of the underlying cause."
+      ]
+    }
+  },
+  {
+    "condition": "Pneumomediastinum (Mediastinal Emphysema)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/pneumomediastinum",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Pneumomediastinum is the presence of air in the mediastinum, the central compartment of the thoracic cavity."
+      ],
+      "Alternative Names": [
+        "Mediastinal air"
+      ],
+      "Causes": [
+        "Trauma, rupture of the esophagus, and excessive coughing."
+      ],
+      "Symptoms": [
+        "Chest pain, difficulty breathing, and neck swelling."
+      ],
+      "Diagnosis": [
+        "Imaging studies and clinical evaluation."
+      ],
+      "Treatment": [
+        "Observation and management of underlying causes."
+      ]
+    }
+  },
+  {
+    "condition": "Pneumothorax (Collapsed Lung)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/pneumothorax",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Pneumothorax is a condition where air leaks into the space between the lung and chest wall, causing the lung to collapse."
+      ],
+      "Alternative Names": [
+        "Collapsed lung"
+      ],
+      "Causes": [
+        "Trauma, lung disease, and spontaneous rupture of air blisters."
+      ],
+      "Symptoms": [
+        "Sudden chest pain and shortness of breath."
+      ],
+      "Diagnosis": [
+        "Imaging studies and clinical evaluation."
+      ],
+      "Treatment": [
+        "Observation, needle decompression, or chest tube insertion."
+      ]
+    }
+  },
+  {
+    "condition": "Polycystic Ovary Syndrome (PCOS)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/polycystic-ovary-syndrome",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Polycystic ovary syndrome is a hormonal disorder causing enlarged ovaries with small cysts on the outer edges."
+      ],
+      "Alternative Names": [
+        "PCOS"
+      ],
+      "Causes": [
+        "Exact cause is often unknown; may involve genetic and environmental factors."
+      ],
+      "Symptoms": [
+        "Irregular periods, excess hair growth, and acne."
+      ],
+      "Diagnosis": [
+        "Clinical evaluation and imaging studies."
+      ],
+      "Treatment": [
+        "Lifestyle changes, medications, and management of symptoms."
+      ]
+    }
+  },
+  {
+    "condition": "Polyposis Syndrome",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/polyposis-syndrome",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Polyposis syndrome is a condition characterized by the presence of multiple polyps in the gastrointestinal tract."
+      ],
+      "Alternative Names": [
+        "Familial adenomatous polyposis"
+      ],
+      "Causes": [
+        "Genetic mutations and hereditary factors."
+      ],
+      "Symptoms": [
+        "Often asymptomatic until complications arise; may include gastrointestinal bleeding."
+      ],
+      "Diagnosis": [
+        "Colonoscopy and genetic testing."
+      ],
+      "Treatment": [
+        "Regular surveillance and surgical removal of polyps."
+      ]
+    }
+  },
+  {
+    "condition": "Pregnancy",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/pregnancy",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Pregnancy is the condition of carrying a developing embryo or fetus within the female body."
+      ],
+      "Alternative Names": [
+        "Gestation"
+      ],
+      "Causes": [
+        "Fertilization of an egg by sperm."
+      ],
+      "Symptoms": [
+        "Missed periods, nausea, and breast tenderness."
+      ],
+      "Diagnosis": [
+        "Pregnancy tests and ultrasound."
+      ],
+      "Treatment": [
+        "Prenatal care and management of pregnancy-related conditions."
+      ]
+    }
+  },
+  {
+    "condition": "Primary Biliary Cirrhosis",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/primary-biliary-cirrhosis",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Primary biliary cirrhosis is a chronic disease that slowly destroys the bile ducts in the liver."
+      ],
+      "Alternative Names": [
+        "Primary biliary cholangitis"
+      ],
+      "Causes": [
+        "Autoimmune response against the bile ducts."
+      ],
+      "Symptoms": [
+        "Fatigue, itching, and jaundice."
+      ],
+      "Diagnosis": [
+        "Blood tests and imaging studies."
+      ],
+      "Treatment": [
+        "Medications to manage symptoms and liver transplant in severe cases."
+      ]
+    }
+  },
+  {
+    "condition": "Primary CNS Lymphoma",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/primary-cns-lymphoma",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Primary CNS lymphoma is a type of cancer that originates in the central nervous system."
+      ],
+      "Alternative Names": [
+        "Primary central nervous system lymphoma"
+      ],
+      "Causes": [
+        "Exact cause is often unknown; may involve immunosuppression."
+      ],
+      "Symptoms": [
+        "Headaches, seizures, and neurological deficits."
+      ],
+      "Diagnosis": [
+        "Imaging studies and biopsy."
+      ],
+      "Treatment": [
+        "Chemotherapy, radiation therapy, and sometimes surgery."
+      ]
+    }
+  },
+  {
+    "condition": "Progressive Supranuclear Palsy (PSP)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/progressive-supranuclear-palsy",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Progressive supranuclear palsy is a rare brain disorder that causes serious problems with walking, balance, and eye movements."
+      ],
+      "Alternative Names": [
+        "PSP"
+      ],
+      "Causes": [
+        "Exact cause is unknown; may involve abnormal protein accumulation in the brain."
+      ],
+      "Symptoms": [
+        "Balance problems, difficulty with eye movements, and cognitive decline."
+      ],
+      "Diagnosis": [
+        "Clinical evaluation and imaging studies."
+      ],
+      "Treatment": [
+        "Supportive care and management of symptoms."
+      ]
+    }
+  },
+  {
+    "condition": "Prolactinoma",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/prolactinoma",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Prolactinoma is a benign tumor of the pituitary gland that produces excess prolactin."
+      ],
+      "Alternative Names": [
+        "Pituitary adenoma"
+      ],
+      "Causes": [
+        "Exact cause is often unknown; may involve genetic factors."
+      ],
+      "Symptoms": [
+        "Irregular menstrual periods, infertility, and galactorrhea (milk production)."
+      ],
+      "Diagnosis": [
+        "Blood tests and imaging studies."
+      ],
+      "Treatment": [
+        "Medications to lower prolactin levels and surgery in some cases."
+      ]
+    }
+  },
+  {
+    "condition": "Prostate Cancer",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/prostate-cancer",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Prostate cancer is a type of cancer that occurs in the prostate gland."
+      ],
+      "Alternative Names": [
+        "Cancer of the prostate"
+      ],
+      "Causes": [
+        "Age, family history, and certain genetic mutations."
+      ],
+      "Symptoms": [
+        "Difficulty urinating, blood in urine, and pelvic pain."
+      ],
+      "Diagnosis": [
+        "Prostate-specific antigen (PSA) test, imaging studies, and biopsy."
+      ],
+      "Treatment": [
+        "Surgery, radiation therapy, hormone therapy, and active surveillance."
+      ]
+    }
+  },
+  {
+    "condition": "Protein-Losing Enteropathy (PLE)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/protein-losing-enteropathy",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Protein-losing enteropathy is a condition characterized by excessive loss of protein from the gastrointestinal tract."
+      ],
+      "Alternative Names": [
+        "Gastrointestinal protein loss"
+      ],
+      "Causes": [
+        "Celiac disease, Crohn's disease, and infections."
+      ],
+      "Symptoms": [
+        "Edema, diarrhea, and weight loss."
+      ],
+      "Diagnosis": [
+        "Stool tests, blood tests, and imaging studies."
+      ],
+      "Treatment": [
+        "Management of underlying conditions and dietary changes."
+      ]
+    }
+  },
+  {
+    "condition": "Psoriasis",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/psoriasis",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Psoriasis is a chronic autoimmune condition that causes rapid skin cell production, leading to scaling and inflammation."
+      ],
+      "Alternative Names": [
+        "Psoriatic skin disease"
+      ],
+      "Causes": [
+        "Genetic factors and immune system dysfunction."
+      ],
+      "Symptoms": [
+        "Red patches of skin covered with thick, silvery scales."
+      ],
+      "Diagnosis": [
+        "Physical examination and clinical evaluation."
+      ],
+      "Treatment": [
+        "Topical treatments, phototherapy, and systemic medications."
+      ]
+    }
+  },
+  {
+    "condition": "Psoriatic Arthritis",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/psoriatic-arthritis",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Psoriatic arthritis is a type of inflammatory arthritis that affects some people with psoriasis."
+      ],
+      "Alternative Names": [
+        "PsA"
+      ],
+      "Causes": [
+        "Genetic factors and immune system dysfunction."
+      ],
+      "Symptoms": [
+        "Joint pain, stiffness, and swelling, often accompanied by skin lesions."
+      ],
+      "Diagnosis": [
+        "Clinical evaluation and imaging studies."
+      ],
+      "Treatment": [
+        "Medications to reduce inflammation and manage symptoms."
+      ]
+    }
+  },
+  {
+    "condition": "Psychosis",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/psychosis",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Psychosis is a mental health condition characterized by a disconnection from reality."
+      ],
+      "Alternative Names": [
+        "Psychotic disorder"
+      ],
+      "Causes": [
+        "Mental illnesses, substance abuse, and medical conditions."
+      ],
+      "Symptoms": [
+        "Hallucinations, delusions, and disorganized thinking."
+      ],
+      "Diagnosis": [
+        "Clinical evaluation and psychiatric assessment."
+      ],
+      "Treatment": [
+        "Medications, therapy, and support services."
+      ]
+    }
+  },
+  {
+    "condition": "Pulmonary Alveolar Proteinosis (PAP)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/pulmonary-alveolar-proteinosis",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Pulmonary alveolar proteinosis is a rare lung disease characterized by the accumulation of proteinaceous material in the alveoli."
+      ],
+      "Alternative Names": [
+        "Alveolar proteinosis"
+      ],
+      "Causes": [
+        "Exact cause is often unknown; may involve autoimmune factors."
+      ],
+      "Symptoms": [
+        "Shortness of breath, cough, and fatigue."
+      ],
+      "Diagnosis": [
+        "Imaging studies and lung biopsy."
+      ],
+      "Treatment": [
+        "Whole lung lavage and management of symptoms."
+      ]
+    }
+  },
+  {
+    "condition": "Pulmonary Edema",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/pulmonary-edema",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Pulmonary edema is a condition characterized by excess fluid in the lungs."
+      ],
+      "Alternative Names": [
+        "Lung congestion"
+      ],
+      "Causes": [
+        "Heart failure, pneumonia, and exposure to toxins."
+      ],
+      "Symptoms": [
+        "Shortness of breath, wheezing, and coughing up pink, frothy sputum."
+      ],
+      "Diagnosis": [
+        "Imaging studies and clinical evaluation."
+      ],
+      "Treatment": [
+        "Oxygen therapy, medications, and management of underlying causes."
+      ]
+    }
+  },
+  {
+    "condition": "Pulmonary Embolism (Pulmonary Embolus)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/pulmonary-embolism",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Pulmonary embolism is a blockage in one of the pulmonary arteries in the lungs, usually caused by blood clots."
+      ],
+      "Alternative Names": [
+        "PE"
+      ],
+      "Causes": [
+        "Deep vein thrombosis (DVT) and prolonged immobility."
+      ],
+      "Symptoms": [
+        "Shortness of breath, chest pain, and coughing up blood."
+      ],
+      "Diagnosis": [
+        "Imaging studies and blood tests."
+      ],
+      "Treatment": [
+        "Anticoagulants, thrombolytics, and sometimes surgery."
+      ]
+    }
+  },
+  {
+    "condition": "Pulmonary Hypertension",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/pulmonary-hypertension",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Pulmonary hypertension is high blood pressure in the blood vessels that supply the lungs."
+      ],
+      "Alternative Names": [
+        "PH"
+      ],
+      "Causes": [
+        "Heart disease, lung disease, and blood clots."
+      ],
+      "Symptoms": [
+        "Shortness of breath, fatigue, and chest pain."
+      ],
+      "Diagnosis": [
+        "Imaging studies and right heart catheterization."
+      ],
+      "Treatment": [
+        "Medications, oxygen therapy, and lifestyle changes."
+      ]
+    }
+  },
+  {
+    "condition": "Pulmonary Valve Stenosis (PVS)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/pulmonary-valve-stenosis",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Pulmonary valve stenosis is a heart defect characterized by narrowing of the pulmonary valve, which obstructs blood flow from the heart to the lungs."
+      ],
+      "Alternative Names": [
+        "PVS"
+      ],
+      "Causes": [
+        "Congenital heart defect and rheumatic fever."
+      ],
+      "Symptoms": [
+        "Shortness of breath, fatigue, and heart murmur."
+      ],
+      "Diagnosis": [
+        "Echocardiogram and clinical evaluation."
+      ],
+      "Treatment": [
+        "Monitoring, balloon valvuloplasty, and surgery in severe cases."
+      ]
+    }
+  },
+  {
+    "condition": "Pulmonary Veno Occlusive Disease",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/pulmonary-veno-occlusive-disease",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Pulmonary veno occlusive disease is a rare form of pulmonary hypertension caused by obstruction of the pulmonary veins."
+      ],
+      "Alternative Names": [
+        "PVOD"
+      ],
+      "Causes": [
+        "Exact cause is often unknown; may involve genetic factors."
+      ],
+      "Symptoms": [
+        "Shortness of breath, fatigue, and swelling in the legs."
+      ],
+      "Diagnosis": [
+        "Imaging studies and right heart catheterization."
+      ],
+      "Treatment": [
+        "Management of symptoms and sometimes lung transplantation."
+      ]
+    }
+  },
+  {
+    "condition": "Pulsatile Tinnitus",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/pulsatile-tinnitus",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Pulsatile tinnitus is a type of tinnitus where the person hears a rhythmic sound that often matches their heartbeat."
+      ],
+      "Alternative Names": [
+        "Vascular tinnitus"
+      ],
+      "Causes": [
+        "Blood vessel disorders, high blood pressure, and ear abnormalities."
+      ],
+      "Symptoms": [
+        "Hearing a pulsing sound in the ears."
+      ],
+      "Diagnosis": [
+        "Clinical evaluation and imaging studies."
+      ],
+      "Treatment": [
+        "Management of underlying conditions and sound therapy."
+      ]
+    }
+  }
+]
