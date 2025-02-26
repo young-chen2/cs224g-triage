@@ -51,11 +51,20 @@ async def triage_patient(request: TriageRequest) -> TriageResponse:
         # Format conversation history with validation
         conversation_messages: List[Dict[str, str]] = []
         try:
-            for msg in request.conversation_history[-10:]:  # Keep last 10 messages
-                if not isinstance(msg, dict) and hasattr(msg, 'dict'):
-                    msg = msg.dict()
+            for msg in request.conversation_history:
+                # Convert to dict if it's a Message object
+                if not isinstance(msg, dict):
+                    if hasattr(msg, 'dict'):
+                        msg = msg.dict()
+                    elif hasattr(msg, 'model_dump'):
+                        msg = msg.model_dump()
+                
+                # Validate dict structure
                 if isinstance(msg, dict) and 'role' in msg and 'content' in msg:
-                    conversation_messages.append(msg)
+                    conversation_messages.append({
+                        'role': msg['role'],
+                        'content': msg['content']
+                    })
         except Exception as e:
             logger.error(f"Error processing conversation history: {e}")
             conversation_messages = []  # Reset to empty if invalid
@@ -65,7 +74,7 @@ async def triage_patient(request: TriageRequest) -> TriageResponse:
             for msg in conversation_messages
             if msg['content'].strip()  # Only include non-empty messages
         ])
-
+        
         # Initial assessment with proper error handling
         try:
             assessment_query = get_assessment_query(conversation_context, request.symptoms)
@@ -85,8 +94,12 @@ async def triage_patient(request: TriageRequest) -> TriageResponse:
                     relevant_guidelines=[],
                     is_gathering_info=True
                 )
-            
-            logger.info(f"Assessment complete. Proceeding with triage.")
+                
+            # Check for READY_FOR_TRIAGE flag
+            if "READY_FOR_TRIAGE" in assessment_result:
+                logger.info("Assessment indicates ready for triage. Proceeding with final triage.")
+            else:
+                logger.info(f"Assessment complete. Proceeding with triage.")
             
             # Full triage assessment
             triage_query = get_triage_query(conversation_context, request.symptoms)
@@ -117,7 +130,9 @@ async def triage_patient(request: TriageRequest) -> TriageResponse:
                 triage_level = "physician"
                 
             # Clean the response for the user (remove the TRIAGE_LEVEL tag)
-            clean_response = result_text.replace("TRIAGE_LEVEL:", "Recommended provider:").strip()
+            clean_response = result_text
+            clean_response = clean_response.replace("TRIAGE_LEVEL:", "Recommended provider:").strip()
+            clean_response = clean_response.replace("READY_FOR_TRIAGE", "").strip()
             
             # Ensure all fields are properly formatted
             response = TriageResponse(
@@ -168,6 +183,18 @@ async def complete_triage(triage_data: TriageDataRequest):
     Save a completed triage case to the database.
     """
     try:
+        logger.info(f"Processing complete triage with level: {triage_data.triage_level}")
+        
+        # Validate triage data
+        if not triage_data.triage_level:
+            raise HTTPException(
+                status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+                detail="Triage level cannot be empty"
+            )
+            
+        if not triage_data.symptoms:
+            logger.warning("Symptoms field is empty in complete_triage request")
+            
         # Process the triage through the TriageAgent
         result = await triage_agent.process_triage_result(
             patient_info=triage_data.patient_info,

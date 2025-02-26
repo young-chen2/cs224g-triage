@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react';
 import { GuidelinesUpload } from './admin/GuidelinesUpload';
 import { TriageHistory } from './admin/TriageHistory';
-import { AccountManagement } from './admin/AccountManagement';
 import supabase from './supabaseClient';
 
 interface ChatHistory {
@@ -16,24 +15,15 @@ interface ChatHistory {
     status: string;
 }
 
-interface Account {
-    id: string;
-    username: string;
-    role: string;
-    email: string;
-}
-
-export const AdminPortal = ({ 
-    isDarkMode, 
-    providerId 
-}: { 
+export const AdminPortal = ({
+    isDarkMode,
+    providerId
+}: {
     isDarkMode: boolean;
     providerId: string;
 }) => {
     const [chatHistories, setChatHistories] = useState<ChatHistory[]>([]);
-    const [accountList, setAccountList] = useState<Account[]>([]);
     const [isLoadingCases, setIsLoadingCases] = useState(true);
-    const [isLoadingAccounts, setIsLoadingAccounts] = useState(true);
     const [error, setError] = useState('');
 
     // Fetch triage cases
@@ -60,7 +50,7 @@ export const AdminPortal = ({
 
                 // For each case, get the first message to display symptoms
                 const formattedCases: ChatHistory[] = [];
-                
+
                 for (const caseItem of casesData || []) {
                     // Get first patient message
                     const { data: messagesData } = await supabase
@@ -70,11 +60,11 @@ export const AdminPortal = ({
                         .eq('sender_type', 'patient')
                         .order('timestamp', { ascending: true })
                         .limit(1);
-                    
-                    const firstMessage = messagesData && messagesData.length > 0 
-                        ? messagesData[0].message 
+
+                    const firstMessage = messagesData && messagesData.length > 0
+                        ? messagesData[0].message
                         : 'No symptom information available';
-                        
+
                     formattedCases.push({
                         id: caseItem.id,
                         timestamp: new Date(caseItem.created_at).toLocaleString(),
@@ -85,7 +75,7 @@ export const AdminPortal = ({
                         status: caseItem.status
                     });
                 }
-                
+
                 setChatHistories(formattedCases);
             } catch (error) {
                 console.error('Error fetching triage cases:', error);
@@ -100,64 +90,6 @@ export const AdminPortal = ({
         }
     }, [providerId]);
 
-    // Fetch provider accounts (for admin users only)
-    useEffect(() => {
-        const fetchAccounts = async () => {
-            setIsLoadingAccounts(true);
-            try {
-                // First check if current user is admin/physician
-                const { data: currentProvider } = await supabase
-                    .from('providers')
-                    .select('role')
-                    .eq('id', providerId)
-                    .single();
-                    
-                if (currentProvider?.role === 'physician') {
-                    // Only physicians can see all accounts
-                    const { data: providersData, error: providersError } = await supabase
-                        .from('providers')
-                        .select(`
-                            id,
-                            name,
-                            role,
-                            user_id
-                        `)
-                        .order('name');
-                        
-                    if (providersError) throw providersError;
-                    
-                    // Get emails from auth
-                    const accounts: Account[] = [];
-                    
-                    for (const provider of providersData || []) {
-                        const { data: userData } = await supabase
-                            .auth.admin.getUserById(provider.user_id);
-                            
-                        accounts.push({
-                            id: provider.id,
-                            username: provider.name,
-                            role: provider.role,
-                            email: userData?.user?.email || 'N/A'
-                        });
-                    }
-                    
-                    setAccountList(accounts);
-                } else {
-                    // Non-physicians only see their own account
-                    setAccountList([]);
-                }
-            } catch (error) {
-                console.error('Error fetching accounts:', error);
-            } finally {
-                setIsLoadingAccounts(false);
-            }
-        };
-
-        if (providerId) {
-            fetchAccounts();
-        }
-    }, [providerId]);
-
     // Function to update triage case status
     const updateCaseStatus = async (caseId: string, newStatus: string) => {
         try {
@@ -165,14 +97,14 @@ export const AdminPortal = ({
                 .from('triage_cases')
                 .update({ status: newStatus })
                 .eq('id', caseId);
-                
+
             // Refresh the case list
-            setChatHistories(prevCases => 
-                prevCases.map(c => 
-                    c.id === caseId ? {...c, status: newStatus} : c
+            setChatHistories(prevCases =>
+                prevCases.map(c =>
+                    c.id === caseId ? { ...c, status: newStatus } : c
                 )
             );
-            
+
             return true;
         } catch (error) {
             console.error('Error updating case status:', error);
@@ -187,25 +119,19 @@ export const AdminPortal = ({
                     <span className="block sm:inline">{error}</span>
                 </div>
             )}
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+            <div>
                 <GuidelinesUpload isDarkMode={isDarkMode} />
-                <TriageHistory 
-                    isDarkMode={isDarkMode} 
+            </div>
+
+            <div>
+                <TriageHistory
+                    isDarkMode={isDarkMode}
                     chatHistories={chatHistories}
                     isLoading={isLoadingCases}
                     onUpdateStatus={updateCaseStatus}
                 />
             </div>
-            
-            {accountList.length > 0 && (
-                <AccountManagement 
-                    isDarkMode={isDarkMode} 
-                    accountList={accountList}
-                    setAccountList={setAccountList}
-                    isLoading={isLoadingAccounts}
-                />
-            )}
         </div>
     );
 };

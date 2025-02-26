@@ -4,10 +4,13 @@ from langchain.chains import RetrievalQA, ConversationalRetrievalChain
 from langchain.schema import HumanMessage, AIMessage, SystemMessage
 from src.api.config import openai_api_key, FAISS_INDEX_PATH
 from src.api.services.medical_data import load_medical_data
-from src.api.models import PatientData, TriageData, ChatMessage
+from src.api.models import PatientData, TriageData, TriageChatMessage
 from src.api.services.db_service import get_supabase_client
 from typing import Dict, Any, List, Tuple, Optional
 import logging
+import json
+import uuid
+from datetime import datetime
 
 logger = logging.getLogger(__name__)
 
@@ -193,16 +196,42 @@ class TriageAgent:
         try:
             logger.info(f"Processing triage result for triage level: {triage_level}")
             
-            # 1. Create patient record
-            patient_data = PatientData(**patient_info)
+            # Convert PatientInfo to dict if it's a Pydantic model
+            if hasattr(patient_info, 'dict'):
+                patient_data_dict = patient_info.dict()
+            elif hasattr(patient_info, 'model_dump'):  # For Pydantic v2
+                patient_data_dict = patient_info.model_dump()
+            else:
+                # Assume it's already a dict
+                patient_data_dict = patient_info
+                
+            # Extract allergies from patient info
+            allergies = patient_data_dict.get('allergies', [])
+            if isinstance(allergies, str):
+                allergies = [allergies]
+            
+            # Prepare patient data
+            patient_data = PatientData(
+                name=patient_data_dict.get('name', 'Anonymous'),
+                dob=patient_data_dict.get('dob', None),
+                gender=patient_data_dict.get('gender', None),
+                contact_info=patient_data_dict.get('contact_info', {}),
+                allergies=allergies,
+                medications=patient_data_dict.get('medications', [])
+            )
+            
+            # Format for database
             formatted_patient = {
                 "name": patient_data.name,
                 "dob": patient_data.dob,
                 "gender": patient_data.gender,
-                "contact_info": json.dumps(patient_data.contact_info) if patient_data.contact_info else None
+                "contact_info": json.dumps(patient_data.contact_info) if patient_data.contact_info else None,
+                "allergies": json.dumps(patient_data.allergies) if patient_data.allergies else None,
+                "medications": json.dumps(patient_data.medications) if patient_data.medications else None
             }
             
-            patient_response = await self.supabase.table("patients").upsert(formatted_patient).execute()
+            # 1. Create patient record
+            patient_response =  self.supabase.table("patients").upsert(formatted_patient).execute()
             if not patient_response.data:
                 raise Exception("Failed to create patient record")
                 
@@ -218,14 +247,26 @@ class TriageAgent:
                 summary_response = self.llm.process_query(summary_query)
                 summary = summary_response.get('result', 'Triage completed via AI assistant')
             
-            # 2. Create triage case
+            # 2. Format chat history
+            formatted_chat_history = []
+            for msg in chat_history:
+                if isinstance(msg, dict) and 'role' in msg and 'content' in msg:
+                    formatted_chat_history.append(
+                        TriageChatMessage(
+                            sender_type="patient" if msg['role'] == "user" else "system",
+                            content=msg['content']
+                        )
+                    )
+            
+            # 3. Create triage data
             triage_data = TriageData(
                 patient=patient_data,
                 triage_level=triage_level,
                 summary=summary,
-                chat_history=[ChatMessage(**msg) for msg in chat_history]
+                chat_history=formatted_chat_history
             )
             
+            # 4. Format for database
             case_data = {
                 "patient_id": patient_id,
                 "triage_level": triage_level.lower(),
@@ -233,23 +274,25 @@ class TriageAgent:
                 "status": "pending"
             }
             
-            case_response = await self.supabase.table("triage_cases").insert(case_data).execute()
+            # 5. Create triage case
+            case_response =  self.supabase.table("triage_cases").insert(case_data).execute()
             if not case_response.data:
                 raise Exception("Failed to create triage case")
                 
             case_id = case_response.data[0]["id"]
             
-            # 3. Store chat messages
+            # 6. Store chat messages
             for message in chat_history:
                 msg_data = {
                     "triage_case_id": case_id,
                     "sender_type": "patient" if message["role"] == "user" else "system",
-                    "message": message["content"]
+                    "message": message["content"],
+                    "timestamp": datetime.utcnow().isoformat()
                 }
-                await self.supabase.table("chat_messages").insert(msg_data).execute()
+                self.supabase.table("chat_messages").insert(msg_data).execute()
             
-            # 4. Assign to provider based on triage level
-            provider_response = await self.supabase.table("providers") \
+            # 7. Assign to provider based on triage level
+            provider_response =  self.supabase.table("providers") \
                 .select("id") \
                 .eq("role", triage_level.lower()) \
                 .limit(1) \
@@ -257,7 +300,7 @@ class TriageAgent:
                 
             if provider_response.data:
                 provider_id = provider_response.data[0]["id"]
-                await self.supabase.table("triage_cases") \
+                self.supabase.table("triage_cases") \
                     .update({"assigned_provider_id": provider_id}) \
                     .eq("id", case_id) \
                     .execute()
@@ -281,7 +324,7 @@ class TriageAgent:
     async def get_provider_triage_cases(self, provider_id: str) -> List[Dict[str, Any]]:
         """Get all triage cases assigned to a provider."""
         try:
-            response = await self.supabase.table("triage_cases") \
+            response =  self.supabase.table("triage_cases") \
                 .select("*, patients(name, dob, gender)") \
                 .eq("assigned_provider_id", provider_id) \
                 .execute()
@@ -295,7 +338,7 @@ class TriageAgent:
         """Get full details of a specific triage case."""
         try:
             # Get case details
-            case_response = await self.supabase.table("triage_cases") \
+            case_response =  self.supabase.table("triage_cases") \
                 .select("*, patients(*)") \
                 .eq("id", case_id) \
                 .single() \
@@ -305,7 +348,7 @@ class TriageAgent:
                 return {"error": "Case not found"}
                 
             # Get chat messages
-            messages_response = await self.supabase.table("chat_messages") \
+            messages_response =  self.supabase.table("chat_messages") \
                 .select("*") \
                 .eq("triage_case_id", case_id) \
                 .order("timestamp", {"ascending": True}) \
@@ -323,7 +366,7 @@ class TriageAgent:
     async def update_case_status(self, case_id: str, status: str) -> bool:
         """Update the status of a triage case."""
         try:
-            await self.supabase.table("triage_cases") \
+            self.supabase.table("triage_cases") \
                 .update({"status": status}) \
                 .eq("id", case_id) \
                 .execute()
