@@ -47,31 +47,42 @@ function App() {
   const [isSavingTriage, setIsSavingTriage] = useState(false);
   const [isTriageComplete, setIsTriageComplete] = useState(false);
   const [triageLevel, setTriageLevel] = useState<string | null>(null);
+  const [isLoading, setIsLoading] = useState(true);
 
-  // Check for existing session on load
+  // Check for existing user session in localStorage
   useEffect(() => {
-    const checkSession = async () => {
-      const { data } = await supabase.auth.getSession();
-      if (data.session) {
-        // Get provider details
-        const { data: providerData } = await supabase
-          .from('providers')
-          .select('*')
-          .eq('user_id', data.session.user.id)
-          .single();
-
-        if (providerData) {
-          setUser({
-            username: providerData.name,
-            role: providerData.role,
-            id: providerData.id
-          });
+    setIsLoading(true);
+    try {
+      // Check for any stored user data in localStorage
+      const storedUser = localStorage.getItem('user');
+      const storedAdminView = localStorage.getItem('isAdminView');
+      
+      if (storedUser) {
+        const userData = JSON.parse(storedUser);
+        setUser(userData);
+        
+        // If admin view state was stored, restore it
+        if (storedAdminView) {
+          setIsAdminView(storedAdminView === 'true');
+        } else if (userData.role !== "Patient") {
+          // Default to admin view for non-patient users
+          setIsAdminView(true);
         }
       }
-    };
-
-    checkSession();
+    } catch (error) {
+      console.error("Error checking localStorage session:", error);
+    } finally {
+      setIsLoading(false);
+    }
   }, []);
+
+  // Store user data to localStorage whenever it changes
+  useEffect(() => {
+    if (user) {
+      localStorage.setItem('user', JSON.stringify(user));
+      localStorage.setItem('isAdminView', isAdminView.toString());
+    }
+  }, [user, isAdminView]);
 
   const speak = (text: string) => {
     const utterance = new SpeechSynthesisUtterance(text);
@@ -307,26 +318,59 @@ function App() {
 
   const { isListening, toggleListening } = useSpeechRecognition(handleSendMessage);
 
-  // Handle login with Supabase auth
+  // Handle login (no longer dependent on Supabase auth)
   const handleLogin = async (userData: User) => {
     setUser(userData);
-    if (userData.role != "Patient") {
-      setIsAdminView(true);
-    }
+    // Set admin view for non-patient users
+    const shouldBeAdminView = userData.role !== "Patient";
+    setIsAdminView(shouldBeAdminView);
+    
+    // Store in localStorage for persistence
+    localStorage.setItem('user', JSON.stringify(userData));
+    localStorage.setItem('isAdminView', shouldBeAdminView.toString());
   };
 
   // Add patient access handler
   const handlePatientAccess = () => {
-    setUser({ username: 'Patient', role: 'Patient', id: 'patient' });
+    const patientUser = { username: 'Patient', role: 'Patient', id: 'patient' };
+    setUser(patientUser);
+    setIsAdminView(false);
+    
+    // Store in localStorage for persistence
+    localStorage.setItem('user', JSON.stringify(patientUser));
+    localStorage.setItem('isAdminView', 'false');
   };
 
   // Handle logout
   const handleLogout = async () => {
-    await supabase.auth.signOut();
+    // Clear user data from localStorage
+    localStorage.removeItem('user');
+    localStorage.removeItem('isAdminView');
+    
+    // Still call Supabase signOut for completeness if using Supabase elsewhere
+    try {
+      await supabase.auth.signOut();
+    } catch (error) {
+      console.error("Error signing out from Supabase:", error);
+    }
+    
+    // Reset application state
     setUser(null);
     setIsAdminView(false);
     setMessages([{ role: "assistant", content: INITIAL_MESSAGE }]);
   };
+
+  // If still loading, show a loading indicator
+  if (isLoading) {
+    return (
+      <div className="flex items-center justify-center h-screen bg-gray-100">
+        <div className="text-center">
+          <div className="w-16 h-16 border-4 border-blue-500 border-t-transparent rounded-full animate-spin mx-auto"></div>
+          <p className="mt-4 text-gray-700">Loading your session...</p>
+        </div>
+      </div>
+    );
+  }
 
   // If not logged in, show login screen
   if (!user) {
