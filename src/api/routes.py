@@ -1,19 +1,37 @@
-from fastapi import APIRouter, HTTPException, status
+from fastapi import APIRouter, HTTPException, status, Depends
 from src.api.models import *
-from src.api.services.llm_service import BasicLLM, ConversationalLLM
+from src.api.services.llm_service import BasicLLM, ConversationalLLM, TriageAgent
 from src.api.services.prompts import get_assessment_query, get_triage_query
-from src.api.services.triage_service import create_triage_case, get_provider_cases, get_case_messages
-from src.api.services.auth_service import create_provider_account, provider_login
 import logging
-from typing import List, Dict
+from typing import List, Dict, Optional
+from fastapi.security import HTTPBasic, HTTPBasicCredentials
+import secrets
 
 logger = logging.getLogger(__name__)
 router = APIRouter()
+security = HTTPBasic()
 
 # Use BasicLLM for initial assessment
 llm_assessor = BasicLLM()
 # Use ConversationalLLM with retrieval for final triage
 llm_triager = ConversationalLLM()
+# TriageAgent for database operations
+triage_agent = TriageAgent()
+
+# Simple authentication for demonstration purposes
+def verify_credentials(credentials: Optional[HTTPBasicCredentials] = Depends(security)):
+    # In a real app, you'd verify against the Supabase auth
+    # This is a simple placeholder
+    correct_username = secrets.compare_digest(credentials.username, "admin")
+    correct_password = secrets.compare_digest(credentials.password, "password")
+    
+    if not (correct_username and correct_password):
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Invalid credentials",
+            headers={"WWW-Authenticate": "Basic"},
+        )
+    return credentials.username
 
 @router.post("/triage", response_model=TriageResponse)
 async def triage_patient(request: TriageRequest) -> TriageResponse:
@@ -77,16 +95,43 @@ async def triage_patient(request: TriageRequest) -> TriageResponse:
             if not isinstance(triage_response, dict):
                 raise ValueError(f"Unexpected triage response type: {type(triage_response)}")
             
+            # Extract triage level from response if available
+            result_text = triage_response.get('result', '')
+            triage_level = None
+            
+            if "TRIAGE_LEVEL:" in result_text:
+                # Extract the triage level from the response
+                triage_parts = result_text.split("TRIAGE_LEVEL:")
+                if len(triage_parts) > 1:
+                    triage_level_line = triage_parts[1].strip().split("\n")[0]
+                    if "physician" in triage_level_line.lower():
+                        triage_level = "physician"
+                    elif "pa" in triage_level_line.lower() or "physician assistant" in triage_level_line.lower():
+                        triage_level = "pa"
+                    elif "nurse" in triage_level_line.lower():
+                        triage_level = "nurse"
+            
+            # If we couldn't extract it, make a default recommendation
+            if not triage_level:
+                # Default to physician for safety if we can't determine
+                triage_level = "physician"
+                
+            # Clean the response for the user (remove the TRIAGE_LEVEL tag)
+            clean_response = result_text.replace("TRIAGE_LEVEL:", "Recommended provider:").strip()
+            
             # Ensure all fields are properly formatted
-            return TriageResponse(
+            response = TriageResponse(
                 symptoms_received=request.symptoms,
-                raw_llm_response=str(triage_response.get('result', '')),
+                raw_llm_response=clean_response,
                 relevant_guidelines=[
                     str(doc.page_content) if hasattr(doc, 'page_content') else str(doc)
                     for doc in triage_response.get('source_documents', [])
                 ],
-                is_gathering_info=False
+                is_gathering_info=False,
+                triage_level=triage_level
             )
+            
+            return response
             
         except Exception as e:
             logger.error(f"Error in LLM processing: {str(e)}", exc_info=True)
@@ -100,7 +145,8 @@ async def triage_patient(request: TriageRequest) -> TriageResponse:
                     symptoms_received=request.symptoms,
                     raw_llm_response="EMERGENCY: Please seek immediate medical attention or call emergency services (911).",
                     relevant_guidelines=[],
-                    is_gathering_info=False
+                    is_gathering_info=False,
+                    triage_level="physician"
                 )
             raise
             
@@ -115,56 +161,99 @@ async def triage_patient(request: TriageRequest) -> TriageResponse:
             relevant_guidelines=[],
             is_gathering_info=False
         )
-        
-@router.post("/auth/providers")
-async def register_provider(provider_data: ProviderCreate):
+
+@router.post("/triage/complete")
+async def complete_triage(triage_data: TriageDataRequest):
+    """
+    Save a completed triage case to the database.
+    """
     try:
-        auth_response, provider_response = await create_provider_account(
-            provider_data.email,
-            provider_data.password,
-            provider_data.role,
-            provider_data.name
+        # Process the triage through the TriageAgent
+        result = await triage_agent.process_triage_result(
+            patient_info=triage_data.patient_info,
+            symptoms=triage_data.symptoms,
+            chat_history=triage_data.chat_history,
+            triage_level=triage_data.triage_level,
+            summary=triage_data.summary
         )
-        return {"message": "Provider created successfully", "provider_id": provider_response.data[0]["id"]}
-    except Exception as e:
-        raise HTTPException(status_code=400, detail=str(e))
-
-@router.post("/auth/login")
-async def login(credentials: ProviderCredentials):
-    try:
-        response = await provider_login(credentials.email, credentials.password)
-        return response
-    except Exception as e:
-        raise HTTPException(status_code=400, detail=str(e))
-
-@router.post("/triage/cases")
-async def submit_triage(triage_data: TriageData):
-    try:
-        patient_dict = triage_data.patient.dict()
-        chat_history = [message.dict() for message in triage_data.chat_history]
         
-        result = await create_triage_case(
-            patient_dict,
-            triage_data.triage_level,
-            triage_data.summary,
-            chat_history
-        )
-        return result
+        if not result.get('success'):
+            raise HTTPException(
+                status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+                detail=result.get('error', 'Failed to save triage case')
+            )
+            
+        return {
+            "message": "Triage case saved successfully",
+            "case_id": result.get('case_id')
+        }
+    except HTTPException:
+        raise
     except Exception as e:
-        raise HTTPException(status_code=400, detail=str(e))
+        logger.error(f"Error completing triage: {str(e)}", exc_info=True)
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=str(e)
+        )
 
-@router.get("/providers/{provider_id}/cases")
-async def list_provider_cases(provider_id: str, status: str = None):
+@router.get("/providers/{provider_id}/cases", dependencies=[Depends(verify_credentials)])
+async def get_provider_cases(provider_id: str, status: Optional[str] = None):
+    """Get all triage cases for a specific provider."""
     try:
-        cases = await get_provider_cases(provider_id, status)
+        cases = await triage_agent.get_provider_triage_cases(provider_id)
+        
+        # Filter by status if provided
+        if status:
+            cases = [case for case in cases if case.get('status') == status]
+            
         return cases
     except Exception as e:
-        raise HTTPException(status_code=400, detail=str(e))
+        logger.error(f"Error fetching provider cases: {str(e)}", exc_info=True)
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=str(e)
+        )
 
-@router.get("/cases/{case_id}/messages")
-async def list_case_messages(case_id: str):
+@router.get("/cases/{case_id}", dependencies=[Depends(verify_credentials)])
+async def get_case_details(case_id: str):
+    """Get full details of a specific triage case."""
     try:
-        messages = await get_case_messages(case_id)
-        return messages
+        case_details = await triage_agent.get_case_details(case_id)
+        
+        if "error" in case_details:
+            raise HTTPException(
+                status_code=status.HTTP_404_NOT_FOUND,
+                detail=case_details["error"]
+            )
+            
+        return case_details
+    except HTTPException:
+        raise
     except Exception as e:
-        raise HTTPException(status_code=400, detail=str(e))
+        logger.error(f"Error fetching case details: {str(e)}", exc_info=True)
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=str(e)
+        )
+
+@router.patch("/cases/{case_id}/status", dependencies=[Depends(verify_credentials)])
+async def update_case_status(case_id: str, status_update: StatusUpdate):
+    """Update the status of a triage case."""
+    try:
+        success = await triage_agent.update_case_status(case_id, status_update.status)
+        
+        if not success:
+            raise HTTPException(
+                status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+                detail="Failed to update case status"
+            )
+            
+        return {"message": f"Case status updated to: {status_update.status}"}
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error updating case status: {str(e)}", exc_info=True)
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=str(e)
+        )

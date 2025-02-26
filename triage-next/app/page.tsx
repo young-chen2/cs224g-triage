@@ -1,7 +1,7 @@
 'use client';
 
 import "./App.css";
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import { INITIAL_MESSAGE } from "./prompts";
 import { ChatHeader } from "./components/ChatHeader";
 import { ChatMessages } from "./components/ChatMessages";
@@ -9,6 +9,7 @@ import { ChatInput } from "./components/ChatInput";
 import { useSpeechRecognition } from "./components/useSpeechRecognition";
 import { AdminPortal } from "./components/AdminPortal";
 import { Login } from "./components/Login";
+import supabase from './components/supabaseClient';
 
 // Define types for the API response
 interface TriageResponse {
@@ -16,35 +17,167 @@ interface TriageResponse {
   raw_llm_response: string;
   relevant_guidelines: string[];
   is_gathering_info: boolean;
+  triage_level?: string;
 }
 
 // Add interface for user
 interface User {
   username: string;
   role: string;
+  id: string;
+}
+
+interface Message {
+  role: string;
+  content: string;
+  guidelines?: string[];
+  is_gathering_info?: boolean;
 }
 
 function App() {
   const [isAdminView, setIsAdminView] = useState(false);
-  const [messages, setMessages] = useState([
+  const [messages, setMessages] = useState<Message[]>([
     { role: "assistant", content: INITIAL_MESSAGE },
   ]);
+  const [patientName, setPatientName] = useState("");
+  const [patientInfo, setPatientInfo] = useState({});
   const [inputMessage, setInputMessage] = useState("");
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [user, setUser] = useState<User | null>(null);
+  const [isSavingTriage, setIsSavingTriage] = useState(false);
+  const [isTriageComplete, setIsTriageComplete] = useState(false);
+  const [triageLevel, setTriageLevel] = useState<string | null>(null);
+
+  // Check for existing session on load
+  useEffect(() => {
+    const checkSession = async () => {
+      const { data } = await supabase.auth.getSession();
+      if (data.session) {
+        // Get provider details
+        const { data: providerData } = await supabase
+          .from('providers')
+          .select('*')
+          .eq('user_id', data.session.user.id)
+          .single();
+          
+        if (providerData) {
+          setUser({
+            username: providerData.name,
+            role: providerData.role,
+            id: providerData.id
+          });
+        }
+      }
+    };
+    
+    checkSession();
+  }, []);
 
   const speak = (text: string) => {
     const utterance = new SpeechSynthesisUtterance(text);
     window.speechSynthesis.speak(utterance);
   };
 
+  // Save completed triage to Supabase
+  const saveTriageToDatabase = async () => {
+    if (!isTriageComplete || !triageLevel || user?.role === 'Patient') return;
+    
+    setIsSavingTriage(true);
+    try {
+      // 1. Create patient record
+      const patientData = {
+        name: patientName || "Anonymous Patient",
+        ...patientInfo
+      };
+      
+      const { data: patientResponse, error: patientError } = await supabase
+        .table('patients')
+        .upsert(patientData)
+        .select()
+        .single();
+        
+      if (patientError) throw patientError;
+      
+      // 2. Format chat history
+      const chatHistory = messages.map(msg => ({
+        sender_type: msg.role === 'assistant' ? 'system' : 'patient',
+        content: msg.content
+      }));
+      
+      // 3. Create triage case
+      const triageData = {
+        patient_id: patientResponse.id,
+        triage_level: triageLevel.toLowerCase(),
+        summary: "Triage completed via AI assistant",
+        status: "pending"
+      };
+      
+      const { data: caseResponse, error: caseError } = await supabase
+        .table('triage_cases')
+        .insert(triageData)
+        .select()
+        .single();
+        
+      if (caseError) throw caseError;
+      
+      // 4. Store chat messages
+      for (const message of chatHistory) {
+        await supabase.table('chat_messages').insert({
+          triage_case_id: caseResponse.id,
+          sender_type: message.sender_type,
+          message: message.content
+        });
+      }
+      
+      // 5. Assign to appropriate provider based on triage level
+      const { data: providerResponse } = await supabase
+        .table('providers')
+        .select('id')
+        .eq('role', triageLevel.toLowerCase())
+        .limit(1);
+      
+      if (providerResponse && providerResponse.length > 0) {
+        await supabase
+          .table('triage_cases')
+          .update({ assigned_provider_id: providerResponse[0].id })
+          .eq('id', caseResponse.id);
+      }
+      
+      alert("Triage case saved successfully!");
+      // Reset conversation
+      setMessages([{ role: "assistant", content: INITIAL_MESSAGE }]);
+      setIsTriageComplete(false);
+      setTriageLevel(null);
+      
+    } catch (error) {
+      console.error("Error saving triage:", error);
+      alert("Failed to save triage case. Please try again.");
+    } finally {
+      setIsSavingTriage(false);
+    }
+  };
+
   const handleSendMessage = useCallback(async (message = inputMessage) => {
     if (message.trim() === "") return;
 
+    // Add user message to conversation
     setMessages((prev) => [...prev, { role: "user", content: message }]);
     setInputMessage("");
 
     try {
+      // If this is the first message and it looks like a name, ask for symptoms
+      if (messages.length === 1 && message.split(" ").length <= 3 && !message.includes("pain") && !message.includes("hurt")) {
+        setPatientName(message);
+        setMessages((prev) => [
+          ...prev, 
+          { 
+            role: "assistant", 
+            content: `Hello ${message}, I'm here to help triage your medical concerns. Please describe your symptoms or what's bothering you today.`
+          }
+        ]);
+        return;
+      }
+
       const response = await fetch('http://127.0.0.1:8000/triage', {
         method: 'POST',
         headers: {
@@ -73,6 +206,18 @@ function App() {
 
       setMessages((prev) => [...prev, assistantMessage]);
       speak(data.raw_llm_response);
+      
+      // Check if triage is complete and set the triage level
+      if (data.triage_level && !data.is_gathering_info) {
+        setIsTriageComplete(true);
+        setTriageLevel(data.triage_level);
+        
+        // If patient is logged in, save automatically
+        if (user?.role === 'Patient') {
+          saveTriageToDatabase();
+        }
+      }
+      
     } catch (error) {
       console.error("Error calling Triage API:", error);
       setMessages((prev) => [
@@ -83,33 +228,26 @@ function App() {
         },
       ]);
     }
-  }, [inputMessage, messages]);
+  }, [inputMessage, messages, patientName, user]);
 
   const { isListening, toggleListening } = useSpeechRecognition(handleSendMessage);
 
-  // Add mock authentication
-  const handleLogin = (username: string, password: string) => {
-    const mockUsers = [
-      { username: 'doctor1', role: 'Physician', password: 'password123' },
-      { username: 'nurse1', role: 'Nurse', password: 'password123' },
-      { username: 'pa1', role: 'PA', password: 'password123' },
-    ];
-
-    const user = mockUsers.find(u => u.username === username && u.password === password);
-    if (user) {
-      setUser({ username: user.username, role: user.role });
-    }
+  // Handle login with Supabase auth
+  const handleLogin = async (userData: User) => {
+    setUser(userData);
   };
 
   // Add patient access handler
   const handlePatientAccess = () => {
-    setUser({ username: 'Patient', role: 'Patient' });
+    setUser({ username: 'Patient', role: 'Patient', id: 'patient' });
   };
 
-  // Add logout handler
-  const handleLogout = () => {
+  // Handle logout
+  const handleLogout = async () => {
+    await supabase.auth.signOut();
     setUser(null);
-    setIsAdminView(false); // Reset admin view on logout
+    setIsAdminView(false);
+    setMessages([{ role: "assistant", content: INITIAL_MESSAGE }]);
   };
 
   // If not logged in, show login screen
@@ -131,10 +269,29 @@ function App() {
         
         <div className={`flex-1 overflow-y-auto`}>
           {isAdminView ? (
-            <AdminPortal isDarkMode={isDarkMode} />
+            <AdminPortal 
+              isDarkMode={isDarkMode} 
+              providerId={user.id}
+            />
           ) : (
             <div className="h-full flex flex-col">
               <ChatMessages messages={messages} />
+              
+              {isTriageComplete && user.role !== 'Patient' && (
+                <div className="p-4 bg-green-100 dark:bg-green-900 border-t border-green-200 dark:border-green-800">
+                  <p className="text-green-800 dark:text-green-200 font-medium">
+                    Triage complete! Recommended provider type: <span className="font-bold">{triageLevel}</span>
+                  </p>
+                  <button 
+                    className="mt-2 bg-green-500 hover:bg-green-600 text-white py-1 px-4 rounded"
+                    onClick={saveTriageToDatabase}
+                    disabled={isSavingTriage}
+                  >
+                    {isSavingTriage ? 'Saving...' : 'Save Triage Case'}
+                  </button>
+                </div>
+              )}
+              
               <ChatInput
                 inputMessage={inputMessage}
                 setInputMessage={setInputMessage}
