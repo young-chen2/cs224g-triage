@@ -17,19 +17,25 @@ interface TriageHistoryProps {
     chatHistories: ChatHistory[];
     isLoading: boolean;
     onUpdateStatus: (caseId: string, newStatus: string) => Promise<boolean>;
+    onReassignCase: (caseId: string, newProviderType: 'nurse' | 'pa' | 'physician') => Promise<boolean>;
+    currentUserRole: 'nurse' | 'pa' | 'physician';
 }
 
 export const TriageHistory = ({
     isDarkMode,
     chatHistories,
     isLoading,
-    onUpdateStatus
+    onUpdateStatus,
+    onReassignCase,
+    currentUserRole
 }: TriageHistoryProps) => {
     const [selectedCase, setSelectedCase] = useState<ChatHistory | null>(null);
     const [isUpdating, setIsUpdating] = useState(false);
+    const [isReassigning, setIsReassigning] = useState(false);
     const [searchQuery, setSearchQuery] = useState('');
     const [filterStatus, setFilterStatus] = useState<string>('all');
     const [filterTriage, setFilterTriage] = useState<string>('all');
+    const [showReassignMenu, setShowReassignMenu] = useState(false);
 
     const handleStatusChange = async (newStatus: string) => {
         if (!selectedCase) return;
@@ -43,6 +49,35 @@ export const TriageHistory = ({
         } finally {
             setIsUpdating(false);
         }
+    };
+
+    const handleReassign = async (newProviderType: 'nurse' | 'pa' | 'physician') => {
+        if (!selectedCase) return;
+
+        setIsReassigning(true);
+        try {
+            const success = await onReassignCase(selectedCase.id, newProviderType);
+            if (success) {
+                setSelectedCase({ ...selectedCase, currentTriage: newProviderType });
+                setShowReassignMenu(false);
+                // Optional: Show success message
+            }
+        } catch (error) {
+            console.error("Error reassigning case:", error);
+            // Optional: Show error message
+        } finally {
+            setIsReassigning(false);
+        }
+    };
+
+    // Get available reassignment options based on current user role
+    const getReassignmentOptions = () => {
+        const allRoles: ('nurse' | 'pa' | 'physician')[] = ['nurse', 'pa', 'physician'];
+        // Filter out the current user's role and the current triage level
+        return allRoles.filter(role =>
+            role !== currentUserRole &&
+            (selectedCase ? role !== selectedCase.currentTriage : true)
+        );
     };
 
     // Filter functions
@@ -86,8 +121,8 @@ export const TriageHistory = ({
                                         value={searchQuery}
                                         onChange={(e) => setSearchQuery(e.target.value)}
                                         className={`w-full px-3 py-2 rounded border ${isDarkMode
-                                                ? 'bg-gray-700 border-gray-600 text-white placeholder-gray-400'
-                                                : 'bg-white border-gray-300 text-gray-900 placeholder-gray-500'
+                                            ? 'bg-gray-700 border-gray-600 text-white placeholder-gray-400'
+                                            : 'bg-white border-gray-300 text-gray-900 placeholder-gray-500'
                                             }`}
                                     />
                                 </div>
@@ -95,8 +130,8 @@ export const TriageHistory = ({
                                     value={filterStatus}
                                     onChange={(e) => setFilterStatus(e.target.value)}
                                     className={`px-3 py-2 rounded border ${isDarkMode
-                                            ? 'bg-gray-700 border-gray-600 text-white'
-                                            : 'bg-white border-gray-300 text-gray-900'
+                                        ? 'bg-gray-700 border-gray-600 text-white'
+                                        : 'bg-white border-gray-300 text-gray-900'
                                         }`}
                                 >
                                     <option value="all">All Status</option>
@@ -108,8 +143,8 @@ export const TriageHistory = ({
                                     value={filterTriage}
                                     onChange={(e) => setFilterTriage(e.target.value)}
                                     className={`px-3 py-2 rounded border ${isDarkMode
-                                            ? 'bg-gray-700 border-gray-600 text-white'
-                                            : 'bg-white border-gray-300 text-gray-900'
+                                        ? 'bg-gray-700 border-gray-600 text-white'
+                                        : 'bg-white border-gray-300 text-gray-900'
                                         }`}
                                 >
                                     <option value="all">All Levels</option>
@@ -167,23 +202,60 @@ export const TriageHistory = ({
                                     <span className="font-semibold">Symptoms:</span> {selectedCase.symptoms}
                                 </p>
 
-                                <div className="mt-4 flex items-center">
-                                    <span className={`mr-2 ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>
-                                        Triaged to:
-                                    </span>
-                                    <span className={`font-semibold capitalize ${selectedCase.currentTriage === 'physician' ? 'text-red-500' :
+                                <div className="mt-4 flex items-center justify-between">
+                                    <div className="flex items-center">
+                                        <span className={`mr-2 ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>
+                                            Triaged to:
+                                        </span>
+                                        <span className={`font-semibold capitalize ${selectedCase.currentTriage === 'physician' ? 'text-red-500' :
                                             selectedCase.currentTriage === 'pa' ? 'text-yellow-500' : 'text-green-500'
-                                        }`}>
-                                        {selectedCase.currentTriage}
-                                    </span>
+                                            }`}>
+                                            {selectedCase.currentTriage}
+                                        </span>
+                                    </div>
+
+                                    {/* Reassign Button and Dropdown */}
+                                    <div className="relative">
+                                        <button
+                                            onClick={() => setShowReassignMenu(!showReassignMenu)}
+                                            className={`px-3 py-1 rounded text-sm ${isDarkMode
+                                                ? 'bg-indigo-600 text-white hover:bg-indigo-700'
+                                                : 'bg-indigo-500 text-white hover:bg-indigo-600'}`}
+                                        >
+                                            Reassign Case
+                                        </button>
+
+                                        {showReassignMenu && (
+                                            <div className={`absolute right-0 mt-1 w-48 rounded-md shadow-lg z-10 ${isDarkMode ? 'bg-gray-800 border border-gray-700' : 'bg-white border border-gray-200'
+                                                }`}>
+                                                <div className="py-1">
+                                                    {getReassignmentOptions().map((role) => (
+                                                        <button
+                                                            key={role}
+                                                            onClick={() => handleReassign(role)}
+                                                            disabled={isReassigning}
+                                                            className={`block w-full text-left px-4 py-2 text-sm capitalize ${isDarkMode
+                                                                    ? 'text-gray-300 hover:bg-gray-700'
+                                                                    : 'text-gray-700 hover:bg-gray-100'
+                                                                } ${isReassigning ? 'opacity-50 cursor-not-allowed' : ''}`}
+                                                        >
+                                                            {isReassigning && selectedCase.currentTriage === role
+                                                                ? 'Reassigning...'
+                                                                : `Reassign to ${role}`}
+                                                        </button>
+                                                    ))}
+                                                </div>
+                                            </div>
+                                        )}
+                                    </div>
                                 </div>
 
                                 <div className="mt-4">
                                     <div className="mb-2">Status:
                                         <span className={`ml-2 px-2 py-1 rounded text-sm font-medium ${selectedCase.status === 'pending' ? 'bg-yellow-200 text-yellow-800' :
-                                                selectedCase.status === 'in_progress' ? 'bg-blue-200 text-blue-800' :
-                                                    selectedCase.status === 'completed' ? 'bg-green-200 text-green-800' :
-                                                        'bg-gray-200 text-gray-800'
+                                            selectedCase.status === 'in_progress' ? 'bg-blue-200 text-blue-800' :
+                                                selectedCase.status === 'completed' ? 'bg-green-200 text-green-800' :
+                                                    'bg-gray-200 text-gray-800'
                                             }`}>
                                             {selectedCase.status === 'pending' ? 'Pending' :
                                                 selectedCase.status === 'in_progress' ? 'In Progress' :
@@ -231,8 +303,8 @@ export const TriageHistory = ({
                                     </h4>
                                     <textarea
                                         className={`w-full p-2 rounded border ${isDarkMode
-                                                ? 'bg-gray-700 border-gray-600 text-white'
-                                                : 'bg-white border-gray-200 text-gray-800'
+                                            ? 'bg-gray-700 border-gray-600 text-white'
+                                            : 'bg-white border-gray-200 text-gray-800'
                                             }`}
                                         rows={3}
                                         placeholder="Add notes about this case..."
@@ -245,8 +317,8 @@ export const TriageHistory = ({
                                 {/* View Full Chat option */}
                                 <div className="mt-4 text-center">
                                     <button className={`px-4 py-2 rounded ${isDarkMode
-                                            ? 'bg-gray-600 text-gray-200 hover:bg-gray-500'
-                                            : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                                        ? 'bg-gray-600 text-gray-200 hover:bg-gray-500'
+                                        : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
                                         }`}>
                                         View Full Chat History
                                     </button>
@@ -269,8 +341,8 @@ export const TriageHistory = ({
                                             key={chat.id}
                                             onClick={() => setSelectedCase(chat)}
                                             className={`border p-3 rounded cursor-pointer transition-colors ${isDarkMode
-                                                    ? 'bg-gray-700 border-gray-600 hover:bg-gray-600'
-                                                    : 'bg-gray-50 border-gray-200 hover:bg-gray-100'
+                                                ? 'bg-gray-700 border-gray-600 hover:bg-gray-600'
+                                                : 'bg-gray-50 border-gray-200 hover:bg-gray-100'
                                                 }`}
                                         >
                                             <div className="flex justify-between items-start">
@@ -288,16 +360,16 @@ export const TriageHistory = ({
 
                                             <div className="mt-2 flex justify-between items-center">
                                                 <span className={`text-xs capitalize px-2 py-0.5 rounded ${chat.currentTriage === 'physician' ? 'bg-red-100 text-red-800' :
-                                                        chat.currentTriage === 'pa' ? 'bg-yellow-100 text-yellow-800' :
-                                                            'bg-green-100 text-green-800'
+                                                    chat.currentTriage === 'pa' ? 'bg-yellow-100 text-yellow-800' :
+                                                        'bg-green-100 text-green-800'
                                                     }`}>
                                                     {chat.currentTriage}
                                                 </span>
 
                                                 <span className={`text-xs px-2 py-0.5 rounded ${chat.status === 'pending' ? 'bg-yellow-100 text-yellow-800' :
-                                                        chat.status === 'in_progress' ? 'bg-blue-100 text-blue-800' :
-                                                            chat.status === 'completed' ? 'bg-green-100 text-green-800' :
-                                                                'bg-gray-100 text-gray-800'
+                                                    chat.status === 'in_progress' ? 'bg-blue-100 text-blue-800' :
+                                                        chat.status === 'completed' ? 'bg-green-100 text-green-800' :
+                                                            'bg-gray-100 text-gray-800'
                                                     }`}>
                                                     {chat.status === 'pending' ? 'Pending' :
                                                         chat.status === 'in_progress' ? 'In Progress' :

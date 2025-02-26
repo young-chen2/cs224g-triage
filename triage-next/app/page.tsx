@@ -148,7 +148,7 @@ function App() {
 
   // Save completed triage to Supabase and backend
   const saveTriageToDatabase = async () => {
-    if (!isTriageComplete || !triageLevel || user?.role === 'Patient') return;
+    if (!isTriageComplete || !triageLevel) return;
 
     setIsSavingTriage(true);
     try {
@@ -207,6 +207,7 @@ function App() {
         .table('providers')
         .select('id')
         .eq('role', triageLevel.toLowerCase())
+        .order('random()')
         .limit(1);
 
       if (providerResponse && providerResponse.length > 0) {
@@ -221,10 +222,6 @@ function App() {
       setMessages([{ role: "assistant", content: INITIAL_MESSAGE }]);
       setIsTriageComplete(false);
       setTriageLevel(null);
-
-    } catch (error) {
-      console.error("Error saving triage:", error);
-      alert("Failed to save triage case. Please try again.");
     } finally {
       setIsSavingTriage(false);
     }
@@ -358,7 +355,7 @@ function App() {
             <div className="h-full flex flex-col">
               <ChatMessages messages={messages} />
 
-              {isTriageComplete && user.role !== 'Patient' && (
+              {isTriageComplete && user.role == 'Patient' && (
                 <div className="p-4 bg-green-100 dark:bg-green-900 border-t border-green-200 dark:border-green-800">
                   <p className="text-green-800 dark:text-green-200 font-medium">
                     Triage complete! Recommended provider type: <span className="font-bold">{triageLevel}</span>

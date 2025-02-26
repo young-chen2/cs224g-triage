@@ -98,8 +98,6 @@ async def triage_patient(request: TriageRequest) -> TriageResponse:
             # Check for READY_FOR_TRIAGE flag
             if "READY_FOR_TRIAGE" in assessment_result:
                 logger.info("Assessment indicates ready for triage. Proceeding with final triage.")
-            else:
-                logger.info(f"Assessment complete. Proceeding with triage.")
             
             # Full triage assessment
             triage_query = get_triage_query(conversation_context, request.symptoms)
