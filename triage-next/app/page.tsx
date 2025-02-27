@@ -174,7 +174,7 @@ function App() {
       };
 
       const { data: patientResponse, error: patientError } = await supabase
-        .table('patients')
+        .from('patients')
         .upsert(patientData)
         .select()
         .single();
@@ -197,7 +197,7 @@ function App() {
       };
 
       const { data: caseResponse, error: caseError } = await supabase
-        .table('triage_cases')
+        .from('triage_cases')
         .insert(triageData)
         .select()
         .single();
@@ -206,7 +206,7 @@ function App() {
 
       // 4. Store chat messages
       for (const message of chatHistory) {
-        await supabase.table('chat_messages').insert({
+        await supabase.from('chat_messages').insert({
           triage_case_id: caseResponse.id,
           sender_type: message.sender_type,
           message: message.content
@@ -215,7 +215,7 @@ function App() {
 
       // 5. Assign to appropriate provider based on triage level
       const { data: providerResponse } = await supabase
-        .table('providers')
+        .from('providers')
         .select('id')
         .eq('role', triageLevel.toLowerCase())
         .order('random()')
@@ -223,7 +223,7 @@ function App() {
 
       if (providerResponse && providerResponse.length > 0) {
         await supabase
-          .table('triage_cases')
+          .from('triage_cases')
           .update({ assigned_provider_id: providerResponse[0].id })
           .eq('id', caseResponse.id);
       }
