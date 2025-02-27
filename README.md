@@ -83,7 +83,12 @@ This project uses Poetry for Python dependency management. Here's how to get sta
 
 Triage's backend uses FastAPI and LangChain for the API layer. Follow these steps to set up:
 
-1. Paste your own OpenAI API key into the `.env` file
+1. Paste your own OpenAI API key into the `.env` file, along with our Supabase API keys and a flag called DEV_MODE:
+```
+SUPABASE_URL=https://glywofkvlxetpjaczarj.supabase.co
+SUPABASE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdseXdvZmt2bHhldHBqYWN6YXJqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDA1MjMzODUsImV4cCI6MjA1NjA5OTM4NX0.-eddCtmxOD_QGAcMWdk7H92RgpVn7ioj3w8XdFHllrs
+DEV_MODE=false
+```
 
 2. Start the FastAPI server from the root directory (`/cs224g-triage`) by running:
 ```bash
