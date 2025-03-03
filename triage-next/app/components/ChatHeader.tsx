@@ -23,14 +23,6 @@ export const ChatHeader = ({
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
 
-    const handleViewChange = () => {
-        if (!isAdminView) {
-            setShowPasswordModal(true);
-        } else {
-            onViewChange(false);
-        }
-    };
-
     const handleAdminAccess = () => {
         if (password === '2025') {
             setShowPasswordModal(false);

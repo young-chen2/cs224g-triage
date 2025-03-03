@@ -28,7 +28,7 @@ interface User {
 }
 
 interface Message {
-  role: string;
+  role: "assistant" | "user";
   content: string;
   guidelines?: string[];
   is_gathering_info?: boolean;
@@ -40,7 +40,7 @@ function App() {
     { role: "assistant", content: INITIAL_MESSAGE },
   ]);
   const [patientName, setPatientName] = useState("");
-  const [patientInfo, setPatientInfo] = useState({});
+  const [patientInfo] = useState({});
   const [inputMessage, setInputMessage] = useState("");
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [user, setUser] = useState<User | null>(null);
@@ -56,11 +56,11 @@ function App() {
       // Check for any stored user data in localStorage
       const storedUser = localStorage.getItem('user');
       const storedAdminView = localStorage.getItem('isAdminView');
-      
+
       if (storedUser) {
         const userData = JSON.parse(storedUser);
         setUser(userData);
-        
+
         // If admin view state was stored, restore it
         if (storedAdminView) {
           setIsAdminView(storedAdminView === 'true');
@@ -90,7 +90,7 @@ function App() {
   };
 
   // Call the complete_triage endpoint on the backend
-  const completeTriageWithAPI = async () => {
+  const completeTriageWithAPI = useCallback(async () => {
     if (!isTriageComplete || !triageLevel) return;
 
     try {
@@ -108,7 +108,7 @@ function App() {
       }));
 
       // Extract allergies from conversation (simple extraction for demo)
-      let allergies = [];
+      let allergies: string[] = [];
       if (userMessages.some(msg => msg.toLowerCase().includes("allergic to"))) {
         const allergyMessages = userMessages.filter(msg =>
           msg.toLowerCase().includes("allergic to") ||
@@ -155,10 +155,10 @@ function App() {
       console.error("Error completing triage with API:", error);
       throw error;
     }
-  };
+  }, [isTriageComplete, triageLevel, messages, patientName]);
 
   // Save completed triage to Supabase and backend
-  const saveTriageToDatabase = async () => {
+  const saveTriageToDatabase = useCallback(async () => {
     if (!isTriageComplete || !triageLevel) return;
 
     setIsSavingTriage(true);
@@ -236,7 +236,7 @@ function App() {
     } finally {
       setIsSavingTriage(false);
     }
-  };
+  }, [isTriageComplete, triageLevel, completeTriageWithAPI, patientName, patientInfo, messages]);
 
   const handleSendMessage = useCallback(async (message = inputMessage) => {
     if (message.trim() === "") return;
@@ -314,7 +314,7 @@ function App() {
         },
       ]);
     }
-  }, [inputMessage, messages, patientName, user]);
+  }, [inputMessage, messages, user, completeTriageWithAPI, saveTriageToDatabase]);
 
   const { isListening, toggleListening } = useSpeechRecognition(handleSendMessage);
 
@@ -324,7 +324,7 @@ function App() {
     // Set admin view for non-patient users
     const shouldBeAdminView = userData.role !== "Patient";
     setIsAdminView(shouldBeAdminView);
-    
+
     // Store in localStorage for persistence
     localStorage.setItem('user', JSON.stringify(userData));
     localStorage.setItem('isAdminView', shouldBeAdminView.toString());
@@ -335,7 +335,7 @@ function App() {
     const patientUser = { username: 'Patient', role: 'Patient', id: 'patient' };
     setUser(patientUser);
     setIsAdminView(false);
-    
+
     // Store in localStorage for persistence
     localStorage.setItem('user', JSON.stringify(patientUser));
     localStorage.setItem('isAdminView', 'false');
@@ -346,14 +346,14 @@ function App() {
     // Clear user data from localStorage
     localStorage.removeItem('user');
     localStorage.removeItem('isAdminView');
-    
+
     // Still call Supabase signOut for completeness if using Supabase elsewhere
     try {
       await supabase.auth.signOut();
     } catch (error) {
       console.error("Error signing out from Supabase:", error);
     }
-    
+
     // Reset application state
     setUser(null);
     setIsAdminView(false);

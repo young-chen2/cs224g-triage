@@ -91,7 +91,7 @@ export const AdminPortal = ({
                     formattedCases.push({
                         id: caseItem.id,
                         timestamp: new Date(caseItem.created_at).toLocaleString(),
-                        patientName: caseItem.patients?.name || 'Unknown Patient',
+                        patientName: caseItem.patients[0]?.name || 'Unknown Patient',
                         symptoms: firstMessage,
                         chatContext: 'Click to view full conversation',
                         currentTriage: caseItem.triage_level as 'nurse' | 'pa' | 'physician',
@@ -208,7 +208,7 @@ export const AdminPortal = ({
             return false;
         }
     };
-    
+
     return (
         <div className="max-w-7xl mx-auto p-4 space-y-6">
             {error && (
