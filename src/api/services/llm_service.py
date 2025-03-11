@@ -19,7 +19,7 @@ class BasicLLM:
        self.llm = ChatOpenAI(
            api_key=openai_api_key,
            model="gpt-4o-mini",
-           temperature=0.2,
+           temperature=0,
            max_retries=3
        )
        self.chat_history: List[Tuple[str, str]] = []
@@ -91,11 +91,15 @@ class LangChainBase:
            llm=ChatOpenAI(
                api_key=openai_api_key,
                model="gpt-4o-mini",
-               temperature=0.2,
-               max_retries=3
+               temperature=0,
+               max_retries=5,
+               streaming=True
            ),
-           chain_type="stuff",
-           retriever=self.vector_store.as_retriever(),
+           chain_type="refine",
+           retriever = self.vector_store.as_retriever(
+                search_type="mmr",  # Maximal Marginal Relevance for diverse retrieval
+                search_kwargs={"k": 10, "fetch_k": 50, "similarity_score_threshold": 0.75}
+            ),
            return_source_documents=True
        )
 
@@ -114,6 +118,7 @@ class ConversationalLLM(LangChainBase):
             api_key=openai_api_key,
             model="gpt-4o-mini",
             temperature=0,
+            max_retries=3
         )
         self.chat_history: List[Tuple[str, str]] = []
         super().__init__()
@@ -122,8 +127,9 @@ class ConversationalLLM(LangChainBase):
         """Override to create conversational retrieval chain."""
         return ConversationalRetrievalChain.from_llm(
             llm=self.llm,
-            retriever=self.vector_store.as_retriever(
-                search_kwargs={"k": 10}  # Limit to top 3 most relevant documents
+            retriever = self.vector_store.as_retriever(
+                search_type="mmr",  # Maximal Marginal Relevance for diverse retrieval
+                search_kwargs={"k": 10, "fetch_k": 50, "similarity_score_threshold": 0.75}
             ),
             return_source_documents=True,
             verbose=True

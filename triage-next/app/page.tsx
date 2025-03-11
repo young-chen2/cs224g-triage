@@ -25,6 +25,8 @@ interface User {
   username: string;
   role: string;
   id: string;
+  // Add account_id for patient users
+  account_id?: string;
 }
 
 interface Message {
@@ -60,13 +62,21 @@ function App() {
       if (storedUser) {
         const userData = JSON.parse(storedUser);
         setUser(userData);
+        
+        // Set patient name from username if it's a patient
+        if (userData.role === "patient" || userData.role === "Patient") {
+          setPatientName(userData.username);
+        }
 
         // If admin view state was stored, restore it
         if (storedAdminView) {
           setIsAdminView(storedAdminView === 'true');
-        } else if (userData.role !== "Patient") {
+        } else if (userData.role !== "patient" && userData.role !== "Patient") {
           // Default to admin view for non-patient users
           setIsAdminView(true);
+        } else {
+          // Ensure patients always see chat view, not admin
+          setIsAdminView(false);
         }
       }
     } catch (error) {
@@ -133,7 +143,9 @@ function App() {
             gender: null,
             allergies: allergies,
             medications: [],
-            contact_info: {}
+            contact_info: {},
+            // Include account_id for registered patients
+            account_id: user?.account_id || user?.id
           },
           symptoms: allSymptoms,
           chat_history: chatHistory,
@@ -155,7 +167,7 @@ function App() {
       console.error("Error completing triage with API:", error);
       throw error;
     }
-  }, [isTriageComplete, triageLevel, messages, patientName]);
+  }, [isTriageComplete, triageLevel, messages, patientName, user]);
 
   // Save completed triage to Supabase and backend
   const saveTriageToDatabase = useCallback(async () => {
@@ -170,6 +182,7 @@ function App() {
       // 1. Create patient record
       const patientData = {
         name: patientName || "Anonymous Patient",
+        account_id: user?.account_id || user?.id, // Store account_id
         ...patientInfo
       };
 
@@ -236,7 +249,7 @@ function App() {
     } finally {
       setIsSavingTriage(false);
     }
-  }, [isTriageComplete, triageLevel, completeTriageWithAPI, patientName, patientInfo, messages]);
+  }, [isTriageComplete, triageLevel, completeTriageWithAPI, patientName, patientInfo, messages, user]);
 
   const handleSendMessage = useCallback(async (message = inputMessage) => {
     if (message.trim() === "") return;
@@ -247,7 +260,8 @@ function App() {
 
     try {
       // If this is the first message and it looks like a name, ask for symptoms
-      if (messages.length === 1 && message.split(" ").length <= 3 && !message.includes("pain") && !message.includes("hurt")) {
+      // Skip name detection if we already know the user
+      if (messages.length === 1 && !patientName && message.split(" ").length <= 3 && !message.includes("pain") && !message.includes("hurt")) {
         setPatientName(message);
         setMessages((prev) => [
           ...prev,
@@ -298,7 +312,7 @@ function App() {
         setTriageLevel(data.triage_level);
 
         // If patient is logged in, save automatically
-        if (user?.role === 'Patient') {
+        if (user?.role === 'patient' || user?.role === 'Patient') {
           await completeTriageWithAPI();  // Send to backend API
           saveTriageToDatabase();  // Also save to Supabase as backup
         }
@@ -314,15 +328,21 @@ function App() {
         },
       ]);
     }
-  }, [inputMessage, messages, user, completeTriageWithAPI, saveTriageToDatabase]);
+  }, [inputMessage, messages, patientName, user, completeTriageWithAPI, saveTriageToDatabase]);
 
   const { isListening, toggleListening } = useSpeechRecognition(handleSendMessage);
 
   // Handle login (no longer dependent on Supabase auth)
   const handleLogin = async (userData: User) => {
     setUser(userData);
+    
+    // Set patient name if it's a patient user
+    if (userData.role.toLowerCase() === "patient") {
+      setPatientName(userData.username);
+    }
+    
     // Set admin view for non-patient users
-    const shouldBeAdminView = userData.role !== "Patient";
+    const shouldBeAdminView = userData.role.toLowerCase() !== "patient";
     setIsAdminView(shouldBeAdminView);
 
     // Store in localStorage for persistence
@@ -332,9 +352,14 @@ function App() {
 
   // Add patient access handler
   const handlePatientAccess = () => {
-    const patientUser = { username: 'Patient', role: 'Patient', id: 'patient' };
+    const patientUser = { 
+      username: 'Guest Patient', 
+      role: 'Patient', 
+      id: 'guest-' + Math.random().toString(36).substring(2, 9) // Generate random ID for guests
+    };
     setUser(patientUser);
     setIsAdminView(false);
+    setPatientName('Guest Patient');
 
     // Store in localStorage for persistence
     localStorage.setItem('user', JSON.stringify(patientUser));
@@ -358,6 +383,7 @@ function App() {
     setUser(null);
     setIsAdminView(false);
     setMessages([{ role: "assistant", content: INITIAL_MESSAGE }]);
+    setPatientName("");
   };
 
   // If still loading, show a loading indicator
@@ -384,13 +410,19 @@ function App() {
           isDarkMode={isDarkMode}
           setIsDarkMode={setIsDarkMode}
           isAdminView={isAdminView}
-          onViewChange={setIsAdminView}
+          onViewChange={(value) => {
+            // Prevent patients from accessing admin view
+            if (user.role.toLowerCase() === "patient" && value === true) {
+              return;
+            }
+            setIsAdminView(value);
+          }}
           user={user}
           onLogout={handleLogout}
         />
 
         <div className={`flex-1 overflow-y-auto`}>
-          {isAdminView ? (
+          {isAdminView && user.role.toLowerCase() !== "patient" ? (
             <AdminPortal
               isDarkMode={isDarkMode}
               providerId={user.id}
@@ -399,7 +431,7 @@ function App() {
             <div className="h-full flex flex-col">
               <ChatMessages messages={messages} />
 
-              {isTriageComplete && user.role == 'Patient' && (
+              {isTriageComplete && (
                 <div className="p-4 bg-green-100 dark:bg-green-900 border-t border-green-200 dark:border-green-800">
                   <p className="text-green-800 dark:text-green-200 font-medium">
                     Triage complete! Recommended provider type: <span className="font-bold">{triageLevel}</span>

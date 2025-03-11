@@ -13,7 +13,7 @@ async def register_provider(provider_data: ProviderCreate):
     """
     try:
         # Validate role
-        valid_roles = ["physician", "nurse", "pa"]
+        valid_roles = ["physician", "nurse", "pa", "patient"]
         if provider_data.role.lower() not in valid_roles:
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST,

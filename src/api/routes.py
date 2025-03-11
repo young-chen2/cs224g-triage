@@ -79,8 +79,8 @@ async def triage_patient(request: TriageRequest) -> TriageResponse:
         
         # Initial assessment with proper error handling
         try:
-            # assessment_query = get_assessment_query(conversation_context, request.symptoms)
-            assessment_query = get_assessment_query_v2(conversation_context, request.symptoms)
+            assessment_query = get_assessment_query(conversation_context, request.symptoms)
+            # assessment_query = get_assessment_query_v2(conversation_context, request.symptoms)
             assessment_response = llm_assessor.process_query(assessment_query)
             
             if not isinstance(assessment_response, dict):

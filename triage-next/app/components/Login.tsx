@@ -185,6 +185,7 @@ export const Login = ({ onLogin, onPatientAccess }: LoginProps) => {
                   value={role}
                   onChange={(e) => setRole(e.target.value)}
                 >
+                  <option value="patient">Patient</option>
                   <option value="physician">Physician</option>
                   <option value="nurse">Nurse</option>
                   <option value="pa">Physician Assistant</option>
@@ -265,7 +266,7 @@ export const Login = ({ onLogin, onPatientAccess }: LoginProps) => {
                 disabled={isLoading}
                 className={`group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 ${isLoading ? 'opacity-70 cursor-not-allowed' : ''}`}
               >
-                {isLoading ? 'Signing in...' : 'Sign in as Staff'}
+                {isLoading ? 'Signing in...' : 'Sign in 🔑'}
               </button>
               
               <button
@@ -273,7 +274,7 @@ export const Login = ({ onLogin, onPatientAccess }: LoginProps) => {
                 onClick={() => setIsRegistering(true)}
                 className="group relative w-full flex justify-center py-2 px-4 border border-purple-500 text-sm font-medium rounded-md text-purple-400 bg-transparent hover:bg-purple-500/10 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500"
               >
-                Register as Provider
+                Register
               </button>
               
               <button
@@ -282,7 +283,7 @@ export const Login = ({ onLogin, onPatientAccess }: LoginProps) => {
                 disabled={isLoading}
                 className="group relative w-full flex justify-center py-2 px-4 border border-green-500 text-sm font-medium rounded-md text-green-400 bg-transparent hover:bg-green-500/10 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
               >
-                Continue as Patient
+                Continue as Guest Patient
               </button>
             </div>
           </form>
@@ -294,6 +295,7 @@ export const Login = ({ onLogin, onPatientAccess }: LoginProps) => {
             <li>doctor@example.com - Physician</li>
             <li>nurse@example.com - Nurse</li>
             <li>pa@example.com - PA</li>
+            <li>patient1@example.com - Patient</li>
             <li>Password for all: password123</li>
           </ul>
         </div>
