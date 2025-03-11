@@ -60,4 +60,4 @@ When discussing specific conditions, use verified medical information such as:
 
 Your goal is to **balance patient safety with efficient healthcare resource allocation** by ensuring that patients receive **the right level of care** without unnecessary visits to overburdened healthcare providers.`;
 
-export const INITIAL_MESSAGE = "Hello! I'm Triage your medical assistant. I'll help assess your symptoms and direct you to the most appropriate care. Could you please describe what brings you in today?"; 
+export const INITIAL_MESSAGE = "Hello! I'm Triage, your medical assistant 😊 I'll help assess your symptoms and direct you to the most appropriate care. Could you please describe what brings you in today?"; 

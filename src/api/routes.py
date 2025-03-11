@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException, status, Depends
 from src.api.models import *
 from src.api.services.llm_service import BasicLLM, ConversationalLLM, TriageAgent
-from src.prompts import get_assessment_query, get_triage_query
+from src.prompts import get_assessment_query, get_assessment_query_v2, get_triage_query
 import logging
 from typing import List, Dict, Optional
 from fastapi.security import HTTPBasic, HTTPBasicCredentials
@@ -15,6 +15,8 @@ security = HTTPBasic()
 llm_assessor = BasicLLM()
 # Use ConversationalLLM with retrieval for final triage
 llm_triager = ConversationalLLM()
+res = llm_triager.process_query("I have weakness, confusion, cold and clammy skin, and a rapid heartbeat, and I am a 24-year-old female.")
+logger.info(f'\nTEST RESULT:\n {res}')
 # TriageAgent for database operations
 triage_agent = TriageAgent()
 
@@ -77,7 +79,8 @@ async def triage_patient(request: TriageRequest) -> TriageResponse:
         
         # Initial assessment with proper error handling
         try:
-            assessment_query = get_assessment_query(conversation_context, request.symptoms)
+            # assessment_query = get_assessment_query(conversation_context, request.symptoms)
+            assessment_query = get_assessment_query_v2(conversation_context, request.symptoms)
             assessment_response = llm_assessor.process_query(assessment_query)
             
             if not isinstance(assessment_response, dict):
@@ -110,9 +113,11 @@ async def triage_patient(request: TriageRequest) -> TriageResponse:
             result_text = triage_response.get('result', '')
             triage_level = None
             
-            if "Recommended care level:" in result_text:
+            logger.info(f'Here is the triange result: \n{result_text}')
+            
+            if "Recommended Care Level" in result_text:
                 # Extract the triage level from the response
-                triage_parts = result_text.split("TRIAGE_LEVEL:")
+                triage_parts = result_text.split("Recommended Care Level")
                 if len(triage_parts) > 1:
                     triage_level_line = triage_parts[1].strip().split("\n")[0]
                     if "physician" in triage_level_line.lower():
@@ -122,14 +127,12 @@ async def triage_patient(request: TriageRequest) -> TriageResponse:
                     elif "nurse" in triage_level_line.lower():
                         triage_level = "nurse"
             
-            # If we couldn't extract it, make a default recommendation
             if not triage_level:
                 # Default to physician for safety if we can't determine
                 triage_level = "physician"
                 
             # Clean the response for the user (remove the TRIAGE_LEVEL tag)
             clean_response = result_text
-            clean_response = clean_response.replace("TRIAGE_LEVEL:", "Recommended provider:").strip()
             clean_response = clean_response.replace("READY_FOR_TRIAGE", "").strip()
             
             # Ensure all fields are properly formatted
