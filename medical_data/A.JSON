@@ -1,0 +1,2072 @@
+[
+  {
+    "condition": "Abdominal Aortic Aneurysm (AAA)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "An abdominal aortic aneurysm (AAA) is a bulging or dilation of the abdominal aorta, the largest blood vessel in the body."
+      ],
+      "Alternative Names": [
+        "AAA"
+      ],
+      "Causes": [
+        "Atherosclerosis",
+        "High blood pressure",
+        "Genetic factors",
+        "Infection"
+      ],
+      "Symptoms": [
+        "Often asymptomatic until rupture",
+        "Abdominal pain",
+        "Back pain",
+        "Pulsating feeling near the navel"
+      ],
+      "Diagnosis": [
+        "Ultrasound",
+        "CT scan",
+        "MRI"
+      ],
+      "Treatment": [
+        "Monitoring for small aneurysms",
+        "Surgical repair for larger aneurysms",
+        "Endovascular stent grafting"
+      ]
+    }
+  },
+  {
+    "condition": "Achilles Tendonitis",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Achilles tendonitis is an overuse injury causing pain and inflammation of the Achilles tendon."
+      ],
+      "Alternative Names": [
+        "Achilles tendinopathy"
+      ],
+      "Causes": [
+        "Repetitive stress on the tendon",
+        "Improper footwear",
+        "Sudden increase in physical activity",
+        "Tight calf muscles"
+      ],
+      "Symptoms": [
+        "Pain along the back of the heel",
+        "Stiffness in the morning",
+        "Swelling near the tendon",
+        "Difficulty walking or running"
+      ],
+      "Diagnosis": [
+        "Physical examination",
+        "Ultrasound",
+        "MRI"
+      ],
+      "Treatment": [
+        "Rest and ice",
+        "Physical therapy",
+        "Anti-inflammatory medications",
+        "Surgery in severe cases"
+      ]
+    }
+  },
+  {
+    "condition": "Acne",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Acne is a common skin condition that occurs when hair follicles become clogged with oil and dead skin cells."
+      ],
+      "Alternative Names": [
+        "Acne vulgaris"
+      ],
+      "Causes": [
+        "Hormonal changes",
+        "Excess oil production",
+        "Bacteria",
+        "Certain medications"
+      ],
+      "Symptoms": [
+        "Whiteheads",
+        "Blackheads",
+        "Pimples",
+        "Cysts"
+      ],
+      "Diagnosis": [
+        "Physical examination",
+        "Medical history"
+      ],
+      "Treatment": [
+        "Topical treatments (e.g., benzoyl peroxide, retinoids)",
+        "Oral medications (e.g., antibiotics, hormonal treatments)",
+        "Laser therapy",
+        "Chemical peels"
+      ]
+    }
+  },
+  {
+    "condition": "Acoustic Neuroma (Vestibular Schwannoma)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "An acoustic neuroma is a benign tumor that develops on the vestibulocochlear nerve, which connects the inner ear to the brain."
+      ],
+      "Alternative Names": [
+        "Vestibular schwannoma"
+      ],
+      "Causes": [
+        "Exact cause unknown; often associated with genetic conditions like Neurofibromatosis type II"
+      ],
+      "Symptoms": [
+        "Hearing loss",
+        "Tinnitus (ringing in the ears)",
+        "Balance problems",
+        "Facial numbness or weakness"
+      ],
+      "Diagnosis": [
+        "MRI",
+        "CT scan",
+        "Hearing tests"
+      ],
+      "Treatment": [
+        "Observation for small tumors",
+        "Surgery to remove the tumor",
+        "Radiation therapy"
+      ]
+    }
+  },
+  {
+    "condition": "Acute Kidney Injury (AKI)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Acute kidney injury is a sudden episode of kidney failure or kidney damage that occurs within a few hours or a few days."
+      ],
+      "Alternative Names": [
+        "Acute renal failure"
+      ],
+      "Causes": [
+        "Decreased blood flow to the kidneys",
+        "Direct damage to the kidneys",
+        "Obstruction of urine flow"
+      ],
+      "Symptoms": [
+        "Decreased urine output",
+        "Swelling in legs and ankles",
+        "Fatigue",
+        "Nausea"
+      ],
+      "Diagnosis": [
+        "Blood tests (creatinine levels)",
+        "Urine tests",
+        "Imaging tests (ultrasound)"
+      ],
+      "Treatment": [
+        "Treating the underlying cause",
+        "Dialysis in severe cases",
+        "Fluid management"
+      ]
+    }
+  },
+  {
+    "condition": "Acute Lymphocytic Leukemia (ALL)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Acute lymphocytic leukemia is a type of cancer that affects the blood and bone marrow, characterized by the overproduction of immature white blood cells."
+      ],
+      "Alternative Names": [
+        "Acute lymphoblastic leukemia"
+      ],
+      "Causes": [
+        "Exact cause unknown; genetic mutations may play a role"
+      ],
+      "Symptoms": [
+        "Fatigue",
+        "Frequent infections",
+        "Easy bruising or bleeding",
+        "Weight loss"
+      ],
+      "Diagnosis": [
+        "Blood tests",
+        "Bone marrow biopsy",
+        "Genetic tests"
+      ],
+      "Treatment": [
+        "Chemotherapy",
+        "Targeted therapy",
+        "Stem cell transplant"
+      ]
+    }
+  },
+  {
+    "condition": "Acute Myeloid Leukemia (AML)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Acute myeloid leukemia is a type of cancer that starts in the blood-forming cells of the bone marrow and invades the blood."
+      ],
+      "Alternative Names": [
+        "Acute myelogenous leukemia"
+      ],
+      "Causes": [
+        "Genetic mutations",
+        "Previous chemotherapy or radiation therapy",
+        "Exposure to certain chemicals"
+      ],
+      "Symptoms": [
+        "Fatigue",
+        "Fever",
+        "Frequent infections",
+        "Easy bruising or bleeding"
+      ],
+      "Diagnosis": [
+        "Blood tests",
+        "Bone marrow biopsy",
+        "Genetic tests"
+      ],
+      "Treatment": [
+        "Chemotherapy",
+        "Stem cell transplant",
+        "Targeted therapy"
+      ]
+    }
+  },
+  {
+    "condition": "Acute Respiratory Distress Syndrome (ARDS)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Acute respiratory distress syndrome is a severe lung condition that occurs when fluid builds up in the air sacs of the lungs."
+      ],
+      "Alternative Names": [
+        "ARDS"
+      ],
+      "Causes": [
+        "Pneumonia",
+        "Sepsis",
+        "Inhalation of harmful substances",
+        "Trauma"
+      ],
+      "Symptoms": [
+        "Severe shortness of breath",
+        "Rapid breathing",
+        "Low blood oxygen levels",
+        "Coughing"
+      ],
+      "Diagnosis": [
+        "Chest X-ray",
+        "CT scan",
+        "Blood tests"
+      ],
+      "Treatment": [
+        "Mechanical ventilation",
+        "Oxygen therapy",
+        "Treating the underlying cause"
+      ]
+    }
+  },
+  {
+    "condition": "Adamantinoma",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Adamantinoma is a rare bone tumor that typically occurs in the long bones, particularly the tibia."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Exact cause unknown; may be related to genetic factors"
+      ],
+      "Symptoms": [
+        "Pain and swelling at the tumor site",
+        "Fractures in the affected bone",
+        "Limited range of motion"
+      ],
+      "Diagnosis": [
+        "X-rays",
+        "MRI",
+        "Biopsy"
+      ],
+      "Treatment": [
+        "Surgical removal of the tumor",
+        "Radiation therapy in some cases"
+      ]
+    }
+  },
+  {
+    "condition": "Addison's Disease",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Addison's disease is a disorder that occurs when the adrenal glands do not produce enough hormones."
+      ],
+      "Alternative Names": [
+        "Adrenal insufficiency"
+      ],
+      "Causes": [
+        "Autoimmune response",
+        "Infections",
+        "Adrenal gland damage"
+      ],
+      "Symptoms": [
+        "Fatigue",
+        "Weight loss",
+        "Low blood pressure",
+        "Darkening of the skin"
+      ],
+      "Diagnosis": [
+        "Blood tests",
+        "ACTH stimulation test",
+        "Imaging tests"
+      ],
+      "Treatment": [
+        "Hormone replacement therapy",
+        "Regular monitoring"
+      ]
+    }
+  },
+  {
+    "condition": "Adult Congenital Heart Disease",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Adult congenital heart disease refers to heart defects that are present at birth but may not be diagnosed until adulthood."
+      ],
+      "Alternative Names": [
+        "ACHD"
+      ],
+      "Causes": [
+        "Genetic factors",
+        "Environmental factors during pregnancy"
+      ],
+      "Symptoms": [
+        "Shortness of breath",
+        "Fatigue",
+        "Heart palpitations",
+        "Cyanosis"
+      ],
+      "Diagnosis": [
+        "Echocardiogram",
+        "MRI",
+        "Cardiac catheterization"
+      ],
+      "Treatment": [
+        "Medications",
+        "Surgery",
+        "Regular follow-up with a cardiologist"
+      ]
+    }
+  },
+  {
+    "condition": "Airway Stenosis (Tracheal Stenosis)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Airway stenosis is a narrowing of the airway that can lead to breathing difficulties."
+      ],
+      "Alternative Names": [
+        "Tracheal stenosis"
+      ],
+      "Causes": [
+        "Congenital defects",
+        "Injury or trauma",
+        "Inflammation or infection"
+      ],
+      "Symptoms": [
+        "Difficulty breathing",
+        "Wheezing",
+        "Coughing",
+        "Stridor"
+      ],
+      "Diagnosis": [
+        "Bronchoscopy",
+        "Imaging tests (CT scan, X-ray)"
+      ],
+      "Treatment": [
+        "Surgical intervention to widen the airway",
+        "Stenting",
+        "Management of underlying conditions"
+      ]
+    }
+  },
+  {
+    "condition": "Alcoholism",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Alcoholism is a chronic disease characterized by an inability to control or stop drinking despite negative consequences."
+      ],
+      "Alternative Names": [
+        "Alcohol use disorder"
+      ],
+      "Causes": [
+        "Genetic predisposition",
+        "Environmental factors",
+        "Psychological factors"
+      ],
+      "Symptoms": [
+        "Craving alcohol",
+        "Loss of control over drinking",
+        "Withdrawal symptoms",
+        "Neglecting responsibilities"
+      ],
+      "Diagnosis": [
+        "Clinical assessment",
+        "Screening tools (e.g., AUDIT)"
+      ],
+      "Treatment": [
+        "Counseling and therapy",
+        "Medications (e.g., naltrexone)",
+        "Support groups (e.g., AA)"
+      ]
+    }
+  },
+  {
+    "condition": "Allergic Rhinitis",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Allergic rhinitis is an allergic reaction that causes sneezing, congestion, and other symptoms."
+      ],
+      "Alternative Names": [
+        "Hay fever"
+      ],
+      "Causes": [
+        "Pollen",
+        "Dust mites",
+        "Mold",
+        "Pet dander"
+      ],
+      "Symptoms": [
+        "Sneezing",
+        "Runny or stuffy nose",
+        "Itchy eyes",
+        "Coughing"
+      ],
+      "Diagnosis": [
+        "Allergy testing",
+        "Physical examination"
+      ],
+      "Treatment": [
+        "Antihistamines",
+        "Nasal corticosteroids",
+        "Avoidance of allergens"
+      ]
+    }
+  },
+  {
+    "condition": "Allergic Vasculitis",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Allergic vasculitis is an inflammation of the blood vessels caused by an allergic reaction."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Allergic reactions to medications or infections"
+      ],
+      "Symptoms": [
+        "Rash",
+        "Fever",
+        "Joint pain",
+        "Fatigue"
+      ],
+      "Diagnosis": [
+        "Blood tests",
+        "Skin biopsy"
+      ],
+      "Treatment": [
+        "Corticosteroids",
+        "Avoidance of allergens"
+      ]
+    }
+  },
+  {
+    "condition": "Allergies",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Allergies are immune system reactions to substances that are typically harmless."
+      ],
+      "Alternative Names": [
+        "Allergic reactions"
+      ],
+      "Causes": [
+        "Pollen",
+        "Food",
+        "Insect stings",
+        "Medications"
+      ],
+      "Symptoms": [
+        "Itching",
+        "Hives",
+        "Swelling",
+        "Difficulty breathing"
+      ],
+      "Diagnosis": [
+        "Allergy testing",
+        "Skin tests"
+      ],
+      "Treatment": [
+        "Antihistamines",
+        "Avoidance of allergens",
+        "Immunotherapy"
+      ]
+    }
+  },
+  {
+    "condition": "Alpha-1 Antitrypsin Deficiency",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Alpha-1 antitrypsin deficiency is a genetic disorder that can lead to lung and liver disease."
+      ],
+      "Alternative Names": [
+        "AAT deficiency"
+      ],
+      "Causes": [
+        "Genetic mutations"
+      ],
+      "Symptoms": [
+        "Shortness of breath",
+        "Chronic cough",
+        "Liver problems"
+      ],
+      "Diagnosis": [
+        "Blood tests",
+        "Genetic testing"
+      ],
+      "Treatment": [
+        "Augmentation therapy",
+        "Liver transplant in severe cases"
+      ]
+    }
+  },
+  {
+    "condition": "Alport Syndrome",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Alport syndrome is a genetic condition characterized by kidney disease, hearing loss, and eye abnormalities."
+      ],
+      "Alternative Names": [
+        "Hereditary nephritis"
+      ],
+      "Causes": [
+        "Genetic mutations affecting collagen"
+      ],
+      "Symptoms": [
+        "Blood in urine",
+        "Protein in urine",
+        "Hearing loss",
+        "Vision problems"
+      ],
+      "Diagnosis": [
+        "Urine tests",
+        "Genetic testing",
+        "Kidney biopsy"
+      ],
+      "Treatment": [
+        "Management of kidney disease",
+        "Hearing aids for hearing loss"
+      ]
+    }
+  },
+  {
+    "condition": "Alveolar Soft-Part Sarcoma",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Alveolar soft-part sarcoma is a rare type of cancer that typically occurs in soft tissues."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Exact cause unknown; may involve genetic mutations"
+      ],
+      "Symptoms": [
+        "Painless lump or mass",
+        "Swelling",
+        "Pain in the affected area"
+      ],
+      "Diagnosis": [
+        "Imaging tests (MRI, CT scan)",
+        "Biopsy"
+      ],
+      "Treatment": [
+        "Surgery",
+        "Radiation therapy",
+        "Chemotherapy"
+      ]
+    }
+  },
+  {
+    "condition": "Alzheimer's Disease",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Alzheimer's disease is a progressive neurological disorder that causes memory loss and cognitive decline."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Genetic factors",
+        "Age",
+        "Environmental factors"
+      ],
+      "Symptoms": [
+        "Memory loss",
+        "Difficulty with problem-solving",
+        "Confusion",
+        "Changes in mood and behavior"
+      ],
+      "Diagnosis": [
+        "Cognitive tests",
+        "Brain imaging (MRI, CT scan)",
+        "Medical history"
+      ],
+      "Treatment": [
+        "Medications to manage symptoms",
+        "Cognitive therapies",
+        "Supportive care"
+      ]
+    }
+  },
+  {
+    "condition": "Amblyopia (Lazy Eye)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Amblyopia, commonly known as lazy eye, is a vision development disorder where an eye fails to achieve normal visual acuity."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Strabismus (crossed eyes)",
+        "Refractive errors",
+        "Deprivation (e.g., cataracts)"
+      ],
+      "Symptoms": [
+        "Poor vision in one eye",
+        "Difficulty focusing",
+        "Squinting"
+      ],
+      "Diagnosis": [
+        "Eye examination",
+        "Visual acuity tests"
+      ],
+      "Treatment": [
+        "Corrective lenses",
+        "Patching the stronger eye",
+        "Vision therapy"
+      ]
+    }
+  },
+  {
+    "condition": "Amenorrhea",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Amenorrhea is the absence of menstruation in a woman of reproductive age."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Pregnancy",
+        "Hormonal imbalances",
+        "Stress",
+        "Excessive exercise"
+      ],
+      "Symptoms": [
+        "Absence of menstrual periods",
+        "Hot flashes",
+        "Headaches"
+      ],
+      "Diagnosis": [
+        "Medical history",
+        "Physical examination",
+        "Blood tests"
+      ],
+      "Treatment": [
+        "Addressing underlying causes",
+        "Hormonal therapy"
+      ]
+    }
+  },
+  {
+    "condition": "Amyloidosis",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Amyloidosis is a rare disease that occurs when amyloid proteins build up in organs and tissues."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Genetic mutations",
+        "Chronic inflammatory diseases",
+        "Certain cancers"
+      ],
+      "Symptoms": [
+        "Fatigue",
+        "Swelling",
+        "Numbness",
+        "Shortness of breath"
+      ],
+      "Diagnosis": [
+        "Biopsy",
+        "Blood tests",
+        "Imaging tests"
+      ],
+      "Treatment": [
+        "Chemotherapy",
+        "Targeted therapy",
+        "Supportive care"
+      ]
+    }
+  },
+  {
+    "condition": "Amyotrophic Lateral Sclerosis (ALS)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Amyotrophic lateral sclerosis is a progressive neurodegenerative disease that affects nerve cells in the brain and spinal cord."
+      ],
+      "Alternative Names": [
+        "Lou Gehrig's disease"
+      ],
+      "Causes": [
+        "Exact cause unknown; genetic factors may play a role"
+      ],
+      "Symptoms": [
+        "Muscle weakness",
+        "Difficulty speaking",
+        "Difficulty swallowing",
+        "Respiratory issues"
+      ],
+      "Diagnosis": [
+        "Neurological examination",
+        "Electromyography (EMG)",
+        "MRI"
+      ],
+      "Treatment": [
+        "Medications to manage symptoms",
+        "Physical therapy",
+        "Supportive care"
+      ]
+    }
+  },
+  {
+    "condition": "Anal Abscess",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "An anal abscess is a painful condition that occurs when a cavity filled with pus forms near the anus."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Infection of anal glands",
+        "Inflammatory bowel disease",
+        "Trauma"
+      ],
+      "Symptoms": [
+        "Severe pain near the anus",
+        "Swelling",
+        "Fever",
+        "Discharge of pus"
+      ],
+      "Diagnosis": [
+        "Physical examination",
+        "Imaging tests (if necessary)"
+      ],
+      "Treatment": [
+        "Incision and drainage of the abscess",
+        "Antibiotics"
+      ]
+    }
+  },
+  {
+    "condition": "Anal Cancer",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Anal cancer is a rare type of cancer that occurs in the tissues of the anus."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Human papillomavirus (HPV) infection",
+        "Smoking",
+        "Weakened immune system"
+      ],
+      "Symptoms": [
+        "Bleeding from the anus",
+        "Pain or discomfort",
+        "Lump near the anus",
+        "Changes in bowel habits"
+      ],
+      "Diagnosis": [
+        "Physical examination",
+        "Biopsy",
+        "Imaging tests"
+      ],
+      "Treatment": [
+        "Surgery",
+        "Radiation therapy",
+        "Chemotherapy"
+      ]
+    }
+  },
+  {
+    "condition": "Anal Fissure",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "An anal fissure is a small tear in the lining of the anus that can cause pain and bleeding."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Passing hard stools",
+        "Chronic diarrhea",
+        "Anal trauma"
+      ],
+      "Symptoms": [
+        "Sharp pain during bowel movements",
+        "Bleeding",
+        "Itching"
+      ],
+      "Diagnosis": [
+        "Physical examination"
+      ],
+      "Treatment": [
+        "Dietary changes to soften stools",
+        "Topical medications",
+        "Surgery in severe cases"
+      ]
+    }
+  },
+  {
+    "condition": "Anaphylaxis",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Anaphylaxis is a severe, potentially life-threatening allergic reaction."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Food allergies",
+        "Insect stings",
+        "Medications",
+        "Latex"
+      ],
+      "Symptoms": [
+        "Difficulty breathing",
+        "Swelling of the throat",
+        "Rapid heartbeat",
+        "Skin reactions"
+      ],
+      "Diagnosis": [
+        "Clinical assessment",
+        "Medical history"
+      ],
+      "Treatment": [
+        "Epinephrine injection",
+        "Antihistamines",
+        "Emergency medical attention"
+      ]
+    }
+  },
+  {
+    "condition": "Anemia",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Anemia is a condition in which you lack enough healthy red blood cells to carry adequate oxygen to your body's tissues."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Iron deficiency",
+        "Vitamin deficiency",
+        "Chronic diseases",
+        "Bone marrow disorders"
+      ],
+      "Symptoms": [
+        "Fatigue",
+        "Weakness",
+        "Pale skin",
+        "Shortness of breath"
+      ],
+      "Diagnosis": [
+        "Blood tests (CBC)",
+        "Iron studies",
+        "Bone marrow biopsy (if necessary)"
+      ],
+      "Treatment": [
+        "Iron supplements",
+        "Vitamin B12 injections",
+        "Treating underlying causes"
+      ]
+    }
+  },
+  {
+    "condition": "Aneurysms",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "An aneurysm is an abnormal bulge in the wall of a blood vessel."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Atherosclerosis",
+        "High blood pressure",
+        "Genetic factors"
+      ],
+      "Symptoms": [
+        "Often asymptomatic until rupture",
+        "Pain in the affected area",
+        "Pulsating sensation"
+      ],
+      "Diagnosis": [
+        "Ultrasound",
+        "CT scan",
+        "MRI"
+      ],
+      "Treatment": [
+        "Monitoring for small aneurysms",
+        "Surgical repair for larger aneurysms"
+      ]
+    }
+  },
+  {
+    "condition": "Angioedema",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Angioedema is a condition characterized by swelling in the deeper layers of the skin, often around the eyes and lips."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Allergic reactions",
+        "Medications",
+        "Genetic factors"
+      ],
+      "Symptoms": [
+        "Swelling of the face, lips, or throat",
+        "Hives",
+        "Difficulty breathing"
+      ],
+      "Diagnosis": [
+        "Clinical assessment",
+        "Medical history"
+      ],
+      "Treatment": [
+        "Antihistamines",
+        "Corticosteroids",
+        "Epinephrine in severe cases"
+      ]
+    }
+  },
+  {
+    "condition": "Angiosarcoma",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Angiosarcoma is a rare cancer that originates in the blood vessels or lymph vessels."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Exact cause unknown; may be related to radiation exposure or chronic lymphedema"
+      ],
+      "Symptoms": [
+        "Lump or mass",
+        "Swelling",
+        "Pain in the affected area"
+      ],
+      "Diagnosis": [
+        "Imaging tests (CT scan, MRI)",
+        "Biopsy"
+      ],
+      "Treatment": [
+        "Surgery",
+        "Chemotherapy",
+        "Radiation therapy"
+      ]
+    }
+  },
+  {
+    "condition": "Anterior Cruciate Ligament Injury (ACL Injury)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "An ACL injury is a tear or sprain of the anterior cruciate ligament, a key ligament that helps stabilize the knee."
+      ],
+      "Alternative Names": [
+        "ACL tear"
+      ],
+      "Causes": [
+        "Sudden stops or changes in direction",
+        "Landing awkwardly from a jump",
+        "Direct impact to the knee"
+      ],
+      "Symptoms": [
+        "Sudden pain",
+        "Swelling",
+        "Instability in the knee",
+        "Popping sound at the time of injury"
+      ],
+      "Diagnosis": [
+        "Physical examination",
+        "MRI"
+      ],
+      "Treatment": [
+        "Rest and ice",
+        "Physical therapy",
+        "Surgery for severe tears"
+      ]
+    }
+  },
+  {
+    "condition": "Anterior Knee Pain",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Anterior knee pain is a common condition that causes pain in the front of the knee."
+      ],
+      "Alternative Names": [
+        "Patellofemoral pain syndrome"
+      ],
+      "Causes": [
+        "Overuse",
+        "Injury",
+        "Muscle imbalances"
+      ],
+      "Symptoms": [
+        "Pain around the kneecap",
+        "Worsening pain with activity",
+        "Swelling"
+      ],
+      "Diagnosis": [
+        "Physical examination",
+        "Imaging tests (X-ray, MRI)"
+      ],
+      "Treatment": [
+        "Rest and ice",
+        "Physical therapy",
+        "Pain relief medications"
+      ]
+    }
+  },
+  {
+    "condition": "Aortic Coarctation",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Aortic coarctation is a congenital condition characterized by a narrowing of the aorta."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Congenital heart defect"
+      ],
+      "Symptoms": [
+        "High blood pressure in the arms",
+        "Low blood pressure in the legs",
+        "Heart murmur"
+      ],
+      "Diagnosis": [
+        "Physical examination",
+        "Imaging tests (echocardiogram, MRI)"
+      ],
+      "Treatment": [
+        "Surgical repair",
+        "Balloon angioplasty"
+      ]
+    }
+  },
+  {
+    "condition": "Aortic Dissection",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Aortic dissection is a serious condition in which the inner layer of the aorta tears."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "High blood pressure",
+        "Atherosclerosis",
+        "Genetic conditions"
+      ],
+      "Symptoms": [
+        "Sudden severe chest or back pain",
+        "Shortness of breath",
+        "Loss of consciousness"
+      ],
+      "Diagnosis": [
+        "CT scan",
+        "MRI",
+        "Ultrasound"
+      ],
+      "Treatment": [
+        "Emergency surgery",
+        "Medications to lower blood pressure"
+      ]
+    }
+  },
+  {
+    "condition": "Aortic Ulcer",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Aortic ulcers are lesions that develop in the aorta, often due to atherosclerosis."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Atherosclerosis",
+        "High blood pressure"
+      ],
+      "Symptoms": [
+        "Chest pain",
+        "Back pain",
+        "Shortness of breath"
+      ],
+      "Diagnosis": [
+        "CT scan",
+        "MRI"
+      ],
+      "Treatment": [
+        "Monitoring",
+        "Surgical intervention if necessary"
+      ]
+    }
+  },
+  {
+    "condition": "Aortic Valve Regurgitation",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Aortic valve regurgitation is a condition in which the aortic valve does not close tightly, allowing blood to flow backward into the heart."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Congenital heart defects",
+        "Rheumatic fever",
+        "Infective endocarditis"
+      ],
+      "Symptoms": [
+        "Shortness of breath",
+        "Fatigue",
+        "Palpitations"
+      ],
+      "Diagnosis": [
+        "Echocardiogram",
+        "Physical examination"
+      ],
+      "Treatment": [
+        "Monitoring for mild cases",
+        "Surgery for severe cases"
+      ]
+    }
+  },
+  {
+    "condition": "Aortic Valve Stenosis",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Aortic valve stenosis is a narrowing of the aortic valve opening, which restricts blood flow from the heart."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Congenital heart defect",
+        "Age-related calcification"
+      ],
+      "Symptoms": [
+        "Chest pain",
+        "Shortness of breath",
+        "Fatigue"
+      ],
+      "Diagnosis": [
+        "Echocardiogram",
+        "Physical examination"
+      ],
+      "Treatment": [
+        "Monitoring for mild cases",
+        "Surgical valve replacement"
+      ]
+    }
+  },
+  {
+    "condition": "Aplastic Anemia",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Aplastic anemia is a rare condition where the bone marrow fails to produce enough blood cells."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Autoimmune diseases",
+        "Exposure to toxins",
+        "Certain medications"
+      ],
+      "Symptoms": [
+        "Fatigue",
+        "Increased risk of infections",
+        "Easy bruising or bleeding"
+      ],
+      "Diagnosis": [
+        "Blood tests",
+        "Bone marrow biopsy"
+      ],
+      "Treatment": [
+        "Blood transfusions",
+        "Bone marrow transplant",
+        "Immunosuppressive therapy"
+      ]
+    }
+  },
+  {
+    "condition": "Arrhythmia (Irregular Heartbeat)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Arrhythmia is an irregular heartbeat that can be too fast, too slow, or erratic."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Heart disease",
+        "Electrolyte imbalances",
+        "Stress"
+      ],
+      "Symptoms": [
+        "Palpitations",
+        "Dizziness",
+        "Shortness of breath"
+      ],
+      "Diagnosis": [
+        "Electrocardiogram (ECG)",
+        "Holter monitor"
+      ],
+      "Treatment": [
+        "Medications",
+        "Cardioversion",
+        "Ablation therapy"
+      ]
+    }
+  },
+  {
+    "condition": "Arrhythmogenic Cardiomyopathy",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Arrhythmogenic cardiomyopathy is a type of heart disease that causes arrhythmias and can lead to heart failure."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Genetic mutations"
+      ],
+      "Symptoms": [
+        "Palpitations",
+        "Fainting",
+        "Heart failure symptoms"
+      ],
+      "Diagnosis": [
+        "Electrocardiogram (ECG)",
+        "Echocardiogram",
+        "Genetic testing"
+      ],
+      "Treatment": [
+        "Medications",
+        "Implantable cardioverter-defibrillator (ICD)",
+        "Lifestyle changes"
+      ]
+    }
+  },
+  {
+    "condition": "Arterial Embolism",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "An arterial embolism occurs when a blood clot or other debris travels through the bloodstream and lodges in an artery."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Blood clots",
+        "Fatty deposits",
+        "Air bubbles"
+      ],
+      "Symptoms": [
+        "Sudden pain",
+        "Numbness or weakness",
+        "Coldness in the affected limb"
+      ],
+      "Diagnosis": [
+        "Imaging tests (CT scan, ultrasound)",
+        "Blood tests"
+      ],
+      "Treatment": [
+        "Medications to dissolve clots",
+        "Surgery to remove the embolism"
+      ]
+    }
+  },
+  {
+    "condition": "Arterial Insufficiency",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Arterial insufficiency is a condition where the arteries cannot supply enough blood to the tissues."
+      ],
+      "Alternative Names": [
+        "Peripheral artery disease"
+      ],
+      "Causes": [
+        "Atherosclerosis",
+        "Blood clots"
+      ],
+      "Symptoms": [
+        "Leg pain during activity",
+        "Coldness in the lower leg or foot",
+        "Weak or absent pulse in the legs"
+      ],
+      "Diagnosis": [
+        "Doppler ultrasound",
+        "Ankle-brachial index (ABI)"
+      ],
+      "Treatment": [
+        "Lifestyle changes",
+        "Medications",
+        "Surgery"
+      ]
+    }
+  },
+  {
+    "condition": "Arteriosclerosis",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Arteriosclerosis is the thickening and hardening of the arterial walls."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Aging",
+        "High blood pressure",
+        "High cholesterol"
+      ],
+      "Symptoms": [
+        "Often asymptomatic until complications arise"
+      ],
+      "Diagnosis": [
+        "Blood tests",
+        "Imaging tests"
+      ],
+      "Treatment": [
+        "Lifestyle changes",
+        "Medications to lower blood pressure and cholesterol"
+      ]
+    }
+  },
+  {
+    "condition": "Arteriovenous Malformations (AVM)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Arteriovenous malformations are abnormal connections between arteries and veins."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Congenital condition"
+      ],
+      "Symptoms": [
+        "Headaches",
+        "Seizures",
+        "Weakness"
+      ],
+      "Diagnosis": [
+        "MRI",
+        "CT scan"
+      ],
+      "Treatment": [
+        "Surgery",
+        "Embolization"
+      ]
+    }
+  },
+  {
+    "condition": "Arthritis",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Arthritis is inflammation of one or more joints, causing pain and stiffness."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Autoimmune diseases",
+        "Wear and tear on joints",
+        "Infections"
+      ],
+      "Symptoms": [
+        "Joint pain",
+        "Swelling",
+        "Stiffness",
+        "Reduced range of motion"
+      ],
+      "Diagnosis": [
+        "Physical examination",
+        "Blood tests",
+        "Imaging tests"
+      ],
+      "Treatment": [
+        "Medications (NSAIDs, corticosteroids)",
+        "Physical therapy",
+        "Surgery in severe cases"
+      ]
+    }
+  },
+  {
+    "condition": "Asbestos Lung Disease",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Asbestos lung disease refers to lung conditions caused by inhaling asbestos fibers."
+      ],
+      "Alternative Names": [
+        "Asbestosis"
+      ],
+      "Causes": [
+        "Exposure to asbestos"
+      ],
+      "Symptoms": [
+        "Shortness of breath",
+        "Coughing",
+        "Chest pain"
+      ],
+      "Diagnosis": [
+        "Chest X-ray",
+        "CT scan",
+        "Lung function tests"
+      ],
+      "Treatment": [
+        "Avoiding further exposure",
+        "Symptomatic treatment"
+      ]
+    }
+  },
+  {
+    "condition": "Ascites",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Ascites is the accumulation of fluid in the abdominal cavity."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Liver cirrhosis",
+        "Heart failure",
+        "Cancer"
+      ],
+      "Symptoms": [
+        "Abdominal swelling",
+        "Discomfort",
+        "Weight gain"
+      ],
+      "Diagnosis": [
+        "Physical examination",
+        "Ultrasound"
+      ],
+      "Treatment": [
+        "Diuretics",
+        "Paracentesis",
+        "Treating underlying conditions"
+      ]
+    }
+  },
+  {
+    "condition": "Asherman Syndrome",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Asherman syndrome is a condition characterized by the formation of scar tissue in the uterus."
+      ],
+      "Alternative Names": [
+        "Uterine adhesions"
+      ],
+      "Causes": [
+        "Surgery on the uterus",
+        "Infections"
+      ],
+      "Symptoms": [
+        "Irregular menstrual periods",
+        "Infertility",
+        "Pelvic pain"
+      ],
+      "Diagnosis": [
+        "Hysteroscopy",
+        "Ultrasound"
+      ],
+      "Treatment": [
+        "Surgical removal of adhesions",
+        "Hormonal therapy"
+      ]
+    }
+  },
+  {
+    "condition": "Asperger Syndrome",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Asperger syndrome is a developmental disorder that affects social interaction and communication."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Exact cause unknown; genetic factors may play a role"
+      ],
+      "Symptoms": [
+        "Difficulty with social interactions",
+        "Narrow interests",
+        "Repetitive behaviors"
+      ],
+      "Diagnosis": [
+        "Clinical assessment",
+        "Behavioral evaluations"
+      ],
+      "Treatment": [
+        "Behavioral therapy",
+        "Social skills training"
+      ]
+    }
+  },
+  {
+    "condition": "Aspergillosis",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Aspergillosis is an infection caused by the Aspergillus fungus."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Inhalation of Aspergillus spores"
+      ],
+      "Symptoms": [
+        "Coughing",
+        "Fever",
+        "Shortness of breath"
+      ],
+      "Diagnosis": [
+        "Imaging tests (CT scan)",
+        "Sputum culture"
+      ],
+      "Treatment": [
+        "Antifungal medications",
+        "Surgery in severe cases"
+      ]
+    }
+  },
+  {
+    "condition": "Aspiration Pneumonia (Aspiration Pneumonitis)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Aspiration pneumonia is an infection that occurs when food, liquid, or vomit is inhaled into the lungs."
+      ],
+      "Alternative Names": [
+        "Aspiration pneumonitis"
+      ],
+      "Causes": [
+        "Inhalation of foreign material"
+      ],
+      "Symptoms": [
+        "Coughing",
+        "Fever",
+        "Difficulty breathing"
+      ],
+      "Diagnosis": [
+        "Chest X-ray",
+        "Sputum culture"
+      ],
+      "Treatment": [
+        "Antibiotics",
+        "Supportive care"
+      ]
+    }
+  },
+  {
+    "condition": "Aspirin Exacerbated Respiratory Disease (AERD)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Aspirin exacerbated respiratory disease is a condition characterized by asthma and nasal polyps that worsen with aspirin use."
+      ],
+      "Alternative Names": [
+        "AERD"
+      ],
+      "Causes": [
+        "Sensitivity to aspirin and other non-steroidal anti-inflammatory drugs (NSAIDs)"
+      ],
+      "Symptoms": [
+        "Nasal congestion",
+        "Asthma attacks",
+        "Sinusitis"
+      ],
+      "Diagnosis": [
+        "Clinical assessment",
+        "Aspirin challenge test"
+      ],
+      "Treatment": [
+        "Avoidance of aspirin and NSAIDs",
+        "Leukotriene modifiers",
+        "Nasal corticosteroids"
+      ]
+    }
+  },
+  {
+    "condition": "Asthma",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Asthma is a chronic lung condition that causes difficulty breathing due to inflammation and narrowing of the airways."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Allergies",
+        "Respiratory infections",
+        "Exercise",
+        "Air pollutants"
+      ],
+      "Symptoms": [
+        "Wheezing",
+        "Shortness of breath",
+        "Chest tightness",
+        "Coughing"
+      ],
+      "Diagnosis": [
+        "Spirometry",
+        "Peak flow measurement",
+        "Allergy testing"
+      ],
+      "Treatment": [
+        "Inhaled corticosteroids",
+        "Bronchodilators",
+        "Avoidance of triggers"
+      ]
+    }
+  },
+  {
+    "condition": "Ataxia",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Ataxia is a neurological sign consisting of lack of voluntary coordination of muscle movements."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Genetic disorders",
+        "Multiple sclerosis",
+        "Alcohol abuse"
+      ],
+      "Symptoms": [
+        "Unsteady gait",
+        "Difficulty with fine motor tasks",
+        "Speech difficulties"
+      ],
+      "Diagnosis": [
+        "Neurological examination",
+        "Imaging tests (MRI)"
+      ],
+      "Treatment": [
+        "Physical therapy",
+        "Occupational therapy",
+        "Medications for underlying conditions"
+      ]
+    }
+  },
+  {
+    "condition": "Atelectasis",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Atelectasis is the partial or complete collapse of a lung or lobe of a lung."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Obstruction of airways",
+        "Lung compression",
+        "Post-surgery complications"
+      ],
+      "Symptoms": [
+        "Shortness of breath",
+        "Coughing",
+        "Chest pain"
+      ],
+      "Diagnosis": [
+        "Chest X-ray",
+        "CT scan",
+        "Physical examination"
+      ],
+      "Treatment": [
+        "Deep breathing exercises",
+        "Incentive spirometry",
+        "Treating underlying causes"
+      ]
+    }
+  },
+  {
+    "condition": "Atherosclerosis",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Atherosclerosis is a condition in which fatty deposits build up on the artery walls."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "High cholesterol",
+        "High blood pressure",
+        "Smoking"
+      ],
+      "Symptoms": [
+        "Often asymptomatic until complications arise",
+        "Chest pain",
+        "Shortness of breath"
+      ],
+      "Diagnosis": [
+        "Blood tests",
+        "Imaging tests (ultrasound, CT scan)"
+      ],
+      "Treatment": [
+        "Lifestyle changes",
+        "Medications",
+        "Surgery in severe cases"
+      ]
+    }
+  },
+  {
+    "condition": "Athlete's Foot",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Athlete's foot is a fungal infection that usually begins between the toes."
+      ],
+      "Alternative Names": [
+        "Tinea pedis"
+      ],
+      "Causes": [
+        "Fungal infections",
+        "Moist environments"
+      ],
+      "Symptoms": [
+        "Itching",
+        "Burning",
+        "Peeling skin"
+      ],
+      "Diagnosis": [
+        "Physical examination",
+        "Skin scraping"
+      ],
+      "Treatment": [
+        "Antifungal creams",
+        "Oral antifungal medications",
+        "Keeping feet dry"
+      ]
+    }
+  },
+  {
+    "condition": "Atrial Fibrillation (AFib)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Atrial fibrillation is an irregular and often rapid heart rate that can lead to blood clots, stroke, and other heart-related complications."
+      ],
+      "Alternative Names": [
+        "AFib"
+      ],
+      "Causes": [
+        "High blood pressure",
+        "Heart valve disease",
+        "Coronary artery disease"
+      ],
+      "Symptoms": [
+        "Palpitations",
+        "Weakness",
+        "Dizziness",
+        "Shortness of breath"
+      ],
+      "Diagnosis": [
+        "Electrocardiogram (ECG)",
+        "Holter monitor"
+      ],
+      "Treatment": [
+        "Medications to control heart rate",
+        "Anticoagulants to prevent blood clots",
+        "Cardioversion"
+      ]
+    }
+  },
+  {
+    "condition": "Atrial Septal Defect (ASD)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "An atrial septal defect is a congenital heart defect characterized by a hole in the wall between the two upper chambers of the heart."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Congenital heart defect"
+      ],
+      "Symptoms": [
+        "Shortness of breath",
+        "Fatigue",
+        "Swelling in legs"
+      ],
+      "Diagnosis": [
+        "Echocardiogram",
+        "Chest X-ray"
+      ],
+      "Treatment": [
+        "Monitoring for small defects",
+        "Surgical repair for larger defects"
+      ]
+    }
+  },
+  {
+    "condition": "Atypical Parkinsonism",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Atypical parkinsonism refers to a group of disorders that cause movement problems similar to Parkinson's disease."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Genetic factors",
+        "Environmental factors"
+      ],
+      "Symptoms": [
+        "Tremors",
+        "Rigidity",
+        "Bradykinesia"
+      ],
+      "Diagnosis": [
+        "Clinical assessment",
+        "Imaging tests"
+      ],
+      "Treatment": [
+        "Medications to manage symptoms",
+        "Physical therapy"
+      ]
+    }
+  },
+  {
+    "condition": "Atypical Parkinsonism Syndromes",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Atypical parkinsonism syndromes are a group of disorders that present with parkinsonian symptoms but have different underlying causes."
+      ],
+      "Alternative Names": [
+        "None"
+      ],
+      "Causes": [
+        "Genetic mutations",
+        "Neurodegenerative diseases"
+      ],
+      "Symptoms": [
+        "Tremors",
+        "Postural instability",
+        "Cognitive decline"
+      ],
+      "Diagnosis": [
+        "Clinical assessment",
+        "Neuroimaging"
+      ],
+      "Treatment": [
+        "Medications to manage symptoms",
+        "Supportive therapies"
+      ]
+    }
+  },
+  {
+    "condition": "Avascular Necrosis (Osteonecrosis)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Avascular necrosis is a condition that occurs when blood flow to a bone is reduced, leading to bone death."
+      ],
+      "Alternative Names": [
+        "Osteonecrosis"
+      ],
+      "Causes": [
+        "Trauma",
+        "Long-term use of corticosteroids",
+        "Excessive alcohol consumption"
+      ],
+      "Symptoms": [
+        "Joint pain",
+        "Limited range of motion",
+        "Swelling"
+      ],
+      "Diagnosis": [
+        "MRI",
+        "X-ray"
+      ],
+      "Treatment": [
+        "Medications for pain relief",
+        "Physical therapy",
+        "Surgery in severe cases"
+      ]
+    }
+  },
+  {
+    "condition": "Axillary Nerve Disorder (Axillary Neuropathy)",
+    "url": "https://www.pennmedicine.org/conditions-and-treatments/conditions/",
+    "last_scraped": "2024-02-12 19:00:00",
+    "sections": {
+      "Definition": [
+        "Axillary nerve disorder is a condition that affects the axillary nerve, leading to weakness and numbness in the shoulder."
+      ],
+      "Alternative Names": [
+        "Axillary neuropathy"
+      ],
+      "Causes": [
+        "Shoulder dislocation",
+        "Fractures",
+        "Compression of the nerve"
+      ],
+      "Symptoms": [
+        "Weakness in shoulder abduction",
+        "Numbness over the outer shoulder"
+      ],
+      "Diagnosis": [
+        "Physical examination",
+        "Nerve conduction studies"
+      ],
+      "Treatment": [
+        "Physical therapy",
+        "Surgery in severe cases"
+      ]
+    }
+  }
+]

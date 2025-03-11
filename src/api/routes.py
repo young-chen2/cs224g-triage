@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException, status, Depends
 from src.api.models import *
 from src.api.services.llm_service import BasicLLM, ConversationalLLM, TriageAgent
-from src.api.services.prompts import get_assessment_query, get_triage_query
+from src.prompts import get_assessment_query, get_triage_query
 import logging
 from typing import List, Dict, Optional
 from fastapi.security import HTTPBasic, HTTPBasicCredentials
@@ -110,7 +110,7 @@ async def triage_patient(request: TriageRequest) -> TriageResponse:
             result_text = triage_response.get('result', '')
             triage_level = None
             
-            if "TRIAGE_LEVEL:" in result_text:
+            if "Recommended care level:" in result_text:
                 # Extract the triage level from the response
                 triage_parts = result_text.split("TRIAGE_LEVEL:")
                 if len(triage_parts) > 1:

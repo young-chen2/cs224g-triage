@@ -3,13 +3,12 @@ from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain.chains import RetrievalQA, ConversationalRetrievalChain
 from langchain.schema import HumanMessage, AIMessage, SystemMessage
 from src.api.config import openai_api_key, FAISS_INDEX_PATH
-from src.api.services.medical_data import load_medical_data
+from src.medical_data import load_medical_data
 from src.api.models import PatientData, TriageData, TriageChatMessage
 from src.api.services.db_service import get_supabase_client
 from typing import Dict, Any, List, Tuple, Optional
 import logging
 import json
-import uuid
 from datetime import datetime
 
 logger = logging.getLogger(__name__)
@@ -20,7 +19,7 @@ class BasicLLM:
        self.llm = ChatOpenAI(
            api_key=openai_api_key,
            model="gpt-4o-mini",
-           temperature=0,
+           temperature=0.2,
            max_retries=3
        )
        self.chat_history: List[Tuple[str, str]] = []
@@ -80,7 +79,7 @@ class LangChainBase:
        try:
            return FAISS.load_local(FAISS_INDEX_PATH, self.embeddings)
        except Exception as e:
-           logger.info(f"Creating new FAISS index: {str(e)}")
+           logger.info(f"Creating new FAISS index!!")
            medical_texts = load_medical_data()
            vector_store = FAISS.from_texts(medical_texts, self.embeddings)
            vector_store.save_local(FAISS_INDEX_PATH)
@@ -92,7 +91,7 @@ class LangChainBase:
            llm=ChatOpenAI(
                api_key=openai_api_key,
                model="gpt-4o-mini",
-               temperature=0,
+               temperature=0.2,
                max_retries=3
            ),
            chain_type="stuff",
@@ -124,7 +123,7 @@ class ConversationalLLM(LangChainBase):
         return ConversationalRetrievalChain.from_llm(
             llm=self.llm,
             retriever=self.vector_store.as_retriever(
-                search_kwargs={"k": 3}  # Limit to top 3 most relevant documents
+                search_kwargs={"k": 10}  # Limit to top 3 most relevant documents
             ),
             return_source_documents=True,
             verbose=True
