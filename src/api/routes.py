@@ -120,10 +120,10 @@ async def triage_patient(request: TriageRequest) -> TriageResponse:
             triage_level = None
 
             lowercase_result = result_text.lower()
-            if "physician" in lowercase_result:
-                triage_level = "Physician"
-            elif "physician assistant" in lowercase_result:
+            if "physician assistant (pa)" in lowercase_result:
                 triage_level = "PA"
+            elif "physician" in lowercase_result:
+                triage_level = "Physician"
             elif "nurse" in lowercase_result:
                 triage_level = "Nurse"
             elif "emergency room" in lowercase_result:
