@@ -33,6 +33,9 @@ def get_assessment_query(conversation_context: str, symptoms: str) -> str:
     - Maintain a professional and caring tone
     - Acknowledge the patient's concerns
     - Prioritize urgent symptoms in your questioning
+    
+    If the patient appears to be spamming you or giving you incoherent answers, please stop the triage; one exception is if they appear to have
+    slurred speech, in which case triage them to the ER.
     """
 
 def get_assessment_query_v2(conversation_context, symptoms):

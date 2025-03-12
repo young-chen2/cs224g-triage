@@ -116,33 +116,18 @@ async def triage_patient(request: TriageRequest) -> TriageResponse:
             
             # Extract triage level from response if available
             result_text = triage_response.get('result', '')
-            logger.info(f"Triage result text: {result_text}")
             
             triage_level = None
-            
-            # Look for "Recommended Care Level" in the response
-            if "Recommended Care Level:" in result_text:
-                # Extract the triage level from the response
-                triage_parts = result_text.split("Recommended Care Level:")
-                if len(triage_parts) > 1:
-                    triage_level_line = triage_parts[1].strip().split("\n")[0]
-                    if "physician" in triage_level_line.lower():
-                        triage_level = "physician"
-                    elif "pa" in triage_level_line.lower() or "physician assistant" in triage_level_line.lower():
-                        triage_level = "pa"
-                    elif "nurse" in triage_level_line.lower():
-                        triage_level = "nurse"
-            # Also check without colon for backward compatibility
-            elif "Recommended Care Level" in result_text:
-                triage_parts = result_text.split("Recommended Care Level")
-                if len(triage_parts) > 1:
-                    triage_level_line = triage_parts[1].strip().split("\n")[0]
-                    if "physician" in triage_level_line.lower():
-                        triage_level = "physician"
-                    elif "pa" in triage_level_line.lower() or "physician assistant" in triage_level_line.lower():
-                        triage_level = "pa"
-                    elif "nurse" in triage_level_line.lower():
-                        triage_level = "nurse"
+
+            lowercase_result = result_text.lower()
+            if "physician" in lowercase_result:
+                triage_level = "Physician"
+            elif "physician assistant" in lowercase_result:
+                triage_level = "PA"
+            elif "nurse" in lowercase_result:
+                triage_level = "Nurse"
+            elif "emergency room" in lowercase_result:
+                triage_level = "ER"
             
             # Default to physician for safety if we can't determine
             if not triage_level:

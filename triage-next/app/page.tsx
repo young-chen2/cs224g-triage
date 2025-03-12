@@ -94,11 +94,13 @@ function App() {
     }
   }, [user, isAdminView]);
 
-  const speak = (text: string) => {
+  const speak = (text: string, rate: number = 1.75) => {
+    window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(text);
+    utterance.rate = rate; 
     window.speechSynthesis.speak(utterance);
   };
-
+  
   // Call the complete_triage endpoint on the backend
   const completeTriageWithAPI = useCallback(async () => {
     if (!isTriageComplete || !triageLevel) return;
