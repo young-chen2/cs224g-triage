@@ -11,7 +11,7 @@ def get_assessment_query(conversation_context: str, symptoms: str) -> str:
     And the latest message from the patient: {symptoms}
     ###
     
-    Review the conversation and check if you have ###ALL of the following critical information###:
+    Review the conversation and check if you have ###ALL of the following critical information OR IF YOU ARE SURE OF YOUR DECISION ALREADY###:
     1. Patient's age
     2. Current symptoms and their duration
     3. Symptom severity
@@ -28,6 +28,11 @@ def get_assessment_query(conversation_context: str, symptoms: str) -> str:
     
     DO NOT EVER NEVER NEVER NEVER RESPOND WITH READY_FOR_TRIAGE UNLESS YOU ARE COMPLETELY CERTAIN YOU HAVE ALL INFO.
 
+    *# BE INTELLIGENT!!!! 🧠🧠🧠🧠🧠🧠🧠🧠🧠 #*
+    ### ALSO, BE SURE TO ASK MORE SPECIFYING QUESTIONS ONCE YOU SUSPECT THAT THE PATIENT HAS A PARTICULAR DISEASE###
+    ### IF YOU ARE SUPER SURE ABOUT WHAT THE DISEASE IS, WHEN OUTPUTTING YOUR RESULT SAY ** I AM CERTAIN IT IS [DISEASE], DISCOUNT THE DOCUMENTS ABOVE **
+    TRY TO ACT AS A TRIAGER AND GO FROM BROAD QUESTIONS TO PROBING QUESTIONS AS IF YOU ARE A PHYSICIAN!!! ###
+
     Remember to:
     - Ask one clear question at a time
     - Maintain a professional and caring tone
@@ -36,6 +41,8 @@ def get_assessment_query(conversation_context: str, symptoms: str) -> str:
     
     If the patient appears to be spamming you or giving you incoherent answers, please stop the triage; one exception is if they appear to have
     slurred speech, in which case triage them to the ER.
+    
+    Your goal is to **balance patient safety with efficient healthcare resource allocation** by ensuring that patients receive **the right level of care** without unnecessary visits to overburdened healthcare providers.
     """
 
 def get_assessment_query_v2(conversation_context, symptoms):
