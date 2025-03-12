@@ -1,39 +1,22 @@
 from fastapi import APIRouter, HTTPException, status, Depends
 from src.api.models import *
 from src.api.services.llm_service import BasicLLM, ConversationalLLM, TriageAgent
-from src.prompts import get_assessment_query, get_assessment_query_v2, get_triage_query
+from src.prompts import *
+from src.api.auth_verification import get_current_provider
 import logging
 from typing import List, Dict, Optional
-from fastapi.security import HTTPBasic, HTTPBasicCredentials
-import secrets
 
 logger = logging.getLogger(__name__)
 router = APIRouter()
-security = HTTPBasic()
 
-# Use BasicLLM for initial assessment
+# Initialize LLM instances - these will maintain conversation state throughout the app lifecycle
 llm_assessor = BasicLLM()
-# Use ConversationalLLM with retrieval for final triage
-llm_triager = ConversationalLLM()
-res = llm_triager.process_query("I have weakness, confusion, cold and clammy skin, and a rapid heartbeat, and I am a 24-year-old female.")
-logger.info(f'\nTEST RESULT:\n {res}')
-# TriageAgent for database operations
+llm_triager = ConversationalLLM() 
 triage_agent = TriageAgent()
 
-# Simple authentication for demonstration purposes
-def verify_credentials(credentials: Optional[HTTPBasicCredentials] = Depends(security)):
-    # In a real app, you'd verify against the Supabase auth
-    # This is a simple placeholder
-    correct_username = secrets.compare_digest(credentials.username, "admin")
-    correct_password = secrets.compare_digest(credentials.password, "password")
-    
-    if not (correct_username and correct_password):
-        raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="Invalid credentials",
-            headers={"WWW-Authenticate": "Basic"},
-        )
-    return credentials.username
+# Test that the triage agent works effectively
+# res = llm_triager.process_query("I have weakness, confusion, cold and clammy skin, and a rapid heartbeat, and I am a 24-year-old female.")
+# logger.info(f'\nTEST RESULT:\n {res}')
 
 @router.post("/triage", response_model=TriageResponse)
 async def triage_patient(request: TriageRequest) -> TriageResponse:
@@ -71,16 +54,32 @@ async def triage_patient(request: TriageRequest) -> TriageResponse:
             logger.error(f"Error processing conversation history: {e}")
             conversation_messages = []  # Reset to empty if invalid
 
-        conversation_context = "\n\n".join([
-            f"{'###ASSISTANT###' if msg['role'] == 'assistant' else '###PATIENT###'}: {msg['content']}"
-            for msg in conversation_messages
-            if msg['content'].strip()  # Only include non-empty messages
-        ])
+        # Format the conversation context as a clear narrative for the LLM
+        conversation_context = ""
+        for msg in conversation_messages:
+            if msg['content'].strip():  # Only include non-empty messages
+                role_prefix = "Assistant" if msg['role'] == 'assistant' else "Patient"
+                conversation_context += f"{role_prefix}: {msg['content']}\n\n"
+                
+        # Merge in the full history from the assessment LLM (BasicLLM)
+        if llm_assessor.chat_history:
+            full_history = ""
+            for q, a in llm_assessor.chat_history:
+                full_history += f"Patient: {q}\nAssistant: {a}\n\n"
+            # Prepend the full history to the conversation context
+            conversation_context = full_history + conversation_context
+
+        # Add the current symptoms
+        conversation_context += f"Patient: {request.symptoms}\n\n"
+        
+        logger.info(f"Constructed conversation context with {len(conversation_messages)} messages")
         
         # Initial assessment with proper error handling
         try:
+            # Construct the assessment query with the full conversation context
             assessment_query = get_assessment_query(conversation_context, request.symptoms)
             # assessment_query = get_assessment_query_v2(conversation_context, request.symptoms)
+            # assessment_query = get_assessment_query_v3(conversation_context, request.symptoms)
             assessment_response = llm_assessor.process_query(assessment_query)
             
             if not isinstance(assessment_response, dict):
@@ -90,6 +89,7 @@ async def triage_patient(request: TriageRequest) -> TriageResponse:
             if not assessment_result:
                 raise ValueError("Empty assessment result")
                 
+            # If we need more info, return immediately without proceeding to full triage
             if "NEED_INFO:" in assessment_result:
                 return TriageResponse(
                     symptoms_received=request.symptoms,
@@ -102,8 +102,13 @@ async def triage_patient(request: TriageRequest) -> TriageResponse:
             if "READY_FOR_TRIAGE" in assessment_result:
                 logger.info("Assessment indicates ready for triage. Proceeding with final triage.")
             
-            # Full triage assessment
+            logger.info(f"Showing conversation context given to RAG: \n {conversation_context}")
+            
+            # Triage with the complete conversation context
             triage_query = get_triage_query(conversation_context, request.symptoms)
+            # triage_query = get_triage_query_v2(conversation_context, request.symptoms)
+            logger.info(f"Sending triage query: {triage_query[:100]}...") # Log first 100 chars
+            
             triage_response = llm_triager.process_query(triage_query)
             
             if not isinstance(triage_response, dict):
@@ -111,12 +116,24 @@ async def triage_patient(request: TriageRequest) -> TriageResponse:
             
             # Extract triage level from response if available
             result_text = triage_response.get('result', '')
+            logger.info(f"Triage result text: {result_text}")
+            
             triage_level = None
             
-            logger.info(f'Here is the triange result: \n{result_text}')
-            
-            if "Recommended Care Level" in result_text:
+            # Look for "Recommended Care Level" in the response
+            if "Recommended Care Level:" in result_text:
                 # Extract the triage level from the response
+                triage_parts = result_text.split("Recommended Care Level:")
+                if len(triage_parts) > 1:
+                    triage_level_line = triage_parts[1].strip().split("\n")[0]
+                    if "physician" in triage_level_line.lower():
+                        triage_level = "physician"
+                    elif "pa" in triage_level_line.lower() or "physician assistant" in triage_level_line.lower():
+                        triage_level = "pa"
+                    elif "nurse" in triage_level_line.lower():
+                        triage_level = "nurse"
+            # Also check without colon for backward compatibility
+            elif "Recommended Care Level" in result_text:
                 triage_parts = result_text.split("Recommended Care Level")
                 if len(triage_parts) > 1:
                     triage_level_line = triage_parts[1].strip().split("\n")[0]
@@ -127,13 +144,13 @@ async def triage_patient(request: TriageRequest) -> TriageResponse:
                     elif "nurse" in triage_level_line.lower():
                         triage_level = "nurse"
             
+            # Default to physician for safety if we can't determine
             if not triage_level:
-                # Default to physician for safety if we can't determine
+                logger.warning("Could not extract triage level from result, defaulting to physician")
                 triage_level = "physician"
                 
-            # Clean the response for the user (remove the TRIAGE_LEVEL tag)
-            clean_response = result_text
-            clean_response = clean_response.replace("READY_FOR_TRIAGE", "").strip()
+            # Clean the response for the user
+            clean_response = result_text.replace("READY_FOR_TRIAGE", "").strip()
             
             # Ensure all fields are properly formatted
             response = TriageResponse(
@@ -224,10 +241,21 @@ async def complete_triage(triage_data: TriageDataRequest):
             detail=str(e)
         )
 
-@router.get("/providers/{provider_id}/cases", dependencies=[Depends(verify_credentials)])
-async def get_provider_cases(provider_id: str, status: Optional[str] = None):
+@router.get("/providers/{provider_id}/cases")
+async def get_provider_cases(
+    provider_id: str, 
+    status: Optional[str] = None,
+    provider: dict = Depends(get_current_provider)
+):
     """Get all triage cases for a specific provider."""
     try:
+        # Verify the provider has access to these cases
+        if provider_id != provider["id"] and provider["role"] != "administrator":
+            raise HTTPException(
+                status_code=status.HTTP_403_FORBIDDEN,
+                detail="You don't have permission to access these cases"
+            )
+            
         cases = await triage_agent.get_provider_triage_cases(provider_id)
         
         # Filter by status if provided
@@ -235,6 +263,8 @@ async def get_provider_cases(provider_id: str, status: Optional[str] = None):
             cases = [case for case in cases if case.get('status') == status]
             
         return cases
+    except HTTPException:
+        raise
     except Exception as e:
         logger.error(f"Error fetching provider cases: {str(e)}", exc_info=True)
         raise HTTPException(
@@ -242,8 +272,11 @@ async def get_provider_cases(provider_id: str, status: Optional[str] = None):
             detail=str(e)
         )
 
-@router.get("/cases/{case_id}", dependencies=[Depends(verify_credentials)])
-async def get_case_details(case_id: str):
+@router.get("/cases/{case_id}")
+async def get_case_details(
+    case_id: str,
+    provider: dict = Depends(get_current_provider)
+):
     """Get full details of a specific triage case."""
     try:
         case_details = await triage_agent.get_case_details(case_id)
@@ -253,6 +286,14 @@ async def get_case_details(case_id: str):
                 status_code=status.HTTP_404_NOT_FOUND,
                 detail=case_details["error"]
             )
+        
+        # Verify the provider has access to this case
+        if provider["role"] != "administrator":
+            if "case" not in case_details or case_details["case"].get("assigned_provider_id") != provider["id"]:
+                raise HTTPException(
+                    status_code=status.HTTP_403_FORBIDDEN,
+                    detail="You don't have permission to access this case"
+                )
             
         return case_details
     except HTTPException:
@@ -264,10 +305,31 @@ async def get_case_details(case_id: str):
             detail=str(e)
         )
 
-@router.patch("/cases/{case_id}/status", dependencies=[Depends(verify_credentials)])
-async def update_case_status(case_id: str, status_update: StatusUpdate):
+@router.patch("/cases/{case_id}/status")
+async def update_case_status(
+    case_id: str, 
+    status_update: StatusUpdate,
+    provider: dict = Depends(get_current_provider)
+):
     """Update the status of a triage case."""
     try:
+        # First, verify the provider has permission to update this case
+        case_details = await triage_agent.get_case_details(case_id)
+        
+        if "error" in case_details:
+            raise HTTPException(
+                status_code=status.HTTP_404_NOT_FOUND,
+                detail=case_details["error"]
+            )
+            
+        if provider["role"] != "administrator":
+            if "case" not in case_details or case_details["case"].get("assigned_provider_id") != provider["id"]:
+                raise HTTPException(
+                    status_code=status.HTTP_403_FORBIDDEN,
+                    detail="You don't have permission to update this case"
+                )
+        
+        # Now update the case status
         success = await triage_agent.update_case_status(case_id, status_update.status)
         
         if not success:

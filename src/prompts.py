@@ -106,7 +106,7 @@ def get_assessment_query_v2(conversation_context, symptoms):
     And the latest message from the patient: {symptoms}
     ###
 
-    Review the conversation and check if you have ###ALL of the following critical information OR IF YOU THINK IT IS AN EMERGENCY OR IF THE PATIENT IS GETTING MAD###:
+    Review the conversation and check if you have ###ALL of the following critical information OR IF YOU THINK IT IS AN EMERGENCY###:
     1. Patient's age
     2. Current symptoms and their duration
     3. Symptom severity
@@ -121,15 +121,37 @@ def get_assessment_query_v2(conversation_context, symptoms):
 
     Only respond with "READY_FOR_TRIAGE" if you have gathered all necessary information for a thorough assessment. 
     
-    DO NOT EVER NEVER NEVER NEVER RESPOND WITH READY_FOR_TRIAGE UNLESS YOU ARE COMPLETELY CERTAIN YOU HAVE ALL INFO.
+    DO NOT EVER NEVER RESPOND WITH READY_FOR_TRIAGE UNLESS YOU ARE COMPLETELY CERTAIN YOU HAVE ALL INFO.
 
     Remember to:
     - Ask one clear question at a time
     - Maintain a professional and caring tone
-    - Acknowledge the patient's concerns
+    - Acknowledge the patient's concerns, don't keep repeating the same questions and REPHRASE STUFF IF THE PATIENT IS GETTING MAD
     - Prioritize urgent symptoms in your questioning
 
     Perform your assessment and *****GENERATE THE NEXT APPROPRIATE MESSAGE******
+    """
+
+def get_assessment_query_v3(conversation_context, symptoms):
+    """Generate a query for the initial assessment of a patient's symptoms."""
+    return f"""
+    Based on the following conversation between an AI medical assistant and a patient, determine if you have enough information to make a triage decision or if you need to gather more information:
+
+    CONVERSATION HISTORY:
+    {conversation_context}
+
+    CURRENT SYMPTOMS:
+    {symptoms}
+
+    Instructions:
+    1. Analyze all patient symptoms and medical information shared in the entire conversation history.
+    2. Determine if you have sufficient information to recommend an appropriate care level (physician, physician assistant, or nurse).
+    3. If you need more information to make an accurate assessment, respond with:
+    NEED_INFO: [Ask specific questions about the patient's symptoms, medical history, or other relevant details]
+    4. If you have enough information to make a triage recommendation, respond with:
+    READY_FOR_TRIAGE: [Brief assessment summary]
+
+    Remember to consider the entire conversation history when making your decision, not just the most recent message.
     """
 
 def get_triage_query(conversation_context: str, symptoms: str) -> str:
@@ -178,4 +200,31 @@ def get_triage_query(conversation_context: str, symptoms: str) -> str:
     Your goal is to both be responsible and not overlook symptoms that may be serious but also to alleviate strain on the healthcare system by not sending patients to the doctor or ER unnecessarily, who then has to do a lot of administrative paperwork.
 
     Output your text well-formatted and bold the triage decision.
+    """
+    
+def get_triage_query_v2(conversation_context, symptoms):
+    """Generate a query for the final triage recommendation."""
+    return f"""
+    You are a medical triage assistant. Based on the following conversation between an AI medical assistant and a patient, recommend the appropriate care level:
+
+    CONVERSATION HISTORY:
+    {conversation_context}
+
+    CURRENT SYMPTOMS:
+    {symptoms}
+
+    Instructions:
+    1. Analyze all patient symptoms and medical information shared in the entire conversation history.
+    2. Determine if this is an emergency situation requiring immediate medical attention.
+    3. If not an emergency, recommend the most appropriate care level based on the symptoms:
+    - Physician: For complex conditions requiring specialized diagnosis or treatment
+    - Physician Assistant (PA): For moderate conditions requiring clinical assessment
+    - Nurse: For routine or minor conditions requiring basic care
+
+    Format your response as follows:
+    1. Assessment: [Brief analysis of the patient's condition]
+    2. Recommended Care Level: [Physician/PA/Nurse]
+    3. Reason: [Explanation for your recommendation]
+
+    Remember to consider the entire conversation history, not just the most recent message.
     """

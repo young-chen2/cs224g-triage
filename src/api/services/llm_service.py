@@ -2,6 +2,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain.chains import RetrievalQA, ConversationalRetrievalChain
 from langchain.schema import HumanMessage, AIMessage, SystemMessage
+from langchain.prompts import PromptTemplate
 from src.api.config import openai_api_key, FAISS_INDEX_PATH
 from src.medical_data import load_medical_data
 from src.api.models import PatientData, TriageData, TriageChatMessage
@@ -19,10 +20,11 @@ class BasicLLM:
        self.llm = ChatOpenAI(
            api_key=openai_api_key,
            model="gpt-4o-mini",
-           temperature=0,
+           temperature=0.5,
            max_retries=3
        )
-       self.chat_history: List[Tuple[str, str]] = []
+       # Initialize with empty chat history
+       self.chat_history = []
 
    def process_query(self, query: str) -> Dict[str, Any]:
        """Process a query using the basic LLM."""
@@ -30,7 +32,6 @@ class BasicLLM:
            # Construct messages array for chat completion
            messages = [
                SystemMessage(content="You are a medical triage assistant."),
-               HumanMessage(content=query)
            ]
            
            # Add chat history if exists
@@ -40,14 +41,20 @@ class BasicLLM:
                    AIMessage(content=past_response)
                ])
            
+           # Add the current query
+           messages.append(HumanMessage(content=query))
+           
            # Get response from Chat API
            response = self.llm.invoke(messages)
            
            # Extract content from AIMessage
            response_text = response.content if hasattr(response, 'content') else str(response)
            
-           # Update chat history
+           # Update chat history with the new query and response
            self.chat_history.append((query, response_text))
+           
+           # Log chat history size for debugging
+           logger.info(f"BasicLLM chat history now has {len(self.chat_history)} interactions")
            
            # Return in standardized format
            return {
@@ -91,11 +98,10 @@ class LangChainBase:
            llm=ChatOpenAI(
                api_key=openai_api_key,
                model="gpt-4o-mini",
-               temperature=0,
-               max_retries=5,
-               streaming=True
+               temperature=0.5,
+               max_retries=5
            ),
-           chain_type="refine",
+           chain_type="stuff",
            retriever = self.vector_store.as_retriever(
                 search_type="mmr",  # Maximal Marginal Relevance for diverse retrieval
                 search_kwargs={"k": 10, "fetch_k": 50, "similarity_score_threshold": 0.75}
@@ -117,57 +123,76 @@ class ConversationalLLM(LangChainBase):
         self.llm = ChatOpenAI(
             api_key=openai_api_key,
             model="gpt-4o-mini",
-            temperature=0,
+            temperature=0.5,
             max_retries=3
         )
-        self.chat_history: List[Tuple[str, str]] = []
+        # Initialize with empty chat history - using the format expected by LangChain
+        self.chat_history = []
         super().__init__()
-
+        
     def _create_chain(self):
         """Override to create conversational retrieval chain."""
+        condense_question_template = (
+            "Given the following conversation and a follow up question, "
+            "merge the question with information from the conversation history if relevant "
+            "to create a detailed, standalone question that includes ALL important context. "
+            "Do not discard any information.\n\n"
+            "Chat History:\n{chat_history}\n"
+            "Follow Up Input: {question}\n"
+            "Standalone question:"
+        )
+        
+        # Create the prompt object that LangChain expects
+        condense_question_prompt = PromptTemplate.from_template(condense_question_template)
+        
         return ConversationalRetrievalChain.from_llm(
             llm=self.llm,
-            retriever = self.vector_store.as_retriever(
-                search_type="mmr",  # Maximal Marginal Relevance for diverse retrieval
+            retriever=self.vector_store.as_retriever(
+                search_type="mmr",
                 search_kwargs={"k": 10, "fetch_k": 50, "similarity_score_threshold": 0.75}
             ),
+            condense_question_prompt=condense_question_prompt,
             return_source_documents=True,
-            verbose=True
+            verbose=True,
+            # Key addition: Set max_tokens_limit to a high value to include all history
+            max_tokens_limit=4000  
         )
 
     def process_query(self, query: str) -> Dict[str, Any]:
-        """Process a query through the conversational LLM chain."""
         try:
+            logger.info(f"ConversationalLLM processing query with {len(self.chat_history)} history items")
+            logger.info(f"Query: {query[:100]}...")  # Log first 100 chars
+
+            # Format the chat history as a string
+            formatted_history = "\n".join(
+                [f"Human: {q}\nAssistant: {a}" for q, a in self.chat_history]
+            )
+
+            # Create input for the chain with the formatted chat history
             chain_input = {
                 "question": query,
-                "chat_history": self.chat_history
+                "chat_history": formatted_history
             }
             
+            # Call the chain with this input
             response = self.chain(chain_input)
             
-            # Handle potential stroke symptoms immediately
-            if ("slurred speech" in query.lower() and 
-                "face" in query.lower() and 
-                "weakness" in query.lower()):
-                emergency_response = ("EMERGENCY: These symptoms suggest a possible stroke. "
-                                   "Please call emergency services (911) immediately. "
-                                   "Do not wait for further assessment.")
-                return {
-                    'result': emergency_response,
-                    'source_documents': response.get('source_documents', [])
-                }
+            # Extract the answer
+            answer = response.get('answer', '')
             
-            self.chat_history.append((query, response['answer']))
+            # Update chat history with the new query and answer
+            self.chat_history.append((query, answer))
+            logger.info(f"ConversationalLLM chat history now has {len(self.chat_history)} interactions")
             
             return {
-                'result': response['answer'],
+                'result': answer,
                 'source_documents': response.get('source_documents', [])
             }
             
         except Exception as e:
             logger.error(f"Error in ConversationalLLM.process_query: {str(e)}", exc_info=True)
             raise
-        
+
 class TriageAgent:
     """
     Agent that handles triage decision-making and database interactions.
@@ -236,7 +261,7 @@ class TriageAgent:
             }
             
             # 1. Create patient record
-            patient_response =  self.supabase.table("patients").upsert(formatted_patient).execute()
+            patient_response = self.supabase.table("patients").upsert(formatted_patient).execute()
             if not patient_response.data:
                 raise Exception("Failed to create patient record")
                 
@@ -280,7 +305,7 @@ class TriageAgent:
             }
             
             # 5. Create triage case
-            case_response =  self.supabase.table("triage_cases").insert(case_data).execute()
+            case_response = self.supabase.table("triage_cases").insert(case_data).execute()
             if not case_response.data:
                 raise Exception("Failed to create triage case")
                 
@@ -297,7 +322,7 @@ class TriageAgent:
                 self.supabase.table("chat_messages").insert(msg_data).execute()
             
             # 7. Assign to provider based on triage level
-            provider_response =  self.supabase.table("providers") \
+            provider_response = self.supabase.table("providers") \
                 .select("id") \
                 .eq("role", triage_level.lower()) \
                 .limit(1) \
@@ -329,7 +354,7 @@ class TriageAgent:
     async def get_provider_triage_cases(self, provider_id: str) -> List[Dict[str, Any]]:
         """Get all triage cases assigned to a provider."""
         try:
-            response =  self.supabase.table("triage_cases") \
+            response = self.supabase.table("triage_cases") \
                 .select("*, patients(name, dob, gender)") \
                 .eq("assigned_provider_id", provider_id) \
                 .execute()
@@ -343,7 +368,7 @@ class TriageAgent:
         """Get full details of a specific triage case."""
         try:
             # Get case details
-            case_response =  self.supabase.table("triage_cases") \
+            case_response = self.supabase.table("triage_cases") \
                 .select("*, patients(*)") \
                 .eq("id", case_id) \
                 .single() \
@@ -353,7 +378,7 @@ class TriageAgent:
                 return {"error": "Case not found"}
                 
             # Get chat messages
-            messages_response =  self.supabase.table("chat_messages") \
+            messages_response = self.supabase.table("chat_messages") \
                 .select("*") \
                 .eq("triage_case_id", case_id) \
                 .order("timestamp", {"ascending": True}) \

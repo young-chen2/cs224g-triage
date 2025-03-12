@@ -117,19 +117,6 @@ function App() {
         content: msg.content
       }));
 
-      // Extract allergies from conversation (simple extraction for demo)
-      let allergies: string[] = [];
-      if (userMessages.some(msg => msg.toLowerCase().includes("allergic to"))) {
-        const allergyMessages = userMessages.filter(msg =>
-          msg.toLowerCase().includes("allergic to") ||
-          msg.toLowerCase().includes("allergy")
-        );
-        if (allergyMessages.length > 0) {
-          // Simple extraction - this could be more sophisticated
-          allergies = ["penicillin"]; // Match what's in screenshot
-        }
-      }
-
       // Call the API endpoint
       const response = await fetch('http://127.0.0.1:8000/triage/complete', {
         method: 'POST',
@@ -141,7 +128,7 @@ function App() {
             name: patientName || "Anonymous Patient",
             dob: null,
             gender: null,
-            allergies: allergies,
+            allergies: [],
             medications: [],
             contact_info: {},
             // Include account_id for registered patients
