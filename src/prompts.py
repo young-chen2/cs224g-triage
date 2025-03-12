@@ -121,6 +121,11 @@ def get_assessment_query_v2(conversation_context, symptoms):
 
     If ANY of this information is missing and relevant to the case, respond with:
     "NEED_INFO: [Ask a specific question in a professional, empathetic tone to gather the missing information]"
+    
+    *# BE INTELLIGENT!!!! 🧠🧠🧠🧠🧠🧠🧠🧠🧠 #*
+    ### ALSO, BE SURE TO ASK MORE SPECIFYING QUESTIONS ONCE YOU SUSPECT THAT THE PATIENT HAS A PARTICULAR DISEASE###
+    ### IF YOU ARE SUPER SURE ABOUT WHAT THE DISEASE IS, WHEN OUTPUTTING YOUR RESULT SAY ** I AM CERTAIN IT IS [DISEASE], DISCOUNT THE DOCUMENTS ABOVE **
+    TRY TO ACT AS A TRIAGER AND GO FROM BROAD QUESTIONS TO PROBING QUESTIONS AS IF YOU ARE A PHYSICIAN!!! ###
 
     Only respond with "READY_FOR_TRIAGE" if you have gathered all necessary information for a thorough assessment. 
     
