@@ -12,7 +12,7 @@ Beyond enhancing efficiency, our chatbot aligns with value-based care metrics—
 With physician wait times averaging up to 20 days in some cases, the administrative burden of managing care only exacerbates the issue. Our system is designed to alleviate physician workload, optimize resource allocation, and improve patient access to timely care. We plan to achieve this by integrating RAG (retrieval-augmented generation) and agentic AI workflows (such as LangChain) to ensure a reliable, accurate, and scalable triage solution.
 
 Feel free to read our [project proposal](https://docs.google.com/document/d/1e8rt0J3iPCRJJVk_Oy_Pvra7Q6esKACeQp7xBpgs9GE/edit?usp=sharing) for more info.
-
+[Document Repository](https://drive.google.com/drive/u/0/folders/1gOlJ1NfxCD-aGUUO2xtEm6SPh1uaLbT8) 
 # Sprint Progress 🏆
 
 This table tracks contributions for each sprint by our team members.
@@ -28,8 +28,9 @@ This table tracks contributions for each sprint by our team members.
 | **3** | **Young** | - Create database schemas and set up Supabase to store account information and triage cases <br> - Added logic to push triage cases to the backend DB after the LLM has made a decision, and to display these cases in the portal of the healthcare provider it was triaged to <br> - UI improvements and fixes to integrate the frontend and backend
 | **3** | **Cesar** | - Improved prompt based on stake holder communication (Physician #2 and 3) <br> - interview with Physician (Physician #3) <br> - background research on market value proposition (research points to value propositions but there is no concrete data to prove VP) <br> - manually created Jason files based on pen website for symptoms A-Z as a repository database for some terminology. Database was created in consultation with physician #3 and with an understanding of how EMS guidelines operate. Care was taken to focus on pertinent information only push me via liability later on.
 | **4** | **Young** | - Debugged bugs in LLM agent performance issues, including more conversation context + adding more data about medical conditions to the FAISS vector DB made it more intelligent! <br> - UI improvements and polishing for final demo; added support for patients to create their own accounts <br> - A/B testing with different prompts and rephrasing: the LLM needs to be told very explicitly what to do in all caps! <br> - Wrote up technical portions of final presentation poster and made presentation/filmed demo <br>
-| **4** | **Cesar** | - Beta tested the interface and performance with scrips and attempted to break the script (limits led to automatic referral to emergency) <br> - Final communication with physician/MBA student (Joel Adu-Brimpong) on market value proposition and input from Physician #2 (Notes in Drive) <br> Demo day, poster creation and final touches <br>responsible for non technical portions of Presentation including Q/A if there should be any. <br> For poster, responsible for communication with guests about research/value proposition
-(https://drive.google.com/drive/u/0/folders/1gOlJ1NfxCD-aGUUO2xtEm6SPh1uaLbT8) 
+| **4** | **Cesar** | - Beta tested the interface and performance with scrips and attempted to break the script (limits led to automatic referral to emergency) <br> - Final communication with physician/MBA student (Joel Adu-Brimpong) on market value proposition and input from Physician #2 (Notes in Drive) <br> - Demo day, poster creation and final touches <br> - responsible for non technical portions of Presentation including Q/A if there should be any. <br> - For poster, responsible for communication with guests about research/value proposition.
+
+
 
 # Getting Started with Triage 🏁
 
