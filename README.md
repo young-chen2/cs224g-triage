@@ -12,7 +12,8 @@ Beyond enhancing efficiency, our chatbot aligns with value-based care metrics—
 With physician wait times averaging up to 20 days in some cases, the administrative burden of managing care only exacerbates the issue. Our system is designed to alleviate physician workload, optimize resource allocation, and improve patient access to timely care. We plan to achieve this by integrating RAG (retrieval-augmented generation) and agentic AI workflows (such as LangChain) to ensure a reliable, accurate, and scalable triage solution.
 
 Feel free to read our [project proposal](https://docs.google.com/document/d/1e8rt0J3iPCRJJVk_Oy_Pvra7Q6esKACeQp7xBpgs9GE/edit?usp=sharing) for more info.
-[Document Repository](https://drive.google.com/drive/u/0/folders/1gOlJ1NfxCD-aGUUO2xtEm6SPh1uaLbT8) 
+
+[Look over the pitch deck!]([https://drive.google.com/drive/u/0/folders/1gOlJ1NfxCD-aGUUO2xtEm6SPh1uaLbT8](https://docs.google.com/presentation/d/1_IIxi0Ki5xfgvR7kChZcYOzM_fOJH09P_st3DUAnaCQ/edit?usp=drive_link)) 
 # Sprint Progress 🏆
 
 This table tracks contributions for each sprint by our team members.
