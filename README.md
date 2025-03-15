@@ -13,7 +13,7 @@ With physician wait times averaging up to 20 days in some cases, the administrat
 
 Feel free to read our [project proposal](https://docs.google.com/document/d/1e8rt0J3iPCRJJVk_Oy_Pvra7Q6esKACeQp7xBpgs9GE/edit?usp=sharing) for more info.
 
-[Look over the pitch deck!]([https://drive.google.com/drive/u/0/folders/1gOlJ1NfxCD-aGUUO2xtEm6SPh1uaLbT8](https://docs.google.com/presentation/d/1_IIxi0Ki5xfgvR7kChZcYOzM_fOJH09P_st3DUAnaCQ/edit?usp=drive_link)) 
+Look over the [pitch deck!](https://docs.google.com/presentation/d/1_IIxi0Ki5xfgvR7kChZcYOzM_fOJH09P_st3DUAnaCQ/edit?usp=sharing) !
 # Sprint Progress 🏆
 
 This table tracks contributions for each sprint by our team members.
